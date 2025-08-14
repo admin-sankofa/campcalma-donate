@@ -233,8 +233,8 @@ const Header = ({ language, setLanguage, t }) => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-20">
         <div className="flex items-center space-x-2">
-           <img src="https://placehold.co/40x40/a2c579/36454f?text=S" alt="Sankofa Logo" className="h-10 w-10 rounded-full" />
-           <span className="font-bold text-lg text-gray-800">Sankofa</span>
+           <img src="src/assets/pictures/SankofaLogo.jpeg" alt="Sankofa Logo" className="h-10 w-10" />
+           <span className="font-bold text-lg text-gray-800">Sankofa Living & Learning</span>
         </div>
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#project" className="text-gray-600 hover:text-green-600 transition-colors">{t.nav.description}</a>
@@ -428,10 +428,10 @@ const CountdownTimer = ({ t }) => {
 
 const PrizeShowcase = ({ t }) => {
   const prizes = [
-    { name: t.milestones.prize1, image: 'https://placehold.co/600x400/e2e8f0/4a5568?text=DJI+Mini+3', unlocked: true },
-    { name: t.milestones.prize2, image: 'https://placehold.co/600x400/e2e8f0/4a5568?text=DJI+Mini+4', unlocked: true },
-    { name: t.milestones.prize3, image: 'https://placehold.co/600x400/e2e8f0/4a5568?text=MacBook+Air+M2', unlocked: false },
-    { name: t.milestones.prize4, image: 'https://placehold.co/600x400/a2c579/ffffff?text=MacBook+Air+M3', unlocked: false, isGrand: true },
+    { name: t.milestones.prize1, image: 'src/assets/pictures/mini3flymore.jpg', unlocked: true },
+    { name: t.milestones.prize2, image: 'src/assets/pictures/mini4flymore.jpg', unlocked: true },
+    { name: t.milestones.prize3, image: 'src/assets/pictures/macbookm2.jpg', unlocked: false },
+    { name: t.milestones.prize4, image: 'src/assets/pictures/macbookm3.avif', unlocked: false, isGrand: true },
   ];
   return (
     <section id="prizes" className="py-20 bg-white">
