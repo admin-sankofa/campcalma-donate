@@ -305,19 +305,17 @@ const DonationTiers = ({ t, onDonate }) => {
               <p className="text-gray-500 flex-grow">{tier.desc}</p>
  
               {tier.amount === 10 ? (
-                // Attempting to style the Stripe button container to match existing buttons
-                <div className="mt-8 w-full py-3 text-base bg-green-600 text-white rounded-md">\
-                  <script async src="https://js.stripe.com/v3/buy-button.js"></script>\
-                  <stripe-buy-button\
-                    buy-button-id="buy_btn_1Rw7kXPsRW49r9uP88zCEGw5"\
-                    publishable-key="pk_live_51RDMsjPsRW49r9uPPEyDhNbFzidpDhuoRew8o7UpDXZnAjk0NN7SXRVQS9WXjzHgVmLDnbmkq00P3Q6qu8QETwao00JrkLScux"\
-                  >\
-                  </stripe-buy-button>\
-                </div>
+                <a
+                  href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
+                  className="mt-8 w-full py-3 text-base inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-green-600 text-white hover:bg-green-700"
+                >
+                  {t.donate.button}
+                </a>
               ) : (
                 <Button onClick={() => onDonate(tier.amount)} className="mt-8 w-full py-3 text-base">
                   {t.donate.button}
-                </Button>)}
+                </Button>
+              )}
             </div>
           ))}
         </div>
