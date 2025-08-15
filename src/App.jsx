@@ -1,5 +1,14 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ChevronsUpDown, Check, Award, Gift, Mail, ArrowRight, X } from 'lucide-react';
+import sankofaLogo from './assets/pictures/SankofaLogo.jpeg';
+import mini4Image   from './assets/pictures/mini4flymore.jpg';
+import mini3Image   from './assets/pictures/mini3flymore.jpg';
+import macbookM3    from './assets/pictures/macbookm3.avif';
+import macbookM2    from './assets/pictures/macbookm2.jpg';
+import backgroundimage    from './assets/pictures/background.jpeg';
+import community01   from './assets/pictures/community01.jpeg';
+import communitykitchen01    from './assets/pictures/communitykitchen01.jpeg';
+import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
 
 // --- TRANSLATIONS OBJECT ---
 // All text content is stored here for easy EN/PT toggling
@@ -49,7 +58,7 @@ const translations = {
       goal: 'Goal',
       prize1: 'DJI Mini 3 Pro Fly More Combo',
       prize2: 'DJI Mini 4 Pro',
-      prize3: 'MacBook Air M2',
+      prize3: 'MacBook Air MM2',
       prize4: 'MacBook Air M3 (Grand Prize)',
       unlocked: 'UNLOCKED!',
     },
@@ -233,7 +242,8 @@ const Header = ({ language, setLanguage, t }) => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-20">
         <div className="flex items-center space-x-2">
-           <img src="src/assets/pictures/SankofaLogo.jpeg" alt="Sankofa Logo" className="h-10 w-10" />
+<img src={sankofaLogo} alt="Sankofa Living & Learning Logo" className="h-10 w-10 " />
+
            <span className="font-bold text-lg text-gray-800">Sankofa Living & Learning</span>
         </div>
         <nav className="hidden md:flex items-center space-x-8">
@@ -251,8 +261,7 @@ const Header = ({ language, setLanguage, t }) => (
 const HeroSection = ({ t }) => (
   <section className="relative h-[70vh] min-h-[500px] text-white flex items-center justify-center">
     <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-    <img 
-      src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop" 
+    <img src={backgroundimage}
       alt="Beautiful landscape in Portugal" 
       className="absolute inset-0 w-full h-full object-cover"
     />
@@ -274,10 +283,26 @@ const ProjectDescription = ({ t }) => (
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">{t.description.heading}</h2>
         <p className="text-lg text-gray-600 mb-4">{t.description.p1}</p>
-        <p className="text-lg text-gray-600">{t.description.p2}</p>
+        <p className="text-lg text-gray-600 mb-4">{t.description.p2}</p>
+        {/* Photo Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+          <div className="text-center">
+            <img src={community01} alt="Placeholder 1" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">Hosts and Volunteers</p>
+          </div>
+          <div className="text-center">
+            <img src={communitykitchen01} alt="Placeholder 2" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">Building our community kitchen</p>
+          </div>
+          <div className="text-center">
+            <img src={communitykitchen02} alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">Off-Grid Shower and Toilet</p>
+          </div>
+          {/* Add more carousel items here if needed */}
+        </div>
       </div>
     </div>
-  </section>
+  </section> // Added closing div tag here
 );
 
 const DonationTiers = ({ t, onDonate }) => {
@@ -414,10 +439,9 @@ const CountdownTimer = ({ t }) => {
                 <div className="flex justify-center space-x-4 md:space-x-8">
                     {timerComponents.map((component, index) => (
                         <div key={index} className="text-center">
-                            <div className="text-5xl md:text-7xl font-bold bg-white/20 rounded-lg p-4 md:p-6">
+                            <div className="text-4xl md:text-7xl font-bold bg-white/20 rounded-lg p-3 md:p-6">
                                 {String(component.value).padStart(2, '0')}
                             </div>
-                            <div className="text-sm md:text-base uppercase mt-2">{component.label}</div>
                         </div>
                     ))}
                 </div>
@@ -428,10 +452,10 @@ const CountdownTimer = ({ t }) => {
 
 const PrizeShowcase = ({ t }) => {
   const prizes = [
-    { name: t.milestones.prize1, image: 'src/assets/pictures/mini3flymore.jpg', unlocked: true },
-    { name: t.milestones.prize2, image: 'src/assets/pictures/mini4flymore.jpg', unlocked: true },
-    { name: t.milestones.prize3, image: 'src/assets/pictures/macbookm2.jpg', unlocked: false },
-    { name: t.milestones.prize4, image: 'src/assets/pictures/macbookm3.avif', unlocked: false, isGrand: true },
+    { name: t.milestones.prize1, image: mini3Image, unlocked: true },
+    { name: t.milestones.prize2, image: mini4Image, unlocked: true },
+    { name: t.milestones.prize3, image: macbookM2, unlocked: false },
+    { name: t.milestones.prize4, image: macbookM3, unlocked: false, isGrand: true },
   ];
   return (
     <section id="prizes" className="py-20 bg-white">
