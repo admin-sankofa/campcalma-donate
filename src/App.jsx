@@ -21,6 +21,12 @@ const translations = {
       faq: 'FAQ',
     },
     hero: {
+      support_fairs_heading: 'Support our fair participation!',
+      support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible.',
+      donate_button: 'Donate now',
+      every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',
+
+
       subheading: 'Support a Dream, Win Amazing Prizes',
       heading: 'Help Build Camp Calma in Portugal',
       cta: 'Donate Now & Get Raffle Tickets',
@@ -115,6 +121,12 @@ const translations = {
       faq: 'FAQ',
     },
     hero: {
+      support_fairs_heading: 'Apoie a nossa participação em feiras!',
+      support_fairs_text: 'Ajude a ONG Sankofa Living & Learning e o nosso projeto Camp Calma a estarem presentes nas feiras Reiselust, Fisch & Feines e Caravan Bremen. Com a sua doação, financiamos o aluguer do stand, viagens e materiais para tornar a vida sustentável visível.',
+      donate_button: 'Doe agora',
+      every_donation_text: 'Cada doação aproxima-nos um passo do nosso objetivo. Obrigado pelo seu apoio!',
+
+
       subheading: 'Apoie um Sonho, Ganhe Prémios Incríveis',
       heading: 'Ajude a Construir o Camp Calma em Portugal',
       cta: 'Doe Agora & Receba Bilhetes para o Sorteio',
@@ -657,6 +669,23 @@ export default function App() {
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
+      <h1 className="text-3xl font-bold text-center mb-4 text-black">{t.hero.support_fairs_heading}</h1>
+      <p className="text-lg text-center max-w-xl mb-6 text-black">{t.hero.support_fairs_text}</p>
+
+      <a
+        href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition"
+      >
+        {t.hero.donate_button}
+      </a>
+
+      <p className="mt-6 text-sm text-gray-600">
+        {t.hero.every_donation_text}
+      </p>
+    </div>
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
       </main>
