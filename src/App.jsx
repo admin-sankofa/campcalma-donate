@@ -22,7 +22,7 @@ const translations = {
     },
     hero: {
       support_fairs_heading: 'Support our fair participation!',
-      support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible.',
+      support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible!',
       donate_button: 'Donate now',
       every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',      
       subheading: 'Support a Dream, Win Amazing Prizes',
