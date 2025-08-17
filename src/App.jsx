@@ -8,7 +8,7 @@ import macbookM2    from './assets/pictures/macbookm2.jpg';
 import backgroundimage    from './assets/pictures/background.jpeg';
 import community01   from './assets/pictures/community01.jpeg';
 import communitykitchen01    from './assets/pictures/communitykitchen01.jpeg';
-import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
+
 
 // --- TRANSLATIONS OBJECT ---
 // All text content is stored here for easy EN/PT toggling
