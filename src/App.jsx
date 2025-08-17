@@ -28,7 +28,7 @@ const translations = {
       every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',      
       subheading: 'Support a Dream, Win Amazing Prizes',
       heading: 'Help Build Camp Calma in Portugal',
-      cta: 'Donate Now & Get Raffle Tickets',
+      cta: 'Donate & Get Raffle Tickets',
     },
     description: {
       heading: 'About Camp Calma',
