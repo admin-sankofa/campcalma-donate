@@ -24,7 +24,7 @@ const translations = {
     hero: {
       support_fairs_heading: 'Support our fair participation!',
       support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible!',
-      donate_button: 'Donate now',
+      donate_button: 'Donate',
       every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',      
       subheading: 'Support a Dream, Win Amazing Prizes',
       heading: 'Help Build Camp Calma in Portugal',
@@ -186,7 +186,7 @@ const translations = {
       q1: 'Como funciona o sorteio?',
       a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os prémios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
-      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. Não armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
+      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
       a3: 'O vencedor será sorteado e anunciado a 31 de agosto de 2025, pouco depois do final da contagem decrescente. O vencedor será notificado por e-mail.',
       q4: 'Posso participar gratuitamente?',
