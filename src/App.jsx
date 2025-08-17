@@ -12,7 +12,7 @@ import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
 
 
 // --- TRANSLATIONS OBJECT ---
-// All text content is stored here for easy EN/PT togglingg
+// All text content is stored here for easy EN/PT toggling
 const translations = {
   en: {
     nav: {
