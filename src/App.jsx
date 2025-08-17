@@ -16,7 +16,7 @@ import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
 const translations = {
   en: {
     nav: {
-      description: 'The Project',
+      description: 'The Projects',
       donate: 'Donate & Win',
       prizes: 'Prizes',
       faq: 'FAQ',
