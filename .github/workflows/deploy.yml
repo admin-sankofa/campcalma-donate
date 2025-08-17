@@ -8,6 +8,10 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,11 +20,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
+
+      # 🔐 Authenticate to Google Cloud via Workload Identity Federation
+      - name: Authenticate to Google Cloud (WIF)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
       - name: Install deps
         run: npm ci
 
-      # Falls du VITE_* Variablen brauchst: Secrets anlegen und hier .env schreiben
+      # ▶️ Vite-ENV aus GitHub Secrets in .env schreiben
       - name: Create .env for Vite
         run: |
           cat << 'EOF' > .env
@@ -39,5 +51,3 @@ jobs:
 
       - name: Deploy to Firebase
         run: npx firebase-tools deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --non-interactive
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
