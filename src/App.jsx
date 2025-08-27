@@ -1048,6 +1048,7 @@ export default function App() {
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <MilestoneTracker2 t={t} />
         <div className="bg-gray-50 flex flex-col items-center p-10">
       <h1 className="text-3xl font-bold text-center mb-4 text-black">{t.hero.support_fairs_heading}</h1>
       <p className="text-lg text-center max-w-xl mb-4 text-black">{t.hero.support_fairs_text}</p>
