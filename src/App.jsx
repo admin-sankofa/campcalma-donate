@@ -22,6 +22,45 @@ const translations = {
       faq: 'FAQ',
     },
     hero: {
+ support_fairs_heading: 'Support our fair participation!',
+ support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible!',
+      donate_button: 'Donate',
+ every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',      
+      subheading: 'Support a Dream, Win Amazing Prizes',
+      heading: 'Help Build Camp Calma in Portugal',
+      cta: 'Donate Now & Get Raffle Tickets',
+    },
+    description: {
+      heading: 'About Camp Calma',
+ p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
+      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
+    },
+    donate: {
+      heading: 'Choose Your Support Level',
+      subheading: 'Every contribution makes a difference. More support means more chances to win!',
+      tier1: {
+        price: '€10',
+        tickets: '20 Tickets',
+        description: 'A great way to show your support.',
+      },
+      tier2: {
+        price: '€20',
+        tickets: '80 Tickets',
+        description: 'Our most popular choice! 4x the tickets.',
+        popular: 'POPULAR',
+      },
+      tier3: {
+        price: '€30',
+        tickets: '160 Tickets',
+        description: 'Best value for the biggest impact.',
+      },
+      button: 'Donate & Participate',
+    },
+    milestones: {
+      heading: 'Fundraising Milestones & Prizes',
+      subheading: 'As we reach our goals, we unlock more amazing prizes for the raffle!',
+      current_funding: 'Current Funding',
+      goal: 'Goal',
       support_fairs_heading: 'Support our fair participation!',
       support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible!',
       donate_button: 'Donate',
@@ -29,6 +68,10 @@ const translations = {
       subheading: 'Support a Dream, Win Amazing Prizes',
       heading: 'Help Build Camp Calma in Portugal',
       cta: 'Donate Now & Get Raffle Tickets',
+    },
+    video: {
+ heading: 'See Camp Calma in Action',
+ youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0', // English video
     },
     description: {
       heading: 'About Camp Calma',
@@ -132,6 +175,10 @@ const translations = {
       heading: 'Ajude a Construir o Camp Calma em Portugal',
       cta: 'Doe Agora & Receba Bilhetes para o Sorteio',
     },
+ video: {
+ heading: 'Veja o Camp Calma em Ação',
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_PORTUGUES?rel=0', // TODO: Add Portuguese video ID
+    },
     description: {
       heading: 'Sobre o Camp Calma',
       p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espa��os de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
@@ -218,23 +265,240 @@ const translations = {
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
     }
   },
+  de: {
+ nav: {
+ description: 'Das Projekt',
+ donate: 'Spenden & Gewinnen',
+ prizes: 'Preise',
+ faq: 'FAQ',
+    },
+    hero: {
+ support_fairs_heading: 'Unterstütze unsere Messeteilnahmen!',
+ support_fairs_text: 'Hilf der NGO Sankofa Living & Learning und unserem Projekt Camp Calma, bei den Messen Reiselust, Fisch & Feines und Caravan Bremen dabei zu sein. Mit deiner Spende finanzieren wir Standmiete, Reise und Materialien, um nachhaltiges Leben sichtbar zu machen.',
+      donate_button: 'Jetzt Spenden',
+ every_donation_text: 'Jede Spende bringt uns unserem Ziel einen Schritt näher. Vielen Dank für deine Unterstützung!',      
+ subheading: 'Unterstütze einen Traum, Gewinne tolle Preise',
+ heading: 'Hilf mit beim Aufbau von Camp Calma in Portugal',
+ cta: 'Jetzt Spenden & Lose erhalten',
+    },
+ video: {
+ heading: 'Camp Calma in Aktion sehen',
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_DEUTSCH?rel=0', // TODO: Add German video ID
+    },
+    description: {
+ heading: 'Über Camp Calma',
+ p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
+ p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen – du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
+    },
+    donate: {
+ heading: 'Wähle dein Unterstützungslevel',
+ subheading: 'Jeder Beitrag macht einen Unterschied. Mehr Unterstützung bedeutet mehr Gewinnchancen!',
+      tier1: {
+ price: '€10',
+ tickets: '20 Lose',
+ description: 'Eine großartige Möglichkeit, deine Unterstützung zu zeigen.',
+      },
+      tier2: {
+ price: '€20',
+ tickets: '80 Lose',
+ description: 'Unsere beliebteste Wahl! 4x so viele Lose.',
+ popular: 'BELIEBT',
+      },
+      tier3: {
+ price: '€30',
+ tickets: '160 Lose',
+ description: 'Bester Wert für die größte Wirkung.',
+      },
+ button: 'Spenden & Teilnehmen',
+    },
+    milestones: {
+ heading: 'Fundraising Meilensteine & Preise',
+ subheading: 'Wenn wir unsere Ziele erreichen, schalten wir weitere tolle Preise für die Verlosung frei!',
+ current_funding: 'Aktuelle Finanzierung',
+ goal: 'Ziel',
+ prize1: 'DJI Mini 3 Pro Fly More Combo',
+ prize2: 'DJI Mini 4 Pro',
+ prize3: 'MacBook Air M2',
+ prize4: 'MacBook Air M3 (Hauptpreis)',
+ unlocked: 'FREIGESCHALTET!',
+    },
+    countdown: {
+ heading: 'Verlosung Endet In',
+ days: 'Tage',
+ hours: 'Stunden',
+ minutes: 'Minuten',
+ seconds: 'Sekunden',
+    },
+    prizes: {
+ heading: 'Ein genauerer Blick auf die Preise',
+ subheading: 'Hightech-Gadgets könnten dir gehören. Alle Preise sind brandneu.',
+ grand_prize: 'Hauptpreis',
+    },
+    faq: {
+ heading: 'Häufig gestellte Fragen',
+ q1: 'Wie funktioniert die Verlosung?',
+ a1: 'Für jede Spende erhältst du eine Anzahl von Losen, basierend auf dem von dir gewählten Betrag. Nach Ablauf der Kampagne wird ein Gewinner zufällig aus allen ausgestellten Losen gezogen. Die Preise werden basierend auf den gesammelten Spenden freigeschaltet.',
+ q2: 'Ist meine Spende sicher?',
+ a2: 'Ja, alle Zahlungen werden sicher über Stripe verarbeitet. Wir speichern keine deiner Zahlungsinformationen auf unseren Servern.',
+ q3: 'Wann wird der Gewinner bekannt gegeben?',
+ a3: 'Der Gewinner wird am 31. August 2025, kurz nach Ablauf des Countdowns, gezogen und bekannt gegeben. Der Gewinner wird per E-Mail benachrichtigt.',
+ q4: 'Kann ich kostenlos teilnehmen?',
+ a4: 'Ja, es gibt eine alternative Teilnahmemethode (AMOE). Bitte siehe den Abschnitt "Kostenlose Teilnahme" unten für Anweisungen, wie du ohne Spende teilnehmen kannst.',
+    },
+    amoe: {
+ title: 'Alternative Teilnahmemethode (Kostenlose Teilnahme)',
+ button_text: 'Klicke hier für das Formular zur kostenlosen Teilnahme',
+ modal_heading: 'Formular für kostenlose Teilnahme (AMOE)',
+ modal_subheading: 'Bitte fülle das Formular vollständig aus, um ein (1) Los zu erhalten.',
+ name: 'Vollständiger Name',
+ email: 'E-Mail Adresse',
+ address: 'Vollständige Postanschrift',
+ statement: 'Teilnahmeerklärung',
+ statement_placeholder: 'Bitte schreibe eine kurze Erklärung, die dein echtes Interesse an der Teilnahme an der Camp Calma Verlosung ausdrückt.',
+ submit: 'Kostenlose Teilnahme absenden',
+ success: 'Vielen Dank! Deine kostenlose Teilnahme wurde übermittelt. Du erhältst in Kürze eine Bestätigungs-E-Mail.',
+ close: 'Schließen',
+ consent_html: 'Ich akzeptiere die <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Bedingungen</a> und erkenne die <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Datenschutzerklärung</a> an, einschließlich der Zustimmung, per E-Mail und WhatsApp bezüglich dieser Verlosung kontaktiert zu werden.',
+ whatsapp: 'WhatsApp Nummer',
+    },
+    footer: {
+ contact: 'Kontaktiere uns',
+ follow_us: 'Folge uns',
+ youtube_channel: 'YouTube Kanal',
+    },
+    payment_success: {
+ heading: "Vielen Dank für deine Unterstützung!",
+ message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
+    }
+  },
+  twi: {
+ nav: {
+ description: 'Adwuma no',
+ donate: 'Mma ne Bɔɔl',
+ prizes: 'Akyɛdeɛ',
+ faq: 'FAQ',
+    },
+    hero: {
+ support_fairs_heading: 'Boa yɛn ma yɛnkɔ afayɛ!',
+ support_fairs_text: 'Boa Sankofa Living & Learning NGO ne yɛn adwuma Camp Calma ma yɛnkɔ Reiselust, Fisch & Feines, ne Caravan Bremen afayɛ no ase. Wo mmɔhoɔ boa yɛn ma yɛtua baabi a yɛbɛgyina, akwantu, ne nneɛma a ɛho hia ma yɛayi abrabɔ pa adi!',
+ donate_button: 'Mma',
+ every_donation_text: 'Mmɔhoɔ biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
+ subheading: 'Boa Daakye, Fa Nneɛma Pa',
+ heading: 'Boa Ma Camp Calma Nsi Portugal',
+ cta: 'Mma Afei na Fa Bɔɔl',
+    },
+ video: {
+ heading: 'Hwɛ Camp Calma Anwum',
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_TWI?rel=0', // TODO: Add Twi video ID
+    },
+    description: {
+ heading: 'Ɛfa Camp Calma Ho',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa—wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
+    },
+    donate: {
+ heading: 'Yi Wo Boa No Mu',
+ subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔhoɔ pii kyerɛ akwanya pii sɛ wobɛgye!',
+      tier1: {
+ price: '€10',
+ tickets: '20 Bɔɔl',
+ description: 'Ɔkwan pa a wobɛfa so akyerɛ sɛ wobɔ yɛn ho mmɔden.',
+      },
+      tier2: {
+ price: '€20',
+ tickets: '80 Bɔɔl',
+ description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
+ popular: 'ƆDƆ FOO',
+      },
+      tier3: {
+ price: '€30',
+ tickets: '160 Bɔɔl',
+ description: 'Nea ɛho tɔn sen biara ma nea ɛyɛ kɛseɛ.',
+      },
+ button: 'Mma & Kɔ',
+    },
+    milestones: {
+ heading: 'Sika Akwantu Ne Akyɛdeɛ',
+ subheading: 'Sɛ yɛduru yɛn botaeɛ so a, yɛbɛyi akyɛdeɛ foforɔ bi a ɛyɛ anika ama bɔɔl no!',
+ current_funding: 'Sika a Yɛanya Sɛe Nie',
+ goal: 'Botaeɛ',
+ prize1: 'DJI Mini 3 Pro Fly More Combo',
+ prize2: 'DJI Mini 4 Pro',
+ prize3: 'MacBook Air M2',
+ prize4: 'MacBook Air M3 (Akyɛdeɛ Kɛseɛ)',
+ unlocked: 'ABUE!',
+    },
+    countdown: {
+ heading: 'Bɔɔl No Bɛba Awiei Wɔ',
+ days: 'Nna',
+ hours: 'Nnɔnhwerew',
+ minutes: 'Nkyekyɛmu',
+ seconds: 'Sikani',
+    },
+    prizes: {
+ heading: 'Nhwɛɛmu Pa Akyɛdeɛ No Ho',
+ subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛdeɛ nyinaa yɛ foforɔ.',
+ grand_prize: 'Akyɛdeɛ Kɛseɛ',
+    },
+    faq: {
+ heading: 'Nsɛm A Wobisa No Mpɛn Pii',
+ q1: 'Bɔɔl no yɛ adwuma sɛn?',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
+ q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
+ a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
+ q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
+ a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ q4: 'Metumi akɔ mu kwa anaa?',
+ a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
+    },
+    amoe: {
+ title: 'Ɔkwan Foforɔ A Wobɛfa So Akɔ Mu (Kɔ Mu Kwa)',
+ button_text: 'Klik ha fa kɔ ne Form no so kɔ mu kwa',
+ modal_heading: 'Kɔ Mu Kwa Form (AMOE)',
+ modal_subheading: 'Yɛsrɛ wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
+ name: 'Din Nyinaa',
+ email: 'Email Adrɛs',
+ address: 'Post Adrɛs Nyinaa',
+ statement: 'Nsɛm A ɛkyerɛ Sɛ Wobɛkɔ Mu',
+ statement_placeholder: 'Yɛsrɛ wo, kyerɛ nsɛm tiawa bi a ɛkyerɛ wo pɛ sɛ wokɔ Camp Calma bɔɔl no mu.',
+ submit: 'Fa kɔ mu kwa kɔ',
+ success: 'Meda wo ase! Wo kɔ mu kwa no akɔ. Wobɛnya email bi a ɛkyerɛ sɛ akɔ.',
+ close: 'To mu',
+ consent_html: 'Me gyina <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Mmra</a> no so na me gyina <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Abataseɛ Ho Nsɛm</a> a ɛfa email ne WhatsApp so a wɔbɛtumi ne me ayɛ nsɛm fa bɔɔl yi ho.',
+ whatsapp: 'WhatsApp Nɔmba',
+    },
+    footer: {
+ contact: 'Yɛne wo nkasa',
+ follow_us: 'Fa yɛn di dwuma',
+ youtube_channel: 'YouTube Dwumadie',
+    },
+    payment_success: {
+ heading: "Meda wo ase wo wo mmoa no ho!",
+ message: "Wo mmɔhoɔ no ayɛ yie. Wo bɔɔl nɔmba no akɔ wo email mu. Wɔbɛn yɛn!",
+    }
+  },
 };
 
 // --- HELPER COMPONENTS ---
 
 // ShadCN-style Button Component
 const Button = ({ children, variant = 'default', className = '', ...props }) => {
-  const baseClasses = 'inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50';
+  const baseClasses =
+ 'inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50';
   const variants = {
     default: 'bg-green-600 text-white hover:bg-green-700',
-    destructive: 'bg-red-500 text-destructive-foreground hover:bg-red-600',
-    outline: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
-    secondary: 'bg-gray-200 text-secondary-foreground hover:bg-gray-300',
+    destructive:
+ 'bg-red-500 text-destructive-foreground hover:bg-red-600',
+    outline:
+ 'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
+    secondary:
+ 'bg-gray-200 text-secondary-foreground hover:bg-gray-300',
     ghost: 'hover:bg-accent hover:text-accent-foreground',
     link: 'text-primary underline-offset-4 hover:underline',
   };
   return (
     <button className={`${baseClasses} ${variants[variant]} ${className}`} {...props}>
+
       {children}
     </button>
   );
@@ -242,24 +506,33 @@ const Button = ({ children, variant = 'default', className = '', ...props }) => 
 
 // --- UI COMPONENTS ---
 
-const LanguageToggle = ({ language, setLanguage }) => (
-  <div className="flex items-center space-x-2">
-    <span className={`cursor-pointer font-semibold ${language === 'pt' ? 'text-green-600' : 'text-gray-500'}`} onClick={() => setLanguage('pt')}>PT</span>
-    <div className="relative">
-      <button onClick={() => setLanguage(language === 'en' ? 'pt' : 'en')} className="w-12 h-6 rounded-full bg-gray-300 flex items-center transition-colors duration-300 ease-in-out">
-        <span className={`block w-5 h-5 rounded-full bg-white shadow-md transform transition-transform duration-300 ease-in-out ${language === 'en' ? 'translate-x-6' : 'translate-x-1'}`}></span>
-      </button>
+const LanguageToggle = ({ language, setLanguage }) => {
+ const orderedLanguages = ['en', 'pt', 'de', 'twi'];
+
+  return (
+    <div className="flex items-center space-x-2">
+ {orderedLanguages.map((langCode) => (
+        <Button
+          key={langCode}
+          variant="ghost"
+          className={`px-3 py-1 rounded-md font-bold uppercase transition-colors border ${
+ language === langCode ? 'bg-green-600 text-white border-green-600' : 'bg-gray-200 text-gray-700 border-gray-300 hover:bg-gray-300'
+          }`}
+          onClick={() => setLanguage(langCode)}
+        >
+ {langCode.toUpperCase()}
+        </Button>
+      ))}
     </div>
-    <span className={`cursor-pointer font-semibold ${language === 'en' ? 'text-green-600' : 'text-gray-500'}`} onClick={() => setLanguage('en')}>EN</span>
-  </div>
-);
+  );
+};
 
 const Header = ({ language, setLanguage, t }) => (
   <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-sm shadow-sm">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-20">
         <div className="flex items-center space-x-2">
-<img src={sankofaLogo} alt="Sankofa Living & Learning Logo" className="h-10 w-10 " />
+          <img src={sankofaLogo} alt="Sankofa Living & Learning Logo" className="h-10 w-10 " />
 
            <span className="font-bold text-lg text-gray-800">Sankofa Living & Learning</span>
         </div>
@@ -274,6 +547,7 @@ const Header = ({ language, setLanguage, t }) => (
     </div>
   </header>
 );
+
 
 const HeroSection = ({ t }) => (
   <section className="relative h-[70vh] min-h-[500px] text-white flex items-center justify-center">
@@ -322,6 +596,23 @@ const ProjectDescription = ({ t }) => (
   </section> // Added closing div tag here
 );
 
+const VideoSection = ({ t }) => {
+ const videoId = t.video.youtube_link.split('/').pop().split('?')[0]; // Extract video ID
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800">{t.video.heading}</h2>
+        </div>
+        <div className="relative w-full max-w-4xl mx-auto" style={{ paddingBottom: '56.25%', height: 0 }}>
+          <iframe className="absolute top-0 left-0 w-full h-full"
+            src={`https://www.youtube.com/embed/${videoId}?rel=0`}
+            frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+      </div>
+    </section>
+  );
+};
 const DonationTiers = ({ t, onDonate }) => {
   const tiers = [
     { amount: 10, price: t.donate.tier1.price, tickets: t.donate.tier1.tickets, desc: t.donate.tier1.description, popular: false },
@@ -416,7 +707,7 @@ const MilestoneTracker = ({ t }) => {
 
 const CountdownTimer = ({ t }) => {
     const calculateTimeLeft = () => {
-        const difference = +new Date('2025-08-31T23:59:59') - +new Date();
+        const difference = +new Date('2025-09-15T18:00:00+01:00') - +new Date(); // Set to September 15, 2025 at 18:00, Lisbon timezone
         let timeLeft = {};
 
         if (difference > 0) {
@@ -533,7 +824,7 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
 
     const handleSubmit = (e) => {
         // ⬇️ Deine Google Apps Script Web-App URL hier eintragen
-        // IMPORTANT: This should be your actual script URL for production!
+        // IMPORTANT: This should be your actual script URL for production! https://script.google.com/macros/s/AKfycbxIsw7lJb6lV7Zl8z_mN0eXyJ9f5h7h5h1H8R1Y8K7c5D8C9E7F6G8H8I9/exec
         // For development purposes, you might want to mock the submission or use a test script.
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTOoexdZskXOV9T_JYdWKlBOai8P3Ydfyl8IzeEyp4CIJnXM2Go7BStYyiBEfPIOcuA/exec';
 
@@ -661,7 +952,7 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
 const AmoeSection = ({ t, onOpenModal }) => (
     <section className="py-12 bg-white text-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-2xl font-semibold text-gray-800">{t.amoe.title}</h3>
+            <h3 className="text-2xl font-semibold text-gray-800"><a href="https://amoe.campcalma.sankofa-ngo.org" target="_blank" rel="noopener noreferrer">{t.amoe.title}</a></h3>
             <Button onClick={onOpenModal} variant="link" className="mt-2 text-green-600 text-lg">
                 {t.amoe.button_text}
             </Button>
@@ -752,6 +1043,7 @@ export default function App() {
       <main>
         <HeroSection t={t} />
         <ProjectDescription t={t} />
+ <VideoSection t={t} /> {/* Add the VideoSection here */}
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
@@ -775,18 +1067,6 @@ export default function App() {
     </div>
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
-        <a
-          href="https://youtu.be/sG3dgRxuIHc"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="youtube-embed-container"
-        >
-          <div
-            dangerouslySetInnerHTML={{
-              __html: '<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/sG3dgRxuIHc?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;"></iframe></div>'
-            }}
-          />
-        </a>
       </main>
       <Footer t={t} />
 
