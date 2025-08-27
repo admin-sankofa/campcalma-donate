@@ -380,7 +380,7 @@ const translations = {
     },
     hero: {
  support_fairs_heading: 'Boa yɛn ma yɛnkɔ afayɛ!',
- support_fairs_text: 'Boa Sankofa Living & Learning NGO ne yɛn adwuma Camp Calma ma yɛnkɔ Reiselust, Fisch & Feines, ne Caravan Bremen afayɛ no ase. Wo mm��hoɔ boa yɛn ma yɛtua baabi a yɛbɛgyina, akwantu, ne nneɛma a ɛho hia ma yɛayi abrabɔ pa adi!',
+ support_fairs_text: 'Boa Sankofa Living & Learning NGO ne yɛn adwuma Camp Calma ma yɛnkɔ Reiselust, Fisch & Feines, ne Caravan Bremen afayɛ no ase. Wo mmɔhoɔ boa yɛn ma yɛtua baabi a yɛbɛgyina, akwantu, ne nneɛma a ɛho hia ma yɛayi abrabɔ pa adi!',
  donate_button: 'Mma',
  every_donation_text: 'Mmɔhoɔ biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
  subheading: 'Boa Daakye, Fa Nneɛma Pa',
@@ -706,46 +706,65 @@ const MilestoneTracker = ({ t }) => {
 };
 
 const MilestoneTracker2 = ({ t }) => {
-  const [currentSupport, setCurrentSupport] = useState(4750); // Different starting value
-  const totalGoal = 15000; // Different goal
-  const progress = (currentSupport / totalGoal) * 100;
+  const [currentMembers, setCurrentMembers] = useState(275); // Current member count
+  const capacity = 500; // Maximum capacity
+  const sustainabilityGoal = 300; // Goal for sustainability
+  const raffleThreshold = 450; // Threshold for monthly raffles
 
-  const milestones = [
-    { amount: 2000, prize: 'Community Workshop Tools' },
-    { amount: 5000, prize: 'Solar Power System' },
-    { amount: 8000, prize: 'Water Collection System' },
-    { amount: 15000, prize: 'Complete Off-Grid Setup' },
-  ];
+  const progress = (currentMembers / capacity) * 100;
+
+  // Determine progress bar color based on member count
+  let progressColor = 'bg-green-500'; // Default green
+  if (currentMembers > sustainabilityGoal && currentMembers < raffleThreshold) {
+    progressColor = 'bg-yellow-500'; // Yellow for over goal but under raffle threshold
+  } else if (currentMembers >= raffleThreshold) {
+    progressColor = 'bg-purple-500'; // Purple for raffle unlocked
+  }
 
   return (
     <section className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800">Community Building Goals & Impact</h2>
-          <p className="text-lg text-gray-500 mt-2">Your support helps us reach new milestones for sustainable community development!</p>
+          <h2 className="text-4xl font-bold text-gray-800">Mitgliedschaft & Community</h2>
+          <p className="text-lg text-gray-500 mt-2">Gemeinsam erreichen wir unsere Ziele für eine nachhaltige Community!</p>
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-end mb-2 text-gray-600">
-            <span className="font-bold text-lg">Community Support: €{currentSupport.toLocaleString()}</span>
-            <span className="font-bold text-lg">Target: €{totalGoal.toLocaleString()}</span>
+            <span className="font-bold text-lg">Aktuelle Mitglieder: {currentMembers}</span>
+            <span className="font-bold text-lg">Kapazität: {capacity}</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-6">
-            <div className="bg-blue-500 h-6 rounded-full transition-all duration-1000 ease-out" style={{ width: `${progress}%` }}></div>
+            <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
           </div>
-          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {milestones.map((milestone, index) => {
-              const unlocked = currentSupport >= milestone.amount;
-              return (
-                <div key={index} className={`p-4 rounded-lg transition-all duration-500 ${unlocked ? 'bg-blue-100 shadow-md' : 'bg-gray-100'}`}>
-                  <Gift className={`mx-auto h-10 w-10 mb-2 ${unlocked ? 'text-blue-500' : 'text-gray-400'}`} />
-                  <p className="font-semibold text-gray-700">{milestone.prize}</p>
-                  <p className="text-sm text-gray-500">€{milestone.amount.toLocaleString()}</p>
-                  {unlocked && (
-                    <p className="text-blue-600 font-bold text-xs mt-2 animate-pulse">ACHIEVED!</p>
-                  )}
-                </div>
-              );
-            })}
+
+          {/* Goal markers */}
+          <div className="relative mt-2">
+            <div className="flex justify-between text-xs text-gray-500">
+              <span>0</span>
+              <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
+                Ziel: {sustainabilityGoal}
+              </span>
+              <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
+                Gewinnspiel: {raffleThreshold}
+              </span>
+              <span>{capacity}</span>
+            </div>
+          </div>
+
+          {/* Legend */}
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              <span>Ziel 300 erreicht</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+              <span>Über Ziel, noch kein Gewinnspiel</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+              <span>Gewinnspiel ab 450 Mitglieder aktiv</span>
+            </div>
           </div>
         </div>
       </div>
