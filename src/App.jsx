@@ -754,19 +754,49 @@ const MilestoneTracker2 = ({ t }) => {
             </div>
           </div>
 
-          {/* Legend */}
+          {/* Legend with Benefits */}
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span>Ziel 300 erreicht</span>
+              <span>300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-              <span>Über Ziel, noch kein Gewinnspiel</span>
+              <span>300-449: Exklusiver Zugang, erste Event-Benachrichtigung</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span>Gewinnspiel ab 450 Mitglieder aktiv</span>
+              <span>450+: Monatliche Gewinne für alle (z.B. MacBook)</span>
+            </div>
+          </div>
+
+          {/* Additional Benefits Info */}
+          <div className="mt-6 max-w-4xl mx-auto">
+            <div className="bg-white rounded-lg p-6 shadow-sm border">
+              <h3 className="font-semibold text-gray-800 mb-3 text-center">Exklusive Vorteile für Bisafo Members</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Direkter & exklusiver Zugang zu Daniel</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Erste Benachrichtigung bei speziellen Events</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Exklusiver Content & Community-Updates</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Monatliche Gewinnchancen bei 450+ Mitgliedern</span>
+                </div>
+              </div>
+              <div className="mt-4 text-center">
+                <p className="text-xs text-gray-500">
+                  <strong>Limitiert auf 500 Plätze</strong> • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden
+                </p>
+              </div>
             </div>
           </div>
         </div>
