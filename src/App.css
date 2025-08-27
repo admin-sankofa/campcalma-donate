@@ -20,3 +20,13 @@ video {
   height: auto;
   display: block;
 }
+
+/* YouTube embed container */
+.youtube-embed-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+  pointer-events: auto;
+}
