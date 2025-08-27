@@ -10,6 +10,7 @@ import community01   from './assets/pictures/community01.jpeg';
 import communitykitchen01    from './assets/pictures/communitykitchen01.jpeg';
 import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
 
+
 // --- TRANSLATIONS OBJECT ---
 // All text content is stored here for easy EN/PT toggling
 const translations = {
@@ -21,14 +22,18 @@ const translations = {
       faq: 'FAQ',
     },
     hero: {
+      support_fairs_heading: 'Support our fair participation!',
+      support_fairs_text: 'Help the NGO Sankofa Living & Learning and our project Camp Calma to be present at the fairs Reiselust, Fisch & Feines and Caravan Bremen. With your donation, we finance stand rent, travel, and materials to make sustainable living visible!',
+      donate_button: 'Donate',
+      every_donation_text: 'Every donation brings us one step closer to our goal. Thank you for your support!',      
       subheading: 'Support a Dream, Win Amazing Prizes',
       heading: 'Help Build Camp Calma in Portugal',
       cta: 'Donate Now & Get Raffle Tickets',
     },
     description: {
       heading: 'About Camp Calma',
-      p1: 'Camp Calma is a project by MTÜ Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
-      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future.',
+      p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
+      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -98,9 +103,13 @@ const translations = {
       submit: 'Submit Free Entry',
       success: 'Thank you! Your free entry has been submitted. You will receive a confirmation email shortly.',
       close: 'Close',
+ consent_html: 'I accept the <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Terms</a> and acknowledge the <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Privacy Notice</a>, including consent to be contacted by email and WhatsApp regarding this raffle.',
+ whatsapp: 'WhatsApp Number',
     },
     footer: {
       contact: 'Contact Us',
+ follow_us: 'Follow Us',
+ youtube_channel: 'YouTube Channel',
     },
     payment_success: {
         heading: "Thank You for Your Support!",
@@ -115,13 +124,17 @@ const translations = {
       faq: 'FAQ',
     },
     hero: {
+      support_fairs_heading: 'Apoie a nossa participação em feiras!',
+      support_fairs_text: 'Ajude a ONG Sankofa Living & Learning e o nosso projeto Camp Calma a estarem presentes nas feiras Reiselust, Fisch & Feines e Caravan Bremen. Com a sua doação, financiamos o aluguer do stand, viagens e materiais para tornar a vida sustentável visível.',
+      donate_button: 'Doe agora',
+      every_donation_text: 'Cada doação aproxima-nos um passo do nosso objetivo. Obrigado pelo seu apoio!',      
       subheading: 'Apoie um Sonho, Ganhe Prémios Incríveis',
       heading: 'Ajude a Construir o Camp Calma em Portugal',
       cta: 'Doe Agora & Receba Bilhetes para o Sorteio',
     },
     description: {
       heading: 'Sobre o Camp Calma',
-      p1: 'O Camp Calma é um projeto da MTÜ Sankofa Living & Learning, uma ONG dedicada à criação de espaços de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
+      p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espaços de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
       p2: 'A sua contribuição financia diretamente a construção de infraestruturas essenciais, programas educacionais e recursos sustentáveis. Ao participar no nosso sorteio, não está apenas a ter a oportunidade de ganhar prémios incríveis—está a ajudar a construir as bases para um futuro melhor.',
     },
     donate: {
@@ -173,7 +186,7 @@ const translations = {
       q1: 'Como funciona o sorteio?',
       a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os prémios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
-      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. Não armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
+      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
       a3: 'O vencedor será sorteado e anunciado a 31 de agosto de 2025, pouco depois do final da contagem decrescente. O vencedor será notificado por e-mail.',
       q4: 'Posso participar gratuitamente?',
@@ -192,9 +205,13 @@ const translations = {
       submit: 'Submeter Entrada Gratuita',
       success: 'Obrigado! A sua entrada gratuita foi submetida. Receberá um e-mail de confirmação em breve.',
       close: 'Fechar',
+ consent_html: 'Aceito os <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Termos</a> e reconheço a <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Política de Privacidade</a>, incluindo o consentimento para ser contactado por email e WhatsApp relativamente a este sorteio.',
+ whatsapp: 'Número de WhatsApp',
     },
     footer: {
       contact: 'Contacte-nos',
+ follow_us: 'Siga-nos',
+ youtube_channel: 'Canal do YouTube',
     },
     payment_success: {
         heading: "Obrigado pelo seu Apoio!",
@@ -515,11 +532,29 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
     if (!isOpen) return null;
 
     const handleSubmit = (e) => {
+        // ⬇️ Deine Google Apps Script Web-App URL hier eintragen
+        // IMPORTANT: This should be your actual script URL for production!
+        // For development purposes, you might want to mock the submission or use a test script.
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTOoexdZskXOV9T_JYdWKlBOai8P3Ydfyl8IzeEyp4CIJnXM2Go7BStYyiBEfPIOcuA/exec';
+
         e.preventDefault();
         const formData = new FormData(e.target);
-        const data = Object.fromEntries(formData.entries());
-        console.log("AMOE Submission:", data); // Mock submission
-        setSubmitted(true);
+
+        fetch(scriptURL, { method: 'POST', body: formData })
+            .then(response => {
+                if (response.ok) {
+                    setSubmitted(true);
+                    console.log('AMOE Submission Successful!', response);
+                } else {
+                    // Handle errors here, maybe show an error message
+                    console.error('AMOE Submission Failed!', response);
+                    alert('There was an error submitting your form. Please try again.'); // Simple error handling
+                }
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                alert('There was an error submitting your form. Please try again.'); // Simple error handling
+            });
     };
 
     return (
@@ -540,23 +575,81 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
                     <>
                         <p className="text-gray-500 mb-6">{t.amoe.modal_subheading}</p>
                         <form onSubmit={handleSubmit} className="space-y-4">
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-700">{t.amoe.name}</label>
-                                <input type="text" name="name" id="name" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500" />
+                            {/* Pflicht-Hiddenfelder */}
+                            <input type="hidden" name="campaign_id" value="campcalma_2025_08" />
+                            <input type="hidden" name="entry_type" value="AMOE" />
+                            <input type="hidden" name="ua" value={typeof navigator !== "undefined" ? navigator.userAgent : ""} />
+
+                            {/* Honeypot gegen Bots */}
+                            <input type="text" name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+                           <div>
+                                <label htmlFor="full_name" className="block text-sm font-medium text-gray-700">{t.amoe.name}</label>
+                                <input type="text"
+                                    id="full_name"
+                                    name="full_name"
+                                    required
+                                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500"
+                                    placeholder="João Neves"
+                                />
                             </div>
                             <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-700">{t.amoe.email}</label>
-                                <input type="email" name="email" id="email" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500" />
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                                    {t.amoe.email}
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                   name="email"
+                                    required
+                                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500"
+                                    placeholder="João@sankofa-ngo.org"
+                                />
                             </div>
+                            
                             <div>
-                                <label htmlFor="address" className="block text-sm font-medium text-gray-700">{t.amoe.address}</label>
-                                <input type="text" name="address" id="address" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500" />
+                                <label htmlFor="whatsapp" className="block text-sm font-medium text-gray-700">
+                                    {t.amoe.whatsapp}
+                                </label>
+                                <input type="tel" id="whatsapp" name="whatsapp" required pattern="^\+?\d{7,15}$" title="Please enter your WhatsApp number with country code, e.g. +351924327868" className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500" placeholder="+351123456789" />
                             </div>
+
                             <div>
-                                <label htmlFor="statement" className="block text-sm font-medium text-gray-700">{t.amoe.statement}</label>
-                                <textarea name="statement" id="statement" rows="3" required placeholder={t.amoe.statement_placeholder} className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"></textarea>
+                                <label htmlFor="postal_address" className="block text-sm font-medium text-gray-700">
+                                    {t.amoe.address}
+                                </label>
+                                <input
+                                    type="text"
+                                    id="postal_address"
+                                    name="postal_address"
+                                    required
+                                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500"
+                                    placeholder="Rua Exemplo 123, Lisboa, 1000-000"
+                                />
                             </div>
-                            <Button type="submit" className="w-full py-3">{t.amoe.submit}</Button>
+
+
+                            <div>
+                                <label htmlFor="statement" className="block text-sm font-medium text-gray-700">
+                                    {t.amoe.statement}
+                                </label>
+                                <textarea
+                                    id="statement"
+                                    name="statement"
+                                    rows={3}
+                                    required
+                                    placeholder={t.amoe.statement_placeholder}
+                                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500"
+                                />
+                            </div>
+
+                            <label className="flex items-start gap-2 text-sm">
+                                <input type="checkbox" name="consent" required />
+                                <span dangerouslySetInnerHTML={{ __html: t.amoe.consent_html }} />
+                            </label>
+
+                            <Button type="submit" className="w-full py-3">
+                                {t.amoe.submit}
+                            </Button>
                         </form>
                     </>
                 )}
@@ -582,7 +675,7 @@ const Footer = ({ t }) => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
-          <h3 className="font-bold text-lg mb-4">MTÜ Sankofa Living & Learning</h3>
+          <h3 className="font-bold text-lg mb-4">Sankofa Living & Learning</h3>
           <p className="text-gray-400">Palanque, Tinalhas</p>
           <p className="text-gray-400">Castelo Branco, Portugal, 6000-740</p>
         </div>
@@ -590,19 +683,25 @@ const Footer = ({ t }) => (
           <h3 className="font-bold text-lg mb-4">{t.footer.contact}</h3>
           <p className="text-gray-400 flex items-center justify-center md:justify-start">
             <Mail className="h-4 w-4 mr-2" /> campcalma@sankofa-ngo.org
-          </p>
+ </p>
+ <a href="https://wa.me/351924327868" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-300 transition-colors flex items-center justify-center md:justify-start mt-2">
+ <svg fill="#25D366" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="h-5 w-5 mr-2"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-93-25.7l-6.7-4-69.9 18.3L50 359.3l-4.1-6.9c-18.5-31.4-28.2-67.8-28.2-109.2c0-114.2 93.4-207.6 207.6-207.6 55.8 0 107.8 22.5 146.9 61.6 39.1 39.1 61.6 91.1 61.6 146.9c0 114.2-93.4 207.6-207.6 207.6zm105.1-201.1c-5.3-2.8-32.8-16.2-37.9-18s-8.7-2.8-12.4 2.8c-3.7 5.6-14.3 16.2-17.6 19.4s-6.3 3.7-11.6 1.2c-5.3-2.8-22.4-8.2-42.7-26.4s-35.4-29.4-39.9-37.9c-4.6-8.5-1.2-7.9 2.6-7.9s7.4-2.8 11.6-6.9c4.1-4.1 9.2-9.2 13.8-13.8s6.2-8.7 8.7-14.3c2.5-5.6 1.2-10.5-6.2-17.9s-17.6-42.4-24.1-61.3c-6.2-17.6-12.4-15-17.6-15s-11.6-2.8-17.6-2.8c-5.6 0-14.3 2.1-21.8 10.5s-27.5 27.1-27.5 66.1s28.1 76.5 32 81.6s55.5 84.8 134.2 118.4c33.2 13.9 59 22.3 79.5 28.4 21.5 6.4 40.2 6.7 46.1 5.9 6.5-.9 20.3-8.3 23.2-16.2s2.8-14.3 2.8-26.4c-.1-12.1-4.5-20.3-8.3-26.4z"/></svg>
+ (+351) 924327868
+ </a>
           <a href="http://www.sankofa-ngo.org" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors mt-2 inline-block">
             www.sankofa-ngo.org
           </a>
         </div>
         <div>
-            <h3 className="font-bold text-lg mb-4">Follow Us</h3>
-            {/* Add social media links here if available */}
-            <p className="text-gray-400">Social media links coming soon.</p>
+ <h3 className="font-bold text-lg mb-4">{t.footer.follow_us}</h3>
+            <a href="https://www.youtube.com/channel/UCfz1cYEX3RX_5ydFITp3CdA" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-300 transition-colors flex items-center justify-center md:justify-start">
+ <svg fill="#e62117" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" className="h-5 w-5 mr-2"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305S1.984 288 1.984 288s0 89.438 11.412 132.305c6.281 23.65 24.787 42.276 48.284 48.597C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.947 48.284-48.597 11.412-42.867 11.412-132.305 11.412-132.305S561.067 288 561.067 288s0-89.438-11.412-132.305zm-317.51 213.508V175.159l103.159 60.17z"/></svg>
+ {t.footer.youtube_channel}
+            </a>
         </div>
       </div>
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} MTÜ Sankofa Living & Learning. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Sankofa Living & Learning. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -657,6 +756,23 @@ export default function App() {
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <div className="bg-gray-50 flex flex-col items-center p-10">
+      <h1 className="text-3xl font-bold text-center mb-4 text-black">{t.hero.support_fairs_heading}</h1>
+      <p className="text-lg text-center max-w-xl mb-4 text-black">{t.hero.support_fairs_text}</p>
+
+          <a
+        href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition"
+      >
+        {t.hero.donate_button}
+      </a>
+
+      <p className="mt-6 text-sm text-gray-600">
+        {t.hero.every_donation_text}
+      </p>
+    </div>
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
       </main>
