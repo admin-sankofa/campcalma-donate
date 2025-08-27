@@ -725,8 +725,11 @@ const MilestoneTracker2 = ({ t }) => {
     <section className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800">Mitgliedschaft & Community</h2>
-          <p className="text-lg text-gray-500 mt-2">Gemeinsam erreichen wir unsere Ziele für eine nachhaltige Community!</p>
+          <h2 className="text-4xl font-bold text-gray-800">Exklusive Bisafo Mitgliedschaft</h2>
+          <p className="text-lg text-gray-500 mt-2">Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang</p>
+          <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
+            <p>Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!</p>
+          </div>
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-end mb-2 text-gray-600">
