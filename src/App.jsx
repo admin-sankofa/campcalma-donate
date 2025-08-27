@@ -705,6 +705,106 @@ const MilestoneTracker = ({ t }) => {
   );
 };
 
+const MilestoneTracker2 = ({ t }) => {
+  const [currentMembers, setCurrentMembers] = useState(275); // Current member count
+  const capacity = 500; // Maximum capacity
+  const sustainabilityGoal = 300; // Goal for sustainability
+  const raffleThreshold = 450; // Threshold for monthly raffles
+
+  const progress = (currentMembers / capacity) * 100;
+
+  // Determine progress bar color based on member count
+  let progressColor = 'bg-green-500'; // Default green
+  if (currentMembers > sustainabilityGoal && currentMembers < raffleThreshold) {
+    progressColor = 'bg-yellow-500'; // Yellow for over goal but under raffle threshold
+  } else if (currentMembers >= raffleThreshold) {
+    progressColor = 'bg-purple-500'; // Purple for raffle unlocked
+  }
+
+  return (
+    <section className="py-20 bg-stone-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800">Exklusive Bisafo Mitgliedschaft</h2>
+          <p className="text-lg text-gray-500 mt-2">Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang</p>
+          <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
+            <p>Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!</p>
+          </div>
+        </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="flex justify-between items-end mb-2 text-gray-600">
+            <span className="font-bold text-lg">Aktuelle Mitglieder: {currentMembers}</span>
+            <span className="font-bold text-lg">Kapazität: {capacity}</span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-6">
+            <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
+          </div>
+
+          {/* Goal markers */}
+          <div className="relative mt-2">
+            <div className="flex justify-between text-xs text-gray-500">
+              <span>0</span>
+              <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
+                Ziel: {sustainabilityGoal}
+              </span>
+              <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
+                Gewinnspiel: {raffleThreshold}
+              </span>
+              <span>{capacity}</span>
+            </div>
+          </div>
+
+          {/* Legend with Benefits */}
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              <span>300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+              <span>300-449: Exklusiver Zugang, erste Event-Benachrichtigung</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+              <span>450+: Monatliche Gewinne für alle (z.B. MacBook)</span>
+            </div>
+          </div>
+
+          {/* Additional Benefits Info */}
+          <div className="mt-6 max-w-4xl mx-auto">
+            <div className="bg-white rounded-lg p-6 shadow-sm border">
+              <h3 className="font-semibold text-gray-800 mb-3 text-center">Exklusive Vorteile für Bisafo Members</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Direkter & exklusiver Zugang zu Daniel</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Erste Benachrichtigung bei speziellen Events</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Exklusiver Content & Community-Updates</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span>Monatliche Gewinnchancen bei 450+ Mitgliedern</span>
+                </div>
+              </div>
+              <div className="mt-4 text-center">
+                <p className="text-xs text-gray-500">
+                  <strong>Limitiert auf 500 Plätze</strong> • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const CountdownTimer = ({ t }) => {
     const calculateTimeLeft = () => {
         const difference = +new Date('2025-09-15T18:00:00+01:00') - +new Date(); // Set to September 15, 2025 at 18:00, Lisbon timezone
@@ -1048,6 +1148,7 @@ export default function App() {
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <MilestoneTracker2 t={t} />
         <div className="bg-gray-50 flex flex-col items-center p-10">
       <h1 className="text-3xl font-bold text-center mb-4 text-black">{t.hero.support_fairs_heading}</h1>
       <p className="text-lg text-center max-w-xl mb-4 text-black">{t.hero.support_fairs_text}</p>
