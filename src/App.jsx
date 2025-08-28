@@ -896,9 +896,14 @@ const MilestoneTracker2 = ({ t }) => {
 
           {/* Call-to-Action */}
           <div className="text-center">
-            <Button className="px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform">
+            <a
+              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
+            >
               {t.bisafo.cta_button}
-            </Button>
+            </a>
           </div>
         </div>
       </div>
