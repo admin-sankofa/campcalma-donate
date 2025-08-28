@@ -462,7 +462,7 @@ const translations = {
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ��bɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa—wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -550,7 +550,7 @@ const translations = {
       subheading: "Bosome biara mmoa · Soronko kwan · Akyɛdeɛ akwanya firi nnipa 450",
       current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
       capacity: "Baabi A Wɔahyɛ",
-      sustainability_label: "Botaeɛ A Ɛbɛtena Hɔ",
+      sustainability_label: "Botaeɛ A ��bɛtena Hɔ",
       raffle_label: "Bɔɔl",
       capacity_label: "Baabi Nyinaa Ahyɛ",
       milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
@@ -850,22 +850,23 @@ const MilestoneTracker2 = ({ t }) => {
           </div>
 
           {/* Goal markers/labels */}
-          <div className="relative mb-6">
-            <div className="flex justify-between text-xs text-gray-500 font-medium">
-              <span>0</span>
-              <span
-                className="absolute text-center text-xs"
-                style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}
-              >
-                300<br/><span className="text-xs">{t.bisafo.sustainability_label}</span>
-              </span>
-              <span
-                className="absolute text-center text-xs"
-                style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-65%)' }}
-              >
-                450<br/><span className="text-xs">{t.bisafo.raffle_label}</span>
-              </span>
-              <span className="text-right">500<br/><span className="text-xs">{t.bisafo.capacity_label}</span></span>
+          <div className="mt-4 mb-6">
+            <div className="grid grid-cols-4 gap-2 text-xs text-gray-500 font-medium">
+              <div className="text-left">
+                <div className="font-semibold">0</div>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold">300</div>
+                <div className="text-xs leading-tight">{t.bisafo.sustainability_label}</div>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold">450</div>
+                <div className="text-xs leading-tight">{t.bisafo.raffle_label}</div>
+              </div>
+              <div className="text-right">
+                <div className="font-semibold">500</div>
+                <div className="text-xs leading-tight">{t.bisafo.capacity_label}</div>
+              </div>
             </div>
           </div>
 
