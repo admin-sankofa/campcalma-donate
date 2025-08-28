@@ -159,22 +159,27 @@ const translations = {
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
     },
     bisafo: {
-      heading: "Exclusive Bisafo Membership",
-      subheading: "Only 500 exclusive spots • Monthly support • First notifications • Direct access",
-      goal_description: "From 300 members I can work full-time for the NGO and provide exclusive content. With 450+ active members there are monthly prizes for everyone!",
+      heading: "Become Part of 500 Bisafo Members 🚀",
+      subheading: "Monthly support · Direct access · Prize chances from 450 members",
       current_members: "Current Members",
-      capacity: "Capacity",
-      goal_label: "Goal",
-      raffle_label: "Raffle",
-      milestone_300: "300+ Members: Full-time NGO work & exclusive content",
-      milestone_300_449: "300-449: Exclusive access, first event notifications",
-      milestone_450: "450+: Monthly prizes for everyone (e.g. MacBook)",
+      capacity: "Limited Spots",
+      sustainability_label: "Sustainability Goal",
+      raffle_label: "Giveaway",
+      capacity_label: "Capacity Reached",
+      milestone_0_299: "💙 Up to 299: Building Phase",
+      milestone_300_349: "💚 300–349: Sustainability Achieved",
+      milestone_350_449: "💛 350–449: Exclusive Access & Event Notifications",
+      milestone_450_500: "💜 450+: Monthly Giveaways (e.g. MacBook)",
+      status_building: "Building Phase: NGO Development 💙",
+      status_sustainability: "Sustainability Achieved 💚",
+      status_exclusive: "Exclusive Access & Event Notifications ✨",
+      status_raffles: "Monthly Giveaways Unlocked 🎁",
       benefits_heading: "Exclusive Benefits for Bisafo Members",
-      benefit_1: "Direct & exclusive access to Daniel",
-      benefit_2: "First notification for special events",
-      benefit_3: "Exclusive content & community updates",
-      benefit_4: "Monthly prize chances with 450+ members",
-      limited_notice: "Limited to 500 spots • New spots only available when members unsubscribe"
+      benefit_1: "✅ Exclusive access to Daniel",
+      benefit_2: "📩 First notification for events",
+      benefit_3: "🎥 Exclusive content & community updates",
+      benefit_4: "🎁 Prize chances from 450+ members",
+      cta_button: "Become Member Now"
     }
   },
   pt: {
@@ -249,7 +254,7 @@ const translations = {
     faq: {
       heading: 'Perguntas Frequentes',
       q1: 'Como funciona o sorteio?',
-      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os prémios são desbloqueados com base no total de fundos angariados.',
+      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os pr��mios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
       a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
@@ -283,22 +288,27 @@ const translations = {
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
     },
     bisafo: {
-      heading: "Adesão Exclusiva Bisafo",
-      subheading: "Apenas 500 lugares exclusivos • Apoio mensal • Primeiras notificações • Acesso direto",
-      goal_description: "A partir de 300 membros posso trabalhar a tempo inteiro para a ONG e fornecer conteúdo exclusivo. Com 450+ membros ativos há prémios mensais para todos!",
+      heading: "Torna-te Parte dos 500 Membros Bisafo 🚀",
+      subheading: "Apoio mensal · Acesso direto · Chances de prémio a partir dos 450 membros",
       current_members: "Membros Atuais",
-      capacity: "Capacidade",
-      goal_label: "Meta",
+      capacity: "Lugares Limitados",
+      sustainability_label: "Meta de Sustentabilidade",
       raffle_label: "Sorteio",
-      milestone_300: "300+ Membros: Trabalho a tempo inteiro na ONG e conteúdo exclusivo",
-      milestone_300_449: "300-449: Acesso exclusivo, primeiras notificações de eventos",
-      milestone_450: "450+: Prémios mensais para todos (ex. MacBook)",
-      benefits_heading: "Benefícios Exclusivos para Membros Bisafo",
-      benefit_1: "Acesso direto e exclusivo ao Daniel",
-      benefit_2: "Primeira notificação para eventos especiais",
-      benefit_3: "Conteúdo exclusivo e atualizações da comunidade",
-      benefit_4: "Chances de prémios mensais com 450+ membros",
-      limited_notice: "Limitado a 500 lugares • Novos lugares apenas disponíveis quando membros se desvinculam"
+      capacity_label: "Capacidade Atingida",
+      milestone_0_299: "💙 Até 299: Fase de Construção",
+      milestone_300_349: "💚 300–349: Sustentabilidade Alcançada",
+      milestone_350_449: "💛 350–449: Acesso Exclusivo e Notificações de Eventos",
+      milestone_450_500: "💜 450+: Sorteios Mensais (ex. MacBook)",
+      status_building: "Fase de Construção: Desenvolvimento da ONG 💙",
+      status_sustainability: "Sustentabilidade Alcançada 💚",
+      status_exclusive: "Acesso Exclusivo e Notificações de Eventos ✨",
+      status_raffles: "Sorteios Mensais Desbloqueados 🎁",
+      benefits_heading: "Benef��cios Exclusivos para Membros Bisafo",
+      benefit_1: "✅ Acesso exclusivo ao Daniel",
+      benefit_2: "📩 Primeira notificação para eventos",
+      benefit_3: "🎥 Conteúdo exclusivo e atualizações da comunidade",
+      benefit_4: "🎁 Chances de prémio a partir dos 450+ membros",
+      cta_button: "Tornar-me Membro Agora"
     }
   },
   de: {
@@ -407,22 +417,27 @@ const translations = {
  message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
     },
     bisafo: {
-      heading: "Exklusive Bisafo Mitgliedschaft",
-      subheading: "Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang",
-      goal_description: "Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!",
+      heading: "Werde Teil der 500 Bisafo Members 🚀",
+      subheading: "Monatliche Unterstützung · Direkter Zugang · Gewinnchancen ab 450 Mitgliedern",
       current_members: "Aktuelle Mitglieder",
-      capacity: "Kapazität",
-      goal_label: "Ziel",
+      capacity: "Limitierte Plätze",
+      sustainability_label: "Nachhaltigkeitsziel",
       raffle_label: "Gewinnspiel",
-      milestone_300: "300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content",
-      milestone_300_449: "300-449: Exklusiver Zugang, erste Event-Benachrichtigung",
-      milestone_450: "450+: Monatliche Gewinne für alle (z.B. MacBook)",
+      capacity_label: "Kapazität erreicht",
+      milestone_0_299: "💙 Bis 299: Aufbauphase",
+      milestone_300_349: "💚 300–349: Nachhaltigkeit erreicht",
+      milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
+      milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
+      status_building: "Startphase: Aufbau der NGO 💙",
+      status_sustainability: "Nachhaltigkeit erreicht 💚",
+      status_exclusive: "Exklusiver Zugang & Event-Benachrichtigungen ✨",
+      status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
       benefits_heading: "Exklusive Vorteile für Bisafo Members",
-      benefit_1: "Direkter & exklusiver Zugang zu Daniel",
-      benefit_2: "Erste Benachrichtigung bei speziellen Events",
-      benefit_3: "Exklusiver Content & Community-Updates",
-      benefit_4: "Monatliche Gewinnchancen bei 450+ Mitgliedern",
-      limited_notice: "Limitiert auf 500 Plätze • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden"
+      benefit_1: "✅ Exklusiver Zugang zu Daniel",
+      benefit_2: "📩 Erste Benachrichtigung bei Events",
+      benefit_3: "🎥 Exklusiver Content & Community-Updates",
+      benefit_4: "🎁 Gewinnchancen ab 450+ Mitgliedern",
+      cta_button: "Jetzt Mitglied werden"
     }
   },
   twi: {
@@ -436,7 +451,7 @@ const translations = {
  support_fairs_heading: 'Boa yɛn ma yɛnkɔ afayɛ!',
  support_fairs_text: 'Boa Sankofa Living & Learning NGO ne yɛn adwuma Camp Calma ma yɛnkɔ Reiselust, Fisch & Feines, ne Caravan Bremen afayɛ no ase. Wo mmɔhoɔ boa yɛn ma yɛtua baabi a yɛbɛgyina, akwantu, ne nneɛma a ɛho hia ma yɛayi abrabɔ pa adi!',
  donate_button: 'Mma',
- every_donation_text: 'Mmɔhoɔ biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
+ every_donation_text: 'Mmɔho�� biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
  subheading: 'Boa Daakye, Fa Nneɛma Pa',
  heading: 'Boa Ma Camp Calma Nsi Portugal',
  cta: 'Mma Afei na Fa Bɔɔl',
@@ -447,7 +462,7 @@ const translations = {
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ��bɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa—wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -461,13 +476,13 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 Bɔɔl',
- description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
+ description: 'Yɛn deɛ nnipa pii pɛ! Bɔ��l mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
  price: '€30',
  tickets: '160 Bɔɔl',
- description: 'Nea ɛho tɔn sen biara ma nea ɛyɛ kɛseɛ.',
+ description: 'Nea ɛho tɔn sen biara ma nea ɛy�� kɛseɛ.',
       },
  button: 'Mma & Kɔ',
     },
@@ -501,7 +516,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔb��yi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔb��yi obi a wanya bɔ��l no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -531,22 +546,27 @@ const translations = {
  message: "Wo mmɔhoɔ no ayɛ yie. Wo bɔɔl nɔmba no akɔ wo email mu. Wɔbɛn yɛn!",
     },
     bisafo: {
-      heading: "Bisafo Soronko Nnwumabea",
-      subheading: "Baabi 500 pɛ • Bosome biara mmoa • Kane amaneɛ • Soronko kwan",
-      goal_description: "Nnipa 300 firi a, metumi ayɛ NGO adwuma nna nyinaa na mede soronko nsɛm ama! Nnipa 450+ a, obiara nya akyɛdeɛ bosome biara!",
+      heading: "Bɛyɛ Bisafo Nnipa 500 No Mu Baako 🚀",
+      subheading: "Bosome biara mmoa · Soronko kwan · Akyɛdeɛ akwanya firi nnipa 450",
       current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
-      capacity: "Baabi Dodow",
-      goal_label: "Botaeɛ",
+      capacity: "Baabi A Wɔahyɛ",
+      sustainability_label: "Botaeɛ A ��bɛtena Hɔ",
       raffle_label: "Bɔɔl",
-      milestone_300: "300+ Nnipa: NGO adwuma nna nyinaa & soronko nsɛm",
-      milestone_300_449: "300-449: Soronko kwan, kane amaneɛ fa dwumadi ho",
-      milestone_450: "450+: Bosome biara akyɛdeɛ ma obiara (te sɛ MacBook)",
+      capacity_label: "Baabi Nyinaa Ahyɛ",
+      milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
+      milestone_300_349: "💚 300–349: Botaeɛ A Ɛbɛtena Hɔ Adu",
+      milestone_350_449: "💛 350–449: Soronko Kwan & Dwumadi Ho Amaneɛ",
+      milestone_450_500: "💜 450+: Bosome Biara Bɔɔl (te sɛ MacBook)",
+      status_building: "Mfitiaseɛ: NGO Nkɔso 💙",
+      status_sustainability: "Botaeɛ A Ɛbɛtena Hɔ Adu 💚",
+      status_exclusive: "Soronko Kwan & Dwumadi Ho Amaneɛ ✨",
+      status_raffles: "Bosome Biara Bɔɔl Abue 🎁",
       benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
-      benefit_1: "Soronko kwan kɔ Daniel nkyɛn",
-      benefit_2: "Kane amaneɛ fa soronko dwumadi ho",
-      benefit_3: "Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
-      benefit_4: "Bosome biara akyɛdeɛ akwanya sɛ nnipa yɛ 450+",
-      limited_notice: "Baabi 500 pɛ • Baabi foforɔ sɛ obi fi mu nkoaa"
+      benefit_1: "✅ Soronko kwan kɔ Daniel nkyɛn",
+      benefit_2: "📩 Kane amaneɛ fa dwumadi ho",
+      benefit_3: "🎥 Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
+      benefit_4: "🎁 Akyɛdeɛ akwanya firi nnipa 450+",
+      cta_button: "Bɛyɛ Nnwumani Seesei"
     }
   },
 };
@@ -778,19 +798,27 @@ const MilestoneTracker = ({ t }) => {
 };
 
 const MilestoneTracker2 = ({ t }) => {
-  const [currentMembers, setCurrentMembers] = useState(275); // Current member count
+  const [currentMembers, setCurrentMembers] = useState(280); // Current member count from API
   const capacity = 500; // Maximum capacity
   const sustainabilityGoal = 300; // Goal for sustainability
+  const exclusiveThreshold = 350; // Threshold for exclusive access
   const raffleThreshold = 450; // Threshold for monthly raffles
 
   const progress = (currentMembers / capacity) * 100;
 
-  // Determine progress bar color based on member count
-  let progressColor = 'bg-green-500'; // Default green
-  if (currentMembers > sustainabilityGoal && currentMembers < raffleThreshold) {
-    progressColor = 'bg-yellow-500'; // Yellow for over goal but under raffle threshold
+  // Determine current status message and color based on new 4-tier system
+  let statusMessage = t.bisafo.status_building;
+  let progressColor = 'bg-blue-500'; // Blue (0-299): Startphase
+
+  if (currentMembers >= 300 && currentMembers <= 349) {
+    progressColor = 'bg-green-500'; // Green (300-349): Nachhaltigkeit
+    statusMessage = t.bisafo.status_sustainability;
+  } else if (currentMembers >= 350 && currentMembers <= 449) {
+    progressColor = 'bg-yellow-500'; // Yellow (350-449): Exklusiver Zugang
+    statusMessage = t.bisafo.status_exclusive;
   } else if (currentMembers >= raffleThreshold) {
-    progressColor = 'bg-purple-500'; // Purple for raffle unlocked
+    progressColor = 'bg-purple-500'; // Purple (450-500): Gewinnspiele
+    statusMessage = t.bisafo.status_raffles;
   }
 
   return (
@@ -799,77 +827,95 @@ const MilestoneTracker2 = ({ t }) => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800">{t.bisafo.heading}</h2>
           <p className="text-lg text-gray-500 mt-2">{t.bisafo.subheading}</p>
-          <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
-            <p>{t.bisafo.goal_description}</p>
-          </div>
         </div>
+
         <div className="max-w-4xl mx-auto">
+          {/* Current Numbers */}
           <div className="flex justify-between items-end mb-2 text-gray-600">
             <span className="font-bold text-lg">{t.bisafo.current_members}: {currentMembers}</span>
             <span className="font-bold text-lg">{t.bisafo.capacity}: {capacity}</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-6">
-            <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
+
+          {/* Progress Bar */}
+          <div className="w-full bg-gray-200 rounded-full h-6 mb-2">
+            <div
+              className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`}
+              style={{ width: `${progress}%` }}
+            ></div>
           </div>
 
-          {/* Goal markers */}
-          <div className="relative mt-2">
-            <div className="flex justify-between text-xs text-gray-500">
-              <span>0</span>
-              <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                {t.bisafo.goal_label}: {sustainabilityGoal}
-              </span>
-              <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                {t.bisafo.raffle_label}: {raffleThreshold}
-              </span>
-              <span>{capacity}</span>
-            </div>
+          {/* Status Message */}
+          <div className="text-center mb-4">
+            <p className="text-lg font-semibold text-gray-700">{statusMessage}</p>
           </div>
 
-          {/* Legend with Benefits */}
-          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_300}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_300_449}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_450}</span>
-            </div>
-          </div>
-
-          {/* Additional Benefits Info */}
-          <div className="mt-6 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-gray-800 mb-3 text-center">{t.bisafo.benefits_heading}</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_1}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_2}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_3}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_4}</span>
-                </div>
+          {/* Goal markers/labels */}
+          <div className="mt-4 mb-6">
+            <div className="grid grid-cols-4 gap-2 text-xs text-gray-500 font-medium">
+              <div className="text-left">
+                <div className="font-semibold">0</div>
               </div>
-              <div className="mt-4 text-center">
-                <p className="text-xs text-gray-500">
-                  <strong>{t.bisafo.limited_notice}</strong>
-                </p>
+              <div className="text-center">
+                <div className="font-semibold">300</div>
+                <div className="text-xs leading-tight">{t.bisafo.sustainability_label}</div>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold">450</div>
+                <div className="text-xs leading-tight">{t.bisafo.raffle_label}</div>
+              </div>
+              <div className="text-right">
+                <div className="font-semibold">500</div>
+                <div className="text-xs leading-tight">{t.bisafo.capacity_label}</div>
               </div>
             </div>
+          </div>
+
+          {/* Legend */}
+          <div className="bg-white rounded-lg p-4 shadow-sm border mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-sm">
+              <div className="flex items-center">
+                <span>{t.bisafo.milestone_0_299}</span>
+              </div>
+              <div className="flex items-center">
+                <span>{t.bisafo.milestone_300_349}</span>
+              </div>
+              <div className="flex items-center">
+                <span>{t.bisafo.milestone_350_449}</span>
+              </div>
+              <div className="flex items-center">
+                <span>{t.bisafo.milestone_450_500}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Benefits Box */}
+          <div className="bg-white rounded-lg p-6 shadow-sm border mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_1}</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_2}</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_3}</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_4}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Call-to-Action */}
+          <div className="text-center">
+            <a
+              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
+            >
+              {t.bisafo.cta_button}
+            </a>
           </div>
         </div>
       </div>
