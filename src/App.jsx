@@ -856,18 +856,22 @@ const MilestoneTracker2 = ({ t }) => {
 
           {/* Legend */}
           <div className="bg-white rounded-lg p-4 shadow-sm border mb-6">
-            <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                <span>{t.bisafo.milestone_0_299}</span>
+              </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                <span>{t.bisafo.milestone_300}</span>
+                <span>{t.bisafo.milestone_300_349}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-yellow-500 rounded-full flex-shrink-0"></div>
-                <span>{t.bisafo.milestone_300_449}</span>
+                <span>{t.bisafo.milestone_350_449}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-purple-500 rounded-full flex-shrink-0"></div>
-                <span>{t.bisafo.milestone_450}</span>
+                <span>{t.bisafo.milestone_450_500}</span>
               </div>
             </div>
           </div>
