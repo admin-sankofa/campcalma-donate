@@ -249,7 +249,7 @@ const translations = {
     faq: {
       heading: 'Perguntas Frequentes',
       q1: 'Como funciona o sorteio?',
-      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os prémios são desbloqueados com base no total de fundos angariados.',
+      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os pr��mios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
       a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
@@ -781,19 +781,23 @@ const MilestoneTracker = ({ t }) => {
 };
 
 const MilestoneTracker2 = ({ t }) => {
-  const [currentMembers, setCurrentMembers] = useState(275); // Current member count
+  const [currentMembers, setCurrentMembers] = useState(275); // Current member count from API
   const capacity = 500; // Maximum capacity
   const sustainabilityGoal = 300; // Goal for sustainability
   const raffleThreshold = 450; // Threshold for monthly raffles
 
   const progress = (currentMembers / capacity) * 100;
 
-  // Determine progress bar color based on member count
-  let progressColor = 'bg-green-500'; // Default green
-  if (currentMembers > sustainabilityGoal && currentMembers < raffleThreshold) {
-    progressColor = 'bg-yellow-500'; // Yellow for over goal but under raffle threshold
+  // Determine current status message and color
+  let statusMessage = t.bisafo.status_sustainability;
+  let progressColor = 'bg-green-500'; // Default green (0-300)
+
+  if (currentMembers >= 301 && currentMembers <= 449) {
+    progressColor = 'bg-yellow-500'; // Yellow (301-449)
+    statusMessage = t.bisafo.status_exclusive;
   } else if (currentMembers >= raffleThreshold) {
-    progressColor = 'bg-purple-500'; // Purple for raffle unlocked
+    progressColor = 'bg-purple-500'; // Purple (450-500)
+    statusMessage = t.bisafo.status_raffles;
   }
 
   return (
@@ -802,77 +806,89 @@ const MilestoneTracker2 = ({ t }) => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800">{t.bisafo.heading}</h2>
           <p className="text-lg text-gray-500 mt-2">{t.bisafo.subheading}</p>
-          <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
-            <p>{t.bisafo.goal_description}</p>
-          </div>
         </div>
+
         <div className="max-w-4xl mx-auto">
+          {/* Current Numbers */}
           <div className="flex justify-between items-end mb-2 text-gray-600">
             <span className="font-bold text-lg">{t.bisafo.current_members}: {currentMembers}</span>
             <span className="font-bold text-lg">{t.bisafo.capacity}: {capacity}</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-6">
-            <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
+
+          {/* Progress Bar */}
+          <div className="w-full bg-gray-200 rounded-full h-6 mb-2">
+            <div
+              className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`}
+              style={{ width: `${progress}%` }}
+            ></div>
           </div>
 
-          {/* Goal markers */}
-          <div className="relative mt-2">
-            <div className="flex justify-between text-xs text-gray-500">
+          {/* Status Message */}
+          <div className="text-center mb-4">
+            <p className="text-lg font-semibold text-gray-700">{statusMessage}</p>
+          </div>
+
+          {/* Goal markers/labels */}
+          <div className="relative mb-6">
+            <div className="flex justify-between text-xs text-gray-500 font-medium">
               <span>0</span>
-              <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                {t.bisafo.goal_label}: {sustainabilityGoal}
+              <span
+                className="absolute text-center"
+                style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}
+              >
+                300<br/>{t.bisafo.goal_label}
               </span>
-              <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                {t.bisafo.raffle_label}: {raffleThreshold}
+              <span
+                className="absolute text-center"
+                style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}
+              >
+                450<br/>{t.bisafo.raffle_label}
               </span>
-              <span>{capacity}</span>
+              <span>500<br/>{t.bisafo.limit_label}</span>
             </div>
           </div>
 
-          {/* Legend with Benefits */}
-          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_300}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_300_449}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span>{t.bisafo.milestone_450}</span>
+          {/* Legend */}
+          <div className="bg-white rounded-lg p-4 shadow-sm border mb-6">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                <span>{t.bisafo.milestone_300}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-yellow-500 rounded-full flex-shrink-0"></div>
+                <span>{t.bisafo.milestone_300_449}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-purple-500 rounded-full flex-shrink-0"></div>
+                <span>{t.bisafo.milestone_450}</span>
+              </div>
             </div>
           </div>
 
-          {/* Additional Benefits Info */}
-          <div className="mt-6 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-gray-800 mb-3 text-center">{t.bisafo.benefits_heading}</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_1}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_2}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_3}</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{t.bisafo.benefit_4}</span>
-                </div>
+          {/* Benefits Box */}
+          <div className="bg-white rounded-lg p-6 shadow-sm border mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_1}</span>
               </div>
-              <div className="mt-4 text-center">
-                <p className="text-xs text-gray-500">
-                  <strong>{t.bisafo.limited_notice}</strong>
-                </p>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_2}</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_3}</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span>{t.bisafo.benefit_4}</span>
               </div>
             </div>
+          </div>
+
+          {/* Call-to-Action */}
+          <div className="text-center">
+            <Button className="px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform">
+              {t.bisafo.cta_button}
+            </Button>
           </div>
         </div>
       </div>
