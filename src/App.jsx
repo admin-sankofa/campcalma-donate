@@ -157,6 +157,24 @@ const translations = {
     payment_success: {
         heading: "Thank You for Your Support!",
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
+    },
+    bisafo: {
+      heading: "Exclusive Bisafo Membership",
+      subheading: "Only 500 exclusive spots • Monthly support • First notifications • Direct access",
+      goal_description: "From 300 members I can work full-time for the NGO and provide exclusive content. With 450+ active members there are monthly prizes for everyone!",
+      current_members: "Current Members",
+      capacity: "Capacity",
+      goal_label: "Goal",
+      raffle_label: "Raffle",
+      milestone_300: "300+ Members: Full-time NGO work & exclusive content",
+      milestone_300_449: "300-449: Exclusive access, first event notifications",
+      milestone_450: "450+: Monthly prizes for everyone (e.g. MacBook)",
+      benefits_heading: "Exclusive Benefits for Bisafo Members",
+      benefit_1: "Direct & exclusive access to Daniel",
+      benefit_2: "First notification for special events",
+      benefit_3: "Exclusive content & community updates",
+      benefit_4: "Monthly prize chances with 450+ members",
+      limited_notice: "Limited to 500 spots • New spots only available when members unsubscribe"
     }
   },
   pt: {
@@ -263,6 +281,24 @@ const translations = {
     payment_success: {
         heading: "Obrigado pelo seu Apoio!",
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
+    },
+    bisafo: {
+      heading: "Adesão Exclusiva Bisafo",
+      subheading: "Apenas 500 lugares exclusivos • Apoio mensal • Primeiras notificações • Acesso direto",
+      goal_description: "A partir de 300 membros posso trabalhar a tempo inteiro para a ONG e fornecer conteúdo exclusivo. Com 450+ membros ativos há prémios mensais para todos!",
+      current_members: "Membros Atuais",
+      capacity: "Capacidade",
+      goal_label: "Meta",
+      raffle_label: "Sorteio",
+      milestone_300: "300+ Membros: Trabalho a tempo inteiro na ONG e conteúdo exclusivo",
+      milestone_300_449: "300-449: Acesso exclusivo, primeiras notificações de eventos",
+      milestone_450: "450+: Prémios mensais para todos (ex. MacBook)",
+      benefits_heading: "Benefícios Exclusivos para Membros Bisafo",
+      benefit_1: "Acesso direto e exclusivo ao Daniel",
+      benefit_2: "Primeira notificação para eventos especiais",
+      benefit_3: "Conteúdo exclusivo e atualizações da comunidade",
+      benefit_4: "Chances de prémios mensais com 450+ membros",
+      limited_notice: "Limitado a 500 lugares • Novos lugares apenas disponíveis quando membros se desvinculam"
     }
   },
   de: {
@@ -369,6 +405,24 @@ const translations = {
     payment_success: {
  heading: "Vielen Dank für deine Unterstützung!",
  message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
+    },
+    bisafo: {
+      heading: "Exklusive Bisafo Mitgliedschaft",
+      subheading: "Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang",
+      goal_description: "Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!",
+      current_members: "Aktuelle Mitglieder",
+      capacity: "Kapazität",
+      goal_label: "Ziel",
+      raffle_label: "Gewinnspiel",
+      milestone_300: "300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content",
+      milestone_300_449: "300-449: Exklusiver Zugang, erste Event-Benachrichtigung",
+      milestone_450: "450+: Monatliche Gewinne für alle (z.B. MacBook)",
+      benefits_heading: "Exklusive Vorteile für Bisafo Members",
+      benefit_1: "Direkter & exklusiver Zugang zu Daniel",
+      benefit_2: "Erste Benachrichtigung bei speziellen Events",
+      benefit_3: "Exklusiver Content & Community-Updates",
+      benefit_4: "Monatliche Gewinnchancen bei 450+ Mitgliedern",
+      limited_notice: "Limitiert auf 500 Plätze • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden"
     }
   },
   twi: {
@@ -447,7 +501,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔb��yi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -475,6 +529,24 @@ const translations = {
     payment_success: {
  heading: "Meda wo ase wo wo mmoa no ho!",
  message: "Wo mmɔhoɔ no ayɛ yie. Wo bɔɔl nɔmba no akɔ wo email mu. Wɔbɛn yɛn!",
+    },
+    bisafo: {
+      heading: "Bisafo Soronko Nnwumabea",
+      subheading: "Baabi 500 pɛ • Bosome biara mmoa • Kane amaneɛ • Soronko kwan",
+      goal_description: "Nnipa 300 firi a, metumi ayɛ NGO adwuma nna nyinaa na mede soronko nsɛm ama! Nnipa 450+ a, obiara nya akyɛdeɛ bosome biara!",
+      current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
+      capacity: "Baabi Dodow",
+      goal_label: "Botaeɛ",
+      raffle_label: "Bɔɔl",
+      milestone_300: "300+ Nnipa: NGO adwuma nna nyinaa & soronko nsɛm",
+      milestone_300_449: "300-449: Soronko kwan, kane amaneɛ fa dwumadi ho",
+      milestone_450: "450+: Bosome biara akyɛdeɛ ma obiara (te sɛ MacBook)",
+      benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
+      benefit_1: "Soronko kwan kɔ Daniel nkyɛn",
+      benefit_2: "Kane amaneɛ fa soronko dwumadi ho",
+      benefit_3: "Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
+      benefit_4: "Bosome biara akyɛdeɛ akwanya sɛ nnipa yɛ 450+",
+      limited_notice: "Baabi 500 pɛ • Baabi foforɔ sɛ obi fi mu nkoaa"
     }
   },
 };
@@ -725,16 +797,16 @@ const MilestoneTracker2 = ({ t }) => {
     <section className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800">Exklusive Bisafo Mitgliedschaft</h2>
-          <p className="text-lg text-gray-500 mt-2">Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang</p>
+          <h2 className="text-4xl font-bold text-gray-800">{t.bisafo.heading}</h2>
+          <p className="text-lg text-gray-500 mt-2">{t.bisafo.subheading}</p>
           <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
-            <p>Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!</p>
+            <p>{t.bisafo.goal_description}</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-end mb-2 text-gray-600">
-            <span className="font-bold text-lg">Aktuelle Mitglieder: {currentMembers}</span>
-            <span className="font-bold text-lg">Kapazität: {capacity}</span>
+            <span className="font-bold text-lg">{t.bisafo.current_members}: {currentMembers}</span>
+            <span className="font-bold text-lg">{t.bisafo.capacity}: {capacity}</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-6">
             <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
@@ -745,10 +817,10 @@ const MilestoneTracker2 = ({ t }) => {
             <div className="flex justify-between text-xs text-gray-500">
               <span>0</span>
               <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                Ziel: {sustainabilityGoal}
+                {t.bisafo.goal_label}: {sustainabilityGoal}
               </span>
               <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                Gewinnspiel: {raffleThreshold}
+                {t.bisafo.raffle_label}: {raffleThreshold}
               </span>
               <span>{capacity}</span>
             </div>
@@ -758,43 +830,43 @@ const MilestoneTracker2 = ({ t }) => {
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span>300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content</span>
+              <span>{t.bisafo.milestone_300}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-              <span>300-449: Exklusiver Zugang, erste Event-Benachrichtigung</span>
+              <span>{t.bisafo.milestone_300_449}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span>450+: Monatliche Gewinne für alle (z.B. MacBook)</span>
+              <span>{t.bisafo.milestone_450}</span>
             </div>
           </div>
 
           {/* Additional Benefits Info */}
           <div className="mt-6 max-w-4xl mx-auto">
             <div className="bg-white rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-gray-800 mb-3 text-center">Exklusive Vorteile für Bisafo Members</h3>
+              <h3 className="font-semibold text-gray-800 mb-3 text-center">{t.bisafo.benefits_heading}</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Direkter & exklusiver Zugang zu Daniel</span>
+                  <span>{t.bisafo.benefit_1}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Erste Benachrichtigung bei speziellen Events</span>
+                  <span>{t.bisafo.benefit_2}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Exklusiver Content & Community-Updates</span>
+                  <span>{t.bisafo.benefit_3}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Monatliche Gewinnchancen bei 450+ Mitgliedern</span>
+                  <span>{t.bisafo.benefit_4}</span>
                 </div>
               </div>
               <div className="mt-4 text-center">
                 <p className="text-xs text-gray-500">
-                  <strong>Limitiert auf 500 Plätze</strong> • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden
+                  <strong>{t.bisafo.limited_notice}</strong>
                 </p>
               </div>
             </div>
