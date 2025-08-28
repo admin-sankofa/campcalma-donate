@@ -529,6 +529,24 @@ const translations = {
     payment_success: {
  heading: "Meda wo ase wo wo mmoa no ho!",
  message: "Wo mmɔhoɔ no ayɛ yie. Wo bɔɔl nɔmba no akɔ wo email mu. Wɔbɛn yɛn!",
+    },
+    bisafo: {
+      heading: "Bisafo Soronko Nnwumabea",
+      subheading: "Baabi 500 pɛ • Bosome biara mmoa • Kane amaneɛ • Soronko kwan",
+      goal_description: "Nnipa 300 firi a, metumi ayɛ NGO adwuma nna nyinaa na mede soronko nsɛm ama! Nnipa 450+ a, obiara nya akyɛdeɛ bosome biara!",
+      current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
+      capacity: "Baabi Dodow",
+      goal_label: "Botaeɛ",
+      raffle_label: "Bɔɔl",
+      milestone_300: "300+ Nnipa: NGO adwuma nna nyinaa & soronko nsɛm",
+      milestone_300_449: "300-449: Soronko kwan, kane amaneɛ fa dwumadi ho",
+      milestone_450: "450+: Bosome biara akyɛdeɛ ma obiara (te sɛ MacBook)",
+      benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
+      benefit_1: "Soronko kwan kɔ Daniel nkyɛn",
+      benefit_2: "Kane amaneɛ fa soronko dwumadi ho",
+      benefit_3: "Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
+      benefit_4: "Bosome biara akyɛdeɛ akwanya sɛ nnipa yɛ 450+",
+      limited_notice: "Baabi 500 pɛ • Baabi foforɔ sɛ obi fi mu nkoaa"
     }
   },
 };
