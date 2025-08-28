@@ -405,6 +405,24 @@ const translations = {
     payment_success: {
  heading: "Vielen Dank für deine Unterstützung!",
  message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
+    },
+    bisafo: {
+      heading: "Exklusive Bisafo Mitgliedschaft",
+      subheading: "Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang",
+      goal_description: "Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!",
+      current_members: "Aktuelle Mitglieder",
+      capacity: "Kapazität",
+      goal_label: "Ziel",
+      raffle_label: "Gewinnspiel",
+      milestone_300: "300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content",
+      milestone_300_449: "300-449: Exklusiver Zugang, erste Event-Benachrichtigung",
+      milestone_450: "450+: Monatliche Gewinne für alle (z.B. MacBook)",
+      benefits_heading: "Exklusive Vorteile für Bisafo Members",
+      benefit_1: "Direkter & exklusiver Zugang zu Daniel",
+      benefit_2: "Erste Benachrichtigung bei speziellen Events",
+      benefit_3: "Exklusiver Content & Community-Updates",
+      benefit_4: "Monatliche Gewinnchancen bei 450+ Mitgliedern",
+      limited_notice: "Limitiert auf 500 Plätze • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden"
     }
   },
   twi: {
