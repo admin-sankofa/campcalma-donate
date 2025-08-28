@@ -781,7 +781,7 @@ const MilestoneTracker = ({ t }) => {
 };
 
 const MilestoneTracker2 = ({ t }) => {
-  const [currentMembers, setCurrentMembers] = useState(275); // Current member count from API
+  const [currentMembers, setCurrentMembers] = useState(480); // Current member count from API
   const capacity = 500; // Maximum capacity
   const sustainabilityGoal = 300; // Goal for sustainability
   const raffleThreshold = 450; // Threshold for monthly raffles
