@@ -501,7 +501,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔb��yi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -797,16 +797,16 @@ const MilestoneTracker2 = ({ t }) => {
     <section className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800">Exklusive Bisafo Mitgliedschaft</h2>
-          <p className="text-lg text-gray-500 mt-2">Nur 500 exklusive Plätze • Monatliche Unterstützung • Erste Benachrichtigungen • Direkter Zugang</p>
+          <h2 className="text-4xl font-bold text-gray-800">{t.bisafo.heading}</h2>
+          <p className="text-lg text-gray-500 mt-2">{t.bisafo.subheading}</p>
           <div className="mt-4 max-w-3xl mx-auto text-sm text-gray-600">
-            <p>Ab 300 Mitgliedern kann ich Vollzeit für die NGO arbeiten und exklusiven Content bereitstellen. Bei 450+ aktiven Mitgliedern gibt es monatliche Gewinne für alle!</p>
+            <p>{t.bisafo.goal_description}</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-end mb-2 text-gray-600">
-            <span className="font-bold text-lg">Aktuelle Mitglieder: {currentMembers}</span>
-            <span className="font-bold text-lg">Kapazität: {capacity}</span>
+            <span className="font-bold text-lg">{t.bisafo.current_members}: {currentMembers}</span>
+            <span className="font-bold text-lg">{t.bisafo.capacity}: {capacity}</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-6">
             <div className={`${progressColor} h-6 rounded-full transition-all duration-1000 ease-out`} style={{ width: `${progress}%` }}></div>
@@ -817,10 +817,10 @@ const MilestoneTracker2 = ({ t }) => {
             <div className="flex justify-between text-xs text-gray-500">
               <span>0</span>
               <span className="absolute" style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                Ziel: {sustainabilityGoal}
+                {t.bisafo.goal_label}: {sustainabilityGoal}
               </span>
               <span className="absolute" style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}>
-                Gewinnspiel: {raffleThreshold}
+                {t.bisafo.raffle_label}: {raffleThreshold}
               </span>
               <span>{capacity}</span>
             </div>
@@ -830,43 +830,43 @@ const MilestoneTracker2 = ({ t }) => {
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span>300+ Mitglieder: Vollzeit NGO-Arbeit & exklusiver Content</span>
+              <span>{t.bisafo.milestone_300}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-              <span>300-449: Exklusiver Zugang, erste Event-Benachrichtigung</span>
+              <span>{t.bisafo.milestone_300_449}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span>450+: Monatliche Gewinne für alle (z.B. MacBook)</span>
+              <span>{t.bisafo.milestone_450}</span>
             </div>
           </div>
 
           {/* Additional Benefits Info */}
           <div className="mt-6 max-w-4xl mx-auto">
             <div className="bg-white rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-gray-800 mb-3 text-center">Exklusive Vorteile für Bisafo Members</h3>
+              <h3 className="font-semibold text-gray-800 mb-3 text-center">{t.bisafo.benefits_heading}</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Direkter & exklusiver Zugang zu Daniel</span>
+                  <span>{t.bisafo.benefit_1}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Erste Benachrichtigung bei speziellen Events</span>
+                  <span>{t.bisafo.benefit_2}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Exklusiver Content & Community-Updates</span>
+                  <span>{t.bisafo.benefit_3}</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Monatliche Gewinnchancen bei 450+ Mitgliedern</span>
+                  <span>{t.bisafo.benefit_4}</span>
                 </div>
               </div>
               <div className="mt-4 text-center">
                 <p className="text-xs text-gray-500">
-                  <strong>Limitiert auf 500 Plätze</strong> • Neue Plätze nur verfügbar wenn Mitglieder sich abmelden
+                  <strong>{t.bisafo.limited_notice}</strong>
                 </p>
               </div>
             </div>
