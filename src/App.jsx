@@ -281,6 +281,24 @@ const translations = {
     payment_success: {
         heading: "Obrigado pelo seu Apoio!",
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
+    },
+    bisafo: {
+      heading: "Adesão Exclusiva Bisafo",
+      subheading: "Apenas 500 lugares exclusivos • Apoio mensal • Primeiras notificações • Acesso direto",
+      goal_description: "A partir de 300 membros posso trabalhar a tempo inteiro para a ONG e fornecer conteúdo exclusivo. Com 450+ membros ativos há prémios mensais para todos!",
+      current_members: "Membros Atuais",
+      capacity: "Capacidade",
+      goal_label: "Meta",
+      raffle_label: "Sorteio",
+      milestone_300: "300+ Membros: Trabalho a tempo inteiro na ONG e conteúdo exclusivo",
+      milestone_300_449: "300-449: Acesso exclusivo, primeiras notificações de eventos",
+      milestone_450: "450+: Prémios mensais para todos (ex. MacBook)",
+      benefits_heading: "Benefícios Exclusivos para Membros Bisafo",
+      benefit_1: "Acesso direto e exclusivo ao Daniel",
+      benefit_2: "Primeira notificação para eventos especiais",
+      benefit_3: "Conteúdo exclusivo e atualizações da comunidade",
+      benefit_4: "Chances de prémios mensais com 450+ membros",
+      limited_notice: "Limitado a 500 lugares • Novos lugares apenas disponíveis quando membros se desvinculam"
     }
   },
   de: {
