@@ -854,18 +854,18 @@ const MilestoneTracker2 = ({ t }) => {
             <div className="flex justify-between text-xs text-gray-500 font-medium">
               <span>0</span>
               <span
-                className="absolute text-center"
+                className="absolute text-center text-xs"
                 style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}
               >
-                300<br/>{t.bisafo.sustainability_label}
+                300<br/><span className="text-xs">{t.bisafo.sustainability_label}</span>
               </span>
               <span
-                className="absolute text-center"
-                style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-50%)' }}
+                className="absolute text-center text-xs"
+                style={{ left: `${(raffleThreshold / capacity) * 100}%`, transform: 'translateX(-65%)' }}
               >
-                450<br/>{t.bisafo.raffle_label}
+                450<br/><span className="text-xs">{t.bisafo.raffle_label}</span>
               </span>
-              <span>500<br/>{t.bisafo.capacity_label}</span>
+              <span className="text-right">500<br/><span className="text-xs">{t.bisafo.capacity_label}</span></span>
             </div>
           </div>
 
