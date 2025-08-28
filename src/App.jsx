@@ -786,19 +786,23 @@ const MilestoneTracker2 = ({ t }) => {
   const [currentMembers, setCurrentMembers] = useState(280); // Current member count from API
   const capacity = 500; // Maximum capacity
   const sustainabilityGoal = 300; // Goal for sustainability
+  const exclusiveThreshold = 350; // Threshold for exclusive access
   const raffleThreshold = 450; // Threshold for monthly raffles
 
   const progress = (currentMembers / capacity) * 100;
 
-  // Determine current status message and color
-  let statusMessage = t.bisafo.status_sustainability;
-  let progressColor = 'bg-green-500'; // Default green (0-300)
+  // Determine current status message and color based on new 4-tier system
+  let statusMessage = t.bisafo.status_building;
+  let progressColor = 'bg-blue-500'; // Blue (0-299): Startphase
 
-  if (currentMembers >= 301 && currentMembers <= 449) {
-    progressColor = 'bg-yellow-500'; // Yellow (301-449)
+  if (currentMembers >= 300 && currentMembers <= 349) {
+    progressColor = 'bg-green-500'; // Green (300-349): Nachhaltigkeit
+    statusMessage = t.bisafo.status_sustainability;
+  } else if (currentMembers >= 350 && currentMembers <= 449) {
+    progressColor = 'bg-yellow-500'; // Yellow (350-449): Exklusiver Zugang
     statusMessage = t.bisafo.status_exclusive;
   } else if (currentMembers >= raffleThreshold) {
-    progressColor = 'bg-purple-500'; // Purple (450-500)
+    progressColor = 'bg-purple-500'; // Purple (450-500): Gewinnspiele
     statusMessage = t.bisafo.status_raffles;
   }
 
@@ -838,7 +842,7 @@ const MilestoneTracker2 = ({ t }) => {
                 className="absolute text-center"
                 style={{ left: `${(sustainabilityGoal / capacity) * 100}%`, transform: 'translateX(-50%)' }}
               >
-                300<br/>{t.bisafo.goal_label}
+                300<br/>{t.bisafo.sustainability_label}
               </span>
               <span
                 className="absolute text-center"
@@ -846,7 +850,7 @@ const MilestoneTracker2 = ({ t }) => {
               >
                 450<br/>{t.bisafo.raffle_label}
               </span>
-              <span>500<br/>{t.bisafo.limit_label}</span>
+              <span>500<br/>{t.bisafo.capacity_label}</span>
             </div>
           </div>
 
