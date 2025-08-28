@@ -157,6 +157,24 @@ const translations = {
     payment_success: {
         heading: "Thank You for Your Support!",
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
+    },
+    bisafo: {
+      heading: "Exclusive Bisafo Membership",
+      subheading: "Only 500 exclusive spots • Monthly support • First notifications • Direct access",
+      goal_description: "From 300 members I can work full-time for the NGO and provide exclusive content. With 450+ active members there are monthly prizes for everyone!",
+      current_members: "Current Members",
+      capacity: "Capacity",
+      goal_label: "Goal",
+      raffle_label: "Raffle",
+      milestone_300: "300+ Members: Full-time NGO work & exclusive content",
+      milestone_300_449: "300-449: Exclusive access, first event notifications",
+      milestone_450: "450+: Monthly prizes for everyone (e.g. MacBook)",
+      benefits_heading: "Exclusive Benefits for Bisafo Members",
+      benefit_1: "Direct & exclusive access to Daniel",
+      benefit_2: "First notification for special events",
+      benefit_3: "Exclusive content & community updates",
+      benefit_4: "Monthly prize chances with 450+ members",
+      limited_notice: "Limited to 500 spots • New spots only available when members unsubscribe"
     }
   },
   pt: {
