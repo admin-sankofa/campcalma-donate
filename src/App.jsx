@@ -497,7 +497,7 @@ const translations = {
       sustainability: "Diese ersten 500 Mitglieder — im Dashboard sichtbar — sind die Gruppe, deren monatliche Beiträge die Nachhaltigkeit der NGO sichern und monatliche Verlosungen ermöglichen.",
       benefits_title: "Mitgliedsvorteile",
       benefits: [
-        "🌱 50% Rabatt auf Camp‑Calma‑Aufenthalte (Bisafo‑Kreis), 30% für Gold‑Mitglieder.",
+        "🌱 50% Rabatt auf Camp���Calma‑Aufenthalte (Bisafo‑Kreis), 30% für Gold‑Mitglieder.",
         "🎁 Zugang zu exklusiven Preispools und Hauptpreisen (z. B. Land, Campervans), sobald Meilensteine erreicht sind.",
         "📚 Zugang zu digitalen Ressourcen (Permakultur‑Guide, Rezepte, Yoga, Lernmaterialien).",
         "🗳️ Mitbestimmung bei Workshops, Events und Community‑Projekten.",
@@ -599,7 +599,7 @@ const translations = {
  address: 'Post Adrɛs Nyinaa',
  statement: 'Nsɛm A ɛkyerɛ Sɛ Wobɛkɔ Mu',
  statement_placeholder: 'Yɛsrɛ wo, kyerɛ nsɛm tiawa bi a ɛkyerɛ wo pɛ sɛ wokɔ Camp Calma bɔɔl no mu.',
- submit: 'Fa kɔ mu kwa kɔ',
+ submit: 'Fa kɔ mu kwa k��',
  success: 'Meda wo ase! Wo kɔ mu kwa no akɔ. Wobɛnya email bi a ɛkyerɛ sɛ akɔ.',
  close: 'To mu',
  consent_html: 'Me gyina <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Mmra</a> no so na me gyina <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Abataseɛ Ho Nsɛm</a> a ɛfa email ne WhatsApp so a wɔbɛtumi ne me ayɛ nsɛm fa bɔɔl yi ho.',
@@ -831,7 +831,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
       ],
       p1: 'In einer Zeit, in der das Vertrauen in traditionelle Systeme schwindet und globale Unsicherheiten – politisch, wirtschaftlich oder ökologisch – spürbarer werden, wächst ein tiefes Bedürfnis: die Sehnsucht nach Kontrolle, Resilienz und Eigenverantwortung. Aus dieser Dringlichkeit entsteht kein Alarmismus, sondern der Entschluss, das eigene Leben und die Zukunft aktiv zu gestalten. Inmitten dieser Wellen der Veränderung entsteht ein Leuchtturm der Hoffnung: das „Projekt Sicherer Hafen“. Camp Calma und die Sankofa‑NGO verstehen sich nicht als bloße Organisationen, sondern als Facilitatoren einer Bewegung. Sie schaffen einen physischen und digitalen sicheren Hafen – einen Ort des Lernens, der Gemeinschaft und praktischer Autarkie. Eine Brücke zu einem bewussteren Leben, an dem jede und jeder – als Lernende und Lehrende zugleich – Erkenntnisse teilt und weitergibt.',
-      p2: 'Akoma 2025 macht Fundraising zu Tempo: Wir beschleunigen Wirkung, stärken Handlungsfähigkeit und öffnen Starthilfe‑Chancen, die den Aufbau tragen.',
+      p2: 'Der Motor, der diesen visionären Traum antreibt und beschleunigt, ist das „Projekt Akoma 2025: Deine Starthilfe“. Es ist keine Lotterie, sondern ein Beschleuniger für persönliche und gemeinschaftliche Resilienz: Menschen werden befähigt, in unsicheren Zeiten proaktiv Sicherheit und Lebensqualität zu gestalten. Jeder Beitrag ist eine Investition in reale Werte und in den Aufbau dieses Hafens. Als konkrete Anerkennung und Motivation gibt es die einmalige Starthilfe‑Chance: der Gewinn eines greifbaren Vermögenswertes – etwa eines eigenen Grundstücks oder eines Campervans – der den Weg in die Unabhängigkeit sofort ebnet. Dieses Vorhaben schafft Zugang zu entscheidenden Ressourcen und Wissen – gerade für die Diaspora, die oft von traditionellen Systemen ausgeschlossen war – und knüpft an persönliche Wege wie jenen des Gründers Daniel Duroshola an, der Freiheit, Sinn und Selbstverwirklichung suchte. Inspiriert vom ghanaischen „Bisafo“‑Spirit der Suchenden und Lernenden will das Projekt Brücken bauen und das fehlende Puzzleteil sein, um Autarkie und ein erfülltes Leben Realität werden zu lassen. „Akoma“, das Herz, steht für Ausdauer und Wohlwollen: ein Aufruf zum proaktiven, positiven Handeln – für dich, für uns alle.',
       p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
       bullets: [
