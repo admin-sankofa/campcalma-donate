@@ -12,7 +12,7 @@ import communitykitchen02    from './assets/pictures/communitykitchen02.jpeg';
 
 
 // --- TRANSLATIONS OBJECT ---
-// All text content is stored here for easy EN/PT toggling
+// All text content is stored here for easy EN/PT/DE/TWI toggling
 const translations = {
   en: {
     nav: {
@@ -50,7 +50,7 @@ const translations = {
         popular: 'POPULAR',
       },
       tier3: {
-        price: '€30',
+        price: '��30',
         tickets: '160 Tickets',
         description: 'Best value for the biggest impact.',
       },
@@ -71,7 +71,7 @@ const translations = {
     },
     video: {
  heading: 'See Camp Calma in Action',
- youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0', // English video
+ youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0',
     },
     description: {
       heading: 'About Camp Calma',
@@ -223,11 +223,11 @@ const translations = {
     },
  video: {
  heading: 'Veja o Camp Calma em Ação',
- youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_PORTUGUES?rel=0', // TODO: Add Portuguese video ID
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_PORTUGUES?rel=0',
     },
     description: {
       heading: 'Sobre o Camp Calma',
-      p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espa��os de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
+      p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espaços de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
       p2: 'A sua contribuição financia diretamente a construção de infraestruturas essenciais, programas educacionais e recursos sustentáveis. Ao participar no nosso sorteio, não está apenas a ter a oportunidade de ganhar prémios incríveis—está a ajudar a construir as bases para um futuro melhor.',
     },
     donate: {
@@ -277,9 +277,9 @@ const translations = {
     faq: {
       heading: 'Perguntas Frequentes',
       q1: 'Como funciona o sorteio?',
-      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os pr����mios são desbloqueados com base no total de fundos angariados.',
+      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os prémios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
-      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
+      a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. Não armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
       a3: 'O vencedor será sorteado e anunciado a 31 de agosto de 2025, pouco depois do final da contagem decrescente. O vencedor será notificado por e-mail.',
       q4: 'Posso participar gratuitamente?',
@@ -326,7 +326,7 @@ const translations = {
       status_sustainability: "Sustentabilidade Alcançada 💚",
       status_exclusive: "Acesso Exclusivo e Notificações de Eventos ✨",
       status_raffles: "Sorteios Mensais Desbloqueados 🎁",
-      benefits_heading: "Benef��cios Exclusivos para Membros Bisafo",
+      benefits_heading: "Benefícios Exclusivos para Membros Bisafo",
       benefit_1: "✅ Acesso exclusivo ao Daniel",
       benefit_2: "📩 Primeira notificação para eventos",
       benefit_3: "🎥 Conteúdo exclusivo e atualizações da comunidade",
@@ -375,7 +375,7 @@ const translations = {
     },
  video: {
  heading: 'Camp Calma in Aktion sehen',
- youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_DEUTSCH?rel=0', // TODO: Add German video ID
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_DEUTSCH?rel=0',
     },
     description: {
  heading: 'Über Camp Calma',
@@ -477,7 +477,7 @@ const translations = {
       status_building: "Startphase: Aufbau der NGO 💙",
       status_sustainability: "Nachhaltigkeit erreicht 💚",
       status_exclusive: "Exklusiver Zugang & Event-Benachrichtigungen ✨",
-      status_raffles: "Monatliche Gewinnspiele freigeschaltet ��",
+      status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
       benefits_heading: "Exklusive Vorteile für Bisafo Members",
       benefit_1: "✅ Exklusiver Zugang zu Daniel",
       benefit_2: "📩 Erste Benachrichtigung bei Events",
@@ -520,18 +520,18 @@ const translations = {
  support_fairs_heading: 'Boa yɛn ma yɛnkɔ afayɛ!',
  support_fairs_text: 'Boa Sankofa Living & Learning NGO ne yɛn adwuma Camp Calma ma yɛnkɔ Reiselust, Fisch & Feines, ne Caravan Bremen afayɛ no ase. Wo mmɔhoɔ boa yɛn ma yɛtua baabi a yɛbɛgyina, akwantu, ne nneɛma a ɛho hia ma yɛayi abrabɔ pa adi!',
  donate_button: 'Mma',
- every_donation_text: 'Mmɔho�� biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
+ every_donation_text: 'Mmɔhoɔ biara ma yɛn bɛn yɛn botaeɛ. Agyina mo ase yɛn mmoa no!',
  subheading: 'Boa Daakye, Fa Nneɛma Pa',
  heading: 'Boa Ma Camp Calma Nsi Portugal',
  cta: 'Mma Afei na Fa Bɔɔl',
     },
  video: {
  heading: 'Hwɛ Camp Calma Anwum',
- youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_TWI?rel=0', // TODO: Add Twi video ID
+ youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_TWI?rel=0',
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ��bɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa—wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -545,13 +545,13 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 Bɔɔl',
- description: 'Yɛn deɛ nnipa pii pɛ! Bɔ��l mpɛn 4.',
+ description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
  price: '€30',
  tickets: '160 Bɔɔl',
- description: 'Nea ɛho tɔn sen biara ma nea ɛy�� kɛseɛ.',
+ description: 'Nea ɛho tɔn sen biara ma nea ɛyɛ kɛseɛ.',
       },
  button: 'Mma & Kɔ',
     },
@@ -585,7 +585,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔb��yi obi a wanya bɔ��l no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -619,7 +619,7 @@ const translations = {
       subheading: "Bosome biara mmoa · Soronko kwan · Akyɛdeɛ akwanya firi nnipa 450",
       current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
       capacity: "Baabi A Wɔahyɛ",
-      sustainability_label: "Botaeɛ A ��bɛtena Hɔ",
+      sustainability_label: "Botaeɛ A Ɛbɛtena Hɔ",
       raffle_label: "Bɔɔl",
       capacity_label: "Baabi Nyinaa Ahyɛ",
       milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
@@ -797,6 +797,98 @@ const VideoSection = ({ t }) => {
     </section>
   );
 };
+
+// NEW: Safe Harbor Initiative section (multilingual using existing language state)
+const SafeHarborSection = ({ t, language }) => {
+  const content = {
+    en: {
+      heading: 'The Safe Harbor Initiative',
+      sub: 'Vision, resilience and practical self‑sufficiency',
+      p1: 'The “Safe Harbor” project is the overarching narrative that frames the vision and mission of Camp Calma and the Sankofa NGO. It responds to the growing need for agency, resilience and responsibility in uncertain times; Camp Calma and Sankofa act as facilitators and as a physical and digital safe harbor — a place of learning, community, and practical autonomy.',
+      p2: 'Our fundraising model “Project Akoma 2025: Your Head Start” is not a lottery but an accelerator for personal and communal resilience. The goal is to empower people to proactively shape their safety and quality of life — and to spark a movement for lived self‑sufficiency and resilience through Camp Calma and the Sankofa NGO.',
+      p3: 'Supporters also gain a tangible Head‑Start chance: the possibility to win real assets such as a plot of land or a campervan — the engine that accelerates the build‑out of the Safe Harbor.',
+      listTitle: 'Interconnections and Interfaces',
+      bullets: [
+        'Overarching Vision & Implementation: “Safe Harbor” provides the why and the visionary frame; the Bisafo Circle is its concrete implementation where members co‑create and experience the harbor.',
+        'Financing & Engagement: Project Akoma 2025 aligns supporter levels (e.g., Gold) with Bisafo membership, offering exclusive chances for Head‑Start prizes (land, campervan). Every contribution builds the harbor.',
+        'Lived Values: The Bisafo Circle offers access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the practical layer of the harbor.',
+        'Sankofa NGO Mission: Present both in the Bisafo context (co‑determination) and in the Safe Harbor narrative (facilitator of the movement). The 500‑member target sustains the NGO long‑term.'
+      ],
+      rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
+    },
+    de: {
+      heading: 'Projekt Sicherer Hafen',
+      sub: 'Vision, Resilienz und praktische Autarkie',
+      p1: 'Das Projekt „Sicherer Hafen“ ist das übergeordnete Narrativ, das die Vision und Mission von Camp Calma und der Sankofa‑NGO umreißt. Es reagiert auf das wachsende Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung in Zeiten globaler Unsicherheit. Camp Calma und die Sankofa‑NGO agieren als Facilitatoren dieser Bewegung und als physischer wie digitaler „sicherer Hafen“ — ein Ort des Lernens, der Gemeinschaft und der praktischen Autarkie.',
+      p2: 'Das Fundraising‑Modell „Projekt Akoma 2025: Deine Starthilfe“ ist keine Lotterie, sondern ein Beschleuniger für persönliche und gemeinschaftliche Resilienz. Ziel ist es, Menschen zu befähigen, in unsicheren Zeiten proaktiv ihre eigene Sicherheit und Lebensqualität zu gestalten und über Camp Calma und die Sankofa‑NGO eine Bewegung gelebter Autarkie und Resilienz anzustoßen.',
+      p3: 'Ein zentraler Aspekt ist die Starthilfe‑Chance für Unterstützer:innen durch reale, greifbare Vermögenswerte wie Grundstück oder Campervan — der Motor, der den Aufbau des Projekts beschleunigt.',
+      listTitle: 'Zusammenhänge und Schnittstellen',
+      bullets: [
+        'Übergeordnete Vision & Umsetzung: „Sicherer Hafen“ liefert die visionäre Klammer und das Warum; der Bisafo‑Kreis ist die konkrete Umsetzung, in dem Mitglieder den „Hafen“ aktiv mitgestalten und erleben.',
+        'Finanzierung & Engagement: Das Fundraising (Projekt Akoma 2025) ist eng mit der Mitgliedschaft im Bisafo‑Kreis verknüpft. Unterstützer‑Level (z. B. Gold) korrespondieren direkt mit exklusiven Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut den Hafen mit auf.',
+        'Gelebte Werte: Der Bisafo‑Kreis bietet Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und realen Begegnungen in Portugal — die praktische Ebene des „Sicheren Hafens“.',
+        'Mission der Sankofa NGO: Präsenz sowohl im Bisafo‑Kontext (Mitbestimmung) als auch im Narrativ des „Sicheren Hafens“ (Facilitator der Bewegung). Das Ziel von bis zu 500 Mitgliedern sichert die langfristige Tragfähigkeit der NGO.'
+      ],
+      rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
+    },
+    pt: {
+      heading: 'Iniciativa Porto Seguro',
+      sub: 'Visão, resiliência e autonomia prática',
+      p1: 'O “Porto Seguro” é o enquadramento que apresenta a visão e missão do Camp Calma e da ONG Sankofa. Responde à necessidade crescente de autonomia e resiliência em tempos incertos; Camp Calma e Sankofa atuam como facilitadores e como um porto seguro físico e digital — um lugar de aprendizagem, comunidade e autossuficiência prática.',
+      p2: 'O modelo de angariação “Projeto Akoma 2025: O Teu Arranque” não é uma lotaria, mas um acelerador de resiliência pessoal e comunitária. O objetivo é capacitar as pessoas para moldarem proativamente a sua segurança e qualidade de vida, inspirando um movimento de autossuficiência e resiliência vividas.',
+      p3: 'Há também a “chance de arranque” para apoiantes: a possibilidade de ganhar ativos reais como um terreno ou uma autocaravana — o motor que acelera a construção do Porto Seguro.',
+      listTitle: 'Ligações e Interfaces',
+      bullets: [
+        'Visão & Implementação: “Porto Seguro” define o porquê; o Círculo Bisafo é a sua execução concreta, onde membros co‑criam e vivenciam o porto.',
+        'Financiamento & Envolvimento: O Projeto Akoma 2025 alinha níveis de apoio (ex.: Gold) à adesão Bisafo, com chances exclusivas de prémios de arranque (terreno, autocaravana).',
+        'Valores Vividos: O Círculo Bisafo oferece acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal.',
+        'Missão da Sankofa: Presente no contexto Bisafo (codeterminação) e no Porto Seguro (facilitador do movimento). A meta de 500 membros sustenta a ONG.'
+      ],
+      rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
+    },
+    twi: {
+      heading: 'Safe Harbor Adwumayɛ',
+      sub: 'Adwene kɛse, gyinabere ne wo‑ara‑wo‑ho adwuma',
+      p1: '“Safe Harbor” kyerɛ nea Camp Calma ne Sankofa NGO pɛ sɛ wɔyɛ — baabi a wɔsua, yɛ kurom, na wɔde adwuma yɛ ade. Ɛma nnipa nya tumi ne gyinabere bere a nneɛma nteɛteɛm.',
+      p2: '“Project Akoma 2025” nyɛ bɔɔl; ɛyɛ akwadworoma a ɛma nipasu ne kurom mu gyinabere kɔ soro. Yɛpɛ sɛ yɛma nnipa tumi sesa wɔn ho banbɔ ne abrabɔ mu kalite.',
+      p3: 'Aboaboafo nya “mfitiaseɛ akwanya” nso — tumi nsa ka ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
+      listTitle: 'Nkitahodie ne Nhyɛe',
+      bullets: [
+        'Adwene kɛse & Dwumadi: Safe Harbor na ɛma asɛm no ase; Bisafo Circle na ɛyɛ adwuma no mu pa ara.',
+        'Sika & Aba mu: Project Akoma 2025 bɔ Bisafo membifo ho nhyehyɛe; akyɛde kɛse te sɛ asase anaa campervan.',
+        'Nkwa Nsɛmmisa: Bisafo de kɔ workshops, retreats, digital nsɛmma, ne Portugal mu nhyiam.',
+        'Sankofa Adwuma: Ɛwɔ Bisafo mu (wɔtumi ka ho asɛm) ne Safe Harbor mu (ɔboa adwuma no so). 500 membifo na ɛma NGO no gyina pintinn.'
+      ],
+      rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
+    }
+  }[language];
+
+  return (
+    <section id="safe-harbor" className="py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-gray-800 mb-2">{content.heading}</h2>
+          <p className="text-green-700 font-semibold uppercase tracking-wide mb-6">{content.sub}</p>
+        </div>
+        <div className="max-w-4xl mx-auto text-gray-700">
+          <p className="mb-4">{content.p1}</p>
+          <p className="mb-4">{content.p2}</p>
+          <p className="mb-6">{content.p3}</p>
+          <h3 className="text-2xl font-bold text-gray-800 mb-3">{content.listTitle}</h3>
+          <ul className="list-disc list-inside space-y-2 mb-6">
+            {content.bullets.map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
+          <div className="bg-green-50 border border-green-200 text-green-900 rounded-lg p-4">
+            <p className="text-sm">{content.rec}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const DonationTiers = ({ t, onDonate }) => {
   const tiers = [
     { amount: 10, price: t.donate.tier1.price, tickets: t.donate.tier1.tickets, desc: t.donate.tier1.description, popular: false },
@@ -1193,9 +1285,6 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
     if (!isOpen) return null;
 
     const handleSubmit = (e) => {
-        // ⬇️ Deine Google Apps Script Web-App URL hier eintragen
-        // IMPORTANT: This should be your actual script URL for production! https://script.google.com/macros/s/AKfycbxIsw7lJb6lV7Zl8z_mN0eXyJ9f5h7h5h1H8R1Y8K7c5D8C9E7F6G8H8I9/exec
-        // For development purposes, you might want to mock the submission or use a test script.
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTOoexdZskXOV9T_JYdWKlBOai8P3Ydfyl8IzeEyp4CIJnXM2Go7BStYyiBEfPIOcuA/exec';
 
         e.preventDefault();
@@ -1207,14 +1296,13 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
                     setSubmitted(true);
                     console.log('AMOE Submission Successful!', response);
                 } else {
-                    // Handle errors here, maybe show an error message
                     console.error('AMOE Submission Failed!', response);
-                    alert('There was an error submitting your form. Please try again.'); // Simple error handling
+                    alert('There was an error submitting your form. Please try again.');
                 }
             })
             .catch(error => {
                 console.error('Error!', error.message);
-                alert('There was an error submitting your form. Please try again.'); // Simple error handling
+                alert('There was an error submitting your form. Please try again.');
             });
     };
 
@@ -1236,12 +1324,10 @@ const AmoeModal = ({ t, isOpen, onClose }) => {
                     <>
                         <p className="text-gray-500 mb-6">{t.amoe.modal_subheading}</p>
                         <form onSubmit={handleSubmit} className="space-y-4">
-                            {/* Pflicht-Hiddenfelder */}
                             <input type="hidden" name="campaign_id" value="campcalma_2025_08" />
                             <input type="hidden" name="entry_type" value="AMOE" />
                             <input type="hidden" name="ua" value={typeof navigator !== "undefined" ? navigator.userAgent : ""} />
 
-                            {/* Honeypot gegen Bots */}
                             <input type="text" name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
                            <div>
                                 <label htmlFor="full_name" className="block text-sm font-medium text-gray-700">{t.amoe.name}</label>
@@ -1413,11 +1499,12 @@ export default function App() {
       <main>
         <HeroSection t={t} />
         <ProjectDescription t={t} />
- <VideoSection t={t} /> {/* Add the VideoSection here */}
+ <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <SafeHarborSection t={t} language={language} />
         <MilestoneTracker2 t={t} />
         <AboutBisafo t={t} />
         <Faq t={t} />
