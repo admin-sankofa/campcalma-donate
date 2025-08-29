@@ -254,7 +254,7 @@ const translations = {
     faq: {
       heading: 'Perguntas Frequentes',
       q1: 'Como funciona o sorteio?',
-      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os pr��mios são desbloqueados com base no total de fundos angariados.',
+      a1: 'Por cada doação, recebe um número de bilhetes de sorteio com base no nível que escolher. Assim que a campanha terminar, um vencedor será sorteado aleatoriamente de todos os bilhetes emitidos. Os pr����mios são desbloqueados com base no total de fundos angariados.',
       q2: 'A minha doação é segura?',
       a2: 'Sim, todos os pagamentos são processados de forma segura através do Stripe. N��o armazenamos nenhuma das suas informações de pagamento nos nossos servidores.',
       q3: 'Quando será anunciado o vencedor?',
@@ -1267,23 +1267,6 @@ export default function App() {
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
         <MilestoneTracker2 t={t} />
-        <div className="bg-gray-50 flex flex-col items-center p-10">
-      <h1 className="text-3xl font-bold text-center mb-4 text-black">{t.hero.support_fairs_heading}</h1>
-      <p className="text-lg text-center max-w-xl mb-4 text-black">{t.hero.support_fairs_text}</p>
-
-          <a
-        href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition"
-      >
-        {t.hero.donate_button}
-      </a>
-
-      <p className="mt-6 text-sm text-gray-600">
-        {t.hero.every_donation_text}
-      </p>
-    </div>
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
       </main>
