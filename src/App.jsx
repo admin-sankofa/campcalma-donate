@@ -906,13 +906,6 @@ const SafeHarborSection = ({ t, language }) => {
             </div>
           </div>
         </div>
-        <div className="max-w-3xl mx-auto text-gray-700">
-          <p className="mb-4">{content.p1}</p>
-          <p className="mb-6">{content.p2}</p>
-          <div className="bg-green-50 border border-green-200 text-green-900 rounded-lg p-4">
-            <p className="text-sm">{content.rec}</p>
-          </div>
-        </div>
       </div>
     </section>
   );
@@ -1186,10 +1179,6 @@ const AboutBisafo = ({ t }) => (
             </ul>
           </div>
 
-          <div className="mt-6">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">{t.bisafo_about.narrative_title}</h4>
-            <p className="text-gray-700">{t.bisafo_about.narrative}</p>
-          </div>
         </div>
       </div>
     </div>
@@ -1531,8 +1520,8 @@ export default function App() {
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
-        <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
+        <CountdownTimer t={t} />
         <MilestoneTracker2 t={t} />
         <SafeHarborSection t={t} language={language} />
         <AboutBisafo t={t} />
