@@ -581,7 +581,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya b��ɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -803,60 +803,60 @@ const SafeHarborSection = ({ t, language }) => {
     en: {
       heading: 'The Safe Harbor Initiative',
       sub: 'Vision, resilience and practical self‑sufficiency',
-      p1: 'The “Safe Harbor” project is the overarching narrative that frames the vision and mission of Camp Calma and the Sankofa NGO. It responds to the growing need for agency, resilience and responsibility in uncertain times; Camp Calma and Sankofa act as facilitators and as a physical and digital safe harbor — a place of learning, community, and practical autonomy.',
-      p2: 'Our fundraising model “Project Akoma 2025: Your Head Start” is not a lottery but an accelerator for personal and communal resilience. The goal is to empower people to proactively shape their safety and quality of life — and to spark a movement for lived self‑sufficiency and resilience through Camp Calma and the Sankofa NGO.',
-      p3: 'Supporters also gain a tangible Head‑Start chance: the possibility to win real assets such as a plot of land or a campervan — the engine that accelerates the build‑out of the Safe Harbor.',
+      p1: '“Safe Harbor” brings together the vision and mandate of Camp Calma and the Sankofa NGO. In uncertain times it emphasizes agency, resilience, and shared responsibility. Camp Calma and Sankofa serve as enablers — and as a real and digital harbor for learning, community, and hands‑on self‑reliance.',
+      p2: 'With “Project Akoma 2025: Your Head Start”, fundraising becomes an accelerator rather than a lottery: it equips people to actively shape safety and quality of life and sets a culture of lived autonomy and resilience in motion.',
+      p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
       listTitle: 'Interconnections and Interfaces',
       bullets: [
-        'Overarching Vision & Implementation: “Safe Harbor” provides the why and the visionary frame; the Bisafo Circle is its concrete implementation where members co‑create and experience the harbor.',
-        'Financing & Engagement: Project Akoma 2025 aligns supporter levels (e.g., Gold) with Bisafo membership, offering exclusive chances for Head‑Start prizes (land, campervan). Every contribution builds the harbor.',
-        'Lived Values: The Bisafo Circle offers access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the practical layer of the harbor.',
-        'Sankofa NGO Mission: Present both in the Bisafo context (co‑determination) and in the Safe Harbor narrative (facilitator of the movement). The 500‑member target sustains the NGO long‑term.'
+        'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
+        'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
+        'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
+        'Sankofa NGO’s Role: Co‑determination within the Bisafo Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
       ],
       rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
     },
     de: {
       heading: 'Projekt Sicherer Hafen',
       sub: 'Vision, Resilienz und praktische Autarkie',
-      p1: 'Das Projekt „Sicherer Hafen“ ist das übergeordnete Narrativ, das die Vision und Mission von Camp Calma und der Sankofa‑NGO umreißt. Es reagiert auf das wachsende Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung in Zeiten globaler Unsicherheit. Camp Calma und die Sankofa‑NGO agieren als Facilitatoren dieser Bewegung und als physischer wie digitaler „sicherer Hafen“ — ein Ort des Lernens, der Gemeinschaft und der praktischen Autarkie.',
-      p2: 'Das Fundraising‑Modell „Projekt Akoma 2025: Deine Starthilfe“ ist keine Lotterie, sondern ein Beschleuniger für persönliche und gemeinschaftliche Resilienz. Ziel ist es, Menschen zu befähigen, in unsicheren Zeiten proaktiv ihre eigene Sicherheit und Lebensqualität zu gestalten und über Camp Calma und die Sankofa‑NGO eine Bewegung gelebter Autarkie und Resilienz anzustoßen.',
-      p3: 'Ein zentraler Aspekt ist die Starthilfe‑Chance für Unterstützer:innen durch reale, greifbare Vermögenswerte wie Grundstück oder Campervan — der Motor, der den Aufbau des Projekts beschleunigt.',
+      p1: '„Sicherer Hafen“ bündelt die Vision und den Auftrag von Camp Calma und der Sankofa‑NGO. In unruhigen Zeiten setzt das Projekt auf Selbstwirksamkeit, Resilienz und Verantwortung. Camp Calma und Sankofa verstehen sich als Wegbereiter – und als realer wie digitaler Hafen: ein Raum für Lernen, Gemeinschaft und angewandte Autarkie.',
+      p2: 'Mit „Projekt Akoma 2025: Deine Starthilfe“ wird Fundraising zum Beschleuniger statt zur Lotterie: Menschen werden befähigt, ihre Sicherheit und Lebensqualität aktiv zu gestalten – und eine Kultur gelebter Autarkie und Resilienz ins Rollen zu bringen.',
+      p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
       bullets: [
-        'Übergeordnete Vision & Umsetzung: „Sicherer Hafen“ liefert die visionäre Klammer und das Warum; der Bisafo‑Kreis ist die konkrete Umsetzung, in dem Mitglieder den „Hafen“ aktiv mitgestalten und erleben.',
-        'Finanzierung & Engagement: Das Fundraising (Projekt Akoma 2025) ist eng mit der Mitgliedschaft im Bisafo‑Kreis verknüpft. Unterstützer‑Level (z. B. Gold) korrespondieren direkt mit exklusiven Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut den Hafen mit auf.',
-        'Gelebte Werte: Der Bisafo‑Kreis bietet Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und realen Begegnungen in Portugal — die praktische Ebene des „Sicheren Hafens“.',
-        'Mission der Sankofa NGO: Präsenz sowohl im Bisafo‑Kontext (Mitbestimmung) als auch im Narrativ des „Sicheren Hafens“ (Facilitator der Bewegung). Das Ziel von bis zu 500 Mitgliedern sichert die langfristige Tragfähigkeit der NGO.'
+        'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafo‑Kreis macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
+        'Finanzierung & Beteiligung: Akoma 2025 verzahnt Unterstützer‑Level (z. B. Gold) mit der Bisafo‑Mitgliedschaft und bietet exklusive Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut mit.',
+        'Gelebte Werte: Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und Begegnungen in Portugal – die praktische Ebene des Hafens.',
+        'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafo‑Kreis und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
       ],
       rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
     },
     pt: {
       heading: 'Iniciativa Porto Seguro',
       sub: 'Visão, resiliência e autonomia prática',
-      p1: 'O “Porto Seguro” é o enquadramento que apresenta a visão e missão do Camp Calma e da ONG Sankofa. Responde à necessidade crescente de autonomia e resiliência em tempos incertos; Camp Calma e Sankofa atuam como facilitadores e como um porto seguro físico e digital — um lugar de aprendizagem, comunidade e autossuficiência prática.',
-      p2: 'O modelo de angariação “Projeto Akoma 2025: O Teu Arranque” não é uma lotaria, mas um acelerador de resiliência pessoal e comunitária. O objetivo é capacitar as pessoas para moldarem proativamente a sua segurança e qualidade de vida, inspirando um movimento de autossuficiência e resiliência vividas.',
-      p3: 'Há também a “chance de arranque” para apoiantes: a possibilidade de ganhar ativos reais como um terreno ou uma autocaravana — o motor que acelera a construção do Porto Seguro.',
+      p1: '“Porto Seguro” reúne a visão e o propósito do Camp Calma e da ONG Sankofa. Em tempos incertos, coloca a tónica na autonomia, resiliência e responsabilidade partilhada. Camp Calma e Sankofa atuam como facilitadores — e como um porto real e digital para aprendizagem, comunidade e autossuficiência prática.',
+      p2: 'Com o “Projeto Akoma 2025: A Tua Arrancada”, a angariação torna‑se um acelerador, não uma lotaria: capacita as pessoas a moldarem ativamente segurança e qualidade de vida e impulsiona uma cultura de autonomia e resiliência vividas.',
+      p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
-        'Visão & Implementação: “Porto Seguro” define o porquê; o Círculo Bisafo é a sua execução concreta, onde membros co‑criam e vivenciam o porto.',
-        'Financiamento & Envolvimento: O Projeto Akoma 2025 alinha níveis de apoio (ex.: Gold) à adesão Bisafo, com chances exclusivas de prémios de arranque (terreno, autocaravana).',
-        'Valores Vividos: O Círculo Bisafo oferece acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal.',
-        'Missão da Sankofa: Presente no contexto Bisafo (codeterminação) e no Porto Seguro (facilitador do movimento). A meta de 500 membros sustenta a ONG.'
+        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável — membros co‑criam ativamente o porto.',
+        'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
+        'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
+        'Papel da ONG Sankofa: Codeterminação no Círculo Bisafo e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
       ],
       rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
     },
     twi: {
       heading: 'Safe Harbor Adwumayɛ',
       sub: 'Adwene kɛse, gyinabere ne wo‑ara‑wo‑ho adwuma',
-      p1: '“Safe Harbor” kyerɛ nea Camp Calma ne Sankofa NGO pɛ sɛ wɔyɛ — baabi a wɔsua, yɛ kurom, na wɔde adwuma yɛ ade. Ɛma nnipa nya tumi ne gyinabere bere a nneɛma nteɛteɛm.',
-      p2: '“Project Akoma 2025” nyɛ bɔɔl; ɛyɛ akwadworoma a ɛma nipasu ne kurom mu gyinabere kɔ soro. Yɛpɛ sɛ yɛma nnipa tumi sesa wɔn ho banbɔ ne abrabɔ mu kalite.',
-      p3: 'Aboaboafo nya “mfitiaseɛ akwanya” nso — tumi nsa ka ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
+      p1: '“Safe Harbor” boaboa Camp Calma ne Sankofa NGO adwene ne botae ano. Bere a nneɛma hintaw no, ɛhyɛ gyidie, tumi‑yɛ ne baakofo adwuma so. Camp Calma ne Sankofa yɛ akonyafo ��� na wɔyɛ kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.',
+      p2: '“Project Akoma 2025” de sika boaboa ano yɛ akwadworoma, ɛnyɛ bɔɔl: ɛma nnipa betumi asesa wɔn ho banbɔ ne abrabɔ mu kalite — na ɛhyɛ tebea a yɛte gyinabere ne wo‑ara‑wo‑ho adwuma mu ase.',
+      p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
-        'Adwene kɛse & Dwumadi: Safe Harbor na ɛma asɛm no ase; Bisafo Circle na ɛyɛ adwuma no mu pa ara.',
-        'Sika & Aba mu: Project Akoma 2025 bɔ Bisafo membifo ho nhyehyɛe; akyɛde kɛse te sɛ asase anaa campervan.',
-        'Nkwa Nsɛmmisa: Bisafo de kɔ workshops, retreats, digital nsɛmma, ne Portugal mu nhyiam.',
-        'Sankofa Adwuma: Ɛwɔ Bisafo mu (wɔtumi ka ho asɛm) ne Safe Harbor mu (ɔboa adwuma no so). 500 membifo na ɛma NGO no gyina pintinn.'
+        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɔ mu.',
+        'Sika & Apɔw: Akoma 2025 de akɛse‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+        'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
+        'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
       rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
     }
@@ -1503,8 +1503,8 @@ export default function App() {
         <MilestoneTracker t={t} />
         <CountdownTimer t={t} />
         <PrizeShowcase t={t} />
-        <SafeHarborSection t={t} language={language} />
         <MilestoneTracker2 t={t} />
+        <SafeHarborSection t={t} language={language} />
         <AboutBisafo t={t} />
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
