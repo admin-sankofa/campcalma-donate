@@ -619,7 +619,7 @@ const translations = {
       subheading: "Bosome biara mmoa · Soronko kwan · Akyɛdeɛ akwanya firi nnipa 450",
       current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
       capacity: "Baabi A Wɔahyɛ",
-      sustainability_label: "Botaeɛ A Ɛb��tena Hɔ",
+      sustainability_label: "Botaeɛ A Ɛb���tena Hɔ",
       raffle_label: "Bɔɔl",
       capacity_label: "Baabi Nyinaa Ahyɛ",
       milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
@@ -1590,10 +1590,10 @@ const AfroVillageProgress = () => {
 
           <div className="bg-white rounded-lg p-4 shadow-sm border mt-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#3B82F6' }} /> <span>🔵 Planung & Start</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#10B981' }} /> <span>🟢 Aufbau & erste Häuser</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#F59E0B' }} /> <span>🟡 Infrastruktur & Kultur</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#A855F7' }} /> <span>🟣 Afro Village vollendet</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-blue-bg" /> <span>🔵 Planung & Start</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-green-bg" /> <span>🟢 Aufbau & erste Häuser</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-yellow-bg" /> <span>🟡 Infrastruktur & Kultur</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-purple-bg" /> <span>🟣 Afro Village vollendet</span></div>
             </div>
           </div>
 
