@@ -119,7 +119,7 @@ const translations = {
     },
     prizes: {
       heading: 'A Closer Look at the Prizes',
-      subheading: 'High-tech gadgets could be yours. All prizes are brand new.',
+      subheading: 'High-tech gadgets could be yours.',
       grand_prize: 'Grand Prize',
     },
     faq: {
@@ -160,7 +160,7 @@ const translations = {
     },
     bisafo: {
       heading: "Become Part of 500 Bisafo Members 🚀",
-      subheading: "Monthly support �� Direct access · Prize chances from 450 members",
+      subheading: "Monthly support ��� Direct access · Prize chances from 450 members",
       current_members: "Current Members",
       capacity: "Limited Spots",
       sustainability_label: "Sustainability Goal",
@@ -288,7 +288,7 @@ const translations = {
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
       button_text: 'Clique aqui para o Formulário de Entrada Gratuita',
-      modal_heading: 'Formulário de Entrada Gratuita (AMOE)',
+      modal_heading: 'Formul��rio de Entrada Gratuita (AMOE)',
       modal_subheading: 'Por favor, preencha o formulário completamente para receber um (1) bilhete de sorteio.',
       name: 'Nome Completo',
       email: 'Endereço de Email',
