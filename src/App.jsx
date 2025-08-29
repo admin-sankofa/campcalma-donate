@@ -633,7 +633,7 @@ const translations = {
       benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
       benefit_1: "✅ Soronko kwan kɔ Daniel nkyɛn",
       benefit_2: "📩 Kane amaneɛ fa dwumadi ho",
-      benefit_3: "🎥 Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
+      benefit_3: "🎥 Soronko nsɛm & mpɔtam ho ns��m foforɔ",
       benefit_4: "🎁 Akyɛdeɛ akwanya firi nnipa 450+",
       cta_button: "Bɛyɛ Nnwumani Seesei"
     },
@@ -1510,6 +1510,7 @@ const AfroVillageProgress = ({ language }) => {
     en: {
       title: 'Afro Village – A Village of Self‑Sufficiency',
       subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
+      storyTitle: 'Why Afro Village (Sankofa)',
       currentLabel: 'Current Funding',
       goalLabel: 'Goal',
       legend: [
@@ -1540,6 +1541,7 @@ const AfroVillageProgress = ({ language }) => {
     pt: {
       title: 'Afro Village – Uma Aldeia de Autossuficiência',
       subtitle: 'Passo a passo construímos uma aldeia que vive aprendizagem, comunidade e autonomia. Cada contribuição constrói connosco.',
+      storyTitle: 'Porquê o Afro Village (Sankofa)',
       currentLabel: 'Financiamento Atual',
       goalLabel: 'Meta',
       legend: [
@@ -1570,6 +1572,7 @@ const AfroVillageProgress = ({ language }) => {
     de: {
       title: 'Afro Village – Ein Dorf der Autarkie',
       subtitle: '„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“',
+      storyTitle: 'Warum Afro Village (Sankofa)',
       currentLabel: 'Aktueller Stand',
       goalLabel: 'Ziel',
       legend: [
@@ -1600,6 +1603,7 @@ const AfroVillageProgress = ({ language }) => {
     twi: {
       title: 'Afro Village – Kuro a ɛma wo‑ara‑wo‑ho adwuma',
       subtitle: 'Akokyem akokyem na yɛrebɔ kuro a ɛma sukuu, kurom ne wo‑ara‑wo‑ho adwuma te ase. Mo boa biara ka adwuma no ho.',
+      storyTitle: 'Adɛn Afro Village (Sankofa)',
       currentLabel: 'Sika a ɛkɔ so seisei',
       goalLabel: 'Botaeɛ',
       legend: [
@@ -1734,7 +1738,7 @@ const AfroVillageProgress = ({ language }) => {
           </div>
 
           <div className="mt-10 bg-white border rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-gray-800">Afro Village (Sankofa)</h3>
+            <h3 className="text-xl font-semibold text-gray-800">{content.storyTitle}</h3>
             <p className="text-gray-700 mt-2">{content.story[0]}</p>
             <p className="text-gray-700 mt-2">{content.story[1]}</p>
             <p className="text-gray-700 mt-2">{content.story[2]}</p>
