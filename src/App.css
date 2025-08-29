@@ -30,3 +30,9 @@ video {
   cursor: pointer;
   pointer-events: auto;
 }
+
+/* Brand segment colors (match requested palette) */
+.brand-blue-bg { background-color: #3B82F6; }
+.brand-green-bg { background-color: #10B981; }
+.brand-yellow-bg { background-color: #F59E0B; }
+.brand-purple-bg { background-color: #A855F7; }
