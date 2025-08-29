@@ -439,7 +439,7 @@ const translations = {
     },
     amoe: {
  title: 'Alternative Teilnahmemethode (Kostenlose Teilnahme)',
- button_text: 'Klicke hier f��r das Formular zur kostenlosen Teilnahme',
+ button_text: 'Klicke hier für das Formular zur kostenlosen Teilnahme',
  modal_heading: 'Formular für kostenlose Teilnahme (AMOE)',
  modal_subheading: 'Bitte fülle das Formular vollständig aus, um ein (1) Los zu erhalten.',
  name: 'Vollständiger Name',
@@ -831,7 +831,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
       ],
       p1: 'In einer Zeit zunehmender Unsicherheit wächst das Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung. Der „Sichere Hafen“ ist unser Leuchtturm: ein physischer und digitaler Ort des Lernens, der Gemeinschaft und gelebter Autarkie – eine Brücke zu einem bewussteren, freien Leben.',
-      p2: 'Der Motor, der diesen visionären Traum antreibt und beschleunigt, ist das „Projekt Akoma 2025: Deine Starthilfe“. Es ist keine Lotterie, sondern ein Beschleuniger für persönliche und gemeinschaftliche Resilienz: Menschen werden befähigt, in unsicheren Zeiten proaktiv Sicherheit und Lebensqualität zu gestalten. Jeder Beitrag ist eine Investition in reale Werte und in den Aufbau dieses Hafens. Als konkrete Anerkennung und Motivation gibt es die einmalige Starthilfe‑Chance: der Gewinn eines greifbaren Vermögenswertes – etwa eines eigenen Grundstücks oder eines Campervans – der den Weg in die Unabhängigkeit sofort ebnet. Dieses Vorhaben schafft Zugang zu entscheidenden Ressourcen und Wissen – gerade für die Diaspora, die oft von traditionellen Systemen ausgeschlossen war – und knüpft an persönliche Wege wie jenen des Gründers Daniel Duroshola an, der Freiheit, Sinn und Selbstverwirklichung suchte. Inspiriert vom ghanaischen „Bisafo“‑Spirit der Suchenden und Lernenden will das Projekt Brücken bauen und das fehlende Puzzleteil sein, um Autarkie und ein erfülltes Leben Realität werden zu lassen. „Akoma“, das Herz, steht für Ausdauer und Wohlwollen: ein Aufruf zum proaktiven, positiven Handeln – für dich, für uns alle.',
+      p2: 'Der Motor dahinter ist „Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe‑Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
       p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
       bullets: [
