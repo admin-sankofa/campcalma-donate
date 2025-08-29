@@ -159,8 +159,8 @@ const translations = {
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
     },
     bisafo: {
-      heading: "Become Part of 500 Bisafo Members 🚀",
-      subheading: "Monthly support ��� Direct access · Prize chances from 450 members",
+      heading: "Become Part of the Bisafo Circle 🚀",
+      subheading: "Monthly support �� Direct access · Prize chances from 450 members",
       current_members: "Current Members",
       capacity: "Limited Spots",
       sustainability_label: "Sustainability Goal",
@@ -288,7 +288,7 @@ const translations = {
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
       button_text: 'Clique aqui para o Formulário de Entrada Gratuita',
-      modal_heading: 'Formul��rio de Entrada Gratuita (AMOE)',
+      modal_heading: 'Formulário de Entrada Gratuita (AMOE)',
       modal_subheading: 'Por favor, preencha o formulário completamente para receber um (1) bilhete de sorteio.',
       name: 'Nome Completo',
       email: 'Endereço de Email',
@@ -512,7 +512,7 @@ const translations = {
   twi: {
  nav: {
  description: 'Adwuma no',
- donate: 'Mma ne Bɔɔl',
+ donate: 'Mma ne Bɔ��l',
  prizes: 'Akyɛdeɛ',
  faq: 'FAQ',
     },
