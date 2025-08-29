@@ -471,7 +471,7 @@ const translations = {
       raffle_label: "Gewinnspiel",
       capacity_label: "Kapazität erreicht",
       milestone_0_299: "💙 Bis 299: Aufbauphase",
-      milestone_300_349: "💚 300��349: Nachhaltigkeit erreicht",
+      milestone_300_349: "💚 300–349: Nachhaltigkeit erreicht",
       milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
       milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
       status_building: "Startphase: Aufbau der NGO 💙",
@@ -830,7 +830,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
         { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
       ],
-      p1: 'Ein gemeinsames Versprechen: ein realer und digitaler Hafen zum Lernen, für Gemeinschaft und gelebte Autarkie – gerade in unruhigen Zeiten.',
+      p1: 'In einer Zeit, in der das Vertrauen in traditionelle Systeme schwindet und globale Unsicherheiten – politisch, wirtschaftlich oder ökologisch – spürbarer werden, wächst ein tiefes Bedürfnis: die Sehnsucht nach Kontrolle, Resilienz und Eigenverantwortung. Aus dieser Dringlichkeit entsteht kein Alarmismus, sondern der Entschluss, das eigene Leben und die Zukunft aktiv zu gestalten. Inmitten dieser Wellen der Veränderung entsteht ein Leuchtturm der Hoffnung: das „Projekt Sicherer Hafen“. Camp Calma und die Sankofa‑NGO verstehen sich nicht als bloße Organisationen, sondern als Facilitatoren einer Bewegung. Sie schaffen einen physischen und digitalen sicheren Hafen – einen Ort des Lernens, der Gemeinschaft und praktischer Autarkie. Eine Brücke zu einem bewussteren Leben, an dem jede und jeder – als Lernende und Lehrende zugleich – Erkenntnisse teilt und weitergibt.',
       p2: 'Akoma 2025 macht Fundraising zu Tempo: Wir beschleunigen Wirkung, stärken Handlungsfähigkeit und öffnen Starthilfe‑Chancen, die den Aufbau tragen.',
       p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
