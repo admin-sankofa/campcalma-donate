@@ -531,7 +531,7 @@ const translations = {
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛb��yɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -653,7 +653,7 @@ const translations = {
         "🎁 Kwan kɔ akyɛde kɛse ne akyɛde‑kɛse kuo mu (te sɛ asase, campervan) bere a yɛdu Srade so.",
         "📚 Kwan kɔ dijital nneɛma (Permaculture Guide, nnuan, yoga, ade kyeŋkyerɛ).",
         "🗳️ Nea ɛkɔ so wɔ workshops, amanneɛ, ne kurom adwuma ho mu tumi ka mu.",
-        "🎥 Live/stream anɔpa a ɛyɛ soronko, kuromfrɔmfrɔm nkɔmmɔ, ne retreat nhwehwɛmu.",
+        "🎥 Live/stream anɔpa a ��yɛ soronko, kuromfrɔmfrɔm nkɔmmɔ, ne retreat nhwehwɛmu.",
         "📝 Din bɛda so wɔ website/social/video so sɛ adwumayɛfo a mokoaa."
       ],
       info_box: "Bisafo Circle (Membifo 500) na ɛyɛ Founders Club no. Akyiri no, kurom no bɛkɔ 5,000 Gold Membifo — nanso Bisafo Circle bɛkɔ so anya adwumayɛfo tumi ne hokwan titiriw no daa.",
@@ -1501,6 +1501,139 @@ const PaymentSuccessModal = ({ t, isOpen, onClose }) => {
 };
 
 
+// --- Afro Village Progress Section ---
+const AfroVillageProgress = () => {
+  const [totalRaised, setTotalRaised] = useState(325000);
+  const goal = 1000000;
+
+  useEffect(() => {
+    const url = import.meta.env.VITE_AFRO_VILLAGE_TOTAL_URL;
+    if (!url) {
+      console.warn('VITE_AFRO_VILLAGE_TOTAL_URL is not set. Using fallback totalRaised value.');
+      return;
+    }
+    let cancelled = false;
+    fetch(url)
+      .then((r) => r.json())
+      .then((data) => {
+        const v = Number(
+          data.totalRaisedAfroVillage ?? data.total ?? data.value ?? data.amount
+        );
+        if (!cancelled && Number.isFinite(v)) setTotalRaised(v);
+      })
+      .catch((err) => console.warn('AfroVillage fetch failed, using fallback:', err));
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const segments = [
+    { start: 0, end: 100000, color: '#3B82F6', label: 'Planung & Start' },
+    { start: 100000, end: 250000, color: '#10B981', label: 'Aufbau & erste Häuser' },
+    { start: 250000, end: 500000, color: '#F59E0B', label: 'Infrastruktur & Kultur' },
+    { start: 500000, end: 1000000, color: '#A855F7', label: 'Afro Village vollendet' },
+  ];
+
+  const milestones = [
+    { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis-Infra (Wasser/Energie), Start Permakultur-Design', icon: '🧱📐' },
+    { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show-Home)', icon: '🏠' },
+    { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food-Forest Start', icon: '🍲☀️' },
+    { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
+    { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
+    { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie-/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
+    { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
+    { amount: 1000000, name: 'Afro Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp-Calma-Design', icon: '🏡✨' },
+  ];
+
+  const currency = (n) => `€${Math.max(0, Math.floor(n)).toLocaleString('de-DE')}`;
+  const progressNow = Math.min(goal, Math.max(0, totalRaised));
+
+  const segmentSpan = (s) => s.end - s.start;
+  const segmentContainerWidth = (s) => `${(segmentSpan(s) / goal) * 100}%`;
+  const segmentFillWidth = (s) => {
+    if (progressNow <= s.start) return '0%';
+    if (progressNow >= s.end) return '100%';
+    const filled = progressNow - s.start;
+    return `${(filled / segmentSpan(s)) * 100}%`;
+  };
+
+  return (
+    <section id="afro-village" className="py-20 bg-stone-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8">
+          <h2 className="text-4xl font-bold text-gray-800">Afro Village – Ein Dorf der Autarkie</h2>
+          <p className="text-lg text-gray-600 mt-2">„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“</p>
+        </div>
+
+        <div className="max-w-4xl mx-auto">
+          <div className="flex justify-between items-end mb-2 text-gray-600">
+            <span className="font-bold text-lg">Aktueller Stand: {currency(progressNow)}</span>
+            <span className="font-bold text-lg">Ziel: {currency(goal)}</span>
+          </div>
+
+          <div
+            role="progressbar"
+            aria-valuenow={progressNow}
+            aria-valuemin={0}
+            aria-valuemax={goal}
+            className="w-full h-6 rounded-full overflow-hidden bg-gray-200 flex"
+          >
+            {segments.map((seg, i) => (
+              <div key={i} className={`relative h-6 ${i < segments.length - 1 ? 'border-r border-white/60' : ''}`} style={{ width: segmentContainerWidth(seg) }}>
+                <div
+                  className="h-6 transition-all duration-500"
+                  style={{ width: segmentFillWidth(seg), backgroundColor: seg.color }}
+                />
+              </div>
+            ))}
+          </div>
+
+          <div className="bg-white rounded-lg p-4 shadow-sm border mt-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#3B82F6' }} /> <span>🔵 Planung & Start</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#10B981' }} /> <span>🟢 Aufbau & erste Häuser</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#F59E0B' }} /> <span>🟡 Infrastruktur & Kultur</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: '#A855F7' }} /> <span>🟣 Afro Village vollendet</span></div>
+            </div>
+          </div>
+
+          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
+            {milestones.map((m, idx) => {
+              const unlocked = progressNow >= m.amount;
+              return (
+                <div
+                  key={idx}
+                  className={`p-4 rounded-lg border transition-all duration-500 ${
+                    unlocked ? 'bg-green-50 border-green-300 shadow-md ring-1 ring-green-200' : 'bg-gray-100 border-gray-200 opacity-90'
+                  }`}
+                >
+                  <div className={`text-2xl ${unlocked ? 'text-green-600' : 'text-gray-400'}`}>{m.icon}</div>
+                  <div className="mt-2 font-semibold text-gray-800">{m.name}</div>
+                  <div className="text-sm text-gray-600">{m.outcome}</div>
+                  <div className="mt-2 text-xs font-medium text-gray-500">{currency(m.amount)}</div>
+                  <span className="sr-only">{unlocked ? 'Unlocked' : 'Locked'}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-10 bg-white border rounded-lg p-6 shadow-sm">
+            <h3 className="text-xl font-semibold text-gray-800">Warum Afro Village (Sankofa)</h3>
+            <p className="text-gray-700 mt-2">Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Afro Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.</p>
+            <p className="text-gray-700 mt-2">Gemeinschaft ist das Herz: Wir bauen Räume, die Begegnung, Musik und Kultur fördern — ein Ort, an dem Menschen füreinander da sind.</p>
+            <p className="text-gray-700 mt-2">Lernen macht frei: Workshops, digitale Bildung und gemeinsames Tun vermitteln Fähigkeiten, die tragen — heute und morgen.</p>
+            <div className="mt-4">
+              <a href="#donate" className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-full shadow">
+                Jetzt unterstützen
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // --- MAIN APP COMPONENT ---
 
 export default function App() {
@@ -1531,6 +1664,7 @@ export default function App() {
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
+        <AfroVillageProgress />
         <PrizeShowcase t={t} />
         <CountdownTimer t={t} />
         <MilestoneTracker2 t={t} />
