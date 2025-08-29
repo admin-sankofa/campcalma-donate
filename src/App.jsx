@@ -184,6 +184,10 @@ const translations = {
     bisafo_about: {
       heading: "About the Bisafo Circle",
       subheading: "The exclusive community of Sankofa Living & Learning",
+      feature_founders: "Founders Club",
+      feature_safe_harbor: "Safe Harbor",
+      feature_shared_learning: "Shared Learning",
+      feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” comes from the Twi language of Ghana and describes “the seekers, learners, and questioners.” At Camp Calma, the Bisafo Circle is the Founders Club — a network of pioneers who explore, discover, and learn together. The Bisafo Spirit is curiosity, shared learning, and adventure — the beating heart of Camp Calma.",
       exclusivity: "The first 500 members form the exclusive Bisafo Circle and will always keep their special founder advantages as long as they remain active. Later, the community will grow to 5,000 Gold Members, while the Bisafo Circle retains unique founder status.",
       sustainability: "These first 500 members — shown in the dashboard — are the group whose monthly contributions secure the NGO’s sustainability and unlock monthly raffles.",
@@ -332,6 +336,10 @@ const translations = {
     bisafo_about: {
       heading: "Sobre o Círculo Bisafo",
       subheading: "A comunidade exclusiva da Sankofa Living & Learning",
+      feature_founders: "Clube de Fundadores",
+      feature_safe_harbor: "Porto Seguro",
+      feature_shared_learning: "Aprendizagem Partilhada",
+      feature_monthly_raffles: "Sorteios Mensais",
       background: "“Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
       exclusivity: "Os primeiros 500 membros formam o exclusivo Círculo Bisafo e manterão para sempre as vantagens especiais de fundadores enquanto permanecerem ativos. Mais tarde, a comunidade crescerá para 5.000 Membros Gold, enquanto o Círculo Bisafo mantém o estatuto único de fundador.",
       sustainability: "Estes primeiros 500 membros — mostrados no painel — são o grupo cujas contribuições mensais asseguram a sustentabilidade da ONG e desbloqueiam sorteios mensais.",
@@ -480,8 +488,12 @@ const translations = {
     bisafo_about: {
       heading: "Über den Bisafo‑Kreis",
       subheading: "Die exklusive Community von Sankofa Living & Learning",
-      background: "„Bisafo“ stammt aus der ghanaischen Sprache Twi und beschreibt „die Suchenden, Lernenden und Fragenden“. Im Camp Calma ist der Bisafo‑Kreis der Founders Club — ein Netzwerk von Pionieren, die gemeinsam erkunden, entdecken und lernen. Der Bisafo‑Spirit steht für Neugier, gemeinsames Lernen und Abenteuer — das pulsierende Herz von Camp Calma.",
-      exclusivity: "Die ersten 500 Mitglieder bilden den exklusiven Bisafo‑Kreis und behalten dauerhaft ihre besonderen Gründer‑Vorteile, solange sie aktiv bleiben. Später wächst die Community auf 5.000 Gold‑Mitglieder; der Bisafo‑Kreis behält seinen einzigartigen Gründer‑Status.",
+      feature_founders: "Founders Club",
+      feature_safe_harbor: "Sicherer Hafen",
+      feature_shared_learning: "Gemeinsames Lernen",
+      feature_monthly_raffles: "Monatliche Verlosungen",
+      background: "Der Bisafo Circle ist die neue, exklusive Community und der Founders Club von Camp Calma. Der Name „Bisafo“ stammt aus der Twi‑Sprache Ghanas und bedeutet „die Fragenden, Suchenden oder Lernenden“. Der Kreis versteht sich als Netzwerk für Menschen, die gemeinsam neue Wege gehen, entdecken, erleben und voneinander lernen möchten — inspiriert vom ghanaischen Bisafo‑Spirit.",
+      exclusivity: "Die ersten 500 Mitglieder bilden den exklusiven Bisafo‑Kreis (Founders Club) und behalten dauerhaft besondere Gründer‑Vorteile, solange sie aktiv bleiben. Später wächst die Community auf 5.000 Gold‑Mitglieder; der Bisafo‑Kreis behält seinen einzigartigen Gründer‑Status.",
       sustainability: "Diese ersten 500 Mitglieder — im Dashboard sichtbar — sind die Gruppe, deren monatliche Beiträge die Nachhaltigkeit der NGO sichern und monatliche Verlosungen ermöglichen.",
       benefits_title: "Mitgliedsvorteile",
       benefits: [
@@ -493,8 +505,8 @@ const translations = {
         "📝 Namensnennung auf Website/Social/Video als Gründungsunterstützer."
       ],
       info_box: "Der Bisafo‑Kreis (500 Mitglieder) bildet den Founders Club. Später wächst die Community auf 5.000 Gold‑Mitglieder — doch der Bisafo‑Kreis behält dauerhaft seine einzigartigen Gründer‑Privilegien.",
-      narrative_title: "Projekt „Sicherer Hafen“ & Autarkie",
-      narrative: "Das ist mehr als eine Lotterie. Dein Beitrag ist ein Katalysator für persönliche und gemeinschaftliche Resilienz — eine Investition in den Aufbau eines Sicheren Hafens: ein Ort des Lernens, der Gemeinschaft und praktischer Selbstversorgung. Gemeinsam wollen Camp Calma und Sankofa eine Bewegung gelebter Selbstversorgung und Resilienz inspirieren."
+      narrative_title: "Projekt „Sicherer Hafen“ & Autarkie 2025",
+      narrative: "Mehr als eine Lotterie: Dein Beitrag beschleunigt persönliche und gemeinschaftliche Resilienz — eine Investition in den Aufbau eines Sicheren Hafens: ein Ort des Lernens, der Gemeinschaft und praktischer Autarkie. Camp Calma und die Sankofa‑NGO wirken als Facilitatoren dieser Bewegung und stoßen eine Kultur gelebter Selbstversorgung an; mit Starthilfe‑Chancen auf reale Werte (z. B. Grundstück, Campervan), die den Aufbau zusätzlich beschleunigen."
     }
   },
   twi: {
@@ -628,6 +640,10 @@ const translations = {
     bisafo_about: {
       heading: "Ɛfa Bisafo Circle Ho",
       subheading: "Sankofa Living & Learning kuromfow mimofo kurom",
+      feature_founders: "Founders Club",
+      feature_safe_harbor: "Safe Harbor",
+      feature_shared_learning: "Shared Learning",
+      feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
@@ -1002,11 +1018,34 @@ const MilestoneTracker2 = ({ t }) => {
 const AboutBisafo = ({ t }) => (
   <section className="py-20 bg-stone-50">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <h2 className="text-4xl font-bold text-gray-800 mb-2">{t.bisafo_about.heading}</h2>
-          <p className="text-green-700 font-semibold uppercase tracking-wide mb-6">{t.bisafo_about.subheading}</p>
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-4xl font-bold text-gray-800 mb-2">{t.bisafo_about.heading}</h2>
+        <p className="text-green-700 font-semibold uppercase tracking-wide mb-6">{t.bisafo_about.subheading}</p>
+      </div>
 
+      <div className="max-w-5xl mx-auto">
+        <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
+              <div className="text-2xl">🚀</div>
+              <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_founders}</div>
+            </div>
+            <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
+              <div className="text-2xl">🌊</div>
+              <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_safe_harbor}</div>
+            </div>
+            <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
+              <div className="text-2xl">📚</div>
+              <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_shared_learning}</div>
+            </div>
+            <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
+              <div className="text-2xl">🎁</div>
+              <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_monthly_raffles}</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4">{t.bisafo_about.background}</p>
           <p className="text-gray-700 mb-4">{t.bisafo_about.exclusivity}</p>
           <p className="text-gray-700 mb-6">{t.bisafo_about.sustainability}</p>
@@ -1024,29 +1063,6 @@ const AboutBisafo = ({ t }) => (
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-
-        <div>
-          <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-                <div className="text-2xl">🚀</div>
-                <div className="mt-2 font-semibold text-gray-800">Founders Club</div>
-              </div>
-              <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-                <div className="text-2xl">🌊</div>
-                <div className="mt-2 font-semibold text-gray-800">Safe Harbor</div>
-              </div>
-              <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-                <div className="text-2xl">📚</div>
-                <div className="mt-2 font-semibold text-gray-800">Shared Learning</div>
-              </div>
-              <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-                <div className="text-2xl">🎁</div>
-                <div className="mt-2 font-semibold text-gray-800">Monthly Raffles</div>
-              </div>
-            </div>
           </div>
 
           <div className="mt-6">
