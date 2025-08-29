@@ -590,7 +590,7 @@ const translations = {
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
     amoe: {
- title: 'Ɔkwan Foforɔ A Wobɛfa So Akɔ Mu (Kɔ Mu Kwa)',
+ title: 'Ɔkwan Foforɔ A Wob��fa So Akɔ Mu (Kɔ Mu Kwa)',
  button_text: 'Klik ha fa kɔ ne Form no so kɔ mu kwa',
  modal_heading: 'Kɔ Mu Kwa Form (AMOE)',
  modal_subheading: 'Yɛsrɛ wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
@@ -633,7 +633,7 @@ const translations = {
       benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
       benefit_1: "✅ Soronko kwan kɔ Daniel nkyɛn",
       benefit_2: "📩 Kane amaneɛ fa dwumadi ho",
-      benefit_3: "🎥 Soronko nsɛm & mpɔtam ho ns��m foforɔ",
+      benefit_3: "🎥 Soronko nsɛm & mpɔtam ho nsɛm foforɔ",
       benefit_4: "🎁 Akyɛdeɛ akwanya firi nnipa 450+",
       cta_button: "Bɛyɛ Nnwumani Seesei"
     },
@@ -810,7 +810,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Lived Through the Bisafo Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
       ],
       p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
-      p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
+      p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head���start chances that fuel the build‑out.',
       p3: 'Supporters can access a concrete head��start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
       listTitle: 'Interconnections and Interfaces',
       bullets: [
@@ -825,7 +825,7 @@ const SafeHarborSection = ({ t, language }) => {
       heading: 'Die Safe‑Harbor‑Initiative & Projekt Akoma 2025',
       sub: 'Eine Bewegung für Resilienz und Autarkie',
       features: [
-        { icon: '🌊', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
+        { icon: '����', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
         { icon: '⚡', title: 'Akoma 2025: Der Beschleuniger', text: 'Finanzierung, die Wirkung beschleunigt – keine Lotterie.' },
         { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
         { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
@@ -1508,16 +1508,16 @@ const AfroVillageProgress = ({ language }) => {
 
   const content = {
     en: {
-      title: 'Afro Village – A Village of Self‑Sufficiency',
+      title: 'Sankofa Village – A Village of Self‑Sufficiency',
       subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
-      storyTitle: 'Why Afro Village (Sankofa)',
+      storyTitle: 'Why Sankofa Village (Sankofa)',
       currentLabel: 'Current Funding',
       goalLabel: 'Goal',
       legend: [
         '🔵 Planning & Start',
         '🟢 Build‑up & first homes',
         '🟡 Infrastructure & Culture',
-        '🟣 Afro Village Completed',
+        '🟣 Sankofa Village Completed',
       ],
       cta: 'Support now',
       unlockedLabel: 'Unlocked',
@@ -1530,25 +1530,25 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
         { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
         { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Afro Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
       ],
       story: [
-        'Autarky means real resilience: water, energy and food on site. Afro Village shows how self‑sufficiency can be lived in practice.',
+        'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self‑sufficiency can be lived in practice.',
         'Community is the heart: we create spaces that foster encounters, music and culture — a place where people are there for each other.',
         'Learning sets you free: workshops, digital education and doing together build skills that carry — today and tomorrow.'
       ]
     },
     pt: {
-      title: 'Afro Village – Uma Aldeia de Autossuficiência',
+      title: 'Sankofa Village – Uma Aldeia de Autossuficiência',
       subtitle: 'Passo a passo construímos uma aldeia que vive aprendizagem, comunidade e autonomia. Cada contribuição constrói connosco.',
-      storyTitle: 'Porquê o Afro Village (Sankofa)',
+      storyTitle: 'Porquê o Sankofa Village (Sankofa)',
       currentLabel: 'Financiamento Atual',
       goalLabel: 'Meta',
       legend: [
         '🔵 Planeamento & Arranque',
         '🟢 Construção & primeiras casas',
         '🟡 Infraestrutura & Cultura',
-        '🟣 Afro Village Concluída',
+        '🟣 Sankofa Village Concluída',
       ],
       cta: 'Apoiar agora',
       unlockedLabel: 'Desbloqueado',
@@ -1561,25 +1561,25 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
         { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
         { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Afro Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
-        'Autossuficiência é resiliência real: água, energia e alimento no local. O Afro Village mostra como viver isso na prática.',
+        'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
         'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
         'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
       ]
     },
     de: {
-      title: 'Afro Village – Ein Dorf der Autarkie',
+      title: 'Sankofa Village – Ein Dorf der Autarkie',
       subtitle: '„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“',
-      storyTitle: 'Warum Afro Village (Sankofa)',
+      storyTitle: 'Warum Sankofa Village (Sankofa)',
       currentLabel: 'Aktueller Stand',
       goalLabel: 'Ziel',
       legend: [
         '🔵 Planung & Start',
         '🟢 Aufbau & erste Häuser',
         '🟡 Infrastruktur & Kultur',
-        '🟣 Afro Village vollendet',
+        '🟣 Sankofa Village vollendet',
       ],
       cta: 'Jetzt unterstützen',
       unlockedLabel: 'Freigeschaltet',
@@ -1592,25 +1592,25 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
         { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
         { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Afro Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
       ],
       story: [
-        'Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Afro Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.',
+        'Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Sankofa Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.',
         'Gemeinschaft ist das Herz: Wir bauen Räume, die Begegnung, Musik und Kultur fördern — ein Ort, an dem Menschen füreinander da sind.',
         'Lernen macht frei: Workshops, digitale Bildung und gemeinsames Tun vermitteln Fähigkeiten, die tragen — heute und morgen.'
       ]
     },
     twi: {
-      title: 'Afro Village – Kuro a ɛma wo‑ara‑wo‑ho adwuma',
+      title: 'Sankofa Village – Kuro a ɛma wo‑ara‑wo‑ho adwuma',
       subtitle: 'Akokyem akokyem na yɛrebɔ kuro a ɛma sukuu, kurom ne wo‑ara‑wo‑ho adwuma te ase. Mo boa biara ka adwuma no ho.',
-      storyTitle: 'Adɛn Afro Village (Sankofa)',
+      storyTitle: 'Adɛn Sankofa Village (Sankofa)',
       currentLabel: 'Sika a ɛkɔ so seisei',
       goalLabel: 'Botaeɛ',
       legend: [
         '🔵 Nhyehyɛe & Mfitiaseɛ',
         '🟢 Siesie & Ofie a edi kan',
         '🟡 Ahyehyɛdeɛ & Amammerɛ',
-        '🟣 Afro Village Ewiee',
+        '🟣 Sankofa Village Ewiee',
       ],
       cta: 'Boa seisei',
       unlockedLabel: 'Abue',
@@ -1619,14 +1619,14 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
         { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
-        { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
+        { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓��' },
         { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
         { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
         { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Afro Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Afro Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
@@ -1660,7 +1660,7 @@ const AfroVillageProgress = ({ language }) => {
     { start: 0, end: 100000, colorClass: 'brand-blue-bg', label: 'Planung & Start' },
     { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste Häuser' },
     { start: 250000, end: 500000, colorClass: 'brand-yellow-bg', label: 'Infrastruktur & Kultur' },
-    { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Afro Village vollendet' },
+    { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Sankofa Village vollendet' },
   ];
 
   const milestones = content.milestones;
