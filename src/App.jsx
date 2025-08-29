@@ -50,7 +50,7 @@ const translations = {
         popular: 'POPULAR',
       },
       tier3: {
-        price: '��30',
+        price: '€30',
         tickets: '160 Tickets',
         description: 'Best value for the biggest impact.',
       },
@@ -160,7 +160,7 @@ const translations = {
     },
     bisafo: {
       heading: "Become Part of 500 Bisafo Members 🚀",
-      subheading: "Monthly support · Direct access · Prize chances from 450 members",
+      subheading: "Monthly support �� Direct access · Prize chances from 450 members",
       current_members: "Current Members",
       capacity: "Limited Spots",
       sustainability_label: "Sustainability Goal",
@@ -536,7 +536,7 @@ const translations = {
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
- subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔhoɔ pii kyerɛ akwanya pii sɛ wobɛgye!',
+ subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔhoɔ pii kyerɛ akwanya pii sɛ wob��gye!',
       tier1: {
  price: '€10',
  tickets: '20 Bɔɔl',
@@ -773,7 +773,6 @@ const ProjectDescription = ({ t }) => (
             <img src={communitykitchen02} alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
             <p className="text-sm text-gray-600 mt-2 text-center">Off-Grid Shower and Toilet</p>
           </div>
-          {/* Add more carousel items here if needed */}
         </div>
       </div>
     </div>
