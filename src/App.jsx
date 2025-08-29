@@ -619,7 +619,7 @@ const translations = {
       subheading: "Bosome biara mmoa · Soronko kwan · Akyɛdeɛ akwanya firi nnipa 450",
       current_members: "Nnipa A Wɔwɔ Hɔ Seesei",
       capacity: "Baabi A Wɔahyɛ",
-      sustainability_label: "Botaeɛ A Ɛbɛtena Hɔ",
+      sustainability_label: "Botaeɛ A Ɛb��tena Hɔ",
       raffle_label: "Bɔɔl",
       capacity_label: "Baabi Nyinaa Ahyɛ",
       milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
@@ -1581,8 +1581,8 @@ const AfroVillageProgress = () => {
             {segments.map((seg, i) => (
               <div key={i} className={`relative h-6 ${i < segments.length - 1 ? 'border-r border-white/60' : ''}`} style={{ width: segmentContainerWidth(seg) }}>
                 <div
-                  className="h-6 transition-all duration-500"
-                  style={{ width: segmentFillWidth(seg), backgroundColor: seg.color }}
+                  className={`h-6 transition-all duration-500 ${seg.colorClass}`}
+                  style={{ width: segmentFillWidth(seg) }}
                 />
               </div>
             ))}
