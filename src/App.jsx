@@ -531,7 +531,7 @@ const translations = {
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛb��yɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -653,7 +653,7 @@ const translations = {
         "🎁 Kwan kɔ akyɛde kɛse ne akyɛde‑kɛse kuo mu (te sɛ asase, campervan) bere a yɛdu Srade so.",
         "📚 Kwan kɔ dijital nneɛma (Permaculture Guide, nnuan, yoga, ade kyeŋkyerɛ).",
         "🗳️ Nea ɛkɔ so wɔ workshops, amanneɛ, ne kurom adwuma ho mu tumi ka mu.",
-        "🎥 Live/stream anɔpa a ��yɛ soronko, kuromfrɔmfrɔm nkɔmmɔ, ne retreat nhwehwɛmu.",
+        "🎥 Live/stream anɔpa a ɛyɛ soronko, kuromfrɔmfrɔm nkɔmmɔ, ne retreat nhwehwɛmu.",
         "📝 Din bɛda so wɔ website/social/video so sɛ adwumayɛfo a mokoaa."
       ],
       info_box: "Bisafo Circle (Membifo 500) na ɛyɛ Founders Club no. Akyiri no, kurom no bɛkɔ 5,000 Gold Membifo — nanso Bisafo Circle bɛkɔ so anya adwumayɛfo tumi ne hokwan titiriw no daa.",
@@ -1528,10 +1528,10 @@ const AfroVillageProgress = () => {
   }, []);
 
   const segments = [
-    { start: 0, end: 100000, color: '#3B82F6', label: 'Planung & Start' },
-    { start: 100000, end: 250000, color: '#10B981', label: 'Aufbau & erste Häuser' },
-    { start: 250000, end: 500000, color: '#F59E0B', label: 'Infrastruktur & Kultur' },
-    { start: 500000, end: 1000000, color: '#A855F7', label: 'Afro Village vollendet' },
+    { start: 0, end: 100000, colorClass: 'brand-blue-bg', label: 'Planung & Start' },
+    { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste Häuser' },
+    { start: 250000, end: 500000, colorClass: 'brand-yellow-bg', label: 'Infrastruktur & Kultur' },
+    { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Afro Village vollendet' },
   ];
 
   const milestones = [
