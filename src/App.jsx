@@ -816,7 +816,7 @@ const SafeHarborSection = ({ t, language }) => {
       bullets: [
         'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
         'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
-        'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
+        'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal ��� the harbor in practice.',
         'Sankofa NGO’s Role: Co‑determination within the Bisafo Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
       ],
       rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
@@ -1502,9 +1502,134 @@ const PaymentSuccessModal = ({ t, isOpen, onClose }) => {
 
 
 // --- Afro Village Progress Section ---
-const AfroVillageProgress = () => {
+const AfroVillageProgress = ({ language }) => {
   const [totalRaised, setTotalRaised] = useState(325000);
   const goal = 1000000;
+
+  const content = {
+    en: {
+      title: 'Afro Village – A Village of Self‑Sufficiency',
+      subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
+      currentLabel: 'Current Funding',
+      goalLabel: 'Goal',
+      legend: [
+        '🔵 Planning & Start',
+        '🟢 Build‑up & first homes',
+        '🟡 Infrastructure & Culture',
+        '🟣 Afro Village Completed',
+      ],
+      cta: 'Support now',
+      unlockedLabel: 'Unlocked',
+      lockedLabel: 'Locked',
+      milestones: [
+        { amount: 10000, name: 'The Foundation', outcome: 'Planning, basic infrastructure (water/energy), start permaculture design', icon: '🧱📐' },
+        { amount: 25000, name: 'The First Home', outcome: 'First autonomous mobile home (show‑home)', icon: '🏠' },
+        { amount: 50000, name: 'Community Kitchen', outcome: 'Shared kitchen + solar cooking; food‑forest start', icon: '🍲☀️' },
+        { amount: 100000, name: 'Education & Encounters', outcome: 'Learning Dome (workshops, music, digital learning)', icon: '🎓🎶' },
+        { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
+        { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
+        { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
+        { amount: 1000000, name: 'Afro Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
+      ],
+      story: [
+        'Autarky means real resilience: water, energy and food on site. Afro Village shows how self‑sufficiency can be lived in practice.',
+        'Community is the heart: we create spaces that foster encounters, music and culture — a place where people are there for each other.',
+        'Learning sets you free: workshops, digital education and doing together build skills that carry — today and tomorrow.'
+      ]
+    },
+    pt: {
+      title: 'Afro Village – Uma Aldeia de Autossuficiência',
+      subtitle: 'Passo a passo construímos uma aldeia que vive aprendizagem, comunidade e autonomia. Cada contribuição constrói connosco.',
+      currentLabel: 'Financiamento Atual',
+      goalLabel: 'Meta',
+      legend: [
+        '🔵 Planeamento & Arranque',
+        '🟢 Construção & primeiras casas',
+        '🟡 Infraestrutura & Cultura',
+        '🟣 Afro Village Concluída',
+      ],
+      cta: 'Apoiar agora',
+      unlockedLabel: 'Desbloqueado',
+      lockedLabel: 'Bloqueado',
+      milestones: [
+        { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
+        { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
+        { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
+        { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
+        { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
+        { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
+        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
+        { amount: 1000000, name: 'Afro Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
+      ],
+      story: [
+        'Autossuficiência é resiliência real: água, energia e alimento no local. O Afro Village mostra como viver isso na prática.',
+        'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
+        'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
+      ]
+    },
+    de: {
+      title: 'Afro Village – Ein Dorf der Autarkie',
+      subtitle: '„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“',
+      currentLabel: 'Aktueller Stand',
+      goalLabel: 'Ziel',
+      legend: [
+        '🔵 Planung & Start',
+        '🟢 Aufbau & erste Häuser',
+        '🟡 Infrastruktur & Kultur',
+        '🟣 Afro Village vollendet',
+      ],
+      cta: 'Jetzt unterstützen',
+      unlockedLabel: 'Freigeschaltet',
+      lockedLabel: 'Gesperrt',
+      milestones: [
+        { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis‑Infra (Wasser/Energie), Start Permakultur‑Design', icon: '🧱📐' },
+        { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show‑Home)', icon: '🏠' },
+        { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
+        { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
+        { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
+        { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
+        { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
+        { amount: 1000000, name: 'Afro Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
+      ],
+      story: [
+        'Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Afro Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.',
+        'Gemeinschaft ist das Herz: Wir bauen Räume, die Begegnung, Musik und Kultur fördern — ein Ort, an dem Menschen füreinander da sind.',
+        'Lernen macht frei: Workshops, digitale Bildung und gemeinsames Tun vermitteln Fähigkeiten, die tragen — heute und morgen.'
+      ]
+    },
+    twi: {
+      title: 'Afro Village – Kuro a ɛma wo‑ara‑wo‑ho adwuma',
+      subtitle: 'Akokyem akokyem na yɛrebɔ kuro a ɛma sukuu, kurom ne wo‑ara‑wo‑ho adwuma te ase. Mo boa biara ka adwuma no ho.',
+      currentLabel: 'Sika a ɛkɔ so seisei',
+      goalLabel: 'Botaeɛ',
+      legend: [
+        '🔵 Nhyehyɛe & Mfitiaseɛ',
+        '🟢 Siesie & Ofie a edi kan',
+        '🟡 Ahyehyɛdeɛ & Amammerɛ',
+        '🟣 Afro Village Ewiee',
+      ],
+      cta: 'Boa seisei',
+      unlockedLabel: 'Abue',
+      lockedLabel: 'Esi so',
+      milestones: [
+        { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+        { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
+        { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
+        { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
+        { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
+        { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
+        { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
+        { amount: 1000000, name: 'Afro Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
+      ],
+      story: [
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Afro Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
+        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+      ]
+    }
+  }[language];
+
+  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', twi: 'en-GB' };
 
   useEffect(() => {
     const url = import.meta.env.VITE_AFRO_VILLAGE_TOTAL_URL;
@@ -1534,18 +1659,9 @@ const AfroVillageProgress = () => {
     { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Afro Village vollendet' },
   ];
 
-  const milestones = [
-    { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis-Infra (Wasser/Energie), Start Permakultur-Design', icon: '🧱📐' },
-    { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show-Home)', icon: '🏠' },
-    { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food-Forest Start', icon: '🍲☀️' },
-    { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
-    { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
-    { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie-/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
-    { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
-    { amount: 1000000, name: 'Afro Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp-Calma-Design', icon: '🏡✨' },
-  ];
+  const milestones = content.milestones;
 
-  const currency = (n) => `€${Math.max(0, Math.floor(n)).toLocaleString('de-DE')}`;
+  const currency = (n) => `€${Math.max(0, Math.floor(n)).toLocaleString(localeMap[language] || 'de-DE')}`;
   const progressNow = Math.min(goal, Math.max(0, totalRaised));
 
   const segmentSpan = (s) => s.end - s.start;
@@ -1561,14 +1677,14 @@ const AfroVillageProgress = () => {
     <section id="afro-village" className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-gray-800">Afro Village – Ein Dorf der Autarkie</h2>
-          <p className="text-lg text-gray-600 mt-2">„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“</p>
+          <h2 className="text-4xl font-bold text-gray-800">{content.title}</h2>
+          <p className="text-lg text-gray-600 mt-2">{content.subtitle}</p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-between items-end mb-2 text-gray-600">
-            <span className="font-bold text-lg">Aktueller Stand: {currency(progressNow)}</span>
-            <span className="font-bold text-lg">Ziel: {currency(goal)}</span>
+            <span className="font-bold text-lg">{content.currentLabel}: {currency(progressNow)}</span>
+            <span className="font-bold text-lg">{content.goalLabel}: {currency(goal)}</span>
           </div>
 
           <div
@@ -1590,10 +1706,10 @@ const AfroVillageProgress = () => {
 
           <div className="bg-white rounded-lg p-4 shadow-sm border mt-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-blue-bg" /> <span>🔵 Planung & Start</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-green-bg" /> <span>🟢 Aufbau & erste Häuser</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-yellow-bg" /> <span>🟡 Infrastruktur & Kultur</span></div>
-              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-purple-bg" /> <span>🟣 Afro Village vollendet</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-blue-bg" /> <span>{content.legend[0]}</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-green-bg" /> <span>{content.legend[1]}</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-yellow-bg" /> <span>{content.legend[2]}</span></div>
+              <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full brand-purple-bg" /> <span>{content.legend[3]}</span></div>
             </div>
           </div>
 
@@ -1611,20 +1727,20 @@ const AfroVillageProgress = () => {
                   <div className="mt-2 font-semibold text-gray-800">{m.name}</div>
                   <div className="text-sm text-gray-600">{m.outcome}</div>
                   <div className="mt-2 text-xs font-medium text-gray-500">{currency(m.amount)}</div>
-                  <span className="sr-only">{unlocked ? 'Unlocked' : 'Locked'}</span>
+                  <span className="sr-only">{unlocked ? content.unlockedLabel : content.lockedLabel}</span>
                 </div>
               );
             })}
           </div>
 
           <div className="mt-10 bg-white border rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-gray-800">Warum Afro Village (Sankofa)</h3>
-            <p className="text-gray-700 mt-2">Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Afro Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.</p>
-            <p className="text-gray-700 mt-2">Gemeinschaft ist das Herz: Wir bauen Räume, die Begegnung, Musik und Kultur fördern — ein Ort, an dem Menschen füreinander da sind.</p>
-            <p className="text-gray-700 mt-2">Lernen macht frei: Workshops, digitale Bildung und gemeinsames Tun vermitteln Fähigkeiten, die tragen — heute und morgen.</p>
+            <h3 className="text-xl font-semibold text-gray-800">Afro Village (Sankofa)</h3>
+            <p className="text-gray-700 mt-2">{content.story[0]}</p>
+            <p className="text-gray-700 mt-2">{content.story[1]}</p>
+            <p className="text-gray-700 mt-2">{content.story[2]}</p>
             <div className="mt-4">
               <a href="#donate" className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-full shadow">
-                Jetzt unterstützen
+                {content.cta}
               </a>
             </div>
           </div>
@@ -1664,7 +1780,7 @@ export default function App() {
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
-        <AfroVillageProgress />
+        <AfroVillageProgress language={language} />
         <PrizeShowcase t={t} />
         <CountdownTimer t={t} />
         <MilestoneTracker2 t={t} />
