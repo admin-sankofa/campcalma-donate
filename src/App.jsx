@@ -532,7 +532,7 @@ const translations = {
     description: {
  heading: 'Ɛfa Camp Calma Ho',
  p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
- p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa—wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
+ p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
@@ -575,7 +575,7 @@ const translations = {
     },
     prizes: {
  heading: 'Nhwɛɛmu Pa Akyɛdeɛ No Ho',
- subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛdeɛ nyinaa yɛ foforɔ.',
+ subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛde�� nyinaa yɛ foforɔ.',
  grand_prize: 'Akyɛdeɛ Kɛseɛ',
     },
     faq: {
@@ -811,7 +811,7 @@ const SafeHarborSection = ({ t, language }) => {
       ],
       p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
       p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
-      p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
+      p3: 'Supporters can access a concrete head��start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
       listTitle: 'Interconnections and Interfaces',
       bullets: [
         'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
@@ -1177,6 +1177,17 @@ const AboutBisafo = ({ t }) => (
                 </li>
               ))}
             </ul>
+          </div>
+
+          <div className="text-center mt-6">
+            <a
+              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
+            >
+              {t.bisafo.cta_button}
+            </a>
           </div>
 
         </div>
