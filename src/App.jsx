@@ -471,7 +471,7 @@ const translations = {
       raffle_label: "Gewinnspiel",
       capacity_label: "Kapazität erreicht",
       milestone_0_299: "💙 Bis 299: Aufbauphase",
-      milestone_300_349: "💚 300–349: Nachhaltigkeit erreicht",
+      milestone_300_349: "💚 300��349: Nachhaltigkeit erreicht",
       milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
       milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
       status_building: "Startphase: Aufbau der NGO 💙",
@@ -581,7 +581,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya b��ɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -801,10 +801,16 @@ const VideoSection = ({ t }) => {
 const SafeHarborSection = ({ t, language }) => {
   const content = {
     en: {
-      heading: 'The Safe Harbor Initiative',
-      sub: 'Vision, resilience and practical self‑sufficiency',
-      p1: '“Safe Harbor” brings together the vision and mandate of Camp Calma and the Sankofa NGO. In uncertain times it emphasizes agency, resilience, and shared responsibility. Camp Calma and Sankofa serve as enablers — and as a real and digital harbor for learning, community, and hands‑on self‑reliance.',
-      p2: 'With “Project Akoma 2025: Your Head Start”, fundraising becomes an accelerator rather than a lottery: it equips people to actively shape safety and quality of life and sets a culture of lived autonomy and resilience in motion.',
+      heading: 'The Safe Harbor Initiative and Project Akoma 2025',
+      sub: 'A movement for resilience and autonomy',
+      features: [
+        { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
+        { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
+        { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
+        { icon: '🤝', title: 'Lived Through the Bisafo Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
+      ],
+      p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
+      p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
       p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
       listTitle: 'Interconnections and Interfaces',
       bullets: [
@@ -816,10 +822,16 @@ const SafeHarborSection = ({ t, language }) => {
       rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
     },
     de: {
-      heading: 'Projekt Sicherer Hafen',
-      sub: 'Vision, Resilienz und praktische Autarkie',
-      p1: '„Sicherer Hafen“ bündelt die Vision und den Auftrag von Camp Calma und der Sankofa‑NGO. In unruhigen Zeiten setzt das Projekt auf Selbstwirksamkeit, Resilienz und Verantwortung. Camp Calma und Sankofa verstehen sich als Wegbereiter – und als realer wie digitaler Hafen: ein Raum für Lernen, Gemeinschaft und angewandte Autarkie.',
-      p2: 'Mit „Projekt Akoma 2025: Deine Starthilfe“ wird Fundraising zum Beschleuniger statt zur Lotterie: Menschen werden befähigt, ihre Sicherheit und Lebensqualität aktiv zu gestalten – und eine Kultur gelebter Autarkie und Resilienz ins Rollen zu bringen.',
+      heading: 'Die Safe‑Harbor‑Initiative & Projekt Akoma 2025',
+      sub: 'Eine Bewegung für Resilienz und Autarkie',
+      features: [
+        { icon: '🌊', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
+        { icon: '⚡', title: 'Akoma 2025: Der Beschleuniger', text: 'Finanzierung, die Wirkung beschleunigt – keine Lotterie.' },
+        { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
+        { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
+      ],
+      p1: 'Ein gemeinsames Versprechen: ein realer und digitaler Hafen zum Lernen, für Gemeinschaft und gelebte Autarkie – gerade in unruhigen Zeiten.',
+      p2: 'Akoma 2025 macht Fundraising zu Tempo: Wir beschleunigen Wirkung, stärken Handlungsfähigkeit und öffnen Starthilfe‑Chancen, die den Aufbau tragen.',
       p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
       bullets: [
@@ -831,10 +843,16 @@ const SafeHarborSection = ({ t, language }) => {
       rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
     },
     pt: {
-      heading: 'Iniciativa Porto Seguro',
-      sub: 'Visão, resiliência e autonomia prática',
-      p1: '“Porto Seguro” reúne a visão e o propósito do Camp Calma e da ONG Sankofa. Em tempos incertos, coloca a tónica na autonomia, resiliência e responsabilidade partilhada. Camp Calma e Sankofa atuam como facilitadores — e como um porto real e digital para aprendizagem, comunidade e autossuficiência prática.',
-      p2: 'Com o “Projeto Akoma 2025: A Tua Arrancada”, a angariação torna‑se um acelerador, não uma lotaria: capacita as pessoas a moldarem ativamente segurança e qualidade de vida e impulsiona uma cultura de autonomia e resiliência vividas.',
+      heading: 'A Iniciativa Porto Seguro e Projeto Akoma 2025',
+      sub: 'Um movimento por resiliência e autonomia',
+      features: [
+        { icon: '🌊', title: 'Porquê & Visão', text: 'Um porto real e digital para aprendizagem, comunidade e autossuficiência.' },
+        { icon: '⚡', title: 'Akoma 2025: O Acelerador', text: 'Financiamento que acelera impacto — não é lotaria.' },
+        { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
+        { icon: '🤝', title: 'Vive‑se no Círculo Bisafo', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
+      ],
+      p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
+      p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
@@ -846,10 +864,16 @@ const SafeHarborSection = ({ t, language }) => {
       rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
     },
     twi: {
-      heading: 'Safe Harbor Adwumayɛ',
-      sub: 'Adwene kɛse, gyinabere ne wo‑ara‑wo‑ho adwuma',
-      p1: '“Safe Harbor” boaboa Camp Calma ne Sankofa NGO adwene ne botae ano. Bere a nneɛma hintaw no, ɛhyɛ gyidie, tumi‑yɛ ne baakofo adwuma so. Camp Calma ne Sankofa yɛ akonyafo ��� na wɔyɛ kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.',
-      p2: '“Project Akoma 2025” de sika boaboa ano yɛ akwadworoma, ɛnyɛ bɔɔl: ɛma nnipa betumi asesa wɔn ho banbɔ ne abrabɔ mu kalite — na ɛhyɛ tebea a yɛte gyinabere ne wo‑ara‑wo‑ho adwuma mu ase.',
+      heading: 'Safe Harbor Initiative ne Project Akoma 2025',
+      sub: 'Nhyiam a ɛma gyinabere ne wo‑ara‑wo‑ho adwuma so',
+      features: [
+        { icon: '🌊', title: 'Adɛn & Adwene', text: 'Kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.' },
+        { icon: '⚡', title: 'Akoma 2025: Ntemkɔ', text: 'Sika a ɛma adwuma tu ntɛm — ɛnyɛ bɔɔl.' },
+        { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
+        { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
+      ],
+      p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
+      p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
       p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
@@ -869,16 +893,22 @@ const SafeHarborSection = ({ t, language }) => {
           <h2 className="text-4xl font-bold text-gray-800 mb-2">{content.heading}</h2>
           <p className="text-green-700 font-semibold uppercase tracking-wide mb-6">{content.sub}</p>
         </div>
-        <div className="max-w-4xl mx-auto text-gray-700">
+        <div className="max-w-5xl mx-auto">
+          <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {content.features && content.features.map((f, i) => (
+                <div key={i} className="bg-white/80 backdrop-blur rounded-xl p-4 border">
+                  <div className="text-2xl">{f.icon}</div>
+                  <div className="mt-2 font-semibold text-gray-800">{f.title}</div>
+                  <p className="text-gray-700 text-sm mt-1">{f.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="max-w-3xl mx-auto text-gray-700">
           <p className="mb-4">{content.p1}</p>
-          <p className="mb-4">{content.p2}</p>
-          <p className="mb-6">{content.p3}</p>
-          <h3 className="text-2xl font-bold text-gray-800 mb-3">{content.listTitle}</h3>
-          <ul className="list-disc list-inside space-y-2 mb-6">
-            {content.bullets.map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
+          <p className="mb-6">{content.p2}</p>
           <div className="bg-green-50 border border-green-200 text-green-900 rounded-lg p-4">
             <p className="text-sm">{content.rec}</p>
           </div>
