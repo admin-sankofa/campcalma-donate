@@ -78,6 +78,10 @@ const translations = {
       subheading: 'Get insight into our solar power in real time.',
       open_fullscreen: 'Open fullscreen for an advanced dashboard with more information'
     },
+    african_campers: {
+      heading: 'African‑Inspired Campers – Our Vision',
+      text: 'At Camp Calma and Sankofa Living & Learning, many creative ideas and projects connect knowledge, culture, and sustainable living. Daniel brings experience from the caravanning world, off‑grid life, and his former work as a quality manager in the automotive industry. From this, the vision has grown to develop African‑inspired caravans—built in Ghana, exported worldwide, and sparking enthusiasm for travel and tourism to Ghana. This goal is realistic, but only possible together: we need people who commit to such projects—or donations so that Sankofa Living & Learning can make these pioneering initiatives a reality.'
+    },
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
@@ -235,6 +239,10 @@ const translations = {
       subheading: 'Veja em tempo real a nossa energia solar.',
       open_fullscreen: 'Abrir em ecrã inteiro para um painel avançado com mais informações'
     },
+    african_campers: {
+      heading: 'Caravanas inspiradas em África – A nossa visão',
+      text: 'Na Camp Calma e na Sankofa Living & Learning surgem muitas ideias e projetos criativos que ligam conhecimento, cultura e vida sustentável. Daniel traz a sua experiência do mundo das caravanas, da vida off‑grid e do seu trabalho anterior como gestor de qualidade na indústria automóvel. Daí nasceu a visão de desenvolver caravanas inspiradas em África — fabricadas no Gana, exportadas para o mundo e, ao mesmo tempo, um impulso para inspirar viagens e turismo para o Gana. Este objetivo é realista, mas só é possível em conjunto: precisamos de pessoas empenhadas nestes projetos — ou de doações, para que a Sankofa Living & Learning possa tornar estas iniciativas pioneiras realidade.'
+    },
     description: {
       heading: 'Sobre o Camp Calma',
       p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espaços de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
@@ -293,7 +301,7 @@ const translations = {
       q3: 'Quando será anunciado o vencedor?',
       a3: 'O vencedor será sorteado e anunciado a 31 de agosto de 2025, pouco depois do final da contagem decrescente. O vencedor será notificado por e-mail.',
       q4: 'Posso participar gratuitamente?',
-      a4: 'Sim, existe um Método Alternativo de Entrada (AMOE). Por favor, consulte a secção "Entrada Gratuita" abaixo para obter instruções sobre como participar sem fazer uma doa��ão.',
+      a4: 'Sim, existe um Método Alternativo de Entrada (AMOE). Por favor, consulte a secção "Entrada Gratuita" abaixo para obter instruções sobre como participar sem fazer uma doação.',
     },
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
@@ -391,6 +399,10 @@ const translations = {
       heading: 'Victron Energy Dashboard',
       subheading: 'Erhalte Einblicke in unsere Solarenergie in Echtzeit.',
       open_fullscreen: 'Im Vollbild öffnen für ein erweitertes Dashboard mit mehr Informationen'
+    },
+    african_campers: {
+      heading: 'Afrikanisch inspirierte Camper – Unsere Vision',
+      text: 'Bei Camp Calma und Sankofa Living & Learning entstehen viele kreative Ideen und Projekte, die Wissen, Kultur und nachhaltiges Leben verbinden. Daniel bringt seine Erfahrungen aus der Caravaning‑Welt, dem Off‑Grid‑Leben und seiner früheren Tätigkeit als Qualitätsmanager in der Automobilindustrie ein. Daraus ist auch die Vision gewachsen, afrikanisch inspirierte Wohnwagen zu entwickeln – gefertigt in Ghana, weltweit exportiert und zugleich ein Impuls, Menschen für Reisen und Tourismus nach Ghana zu begeistern. Dieses Ziel ist realistisch, aber nur gemeinsam umsetzbar: wir brauchen Menschen, die sich für solche Projekte engagieren – oder Spenden, damit Sankofa Living & Learning solche wegweisenden Initiativen realisieren kann.'
     },
     description: {
  heading: 'Über Camp Calma',
@@ -549,6 +561,10 @@ const translations = {
       subheading: 'Hunu yɛn sɔla tumi wɔ bere tenten mu seesei.',
       open_fullscreen: 'Bue wɔ kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
     },
+    african_campers: {
+      heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
+      text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw sɛ quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ɛnam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛyɛ adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛdeɛ, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
+    },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
  p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
@@ -607,7 +623,7 @@ const translations = {
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
  a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
- a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Yɛsrɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
+ a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Y��srɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
     amoe: {
  title: 'Ɔkwan Foforɔ A Wob��fa So Akɔ Mu (Kɔ Mu Kwa)',
@@ -666,7 +682,7 @@ const translations = {
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
-      sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ��ma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
+      sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
       benefits: [
         "🌱 50% turun tram wɔ Camp Calma tena (Bisafo Circle), 30% ma Gold Membifo.",
@@ -1505,17 +1521,15 @@ const VictronDashboardSection = ({ t }) => {
   );
 };
 
-const AfricanInspiredCampersSection = () => {
+const AfricanInspiredCampersSection = ({ t }) => {
   const collageUrl = "https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb72ced2a33444d2bbed8f1453fa71779?format=webp&width=800";
   return (
     <section id="african-inspired-campers" className="py-20 bg-stone-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
           <div className="order-2 lg:order-1">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Afrikanisch inspirierte Camper – Unsere Vision</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Bei Camp Calma und Sankofa Living &amp; Learning entstehen viele kreative Ideen und Projekte, die Wissen, Kultur und nachhaltiges Leben verbinden. Daniel bringt seine Erfahrungen aus der Caravaning-Welt, dem Off-Grid-Leben und seiner früheren Tätigkeit als Qualitätsmanager in der Automobilindustrie ein. Daraus ist auch die Vision gewachsen, afrikanisch inspirierte Wohnwagen zu entwickeln – gefertigt in Ghana, weltweit exportiert und zugleich ein Impuls, Menschen für Reisen und Tourismus nach Ghana zu begeistern. Dieses Ziel ist realistisch, aber nur gemeinsam umsetzbar: wir brauchen Menschen, die sich für solche Projekte engagieren – oder Spenden, damit Sankofa Living &amp; Learning solche wegweisenden Initiativen realisieren kann.
-            </p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">{t.african_campers.heading}</h2>
+            <p className="text-gray-700 leading-relaxed">{t.african_campers.text}</p>
           </div>
           <div className="order-1 lg:order-2">
             <img
@@ -1672,7 +1686,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis‑Infra (Wasser/Energie), Start Permakultur‑Design', icon: '🧱📐' },
         { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show‑Home)', icon: '🏠' },
         { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
-        { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
+        { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '����🎶' },
         { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
         { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
         { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
@@ -1877,7 +1891,7 @@ export default function App() {
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
         <VictronDashboardSection t={t} />
-        <AfricanInspiredCampersSection />
+        <AfricanInspiredCampersSection t={t} />
       </main>
       <Footer t={t} />
 
