@@ -73,6 +73,11 @@ const translations = {
  heading: 'See Camp Calma in Action',
  youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0',
     },
+    victron: {
+      heading: 'Victron Energy Dashboard',
+      subheading: 'Get insight into our solar power in real time.',
+      open_fullscreen: 'Open fullscreen for an advanced dashboard with more information'
+    },
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
@@ -224,6 +229,11 @@ const translations = {
  video: {
  heading: 'Veja o Camp Calma em Ação',
  youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_PORTUGUES?rel=0',
+    },
+    victron: {
+      heading: 'Painel Victron Energy',
+      subheading: 'Veja em tempo real a nossa energia solar.',
+      open_fullscreen: 'Abrir em ecrã inteiro para um painel avançado com mais informações'
     },
     description: {
       heading: 'Sobre o Camp Calma',
@@ -377,6 +387,11 @@ const translations = {
  heading: 'Camp Calma in Aktion sehen',
  youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_DEUTSCH?rel=0',
     },
+    victron: {
+      heading: 'Victron Energy Dashboard',
+      subheading: 'Erhalte Einblicke in unsere Solarenergie in Echtzeit.',
+      open_fullscreen: 'Im Vollbild öffnen für ein erweitertes Dashboard mit mehr Informationen'
+    },
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
@@ -528,6 +543,11 @@ const translations = {
  video: {
  heading: 'Hwɛ Camp Calma Anwum',
  youtube_link: 'https://www.youtube.com/embed/VIDEO_ID_TWI?rel=0',
+    },
+    victron: {
+      heading: 'Victron Energy Dashboard',
+      subheading: 'Hunu yɛn sɔla tumi wɔ bere tenten mu seesei.',
+      open_fullscreen: 'Bue wɔ kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
@@ -1446,7 +1466,7 @@ const AmoeSection = ({ t, onOpenModal }) => (
 );
 
 
-const VictronDashboardSection = () => {
+const VictronDashboardSection = ({ t }) => {
   const EMBED_SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
   const FULLSCREEN_SRC = "https://vrm.victronenergy.com/installation/156972/share/5ae69a73";
 
@@ -1455,10 +1475,10 @@ const VictronDashboardSection = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-4">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Victron Energy Dashboard
+            {t.victron.heading}
           </h2>
           <p className="text-gray-600 mt-1">
-            Get insight into our solar power in real time.
+            {t.victron.subheading}
           </p>
           <a
             href={FULLSCREEN_SRC}
@@ -1466,7 +1486,7 @@ const VictronDashboardSection = () => {
             rel="noopener noreferrer"
             className="mt-2 inline-block text-sm font-medium text-primary-600 hover:text-primary-700 underline"
           >
-            Open full screen
+            {t.victron.open_fullscreen}
           </a>
         </div>
 
@@ -1616,7 +1636,7 @@ const AfroVillageProgress = ({ language }) => {
       goalLabel: 'Ziel',
       legend: [
         '🔵 Planung & Start',
-        '🟢 Aufbau & erste Häuser',
+        '�� Aufbau & erste Häuser',
         '🟡 Infrastruktur & Kultur',
         '🟣 Sankofa Village vollendet',
       ],
@@ -1631,7 +1651,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
         { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
         { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡���' },
       ],
       story: [
         'Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Sankofa Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.',
@@ -1831,7 +1851,7 @@ export default function App() {
         <AboutBisafo t={t} />
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
-        <VictronDashboardSection />
+        <VictronDashboardSection t={t} />
       </main>
       <Footer t={t} />
 
