@@ -1447,7 +1447,7 @@ const AmoeSection = ({ t, onOpenModal }) => (
 
 
 const VictronDashboardSection = () => {
-  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/5ae69a73";
+  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
 
   return (
     <section id="victron-dashboard" className="py-12 bg-white">
