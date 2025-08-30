@@ -181,7 +181,7 @@ const translations = {
       milestone_450_500: "💜 450+: Monthly Giveaways (e.g. MacBook)",
       status_building: "Building Phase: NGO Development ���",
       status_sustainability: "Sustainability Achieved 💚",
-      status_exclusive: "Exclusive Access & Event Notifications ✨",
+      status_exclusive: "Exclusive Access & Event Notifications ���",
       status_raffles: "Monthly Giveaways Unlocked 🎁",
       benefits_heading: "Exclusive Benefits for Bisafo Members",
       benefit_1: "✅ Exclusive access to Daniel",
@@ -305,7 +305,7 @@ const translations = {
     },
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
-      button_text: 'Clique aqui para o Formulário de Entrada Gratuita',
+      button_text: 'Clique aqui para o Formul��rio de Entrada Gratuita',
       modal_heading: 'Formulário de Entrada Gratuita (AMOE)',
       modal_subheading: 'Por favor, preencha o formulário completamente para receber um (1) bilhete de sorteio.',
       name: 'Nome Completo',
@@ -407,7 +407,7 @@ const translations = {
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
- p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen – du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
+ p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen ��� du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
     },
     donate: {
  heading: 'Wähle dein Unterstützungslevel',
@@ -723,7 +723,7 @@ const translations = {
       open_fullscreen: 'Mepee ihuenyo dum maka dashboard zuru ezu'
     },
     african_campers: {
-      heading: 'Ụgbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
+      heading: '���gbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na ndụ na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     description: {
@@ -796,7 +796,7 @@ const translations = {
       address: 'Adreesị ozi‑ozi zuru ezu',
       statement: 'Okwu nbanye',
       statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
-      submit: 'Zipu nbanye n’efu',
+      submit: 'Zipu nbanye n��efu',
       success: 'Daalụ! Nbanye gị n’efu eziputela. Ị ga-enweta email nkwenye n’oge na-adịghị anya.',
       close: 'Mechie',
       consent_html: 'Anabata m <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Usoro</a> ma na-aghọta <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Nzere nzuzo</a>, tinyekwara ikike ịkpọtụrụ m site na email na WhatsApp gbasara mgbasa a.',
@@ -949,24 +949,75 @@ const HeroSection = ({ t }) => (
   </section>
 );
 
-const PartnersSection = ({ t }) => {
+const PartnersSection = ({ t, language }) => {
+  const headingByLang = {
+    en: 'Partners & Cooperations',
+    pt: 'Parceiros & Colaborações',
+    de: 'Partner & Kooperationen',
+    twi: 'Adwumayɛ Mmoafoɔ & Nkitahodie',
+    ig: 'Ndị mmekọ & Mmekọrịta',
+  };
+  const heading = (t.partners && t.partners.heading) || headingByLang[language] || 'Partners & Cooperations';
+
   const partners = [
-    'Social Impact gGmbH',
-    'OUTO',
-    'Black Hills Events',
-    'Little Ashé',
-    'NiluaMusic',
-    'Oatsfield',
-    'Jesse Jaxx',
+    {
+      name: 'Social Impact gGmbH',
+      url: 'https://socialimpact.eu/',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F33bd29194969431aaef18ad3b20e1eae?format=webp&width=800',
+      alt: 'Social Impact gGmbH logo'
+    },
+    {
+      name: 'OUTO (Opening Up The Outdoors)',
+      url: 'https://openinguptheoutdoors.com/',
+      image: 'https://openinguptheoutdoors.com/_nuxt/logo-OUTO.ClSsF2Js.svg',
+      alt: 'Opening Up The Outdoors logo'
+    },
+    {
+      name: 'Black Hills Events',
+      url: 'https://www.eventbrite.de/o/african-lisbon-tour-amp-black-hills-events-52446170193',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F390f7ed5d9fc423495e1ac9f8c8c6c56?format=webp&width=800',
+      alt: 'Black Hills Events organizer logo'
+    },
+    {
+      name: 'Little Ashé',
+      url: 'https://littleashe.com/',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff9987985104e4a45b8874887eb3b24c1?format=webp&width=800',
+      alt: 'Little Ashé logo'
+    },
+    {
+      name: 'Nilua',
+      url: 'https://soundcloud.com/nilua',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F75acdbea0432443b9480a27a287ca35c?format=webp&width=800',
+      alt: 'Nilua artist profile image placeholder'
+    },
+    {
+      name: 'Oatsfield',
+      url: 'https://distrokid.com/hyperfollow/oatsfield/ugqozi',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fd7c6f660724a4c9597fe4ed002d76674?format=webp&width=800',
+      alt: 'Oatsfield release link logo'
+    },
+    {
+      name: 'Jesse Jaxx',
+      url: 'https://linktr.ee/jessejaxen',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F96067d6067b740fc981bce2c08ac3142?format=webp&width=800',
+      alt: 'Jesse Jaxx profile links'
+    },
   ];
-  const heading = (t.partners && t.partners.heading) || 'Partners & Cooperations';
+
   return (
     <section id="partners" className="py-10 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-sm font-semibold tracking-wider text-gray-500 uppercase text-center">{heading}</h2>
         <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-w-4xl mx-auto">
-          {partners.map((name) => (
-            <li key={name} className="text-gray-600 text-sm bg-gray-50 border rounded-md px-3 py-2 text-center">{name}</li>
+          {partners.map((p) => (
+            <li key={p.name} className="bg-gray-50 border rounded-md px-3 py-4 text-center flex flex-col items-center">
+              <a href={p.url} target="_blank" rel="noopener noreferrer" className="group inline-block">
+                <div className="w-full flex items-center justify-center">
+                  <img src={p.image} alt={p.alt} className="h-16 object-contain" />
+                </div>
+                <span className="mt-2 block text-gray-700 text-sm font-medium">{p.name}</span>
+              </a>
+            </li>
           ))}
         </ul>
       </div>
@@ -1870,7 +1921,7 @@ const AfroVillageProgress = ({ language }) => {
       ],
       story: [
         'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
-        'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
+        'Comunidade é o coraç��o: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
         'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
       ]
     },
@@ -1952,7 +2003,7 @@ const AfroVillageProgress = ({ language }) => {
       unlockedLabel: 'Emeghe',
       lockedLabel: 'Emechiri',
       milestones: [
-        { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa bụ isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
+        { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa b��� isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
         { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
         { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
@@ -1964,7 +2015,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
         'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
-        'Mmụta na‑ewepụ ngwọgide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
+        'Mmụta na‑ewepụ ngw���gide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
       ]
     }
   }[language];
@@ -2116,7 +2167,7 @@ export default function App() {
       <Header language={language} setLanguage={setLanguage} t={t} />
       <main>
         <HeroSection t={t} />
-        <PartnersSection t={t} />
+        <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
