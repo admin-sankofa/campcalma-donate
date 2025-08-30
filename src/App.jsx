@@ -370,7 +370,7 @@ const translations = {
       feature_safe_harbor: "Porto Seguro",
       feature_shared_learning: "Aprendizagem Partilhada",
       feature_monthly_raffles: "Sorteios Mensais",
-      background: "“Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
+      background: "���Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
       exclusivity: "Os primeiros 500 membros formam o exclusivo Círculo Bisafo e manterão para sempre as vantagens especiais de fundadores enquanto permanecerem ativos. Mais tarde, a comunidade crescerá para 5.000 Membros Gold, enquanto o Círculo Bisafo mantém o estatuto único de fundador.",
       sustainability: "Estes primeiros 500 membros — mostrados no painel — são o grupo cujas contribuições mensais asseguram a sustentabilidade da ONG e desbloqueiam sorteios mensais.",
       benefits_title: "Benefícios para Membros",
@@ -431,7 +431,7 @@ const translations = {
  heading: 'Wähle dein Unterstützungslevel',
  subheading: 'Jeder Beitrag macht einen Unterschied. Mehr Unterstützung bedeutet mehr Gewinnchancen!',
       tier1: {
- price: '€10',
+ price: '���10',
  tickets: '20 Lose',
  description: 'Eine großartige Möglichkeit, deine Unterstützung zu zeigen.',
       },
@@ -681,11 +681,11 @@ const translations = {
       capacity: "Baabi A Wɔahyɛ",
       sustainability_label: "Botaeɛ A Ɛb���tena Hɔ",
       raffle_label: "Bɔɔl",
-      capacity_label: "Baabi Nyinaa Ahy��",
+      capacity_label: "Baabi Nyinaa Ahyɛ",
       milestone_0_299: "💙 Kɔsi 299: Mfitiaseɛ",
       milestone_300_349: "💚 300–349: Botaeɛ A Ɛbɛtena Hɔ Adu",
       milestone_350_449: "💛 350–449: Soronko Kwan & Dwumadi Ho Amaneɛ",
-      milestone_450_500: "💜 450+: Bosome Biara Bɔɔl (te sɛ MacBook)",
+      milestone_450_500: "���� 450+: Bosome Biara Bɔɔl (te sɛ MacBook)",
       status_building: "Mfitiaseɛ: NGO Nkɔso 💙",
       status_sustainability: "Botaeɛ A Ɛbɛtena Hɔ Adu 💚",
       status_exclusive: "Soronko Kwan & Dwumadi Ho Amaneɛ ✨",
@@ -704,8 +704,8 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa���. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma b��.",
-      exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
+      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma b��.",
+      exclusivity: "Membifo 500 a edi kan na wɔb��yɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
       benefits: [
@@ -752,7 +752,7 @@ const translations = {
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
-      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan ��� iwulite ntụkwasị obi site n’ọha.',
+      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ'
     },
@@ -866,7 +866,7 @@ const translations = {
     },
     bisafo_about: {
       heading: 'Banyere Otu Bisafo',
-      subheading: 'Obodo pụr��� iche nke Sankofa Living & Learning',
+      subheading: 'Obodo pụrụ iche nke Sankofa Living & Learning',
       feature_founders: 'Otu Ndị guzobere',
       feature_safe_harbor: 'Safe Harbor',
       feature_shared_learning: 'Mmụta ọnụ',
@@ -2302,7 +2302,7 @@ const AfroVillageProgress = ({ language }) => {
     }
   }[langKey];
 
-  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', nl: 'nl-NL', twi: 'en-GB', ig: 'ig-NG' };
+  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', nl: 'nl-NL', nl: 'nl-NL', twi: 'en-GB', ig: 'ig-NG' };
 
   useEffect(() => {
     const url = import.meta.env.VITE_AFRO_VILLAGE_TOTAL_URL;
