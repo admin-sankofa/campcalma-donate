@@ -1446,25 +1446,51 @@ const AmoeSection = ({ t, onOpenModal }) => (
 );
 
 
-const VictronDashboardSection = () => (
-  <section id="victron-dashboard" className="py-20 bg-white">
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto text-center mb-8">
-        <h2 className="text-4xl font-bold text-gray-800">Victron Energy Dashboard</h2>
-        <p className="text-lg text-gray-600 mt-2">Get insight into our solar power in real time.</p>
+const VictronDashboardSection = () => {
+  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
+
+  return (
+    <section id="victron-dashboard" className="py-16 bg-white">
+      {/* Heading stays in a nice container */}
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto text-center mb-6 max-w-3xl">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Victron Energy Dashboard
+          </h2>
+          <p className="text-lg text-gray-600 mt-2">
+            Get insight into our solar power in real time.
+          </p>
+
+          {/* Fallback link for devices that struggle with iframes */}
+          <div className="mt-3">
+            <a
+              href={SRC}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 underline"
+            >
+              Open full screen
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="relative w-full h-[65vh] md:h-[75vh] lg:h-[85vh]">
-        <iframe
-          className="absolute inset-0 w-full h-full border-0"
-          src="https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21"
-          title="Victron Energy dashboard for Camp Calma"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
+
+      {/* Full-bleed wrapper (breaks out of container) */}
+      <div className="relative w-screen left-1/2 right-1/2 -mx-[50vw]">
+        {/* Responsive height */}
+        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] xl:h-[85vh]">
+          <iframe
+            className="absolute inset-0 w-full h-full border-0 rounded-none sm:rounded-xl shadow-sm"
+            src={SRC}
+            title="Victron Energy dashboard for Camp Calma"
+            loading="lazy"
+            allowFullScreen
+          />
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 const Footer = ({ t }) => (
   <footer className="bg-gray-800 text-white">
