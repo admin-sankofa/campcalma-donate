@@ -680,7 +680,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
+      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a w��hyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
@@ -849,7 +849,7 @@ const translations = {
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
         '🎁 Njikọ na onyinye pụrụ iche na nnukwu onyinye (dịka ala, campervan) mgbe e ruru milestones.',
         '📚 Ọnụ ụzọ n’akụrụngwa dijitalụ (Permaculture Guide, nri, yoga, ihe mmụta).',
-        '🗳️ Nsonye na mkpebi n’ogbako, ihe omume na oru obodo.',
+        '���️ Nsonye na mkpebi n’ogbako, ihe omume na oru obodo.',
         '🎥 Ihe omume live/stream pụrụ iche, oku obodo, nlele retreats.',
         '📝 Aha a ga‑egosi na websaịtị/social/vidiyo dịka ndị na-akwado guzobere.'
       ],
@@ -1879,7 +1879,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
         { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓��' },
-        { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
+        { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏��' },
         { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
         { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
@@ -1888,6 +1888,37 @@ const AfroVillageProgress = ({ language }) => {
         'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+      ]
+    },
+    ig: {
+      title: 'Sankofa Village – Obodo nke onwe‑onwe',
+      subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+      storyTitle: 'Gịnị mere Sankofa Village',
+      currentLabel: 'Ego a chịkọtara',
+      goalLabel: 'Ebumnuche',
+      legend: [
+        '🔵 Nhazi & Mmalite',
+        '🟢 Owuwu & Ụlọ mbụ',
+        '🟡 Akụrụngwa & Omenala',
+        '🟣 Sankofa Village zuru oke',
+      ],
+      cta: 'Kwado ugbu a',
+      unlockedLabel: 'Emeghe',
+      lockedLabel: 'Emechiri',
+      milestones: [
+        { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa bụ isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
+        { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '🏠' },
+        { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
+        { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
+        { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
+        { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
+        { amount: 750000, name: 'Omenala & Mbelata', outcome: 'AfroBeats ogbo, creative hub, ebe retreat', icon: '🥁🎭' },
+        { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' },
+      ],
+      story: [
+        'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
+        'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
+        'Mmụta na‑ewepụ ngwọgide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
       ]
     }
   }[language];
