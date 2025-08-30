@@ -680,7 +680,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a w��hyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
+      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
@@ -823,7 +823,7 @@ const translations = {
       milestone_300_349: '💚 300–349: Idịgide ruru',
       milestone_350_449: '💛 350–449: Ntinye pụrụ iche & Ụzọ ọmụma',
       milestone_450_500: '💜 450+: Mgbasa kwa ọnwa (dịka MacBook)',
-      status_building: 'Oge mmalite: Ịzụlite NGO 💙',
+      status_building: 'Oge mmalite: ��zụlite NGO 💙',
       status_sustainability: 'Idịgide ruru 💚',
       status_exclusive: 'Ntinye pụrụ iche & Ụbọchị omume ✨',
       status_raffles: 'Mgbasa kwa ọnwa emeghe 🎁',
@@ -842,20 +842,20 @@ const translations = {
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
       background: '“Bisafo” sitere na asụsụ Twi nke Ghana ma pụtara “ndị na-achọ, ndị na-amụta, na ndị na-ajụ ajụjụ.” Na Camp Calma, Otu Bisafo bụ Otu Ndị guzobere — netwọkụ nke ndị pionia na-enyocha, na-achọpụta na na-amụta ọnụ. Mmụọ Bisafo bụ ọchịchọ ịmata ihe, mmụta ọnụ na njem — obi na‑agba nke Camp Calma.',
-      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka ndị guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
+      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
       sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
       benefits_title: 'Uru ndị otu',
       benefits: [
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
         '🎁 Njikọ na onyinye pụrụ iche na nnukwu onyinye (dịka ala, campervan) mgbe e ruru milestones.',
         '📚 Ọnụ ụzọ n’akụrụngwa dijitalụ (Permaculture Guide, nri, yoga, ihe mmụta).',
-        '���️ Nsonye na mkpebi n’ogbako, ihe omume na oru obodo.',
+        '🗳️ Nsonye na mkpebi n’ogbako, ihe omume na oru obodo.',
         '🎥 Ihe omume live/stream pụrụ iche, oku obodo, nlele retreats.',
         '📝 Aha a ga‑egosi na websaịtị/social/vidiyo dịka ndị na-akwado guzobere.'
       ],
       info_box: 'Otu Bisafo (Ndị otu 500) na-eme Otu Ndị guzobere. Mgbe e mesịrị, obodo ga-eto ruo 5,000 Ndị otu Gold — ma Otu Bisafo ga-anọgide na-enwe uru pụrụ iche nke ndị guzobere.',
       narrative_title: 'Ọrụ “Safe Harbor” & Autarky',
-      narrative: 'Eziokwu karịrị lotiri: onyinye gị bụ mmanụ ụgbọala maka ịdịte aka onwe na nke obodo — itinye ego na iwuli Safe Harbor: ebe mmụta, obodo na onwe‑onwe n’ọrụ. N’ịkọrịta aka, Camp Calma na Sankofa na‑kpali mmegharị nke ndụ onwe‑onwe na ịdịte aka.'
+      narrative: 'Eziokwu karịrị lotiri: onyinye gị bụ mmanụ ụgbọala maka ịd��te aka onwe na nke obodo — itinye ego na iwuli Safe Harbor: ebe mmụta, obodo na onwe‑onwe n’ọrụ. N’ịkọrịta aka, Camp Calma na Sankofa na‑kpali mmegharị nke ndụ onwe‑onwe na ịdịte aka.'
     }
   },
 };
@@ -1080,6 +1080,27 @@ const SafeHarborSection = ({ t, language }) => {
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
       rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
+    },
+    ig: {
+      heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
+      sub: 'Mgbatị maka ịdịte aka na onwe‑onwe',
+      features: [
+        { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+        { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na-eme ka mmetụta na-aga ngwa — ọ bụghị lotiri.' },
+        { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
+        { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
+      ],
+      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị ntụkwasị obi.',
+      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
+      listTitle: 'Njikọ na njikọ ọrụ',
+      bullets: [
+        'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Otu Bisafo na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
+        'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
+        'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
+        'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+      ],
+      rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jikọta ha nke ọma.'
     }
   }[language];
 
@@ -1789,7 +1810,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
         { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
         { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp��Calma design', icon: '🏡✨' },
       ],
       story: [
         'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self‑sufficiency can be lived in practice.',
@@ -1879,7 +1900,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
         { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓��' },
-        { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏��' },
+        { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
         { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
         { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
