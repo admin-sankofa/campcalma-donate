@@ -82,6 +82,12 @@ const translations = {
       heading: 'African‑Inspired Campers – Our Vision',
       text: 'At Camp Calma and Sankofa Living & Learning, many creative ideas and projects connect knowledge, culture, and sustainable living. Daniel brings experience from the caravanning world, off‑grid life, and his former work as a quality manager in the automotive industry. From this, the vision has grown to develop African‑inspired caravans—built in Ghana, exported worldwide, and sparking enthusiasm for travel and tourism to Ghana. This goal is realistic, but only possible together: we need people who commit to such projects—or donations so that Sankofa Living & Learning can make these pioneering initiatives a reality.'
     },
+    press: {
+      heading: 'Featured in TV and Press',
+      subheading: 'Years of hands‑on campervan conversions — building trust through public coverage.',
+      video_cta: 'Watch on YouTube',
+      article_cta: 'Read the article'
+    },
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
@@ -242,6 +248,12 @@ const translations = {
     african_campers: {
       heading: 'Caravanas inspiradas em África – A nossa visão',
       text: 'Na Camp Calma e na Sankofa Living & Learning surgem muitas ideias e projetos criativos que ligam conhecimento, cultura e vida sustentável. Daniel traz a sua experiência do mundo das caravanas, da vida off‑grid e do seu trabalho anterior como gestor de qualidade na indústria automóvel. Daí nasceu a visão de desenvolver caravanas inspiradas em África — fabricadas no Gana, exportadas para o mundo e, ao mesmo tempo, um impulso para inspirar viagens e turismo para o Gana. Este objetivo é realista, mas só é possível em conjunto: precisamos de pessoas empenhadas nestes projetos — ou de doações, para que a Sankofa Living & Learning possa tornar estas iniciativas pioneiras realidade.'
+    },
+    press: {
+      heading: 'Na televisão e na imprensa',
+      subheading: 'Anos de conversões práticas de autocaravanas — confiança através da visibilidade pública.',
+      video_cta: 'Ver no YouTube',
+      article_cta: 'Ler o artigo'
     },
     description: {
       heading: 'Sobre o Camp Calma',
@@ -404,6 +416,12 @@ const translations = {
       heading: 'Afrikanisch inspirierte Camper – Unsere Vision',
       text: 'Bei Camp Calma und Sankofa Living & Learning entstehen viele kreative Ideen und Projekte, die Wissen, Kultur und nachhaltiges Leben verbinden. Daniel bringt seine Erfahrungen aus der Caravaning‑Welt, dem Off‑Grid‑Leben und seiner früheren Tätigkeit als Qualitätsmanager in der Automobilindustrie ein. Daraus ist auch die Vision gewachsen, afrikanisch inspirierte Wohnwagen zu entwickeln – gefertigt in Ghana, weltweit exportiert und zugleich ein Impuls, Menschen für Reisen und Tourismus nach Ghana zu begeistern. Dieses Ziel ist realistisch, aber nur gemeinsam umsetzbar: wir brauchen Menschen, die sich für solche Projekte engagieren – oder Spenden, damit Sankofa Living & Learning solche wegweisenden Initiativen realisieren kann.'
     },
+    press: {
+      heading: 'In TV und Presse',
+      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch öffentliche Berichterstattung.',
+      video_cta: 'Auf YouTube ansehen',
+      article_cta: 'Artikel lesen'
+    },
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
@@ -563,7 +581,13 @@ const translations = {
     },
     african_campers: {
       heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
-      text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw sɛ quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ɛnam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛyɛ adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛdeɛ, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
+      text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw sɛ quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ��nam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛyɛ adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛdeɛ, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
+    },
+    press: {
+      heading: 'TV ne nsɛmmɔne mu aka yɛn ho',
+      subheading: 'Mfeɛ ahe na yɛreyɛ campervan‑nsakrae wɔ adwumayɛ mu — eyi ma ɔdɔ ne gyidie.',
+      video_cta: 'Hwɛ wɔ YouTube so',
+      article_cta: 'Kenkan asɛmmisa no'
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
@@ -680,7 +704,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
+      background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma b��.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
@@ -725,6 +749,12 @@ const translations = {
     african_campers: {
       heading: '���gbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na ndụ na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
+    },
+    press: {
+      heading: 'Na telivishọn na akwụkwọ akụkọ',
+      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
+      video_cta: 'Lelee na YouTube',
+      article_cta: 'Gụọ akụkọ ahụ'
     },
     description: {
       heading: 'Banyere Camp Calma',
@@ -974,7 +1004,7 @@ const PartnersSection = ({ t, language }) => {
     },
     {
       name: 'Black Hills Events',
-      url: 'https://www.eventbrite.de/o/african-lisbon-tour-amp-black-hills-events-52446170193',
+      url: 'https://www.blackhillseventslx.com/events',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F390f7ed5d9fc423495e1ac9f8c8c6c56?format=webp&width=800',
       alt: 'Black Hills Events organizer logo'
     },
@@ -986,19 +1016,19 @@ const PartnersSection = ({ t, language }) => {
     },
     {
       name: 'Nilua',
-      url: 'https://soundcloud.com/nilua',
+      url: 'https://www.instagram.com/niluamusic/',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F75acdbea0432443b9480a27a287ca35c?format=webp&width=800',
       alt: 'Nilua artist profile image placeholder'
     },
     {
       name: 'Oatsfield',
-      url: 'https://distrokid.com/hyperfollow/oatsfield/ugqozi',
+      url: 'https://open.spotify.com/artist/3qlEq77dXOPyIjBCBd289Z',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fd7c6f660724a4c9597fe4ed002d76674?format=webp&width=800',
       alt: 'Oatsfield release link logo'
     },
     {
       name: 'Jesse Jaxx',
-      url: 'https://linktr.ee/jessejaxen',
+      url: 'https://open.spotify.com/artist/62heZ2iBAWCnfSB356VHR0',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F96067d6067b740fc981bce2c08ac3142?format=webp&width=800',
       alt: 'Jesse Jaxx profile links'
     },
@@ -1166,7 +1196,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
-      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị ntụkwasị obi.',
+      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
@@ -1802,6 +1832,54 @@ const AfricanInspiredCampersSection = ({ t }) => {
   );
 };
 
+const PressCoverageSection = ({ t }) => {
+  const YT_ID = 'Ee0JOPpsFPo';
+  const YT_EMBED = `https://www.youtube.com/embed/${YT_ID}?rel=0`;
+  const ARTICLE_URL = 'https://www.noz.de/deutschland-welt/neo/artikel/vanlife-germany-5-wichtige-tipps-fuer-deinen-bulli-ausbau-vanlife-20026901';
+  const images = [
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F4ae6db7547024865bd58ebb08934d2aa?format=webp&width=800',
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5e8f82f4bff4546a1373a5943dbeae5?format=webp&width=800',
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fe0eea7ebe3e147b19840dd0854419f8f?format=webp&width=800'
+  ];
+  return (
+    <section id="media-trust" className="py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">{t.press?.heading || 'In the Media'}</h2>
+          <p className="text-lg text-gray-600 mt-2">{t.press?.subheading}</p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto items-start">
+          <div className="rounded-2xl overflow-hidden shadow-lg bg-black/5">
+            <div className="relative w-full pt-[56.25%] bg-black">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src={YT_EMBED}
+                title="YouTube TV feature"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+            <a href={`https://www.youtube.com/watch?v=${YT_ID}`} target="_blank" rel="noopener noreferrer" className="block text-center mt-3 text-green-600 hover:text-green-700 font-medium">
+              {t.press?.video_cta || 'Watch on YouTube'}
+            </a>
+          </div>
+          <div>
+            <div className="grid grid-cols-2 gap-3">
+              <img src={images[0]} alt="TV interview during campervan conversion" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+              <img src={images[1]} alt="Hands-on work on campervan interior" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+              <img src={images[2]} alt="Workshop scene with open van doors" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow col-span-2" />
+            </div>
+            <a href={ARTICLE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-green-600 hover:text-green-700 font-medium">
+              {t.press?.article_cta || 'Read the article'} <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const Footer = ({ t }) => (
   <footer className="bg-gray-800 text-white">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -2182,6 +2260,7 @@ export default function App() {
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
         <VictronDashboardSection t={t} />
         <AfricanInspiredCampersSection t={t} />
+        <PressCoverageSection t={t} />
       </main>
       <Footer t={t} />
 
