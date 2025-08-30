@@ -170,7 +170,7 @@ const translations = {
       milestone_300_349: "💚 300–349: Sustainability Achieved",
       milestone_350_449: "💛 350–449: Exclusive Access & Event Notifications",
       milestone_450_500: "💜 450+: Monthly Giveaways (e.g. MacBook)",
-      status_building: "Building Phase: NGO Development 💙",
+      status_building: "Building Phase: NGO Development ���",
       status_sustainability: "Sustainability Achieved 💚",
       status_exclusive: "Exclusive Access & Event Notifications ✨",
       status_raffles: "Monthly Giveaways Unlocked 🎁",
@@ -536,7 +536,7 @@ const translations = {
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
- subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔho�� pii kyerɛ akwanya pii sɛ wob��gye!',
+ subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔhoɔ pii kyerɛ akwanya pii sɛ wob��gye!',
       tier1: {
  price: '€10',
  tickets: '20 Bɔɔl',
@@ -856,7 +856,7 @@ const SafeHarborSection = ({ t, language }) => {
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
-        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável — membros co‑criam ativamente o porto.',
+        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável �� membros co‑criam ativamente o porto.',
         'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
         'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
         'Papel da ONG Sankofa: Codeterminação no Círculo Bisafo e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
@@ -1453,12 +1453,13 @@ const VictronDashboardSection = () => (
         <h2 className="text-4xl font-bold text-gray-800">Victron Energy Dashboard</h2>
         <p className="text-lg text-gray-600 mt-2">Get insight into our solar power in real time.</p>
       </div>
-      <div className="max-w-5xl mx-auto">
+      <div className="relative w-full h-[65vh] md:h-[75vh] lg:h-[85vh]">
         <iframe
-          width="100%"
-          height="800"
+          className="absolute inset-0 w-full h-full border-0"
           src="https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21"
           title="Victron Energy dashboard for Camp Calma"
+          loading="lazy"
+          allowFullScreen
         ></iframe>
       </div>
     </div>
@@ -1579,7 +1580,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
         { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
         { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
-        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
+        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '���🎭' },
         { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
