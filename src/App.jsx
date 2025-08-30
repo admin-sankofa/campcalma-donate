@@ -418,7 +418,7 @@ const translations = {
     },
     press: {
       heading: 'In TV und Presse',
-      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch öffentliche Berichterstattung.',
+      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch ��ffentliche Berichterstattung.',
       video_cta: 'Auf YouTube ansehen',
       article_cta: 'Artikel lesen'
     },
@@ -444,7 +444,7 @@ const translations = {
       tier3: {
  price: '€30',
  tickets: '160 Lose',
- description: 'Bester Wert für die größte Wirkung.',
+ description: 'Bester Wert für die gr��ßte Wirkung.',
       },
  button: 'Spenden & Teilnehmen',
     },
@@ -577,7 +577,7 @@ const translations = {
     victron: {
       heading: 'Victron Energy Dashboard',
       subheading: 'Hunu yɛn sɔla tumi wɔ bere tenten mu seesei.',
-      open_fullscreen: 'Bue wɔ kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
+      open_fullscreen: 'Bue w�� kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
     },
     african_campers: {
       heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
@@ -652,7 +652,7 @@ const translations = {
     amoe: {
  title: 'Ɔkwan Foforɔ A Wob��fa So Akɔ Mu (Kɔ Mu Kwa)',
  button_text: 'Klik ha fa kɔ ne Form no so kɔ mu kwa',
- modal_heading: 'Kɔ Mu Kwa Form (AMOE)',
+ modal_heading: 'K�� Mu Kwa Form (AMOE)',
  modal_subheading: 'Yɛsrɛ wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
  name: 'Din Nyinaa',
  email: 'Email Adrɛs',
@@ -730,7 +730,7 @@ const translations = {
     },
     hero: {
       support_fairs_heading: 'Soro mee ka anyi gara ngosi!',
-      support_fairs_text: 'Nye aka NGO Sankofa Living & Learning na oru anyi Camp Calma ka ha nwee ike ịga ngosi Reiselust, Fisch & Feines na Caravan Bremen. Onyinye gi na-akwụ ụgwọ ebe e ji guo, njem na ihe eji eme ka ndụ na-adigide pụta ìhè!',
+      support_fairs_text: 'Nye aka NGO Sankofa Living & Learning na oru anyi Camp Calma ka ha nwee ike ịga ngosi Reiselust, Fisch & Feines na Caravan Bremen. Onyinye gi na-akwụ ụgwọ ebe e ji guo, njem na ihe eji eme ka nd�� na-adigide pụta ìhè!',
       donate_button: 'Nyefe onyinye',
       every_donation_text: 'Onyinye ọ bụla na-eburu anyi nso ebumnuche anyi. Daalụ maka nkwado gị!',
       subheading: 'Soro nrọ kwadoo, nweta onyinye mara mma',
@@ -808,7 +808,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs��rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -885,7 +885,7 @@ const translations = {
       ],
       info_box: 'Otu Bisafo (Ndị otu 500) na-eme Otu Ndị guzobere. Mgbe e mesịrị, obodo ga-eto ruo 5,000 Ndị otu Gold — ma Otu Bisafo ga-anọgide na-enwe uru pụrụ iche nke ndị guzobere.',
       narrative_title: 'Ọrụ “Safe Harbor” & Autarky',
-      narrative: 'Eziokwu karịrị lotiri: onyinye gị bụ mmanụ ụgbọala maka ịd��te aka onwe na nke obodo — itinye ego na iwuli Safe Harbor: ebe mmụta, obodo na onwe‑onwe n’ọrụ. N’ịkọrịta aka, Camp Calma na Sankofa na‑kpali mmegharị nke ndụ onwe‑onwe na ịdịte aka.'
+      narrative: 'Eziokwu karịrị lotiri: onyinye gị bụ mmanụ ụgbọala maka ịd��te aka onwe na nke obodo — itinye ego na iwuli Safe Harbor: ebe mmụta, obodo na onwe‑onwe n’ọrụ. N’ịkọrịta aka, Camp Calma na Sankofa na‑kpali mmegharị nke nd��� onwe‑onwe na ịdịte aka.'
     }
   },
 };
@@ -1073,6 +1073,7 @@ const Button = ({ children, variant = 'default', className = '', ...props }) => 
 
 const LanguageToggle = ({ language, setLanguage }) => {
   const orderedLanguages = ['en', 'pt', 'de', 'nl', 'twi', 'ig'];
+  const flags = { en: '🇬🇧', pt: '🇵🇹', de: '🇩🇪', nl: '🇳🇱', twi: '🇬🇭', ig: '🇳🇬' };
   const tooMany = orderedLanguages.length > 5;
   const [open, setOpen] = useState(false);
 
@@ -1090,7 +1091,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
             }`}
             onClick={() => setLanguage(langCode)}
           >
-            {langCode.toUpperCase()}
+            <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[langCode]}</span>{langCode.toUpperCase()}</span>
           </Button>
         ))}
       </div>
@@ -1107,7 +1108,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
         aria-expanded={open}
         aria-label="Select language"
       >
-        {language.toUpperCase()}
+        <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[language]}</span>{language.toUpperCase()}</span>
         <ChevronsUpDown className="ml-2 h-4 w-4" />
       </Button>
       {open && (
@@ -1128,7 +1129,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
                     setOpen(false);
                   }}
                 >
-                  {langCode.toUpperCase()}
+                  <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[langCode]}</span>{langCode.toUpperCase()}</span>
                 </button>
               </li>
             ))}
@@ -1361,7 +1362,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
         { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
         { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
-        { icon: '🤝', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
+        { icon: '����', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
       ],
       p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
       p2: 'Akoma 2025 verandert fondsenwerving in momentum: samen versnellen we impact, versterken we handelen en openen we startkansen die de uitbouw voeden.',
@@ -2301,7 +2302,7 @@ const AfroVillageProgress = ({ language }) => {
       subtitle: 'Akokyem akokyem na yɛrebɔ kuro a ɛma sukuu, kurom ne wo‑ara‑wo‑ho adwuma te ase. Mo boa biara ka adwuma no ho.',
       storyTitle: 'Adɛn Sankofa Village (Sankofa)',
       currentLabel: 'Sika a ɛkɔ so seisei',
-      goalLabel: 'Botaeɛ',
+      goalLabel: 'Botae��',
       legend: [
         '🔵 Nhyehyɛe & Mfitiaseɛ',
         '🟢 Siesie & Ofie a edi kan',
@@ -2344,7 +2345,7 @@ const AfroVillageProgress = ({ language }) => {
       lockedLabel: 'Emechiri',
       milestones: [
         { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa b��� isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
-        { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '🏠' },
+        { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe���onwe mbụ (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
         { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
         { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
@@ -2483,10 +2484,64 @@ const AfroVillageProgress = ({ language }) => {
 
 // --- MAIN APP COMPONENT ---
 
+const LanguageSelectModal = ({ isOpen, onSelect, onClose }) => {
+  if (!isOpen) return null;
+  const langs = [
+    { code: 'en', label: 'English', flag: '🇬🇧' },
+    { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+    { code: 'pt', label: 'Português', flag: '🇵🇹' },
+    { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
+    { code: 'twi', label: 'Twi (Akan)', flag: '🇬🇭' },
+    { code: 'ig', label: 'Igbo', flag: '🇳🇬' },
+  ];
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-[60] flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 w-full max-w-lg relative">
+        <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-gray-600" aria-label="Close">
+          <X className="h-6 w-6" />
+        </button>
+        <h2 className="text-2xl font-bold text-gray-800 text-center">Select language</h2>
+        <p className="text-gray-600 text-center mt-1">Choose your preferred language to continue.</p>
+        <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {langs.map((l) => (
+            <button
+              key={l.code}
+              onClick={() => onSelect(l.code)}
+              className="px-4 py-3 border rounded-md text-sm font-semibold uppercase bg-gray-50 hover:bg-green-50 hover:border-green-500 text-gray-800 transition-colors"
+            >
+              <span className="inline-flex items-center gap-2"><span aria-hidden="true">{l.flag}</span>{l.label}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function App() {
   const [language, setLanguage] = useState('en');
   const [isAmoeModalOpen, setIsAmoeModalOpen] = useState(false);
   const [isPaymentSuccessModalOpen, setPaymentSuccessModalOpen] = useState(false);
+  const [isLanguageModalOpen, setIsLanguageModalOpen] = useState(false);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('preferredLanguage');
+      if (saved && translations[saved]) {
+        setLanguage(saved);
+      } else {
+        setIsLanguageModalOpen(true);
+      }
+    } catch (_e) {
+      setIsLanguageModalOpen(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('preferredLanguage', language);
+    } catch (_e) {}
+  }, [language]);
 
   const t = useMemo(() => translations[language], [language]);
 
@@ -2527,6 +2582,11 @@ export default function App() {
       <Footer t={t} />
 
       {/* Modals */}
+      <LanguageSelectModal
+        isOpen={isLanguageModalOpen}
+        onSelect={(code) => { setLanguage(code); setIsLanguageModalOpen(false); }}
+        onClose={() => setIsLanguageModalOpen(false)}
+      />
       <AmoeModal t={t} isOpen={isAmoeModalOpen} onClose={() => setIsAmoeModalOpen(false)} />
       <PaymentSuccessModal t={t} isOpen={isPaymentSuccessModalOpen} onClose={() => setPaymentSuccessModalOpen(false)} />
     </div>
