@@ -91,7 +91,7 @@ const translations = {
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
-      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏��',
+      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -323,7 +323,7 @@ const translations = {
       name: 'Nome Completo',
       email: 'Endereço de Email',
       address: 'Morada Postal Completa',
-      statement: 'Declaração de Participação',
+      statement: 'Declaração de Participaç��o',
       statement_placeholder: 'Por favor, escreva uma breve declaração expressando o seu interesse genuíno em participar no sorteio do Camp Calma.',
       submit: 'Submeter Entrada Gratuita',
       success: 'Obrigado! A sua entrada gratuita foi submetida. Receberá um e-mail de confirmação em breve.',
@@ -377,8 +377,8 @@ const translations = {
       benefits: [
         "🌱 50% de desconto em estadias no Camp Calma (Círculo Bisafo), 30% para Membros Gold.",
         "🎁 Acesso a prémios exclusivos e grandes prémios (ex.: terreno, autocaravanas) após atingir marcos.",
-        "�� Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
-        "����️ Co-determinação em workshops, eventos e projetos comunitários.",
+        "📚 Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
+        "🗳️ Co-determinação em workshops, eventos e projetos comunitários.",
         "🎥 Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
         "📝 Reconhecimento do nome no site/redes/vídeo como apoiadores fundadores."
       ],
@@ -605,7 +605,7 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 Bɔɔl',
- description: 'Yɛn deɛ nnipa pii pɛ! B��ɔl mpɛn 4.',
+ description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
@@ -641,7 +641,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ɛkyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -686,8 +686,8 @@ const translations = {
       milestone_300_349: "💚 300–349: Botaeɛ A Ɛbɛtena Hɔ Adu",
       milestone_350_449: "💛 350–449: Soronko Kwan & Dwumadi Ho Amaneɛ",
       milestone_450_500: "���� 450+: Bosome Biara Bɔɔl (te sɛ MacBook)",
-      status_building: "Mfitiaseɛ: NGO Nkɔso 💙",
-      status_sustainability: "Botaeɛ A Ɛbɛtena H�� Adu 💚",
+      status_building: "Mfitiase��: NGO Nkɔso 💙",
+      status_sustainability: "Botaeɛ A Ɛbɛtena Hɔ Adu 💚",
       status_exclusive: "Soronko Kwan & Dwumadi Ho Amaneɛ ✨",
       status_raffles: "Bosome Biara Bɔɔl Abue 🎁",
       benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
@@ -759,7 +759,7 @@ const translations = {
     description: {
       heading: 'Banyere Camp Calma',
       p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ bụrụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
-      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na akụrụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị—ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
+      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị—ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -818,7 +818,7 @@ const translations = {
     },
     amoe: {
       title: 'Usoro Nbanye Ozugbo (Nbanye n’efu)',
-      button_text: 'Pịa ebe a maka fọm nbanye n’efu',
+      button_text: 'Pịa ebe a maka f���m nbanye n’efu',
       modal_heading: 'Fọm nbanye n’efu (AMOE)',
       modal_subheading: 'Biko juo fọm a nke ọma ka i nwetaghachi otu (1) tiketi mgbasa.',
       name: 'Aha zuru ezu',
@@ -2250,7 +2250,7 @@ const AfroVillageProgress = ({ language }) => {
       unlockedLabel: 'Desbloqueado',
       lockedLabel: 'Bloqueado',
       milestones: [
-        { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '��📐' },
+        { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
         { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
