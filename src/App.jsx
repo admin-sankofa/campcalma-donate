@@ -949,24 +949,75 @@ const HeroSection = ({ t }) => (
   </section>
 );
 
-const PartnersSection = ({ t }) => {
+const PartnersSection = ({ t, language }) => {
+  const headingByLang = {
+    en: 'Partners & Cooperations',
+    pt: 'Parceiros & Colaborações',
+    de: 'Partner & Kooperationen',
+    twi: 'Adwumayɛ Mmoafoɔ & Nkitahodie',
+    ig: 'Ndị mmekọ & Mmekọrịta',
+  };
+  const heading = (t.partners && t.partners.heading) || headingByLang[language] || 'Partners & Cooperations';
+
   const partners = [
-    'Social Impact gGmbH',
-    'OUTO',
-    'Black Hills Events',
-    'Little Ashé',
-    'NiluaMusic',
-    'Oatsfield',
-    'Jesse Jaxx',
+    {
+      name: 'Social Impact gGmbH',
+      url: 'https://socialimpact.eu/',
+      image: 'https://logo.clearbit.com/socialimpact.eu',
+      alt: 'Social Impact gGmbH logo'
+    },
+    {
+      name: 'OUTO (Opening Up The Outdoors)',
+      url: 'https://openinguptheoutdoors.com/',
+      image: 'https://logo.clearbit.com/openinguptheoutdoors.com',
+      alt: 'Opening Up The Outdoors logo'
+    },
+    {
+      name: 'Black Hills Events',
+      url: 'https://www.eventbrite.de/o/african-lisbon-tour-amp-black-hills-events-52446170193',
+      image: 'https://logo.clearbit.com/eventbrite.de',
+      alt: 'Black Hills Events organizer logo'
+    },
+    {
+      name: 'Little Ashé',
+      url: 'https://littleashe.com/',
+      image: 'https://logo.clearbit.com/littleashe.com',
+      alt: 'Little Ashé logo'
+    },
+    {
+      name: 'Nilua',
+      url: 'https://soundcloud.com/nilua',
+      image: 'https://logo.clearbit.com/soundcloud.com',
+      alt: 'Nilua artist profile image placeholder'
+    },
+    {
+      name: 'Oatsfield',
+      url: 'https://distrokid.com/hyperfollow/oatsfield/ugqozi',
+      image: 'https://logo.clearbit.com/distrokid.com',
+      alt: 'Oatsfield release link logo'
+    },
+    {
+      name: 'Jesse Jaxx',
+      url: 'https://linktr.ee/jessejaxen',
+      image: 'https://logo.clearbit.com/linktr.ee',
+      alt: 'Jesse Jaxx profile links'
+    },
   ];
-  const heading = (t.partners && t.partners.heading) || 'Partners & Cooperations';
+
   return (
     <section id="partners" className="py-10 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-sm font-semibold tracking-wider text-gray-500 uppercase text-center">{heading}</h2>
         <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-w-4xl mx-auto">
-          {partners.map((name) => (
-            <li key={name} className="text-gray-600 text-sm bg-gray-50 border rounded-md px-3 py-2 text-center">{name}</li>
+          {partners.map((p) => (
+            <li key={p.name} className="bg-gray-50 border rounded-md px-3 py-4 text-center flex flex-col items-center">
+              <a href={p.url} target="_blank" rel="noopener noreferrer" className="group inline-block">
+                <div className="w-full flex items-center justify-center">
+                  <img src={p.image} alt={p.alt} className="h-16 object-contain" />
+                </div>
+                <span className="mt-2 block text-gray-700 text-sm font-medium">{p.name}</span>
+              </a>
+            </li>
           ))}
         </ul>
       </div>
@@ -1116,7 +1167,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị ntụkwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ��nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
@@ -1933,7 +1984,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
-        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛky�� — ɛnnɛ ne ɔkyena.'
       ]
     },
     ig: {
@@ -2116,7 +2167,7 @@ export default function App() {
       <Header language={language} setLanguage={setLanguage} t={t} />
       <main>
         <HeroSection t={t} />
-        <PartnersSection t={t} />
+        <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
