@@ -1447,40 +1447,32 @@ const AmoeSection = ({ t, onOpenModal }) => (
 
 
 const VictronDashboardSection = () => {
-  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
+  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/5ae69a73";
 
   return (
-    <section id="victron-dashboard" className="py-16 bg-white">
-      {/* Heading stays in a nice container */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto text-center mb-6 max-w-3xl">
+    <section id="victron-dashboard" className="py-12 bg-white">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-4">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
             Victron Energy Dashboard
           </h2>
-          <p className="text-lg text-gray-600 mt-2">
+          <p className="text-gray-600 mt-1">
             Get insight into our solar power in real time.
           </p>
-
-          {/* Fallback link for devices that struggle with iframes */}
-          <div className="mt-3">
-            <a
-              href={SRC}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 underline"
-            >
-              Open full screen
-            </a>
-          </div>
+          <a
+            href={SRC}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block text-sm font-medium text-primary-600 hover:text-primary-700 underline"
+          >
+            Open full screen
+          </a>
         </div>
-      </div>
 
-      {/* Full-bleed wrapper (breaks out of container) */}
-      <div className="relative w-screen left-1/2 right-1/2 -mx-[50vw]">
-        {/* Responsive height */}
-        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] xl:h-[85vh]">
+        {/* Compact, fixed heights */}
+        <div className="relative w-full h-[360px] sm:h-[420px] lg:h-[480px] overflow-hidden rounded-lg shadow-sm">
           <iframe
-            className="absolute inset-0 w-full h-full border-0 rounded-none sm:rounded-xl shadow-sm"
+            className="absolute inset-0 w-full h-full border-0"
             src={SRC}
             title="Victron Energy dashboard for Camp Calma"
             loading="lazy"
