@@ -536,7 +536,7 @@ const translations = {
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
- subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔhoɔ pii kyerɛ akwanya pii sɛ wob��gye!',
+ subheading: 'Mmɔhoɔ biara wɔ ne mfasoɔ. Mmɔho�� pii kyerɛ akwanya pii sɛ wob��gye!',
       tier1: {
  price: '€10',
  tickets: '20 Bɔɔl',
@@ -1446,6 +1446,25 @@ const AmoeSection = ({ t, onOpenModal }) => (
 );
 
 
+const VictronDashboardSection = () => (
+  <section id="victron-dashboard" className="py-20 bg-white">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto text-center mb-8">
+        <h2 className="text-4xl font-bold text-gray-800">Victron Energy Dashboard</h2>
+        <p className="text-lg text-gray-600 mt-2">Get insight into our solar power in real time.</p>
+      </div>
+      <div className="max-w-5xl mx-auto">
+        <iframe
+          width="100%"
+          height="800"
+          src="https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21"
+          title="Victron Energy dashboard for Camp Calma"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+);
+
 const Footer = ({ t }) => (
   <footer className="bg-gray-800 text-white">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -1792,6 +1811,7 @@ export default function App() {
         <AboutBisafo t={t} />
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
+        <VictronDashboardSection />
       </main>
       <Footer t={t} />
 
