@@ -378,7 +378,7 @@ const translations = {
         "🌱 50% de desconto em estadias no Camp Calma (Círculo Bisafo), 30% para Membros Gold.",
         "🎁 Acesso a prémios exclusivos e grandes prémios (ex.: terreno, autocaravanas) após atingir marcos.",
         "📚 Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
-        "🗳️ Co-determina��ão em workshops, eventos e projetos comunitários.",
+        "🗳️ Co-determinação em workshops, eventos e projetos comunitários.",
         "🎥 Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
         "📝 Reconhecimento do nome no site/redes/vídeo como apoiadores fundadores."
       ],
@@ -516,7 +516,7 @@ const translations = {
       raffle_label: "Gewinnspiel",
       capacity_label: "Kapazität erreicht",
       milestone_0_299: "💙 Bis 299: Aufbauphase",
-      milestone_300_349: "💚 300–349: Nachhaltigkeit erreicht",
+      milestone_300_349: "�� 300–349: Nachhaltigkeit erreicht",
       milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
       milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
       status_building: "Startphase: Aufbau der NGO 💙",
@@ -604,7 +604,7 @@ const translations = {
       },
       tier2: {
  price: '€20',
- tickets: '80 Bɔɔl',
+ tickets: '80 B��ɔl',
  description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
@@ -758,7 +758,7 @@ const translations = {
     },
     description: {
       heading: 'Banyere Camp Calma',
-      p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ bụrụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
+      p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
       p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị—ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
     },
     donate: {
@@ -842,7 +842,7 @@ const translations = {
       message: 'A rụchaaala ịkwụ ụgwọ gị nke ọma. A zigara nọmba tiketi gị na email gị. Ka chi nyere gị!'
     },
     bisafo: {
-      heading: 'Jikọọ na Otu Bisafo 500 🚀',
+      heading: 'Jikọ�� na Otu Bisafo 500 🚀',
       subheading: 'Nkwado ọnwa · Ntinye ozugbo · Oge mmeri site na ndị 450',
       current_members: 'Ụmụsonye ugbu a',
       capacity: 'Ọnụ ọgụgụ kacha',
@@ -1026,7 +1026,7 @@ const nlTranslations = {
     feature_shared_learning: 'Samen leren',
     feature_monthly_raffles: 'Maandelijkse verlotingen',
     background: '“Bisafo” komt uit het Twi van Ghana en betekent “de zoekenden, lerenden en vragers”. Bij Camp Calma is de Bisafo‑kring de Founders Club — een netwerk van pioniers die samen ontdekken en leren. De Bisafo‑geest is nieuwsgierigheid, samen leren en avontuur — het kloppende hart van Camp Calma.',
-    exclusivity: 'De eerste 500 leden vormen de exclusieve Bisafo‑kring en behouden hun bijzondere founders��voordelen zolang ze actief blijven. Later groeit de community naar 5.000 Gold‑leden, terwijl de Bisafo‑kring de unieke founder‑status behoudt.',
+    exclusivity: 'De eerste 500 leden vormen de exclusieve Bisafo‑kring en behouden hun bijzondere founders‑voordelen zolang ze actief blijven. Later groeit de community naar 5.000 Gold‑leden, terwijl de Bisafo‑kring de unieke founder‑status behoudt.',
     sustainability: 'Deze eerste 500 leden — zichtbaar op het dashboard — vormen de groep waarvan de maandelijkse bijdragen de duurzaamheid van de NGO waarborgen en maandelijkse verlotingen mogelijk maken.',
     benefits_title: 'Ledenvoordelen',
     benefits: [
@@ -1419,9 +1419,9 @@ const SafeHarborSection = ({ t, language }) => {
     },
     ig: {
       heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
-      sub: 'Mgbatị maka ịdịte aka na onwe‑onwe',
+      sub: 'Mgbatị maka ���dịte aka na onwe‑onwe',
       features: [
-        { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụz��� ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+        { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
         { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na-eme ka mmetụta na-aga ngwa — ọ bụghị lotiri.' },
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
@@ -2261,7 +2261,7 @@ const AfroVillageProgress = ({ language }) => {
       ],
       story: [
         'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
-        'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
+        'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura �� um lugar de cuidado mútuo.',
         'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
       ]
     },
