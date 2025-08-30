@@ -205,7 +205,9 @@ const translations = {
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” comes from the Twi language of Ghana and describes “the seekers, learners, and questioners.” At Camp Calma, the Bisafo Circle is the Founders Club — a network of pioneers who explore, discover, and learn together. The Bisafo Spirit is curiosity, shared learning, and adventure — the beating heart of Camp Calma.",
       exclusivity: "The first 500 members form the exclusive Bisafo Circle and will always keep their special founder advantages as long as they remain active. Later, the community will grow to 5,000 Gold Members, while the Bisafo Circle retains unique founder status.",
+      pricing: "Founders’ offer: The first 500 members pay only €99/year (≈ €8.25/month) instead of the regular €199/year for Gold Members (≈ €16.58/month).",
       sustainability: "These first 500 members — shown in the dashboard — are the group whose monthly contributions secure the NGO’s sustainability and unlock monthly raffles.",
+      community_app_and_properties: "With 5,000 members, we empower each other through the Sankofa Community App, and the NGO can give away one sustainable off‑grid property each month — now in Portugal; in the future you can choose between Portugal or Ghana.",
       benefits_title: "Member Benefits",
       benefits: [
         "🌱 50% discount on Camp Calma stays (Bisafo Circle), 30% for Gold Members.",
@@ -352,7 +354,7 @@ const translations = {
       milestone_300_349: "💚 300–349: Sustentabilidade Alcançada",
       milestone_350_449: "💛 350–449: Acesso Exclusivo e Notificações de Eventos",
       milestone_450_500: "💜 450+: Sorteios Mensais (ex. MacBook)",
-      status_building: "Fase de Construção: Desenvolvimento da ONG 💙",
+      status_building: "Fase de Construção: Desenvolvimento da ONG ��",
       status_sustainability: "Sustentabilidade Alcançada 💚",
       status_exclusive: "Acesso Exclusivo e Notificações de Eventos ✨",
       status_raffles: "Sorteios Mensais Desbloqueados 🎁",
@@ -372,7 +374,9 @@ const translations = {
       feature_monthly_raffles: "Sorteios Mensais",
       background: "“Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
       exclusivity: "Os primeiros 500 membros formam o exclusivo Círculo Bisafo e manterão para sempre as vantagens especiais de fundadores enquanto permanecerem ativos. Mais tarde, a comunidade crescerá para 5.000 Membros Gold, enquanto o Círculo Bisafo mantém o estatuto único de fundador.",
+      pricing: "Oferta de fundadores: Os primeiros 500 membros pagam apenas €99/ano (≈ €8,25/mês), em vez dos €199/ano dos Membros Gold (≈ €16,58/mês).",
       sustainability: "Estes primeiros 500 membros — mostrados no painel — são o grupo cujas contribuições mensais asseguram a sustentabilidade da ONG e desbloqueiam sorteios mensais.",
+      community_app_and_properties: "Com 5.000 membros, capacitamo‑nos mutuamente através da App Comunitária Sankofa, e a ONG pode sortear todos os meses uma propriedade sustentável off‑grid — agora em Portugal; no futuro poderás escolher entre Portugal ou Gana.",
       benefits_title: "Benefícios para Membros",
       benefits: [
         "🌱 50% de desconto em estadias no Camp Calma (Círculo Bisafo), 30% para Membros Gold.",
@@ -519,7 +523,7 @@ const translations = {
       milestone_300_349: "�� 300–349: Nachhaltigkeit erreicht",
       milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
       milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
-      status_building: "Startphase: Aufbau der NGO 💙",
+      status_building: "Startphase: Aufbau der NGO ����",
       status_sustainability: "Nachhaltigkeit erreicht 💚",
       status_exclusive: "Exklusiver Zugang & Event-Benachrichtigungen ✨",
       status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
@@ -539,7 +543,9 @@ const translations = {
       feature_monthly_raffles: "Monatliche Verlosungen",
       background: "Der Bisafo Circle ist die neue, exklusive Community und der Founders Club von Camp Calma. Der Name „Bisafo“ stammt aus der Twi‑Sprache Ghanas und bedeutet „die Fragenden, Suchenden oder Lernenden“. Der Kreis versteht sich als Netzwerk für Menschen, die gemeinsam neue Wege gehen, entdecken, erleben und voneinander lernen möchten — inspiriert vom ghanaischen Bisafo‑Spirit.",
       exclusivity: "Die ersten 500 Mitglieder bilden den exklusiven Bisafo‑Kreis (Founders Club) und behalten dauerhaft besondere Gründer‑Vorteile, solange sie aktiv bleiben. Später wächst die Community auf 5.000 Gold‑Mitglieder; der Bisafo‑Kreis behält seinen einzigartigen Gründer‑Status.",
+      pricing: "Gründerangebot: Die ersten 500 Mitglieder zahlen nur 99 €/Jahr (≈ 8,25 €/Monat) statt regulär 199 €/Jahr für Gold‑Mitglieder (≈ 16,58 €/Monat).",
       sustainability: "Diese ersten 500 Mitglieder — im Dashboard sichtbar — sind die Gruppe, deren monatliche Beiträge die Nachhaltigkeit der NGO sichern und monatliche Verlosungen ermöglichen.",
+      community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App, und die NGO kann jeden Monat eine nachhaltige Off‑Grid‑Immobilie verlosen — aktuell in Portugal; künftig wählbar zwischen Portugal oder Ghana.",
       benefits_title: "Mitgliedsvorteile",
       benefits: [
         "🌱 50% Rabatt auf Camp‑Calma‑Aufenthalte (Bisafo‑Kreis), 30% für Gold‑Mitglieder.",
@@ -706,7 +712,9 @@ const translations = {
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma b��.",
       exclusivity: "Membifo 500 a edi kan na wɔb��yɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
+      pricing: "Ɔfã ma adwumayɛfo: Membifo 500 a edi kan tua €99 afe biara (≈ €8.25 bosome biara), na ɛnyɛ €199 afe biara ma Gold Membifo (≈ €16.58 bosome biara).",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
+      community_app_and_properties: "Sɛ yɛnya membifo 5,000 a, yɛhyɛ yɛn ho den fa Sankofa Community App so, na NGO no betumi de ofi off‑grid a ɛyɛ adwuma pa baako ama obi bosome biara — seesei wɔ Portugal; daakye no wobɛtumi apaw Portugal anaa Ghana.",
       benefits_title: "Mfaso a Membifo nya",
       benefits: [
         "🌱 50% turun tram wɔ Camp Calma tena (Bisafo Circle), 30% ma Gold Membifo.",
@@ -810,7 +818,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs��rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -872,8 +880,10 @@ const translations = {
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
       background: '“Bisafo” sitere na asụsụ Twi nke Ghana ma pụtara “ndị na-achọ, ndị na-amụta, na ndị na-ajụ ajụjụ.” Na Camp Calma, Otu Bisafo bụ Otu Ndị guzobere — netwọkụ nke ndị pionia na-enyocha, na-achọpụta na na-amụta ọnụ. Mmụọ Bisafo bụ ọchịchọ ịmata ihe, mmụta ọnụ na njem — obi na‑agba nke Camp Calma.',
-      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
+      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka n��� n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
+      pricing: 'Ọnụahịa ndị guzobere: Ndị otu 500 mbụ na‑akwụ naanị €99/afọ (≈ €8.25/ọnwa) kama €199/afọ maka ndị otu Gold (≈ €16.58/ọnwa).',
       sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
+      community_app_and_properties: 'Site na ndị otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọdịnihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
       benefits_title: 'Uru ndị otu',
       benefits: [
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
@@ -1027,7 +1037,9 @@ const nlTranslations = {
     feature_monthly_raffles: 'Maandelijkse verlotingen',
     background: '“Bisafo” komt uit het Twi van Ghana en betekent “de zoekenden, lerenden en vragers”. Bij Camp Calma is de Bisafo‑kring de Founders Club — een netwerk van pioniers die samen ontdekken en leren. De Bisafo‑geest is nieuwsgierigheid, samen leren en avontuur — het kloppende hart van Camp Calma.',
     exclusivity: 'De eerste 500 leden vormen de exclusieve Bisafo‑kring en behouden hun bijzondere founders‑voordelen zolang ze actief blijven. Later groeit de community naar 5.000 Gold‑leden, terwijl de Bisafo‑kring de unieke founder‑status behoudt.',
+    pricing: 'Founders‑aanbod: De eerste 500 leden betalen slechts €99/jaar (≈ €8,25/maand) i.p.v. de reguliere €199/jaar voor Gold‑leden (≈ €16,58/maand).',
     sustainability: 'Deze eerste 500 leden — zichtbaar op het dashboard — vormen de groep waarvan de maandelijkse bijdragen de duurzaamheid van de NGO waarborgen en maandelijkse verlotingen mogelijk maken.',
+    community_app_and_properties: 'Met 5.000 leden versterken we elkaar via de Sankofa Community‑app, en kan de NGO elke maand één duurzame off‑grid woning verloten — nu in Portugal; in de toekomst kun je kiezen tussen Portugal of Ghana.',
     benefits_title: 'Ledenvoordelen',
     benefits: [
       '🌱 50% korting op verblijven bij Camp Calma (Bisafo‑kring), 30% voor Gold‑leden.',
@@ -1309,6 +1321,55 @@ const VideoSection = ({ t }) => {
   );
 };
 
+// On‑Demand Showcase Video (loads only after click)
+const OnDemandVideoSection = ({ language, url }) => {
+  const headings = {
+    en: 'More from Camp Calma',
+    de: 'Noch ein Einblick in Camp Calma',
+    pt: 'Mais de Camp Calma',
+    nl: 'Nog een blik op Camp Calma',
+    twi: 'Bio fi Camp Calma',
+    ig: 'Vidiyo ọzọ site na Camp Calma'
+  };
+  const title = headings[language] || 'More from Camp Calma';
+  const [show, setShow] = useState(false);
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800">{title}</h2>
+        </div>
+        <div className="relative w-full max-w-4xl mx-auto" style={{ paddingBottom: '56.25%', height: 0 }}>
+          {!show ? (
+            <button
+              type="button"
+              onClick={() => setShow(true)}
+              className="absolute top-0 left-0 w-full h-full bg-gray-900/70 hover:bg-gray-800/80 text-white flex items-center justify-center transition-colors"
+              aria-label="Play video"
+            >
+              <div className="text-center">
+                <div className="mx-auto mb-3 w-16 h-16 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center shadow-lg transition-colors">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <p className="text-sm text-gray-100">Click to load and play</p>
+              </div>
+            </button>
+          ) : (
+            <video
+              src={url}
+              className="absolute top-0 left-0 w-full h-full"
+              controls
+              autoPlay
+              playsInline
+              preload="none"
+            />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // NEW: Safe Harbor Initiative section (multilingual using existing language state)
 const SafeHarborSection = ({ t, language }) => {
   const langKey = ['en','pt','de','twi','ig','nl'].includes(language) ? language : 'en';
@@ -1428,7 +1489,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
@@ -1696,7 +1757,7 @@ const AboutBisafo = ({ t }) => (
         <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg mb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-              <div className="text-2xl">🚀</div>
+              <div className="text-2xl">����</div>
               <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_founders}</div>
             </div>
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
@@ -1717,7 +1778,11 @@ const AboutBisafo = ({ t }) => (
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4">{t.bisafo_about.background}</p>
           <p className="text-gray-700 mb-4">{t.bisafo_about.exclusivity}</p>
+          {t.bisafo_about.pricing && <p className="text-gray-700 mb-4">{t.bisafo_about.pricing}</p>}
           <p className="text-gray-700 mb-6">{t.bisafo_about.sustainability}</p>
+          {t.bisafo_about.community_app_and_properties && (
+            <p className="text-gray-700 mb-6">{t.bisafo_about.community_app_and_properties}</p>
+          )}
 
           <div className="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-6">
             <p className="text-sm">{t.bisafo_about.info_box}</p>
@@ -2354,7 +2419,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
-        'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
+        'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe���onwe n\'omume.',
         'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
         'Mmụta na‑ewepụ ngw���gide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
       ]
@@ -2547,7 +2612,7 @@ export default function App() {
 
   const handleDonation = (amount) => {
     console.log(`--- MOCK STRIPE PAYMENT ---`);
-    console.log(`Processing donation of €${amount}`);
+    console.log(`Processing donation of ��${amount}`);
     // Simulate API call to backend
     setTimeout(() => {
         const ticketId = `SANKOFA-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
@@ -2565,6 +2630,7 @@ export default function App() {
         <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
+        <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
         <AfroVillageProgress language={language} />
