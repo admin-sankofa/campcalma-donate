@@ -91,7 +91,7 @@ const translations = {
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
-      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
+      p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏��',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -317,7 +317,7 @@ const translations = {
     },
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
-      button_text: 'Clique aqui para o Formul��rio de Entrada Gratuita',
+      button_text: 'Clique aqui para o Formulário de Entrada Gratuita',
       modal_heading: 'Formulário de Entrada Gratuita (AMOE)',
       modal_subheading: 'Por favor, preencha o formulário completamente para receber um (1) bilhete de sorteio.',
       name: 'Nome Completo',
@@ -378,7 +378,7 @@ const translations = {
         "🌱 50% de desconto em estadias no Camp Calma (Círculo Bisafo), 30% para Membros Gold.",
         "🎁 Acesso a prémios exclusivos e grandes prémios (ex.: terreno, autocaravanas) após atingir marcos.",
         "�� Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
-        "🗳️ Co-determinação em workshops, eventos e projetos comunitários.",
+        "����️ Co-determinação em workshops, eventos e projetos comunitários.",
         "🎥 Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
         "📝 Reconhecimento do nome no site/redes/vídeo como apoiadores fundadores."
       ],
@@ -605,7 +605,7 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 Bɔɔl',
- description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
+ description: 'Yɛn deɛ nnipa pii pɛ! B��ɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
@@ -687,7 +687,7 @@ const translations = {
       milestone_350_449: "💛 350–449: Soronko Kwan & Dwumadi Ho Amaneɛ",
       milestone_450_500: "���� 450+: Bosome Biara Bɔɔl (te sɛ MacBook)",
       status_building: "Mfitiaseɛ: NGO Nkɔso 💙",
-      status_sustainability: "Botaeɛ A Ɛbɛtena Hɔ Adu 💚",
+      status_sustainability: "Botaeɛ A Ɛbɛtena H�� Adu 💚",
       status_exclusive: "Soronko Kwan & Dwumadi Ho Amaneɛ ✨",
       status_raffles: "Bosome Biara Bɔɔl Abue 🎁",
       benefits_heading: "Bisafo Nnipa No Soronko Mfasoɔ",
@@ -2250,7 +2250,7 @@ const AfroVillageProgress = ({ language }) => {
       unlockedLabel: 'Desbloqueado',
       lockedLabel: 'Bloqueado',
       milestones: [
-        { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
+        { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '��📐' },
         { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
