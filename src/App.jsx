@@ -531,7 +531,7 @@ const translations = {
         "🎥 Exklusive Live/Stream‑Events, Community‑Calls, Retreat‑Previews.",
         "📝 Namensnennung auf Website/Social/Video als Gründungsunterstützer."
       ],
-      info_box: "Der Bisafo‑Kreis (500 Mitglieder) bildet den Founders Club. Später wächst die Community auf 5.000 Gold‑Mitglieder — doch der Bisafo‑Kreis behält dauerhaft seine einzigartigen Gründer‑Privilegien.",
+      info_box: "Der Bisafo���Kreis (500 Mitglieder) bildet den Founders Club. Später wächst die Community auf 5.000 Gold‑Mitglieder — doch der Bisafo‑Kreis behält dauerhaft seine einzigartigen Gründer‑Privilegien.",
       narrative_title: "Projekt „Sicherer Hafen“ & Autarkie 2025",
       narrative: "Mehr als eine Lotterie: Dein Beitrag beschleunigt persönliche und gemeinschaftliche Resilienz — eine Investition in den Aufbau eines Sicheren Hafens: ein Ort des Lernens, der Gemeinschaft und praktischer Autarkie. Camp Calma und die Sankofa‑NGO wirken als Facilitatoren dieser Bewegung und stoßen eine Kultur gelebter Selbstversorgung an; mit Starthilfe‑Chancen auf reale Werte (z. B. Grundstück, Campervan), die den Aufbau zusätzlich beschleunigen."
     }
@@ -697,6 +697,167 @@ const translations = {
       narrative: "Eyi yɛ kɛse sen bɔɔl. Wo mmoa yɛ akwadworoma ma nipasu ne kurom mu gyinabere — sikasɛm a wode si Safe Harbor a ɛyɛ sukuu, kurom, ne wo ara wo ho adwuma mu. Camp Calma ne Sankofa pɛ sɛ wɔhyɛ nkɔso wɔ abrabɔ‑wɔ‑ho adwuma ne gyinabere mu."
     }
   },
+  ig: {
+    nav: {
+      description: 'Ihe oru',
+      donate: 'Nyere aka & Merie',
+      prizes: 'Onyinye',
+      faq: 'Ajụjụ'
+    },
+    hero: {
+      support_fairs_heading: 'Soro mee ka anyi gara ngosi!',
+      support_fairs_text: 'Nye aka NGO Sankofa Living & Learning na oru anyi Camp Calma ka ha nwee ike ịga ngosi Reiselust, Fisch & Feines na Caravan Bremen. Onyinye gi na-akwụ ụgwọ ebe e ji guo, njem na ihe eji eme ka ndụ na-adigide pụta ìhè!',
+      donate_button: 'Nyefe onyinye',
+      every_donation_text: 'Onyinye ọ bụla na-eburu anyi nso ebumnuche anyi. Daalụ maka nkwado gị!',
+      subheading: 'Soro nrọ kwadoo, nweta onyinye mara mma',
+      heading: 'Nyere aka wuo Camp Calma na Portugal',
+      cta: 'Nyefee ugbu a & nweta tiketi mgbasa'
+    },
+    video: {
+      heading: 'Lee Camp Calma n\'omume',
+      youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0'
+    },
+    victron: {
+      heading: 'Pụọrụ Victron Energy',
+      subheading: 'Hụ ike anyanwụ anyị n\'oge dị adị.',
+      open_fullscreen: 'Mepee ihuenyo dum maka dashboard zuru ezu'
+    },
+    african_campers: {
+      heading: 'Ụgbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
+      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na ndụ na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
+    },
+    description: {
+      heading: 'Banyere Camp Calma',
+      p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ bụrụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
+      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na akụrụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị—ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
+    },
+    donate: {
+      heading: 'Họrọ ogo nkwado gị',
+      subheading: 'Onyinye ọ bụla bara uru. Nkwado ka ukwuu pụtara ohere mmeri ka ukwuu!',
+      tier1: {
+        price: '€10',
+        tickets: 'Tiketi 20',
+        description: 'Ụzọ dị mma isi gosi nkwado gị.'
+      },
+      tier2: {
+        price: '€20',
+        tickets: 'Tiketi 80',
+        description: 'Nhọrọ kacha ewu ewu! Tiketi ugboro 4.',
+        popular: 'MARA MMA'
+      },
+      tier3: {
+        price: '€30',
+        tickets: 'Tiketi 160',
+        description: 'Uru kacha mma maka mmetụta kacha ukwuu.'
+      },
+      button: 'Nyefee & Soro'
+    },
+    milestones: {
+      heading: 'Ebumnuche ego na onyinye',
+      subheading: 'Ka anyị na-eru ebumnuche, anyi na-emeghe onyinye ọzọ!',
+      current_funding: 'Ego a chịkọtara',
+      goal: 'Ebumnuche',
+      prize1: 'DJI Mini 3 Pro Fly More Combo',
+      prize2: 'DJI Mini 4 Pro',
+      prize3: 'MacBook Air M2',
+      prize4: 'MacBook Air M3 (Onyinye kacha ibu)',
+      unlocked: 'EMEGHELA!'
+    },
+    countdown: {
+      heading: 'Mgbasa ga-akwụsị n\'ime',
+      days: 'Ụbọchị',
+      hours: 'Awa',
+      minutes: 'Nkeji',
+      seconds: 'Sekọnd'
+    },
+    prizes: {
+      heading: 'Lezienụ anya na onyinye',
+      subheading: 'Ngwaọrụ teknụzụ elu nwere ike bụrụ nke gị.',
+      grand_prize: 'Onyinye kacha'
+    },
+    faq: {
+      heading: 'Ajụjụ a na-ajụkarị',
+      q1: 'Olee otú mgbasa si arụ ọrụ?',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      q2: 'Onyinye m dị nchebe?',
+      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
+      a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
+      q4: 'Enwere m ike banye n\'efu?',
+      a4: 'Ee, enwere Usoro Nbanye Ozugbo (AMOE). Biko hụ ngalaba "Nbanye n’efu" n’okpuru maka ntuziaka esi soro na-enweghị onyinye.'
+    },
+    amoe: {
+      title: 'Usoro Nbanye Ozugbo (Nbanye n’efu)',
+      button_text: 'Pịa ebe a maka fọm nbanye n’efu',
+      modal_heading: 'Fọm nbanye n’efu (AMOE)',
+      modal_subheading: 'Biko juo fọm a nke ọma ka i nwetaghachi otu (1) tiketi mgbasa.',
+      name: 'Aha zuru ezu',
+      email: 'Adreesị email',
+      address: 'Adreesị ozi‑ozi zuru ezu',
+      statement: 'Okwu nbanye',
+      statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
+      submit: 'Zipu nbanye n’efu',
+      success: 'Daalụ! Nbanye gị n’efu eziputela. Ị ga-enweta email nkwenye n’oge na-adịghị anya.',
+      close: 'Mechie',
+      consent_html: 'Anabata m <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Usoro</a> ma na-aghọta <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Nzere nzuzo</a>, tinyekwara ikike ịkpọtụrụ m site na email na WhatsApp gbasara mgbasa a.',
+      whatsapp: 'Nọmba WhatsApp'
+    },
+    footer: {
+      contact: 'Kpọtụrụ anyị',
+      follow_us: 'Soro anyị',
+      youtube_channel: 'Òdù YouTube'
+    },
+    payment_success: {
+      heading: 'Daalụ maka nkwado gị!',
+      message: 'A rụchaaala ịkwụ ụgwọ gị nke ọma. A zigara nọmba tiketi gị na email gị. Ka chi nyere gị!'
+    },
+    bisafo: {
+      heading: 'Jikọọ na Otu Bisafo 500 🚀',
+      subheading: 'Nkwado ọnwa · Ntinye ozugbo · Oge mmeri site na ndị 450',
+      current_members: 'Ụmụsonye ugbu a',
+      capacity: 'Ọnụ ọgụgụ kacha',
+      sustainability_label: 'Ebumnuche ịdịgide',
+      raffle_label: 'Mgbasa',
+      capacity_label: 'Ejuola',
+      milestone_0_299: '💙 Ruo 299: Oge owuwu',
+      milestone_300_349: '💚 300–349: Idịgide ruru',
+      milestone_350_449: '💛 350–449: Ntinye pụrụ iche & Ụzọ ọmụma',
+      milestone_450_500: '💜 450+: Mgbasa kwa ọnwa (dịka MacBook)',
+      status_building: 'Oge mmalite: Ịzụlite NGO 💙',
+      status_sustainability: 'Idịgide ruru 💚',
+      status_exclusive: 'Ntinye pụrụ iche & Ụbọchị omume ✨',
+      status_raffles: 'Mgbasa kwa ọnwa emeghe 🎁',
+      benefits_heading: 'Uru pụrụ iche maka ndị Bisafo',
+      benefit_1: '✅ Ntinye pụrụ iche na Daniel',
+      benefit_2: '📩 Ozi mbụ maka omume',
+      benefit_3: '🎥 Ihe pụrụ iche & mmelite obodo',
+      benefit_4: '🎁 Oge mmeri site na ndị 450+',
+      cta_button: 'Banye ugbu a'
+    },
+    bisafo_about: {
+      heading: 'Banyere Otu Bisafo',
+      subheading: 'Obodo pụrụ iche nke Sankofa Living & Learning',
+      feature_founders: 'Otu Ndị guzobere',
+      feature_safe_harbor: 'Safe Harbor',
+      feature_shared_learning: 'Mmụta ọnụ',
+      feature_monthly_raffles: 'Mgbasa kwa ọnwa',
+      background: '“Bisafo” sitere na asụsụ Twi nke Ghana ma pụtara “ndị na-achọ, ndị na-amụta, na ndị na-ajụ ajụjụ.” Na Camp Calma, Otu Bisafo bụ Otu Ndị guzobere — netwọkụ nke ndị pionia na-enyocha, na-achọpụta na na-amụta ọnụ. Mmụọ Bisafo bụ ọchịchọ ịmata ihe, mmụta ọnụ na njem — obi na‑agba nke Camp Calma.',
+      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka ndị guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
+      sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
+      benefits_title: 'Uru ndị otu',
+      benefits: [
+        '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
+        '🎁 Njikọ na onyinye pụrụ iche na nnukwu onyinye (dịka ala, campervan) mgbe e ruru milestones.',
+        '📚 Ọnụ ụzọ n’akụrụngwa dijitalụ (Permaculture Guide, nri, yoga, ihe mmụta).',
+        '🗳️ Nsonye na mkpebi n’ogbako, ihe omume na oru obodo.',
+        '🎥 Ihe omume live/stream pụrụ iche, oku obodo, nlele retreats.',
+        '📝 Aha a ga‑egosi na websaịtị/social/vidiyo dịka ndị na-akwado guzobere.'
+      ],
+      info_box: 'Otu Bisafo (Ndị otu 500) na-eme Otu Ndị guzobere. Mgbe e mesịrị, obodo ga-eto ruo 5,000 Ndị otu Gold — ma Otu Bisafo ga-anọgide na-enwe uru pụrụ iche nke ndị guzobere.',
+      narrative_title: 'Ọrụ “Safe Harbor” & Autarky',
+      narrative: 'Eziokwu karịrị lotiri: onyinye gị bụ mmanụ ụgbọala maka ịdịte aka onwe na nke obodo — itinye ego na iwuli Safe Harbor: ebe mmụta, obodo na onwe‑onwe n’ọrụ. N’ịkọrịta aka, Camp Calma na Sankofa na‑kpali mmegharị nke ndụ onwe‑onwe na ịdịte aka.'
+    }
+  },
 };
 
 // --- HELPER COMPONENTS ---
@@ -727,7 +888,7 @@ const Button = ({ children, variant = 'default', className = '', ...props }) => 
 // --- UI COMPONENTS ---
 
 const LanguageToggle = ({ language, setLanguage }) => {
- const orderedLanguages = ['en', 'pt', 'de', 'twi'];
+ const orderedLanguages = ['en', 'pt', 'de', 'twi', 'ig'];
 
   return (
     <div className="flex items-center space-x-2">
@@ -913,7 +1074,7 @@ const SafeHarborSection = ({ t, language }) => {
       p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
-        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɔ mu.',
+        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b�� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
@@ -1731,7 +1892,7 @@ const AfroVillageProgress = ({ language }) => {
     }
   }[language];
 
-  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', twi: 'en-GB' };
+  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', twi: 'en-GB', ig: 'ig-NG' };
 
   useEffect(() => {
     const url = import.meta.env.VITE_AFRO_VILLAGE_TOTAL_URL;
