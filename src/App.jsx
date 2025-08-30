@@ -1447,7 +1447,8 @@ const AmoeSection = ({ t, onOpenModal }) => (
 
 
 const VictronDashboardSection = () => {
-  const SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
+  const EMBED_SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
+  const FULLSCREEN_SRC = "https://vrm.victronenergy.com/installation/156972/share/5ae69a73";
 
   return (
     <section id="victron-dashboard" className="py-12 bg-white">
@@ -1460,7 +1461,7 @@ const VictronDashboardSection = () => {
             Get insight into our solar power in real time.
           </p>
           <a
-            href={SRC}
+            href={FULLSCREEN_SRC}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 inline-block text-sm font-medium text-primary-600 hover:text-primary-700 underline"
@@ -1473,7 +1474,7 @@ const VictronDashboardSection = () => {
         <div className="relative w-full h-[360px] sm:h-[420px] lg:h-[480px] overflow-hidden rounded-lg shadow-sm">
           <iframe
             className="absolute inset-0 w-full h-full border-0"
-            src={SRC}
+            src={EMBED_SRC}
             title="Victron Energy dashboard for Camp Calma"
             loading="lazy"
             allowFullScreen
