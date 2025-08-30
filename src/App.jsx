@@ -293,7 +293,7 @@ const translations = {
       q3: 'Quando será anunciado o vencedor?',
       a3: 'O vencedor será sorteado e anunciado a 31 de agosto de 2025, pouco depois do final da contagem decrescente. O vencedor será notificado por e-mail.',
       q4: 'Posso participar gratuitamente?',
-      a4: 'Sim, existe um Método Alternativo de Entrada (AMOE). Por favor, consulte a secção "Entrada Gratuita" abaixo para obter instruções sobre como participar sem fazer uma doação.',
+      a4: 'Sim, existe um Método Alternativo de Entrada (AMOE). Por favor, consulte a secção "Entrada Gratuita" abaixo para obter instruções sobre como participar sem fazer uma doa��ão.',
     },
     amoe: {
       title: 'Método Alternativo de Entrada (Entrada Gratuita)',
@@ -666,7 +666,7 @@ const translations = {
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma bɔ.",
       exclusivity: "Membifo 500 a edi kan na wɔbɛyɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
-      sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
+      sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ��ma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
       benefits: [
         "🌱 50% turun tram wɔ Camp Calma tena (Bisafo Circle), 30% ma Gold Membifo.",
@@ -1505,6 +1505,31 @@ const VictronDashboardSection = ({ t }) => {
   );
 };
 
+const AfricanInspiredCampersSection = () => {
+  const collageUrl = "https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb72ced2a33444d2bbed8f1453fa71779?format=webp&width=800";
+  return (
+    <section id="african-inspired-campers" className="py-20 bg-stone-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
+          <div className="order-2 lg:order-1">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Afrikanisch inspirierte Camper – Unsere Vision</h2>
+            <p className="text-gray-700 leading-relaxed">
+              Bei Camp Calma und Sankofa Living &amp; Learning entstehen viele kreative Ideen und Projekte, die Wissen, Kultur und nachhaltiges Leben verbinden. Daniel bringt seine Erfahrungen aus der Caravaning-Welt, dem Off-Grid-Leben und seiner früheren Tätigkeit als Qualitätsmanager in der Automobilindustrie ein. Daraus ist auch die Vision gewachsen, afrikanisch inspirierte Wohnwagen zu entwickeln – gefertigt in Ghana, weltweit exportiert und zugleich ein Impuls, Menschen für Reisen und Tourismus nach Ghana zu begeistern. Dieses Ziel ist realistisch, aber nur gemeinsam umsetzbar: wir brauchen Menschen, die sich für solche Projekte engagieren – oder Spenden, damit Sankofa Living &amp; Learning solche wegweisenden Initiativen realisieren kann.
+            </p>
+          </div>
+          <div className="order-1 lg:order-2">
+            <img
+              src={collageUrl}
+              alt="Fotocollage: African inspired caravans with Kente design, interiors and exteriors"
+              className="w-full h-72 sm:h-96 lg:h-full object-cover rounded-2xl shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const Footer = ({ t }) => (
   <footer className="bg-gray-800 text-white">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -1852,6 +1877,7 @@ export default function App() {
         <Faq t={t} />
         <AmoeSection t={t} onOpenModal={() => setIsAmoeModalOpen(true)} />
         <VictronDashboardSection t={t} />
+        <AfricanInspiredCampersSection />
       </main>
       <Footer t={t} />
 
