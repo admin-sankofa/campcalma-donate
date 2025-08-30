@@ -969,13 +969,13 @@ const PartnersSection = ({ t, language }) => {
     {
       name: 'OUTO (Opening Up The Outdoors)',
       url: 'https://openinguptheoutdoors.com/',
-      image: 'https://logo.clearbit.com/openinguptheoutdoors.com',
+      image: 'https://openinguptheoutdoors.com/_nuxt/logo-OUTO.ClSsF2Js.svg',
       alt: 'Opening Up The Outdoors logo'
     },
     {
       name: 'Black Hills Events',
       url: 'https://www.eventbrite.de/o/african-lisbon-tour-amp-black-hills-events-52446170193',
-      image: 'https://logo.clearbit.com/eventbrite.de',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F390f7ed5d9fc423495e1ac9f8c8c6c56?format=webp&width=800',
       alt: 'Black Hills Events organizer logo'
     },
     {
@@ -987,19 +987,19 @@ const PartnersSection = ({ t, language }) => {
     {
       name: 'Nilua',
       url: 'https://soundcloud.com/nilua',
-      image: 'https://logo.clearbit.com/soundcloud.com',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F615ed4f391904ad68dbbb0d6fa3ddded?format=webp&width=800',
       alt: 'Nilua artist profile image placeholder'
     },
     {
       name: 'Oatsfield',
       url: 'https://distrokid.com/hyperfollow/oatsfield/ugqozi',
-      image: 'https://logo.clearbit.com/distrokid.com',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fc7b8ad9c67204bf1b49ad6c2c8e50a1f?format=webp&width=800',
       alt: 'Oatsfield release link logo'
     },
     {
       name: 'Jesse Jaxx',
       url: 'https://linktr.ee/jessejaxen',
-      image: 'https://logo.clearbit.com/linktr.ee',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ffb40b947d843411da4067892c6b1176d?format=webp&width=800',
       alt: 'Jesse Jaxx profile links'
     },
   ];
@@ -1167,7 +1167,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị ntụkwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ��nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
@@ -1984,7 +1984,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
-        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛky�� — ɛnnɛ ne ɔkyena.'
+        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
     },
     ig: {
