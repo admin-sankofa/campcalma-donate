@@ -1483,7 +1483,7 @@ const AmoeSection = ({ t, onOpenModal }) => (
 
 
 const VictronDashboardSection = ({ t }) => {
-  const EMBED_SRC = "https://vrm.victronenergy.com/installation/156972/embed/5ae69a73";
+  const EMBED_SRC = "https://vrm.victronenergy.com/installation/156972/embed/eb7d8f21";
   const FULLSCREEN_SRC = "https://vrm.victronenergy.com/installation/156972/share/5ae69a73";
 
   return (
