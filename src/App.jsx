@@ -822,7 +822,7 @@ const translations = {
       milestone_0_299: '💙 Ruo 299: Oge owuwu',
       milestone_300_349: '💚 300–349: Idịgide ruru',
       milestone_350_449: '💛 350–449: Ntinye pụrụ iche & Ụzọ ọmụma',
-      milestone_450_500: '💜 450+: Mgbasa kwa ọnwa (dịka MacBook)',
+      milestone_450_500: '���� 450+: Mgbasa kwa ọnwa (dịka MacBook)',
       status_building: 'Oge mmalite: ��zụlite NGO 💙',
       status_sustainability: 'Idịgide ruru 💚',
       status_exclusive: 'Ntinye pụrụ iche & Ụbọchị omume ✨',
@@ -948,6 +948,31 @@ const HeroSection = ({ t }) => (
     </div>
   </section>
 );
+
+const PartnersSection = ({ t }) => {
+  const partners = [
+    'Social Impact gGmbH',
+    'OUTO',
+    'Black Hills Events',
+    'Little Ashé',
+    'NiluaMusic',
+    'Oatsfield',
+    'Jesse Jaxx',
+  ];
+  const heading = (t.partners && t.partners.heading) || 'Partners & Cooperations';
+  return (
+    <section id="partners" className="py-10 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-sm font-semibold tracking-wider text-gray-500 uppercase text-center">{heading}</h2>
+        <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-w-4xl mx-auto">
+          {partners.map((name) => (
+            <li key={name} className="text-gray-600 text-sm bg-gray-50 border rounded-md px-3 py-2 text-center">{name}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+};
 
 const ProjectDescription = ({ t }) => (
   <section id="project" className="py-20 bg-stone-50">
@@ -1913,7 +1938,7 @@ const AfroVillageProgress = ({ language }) => {
     },
     ig: {
       title: 'Sankofa Village – Obodo nke onwe‑onwe',
-      subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+      subtitle: 'Nz�� nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
       storyTitle: 'Gịnị mere Sankofa Village',
       currentLabel: 'Ego a chịkọtara',
       goalLabel: 'Ebumnuche',
@@ -2091,6 +2116,7 @@ export default function App() {
       <Header language={language} setLanguage={setLanguage} t={t} />
       <main>
         <HeroSection t={t} />
+        <PartnersSection t={t} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
         <DonationTiers t={t} onDonate={handleDonation} />
