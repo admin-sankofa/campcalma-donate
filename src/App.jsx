@@ -523,7 +523,7 @@ const translations = {
       milestone_300_349: "�� 300–349: Nachhaltigkeit erreicht",
       milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
       milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
-      status_building: "Startphase: Aufbau der NGO 💙",
+      status_building: "Startphase: Aufbau der NGO ����",
       status_sustainability: "Nachhaltigkeit erreicht 💚",
       status_exclusive: "Exklusiver Zugang & Event-Benachrichtigungen ✨",
       status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
@@ -818,7 +818,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs��rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -880,7 +880,7 @@ const translations = {
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
       background: '“Bisafo” sitere na asụsụ Twi nke Ghana ma pụtara “ndị na-achọ, ndị na-amụta, na ndị na-ajụ ajụjụ.” Na Camp Calma, Otu Bisafo bụ Otu Ndị guzobere — netwọkụ nke ndị pionia na-enyocha, na-achọpụta na na-amụta ọnụ. Mmụọ Bisafo bụ ọchịchọ ịmata ihe, mmụta ọnụ na njem — obi na‑agba nke Camp Calma.',
-      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
+      exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka n��� n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
       pricing: 'Ọnụahịa ndị guzobere: Ndị otu 500 mbụ na‑akwụ naanị €99/afọ (≈ €8.25/ọnwa) kama €199/afọ maka ndị otu Gold (≈ €16.58/ọnwa).',
       sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
       community_app_and_properties: 'Site na ndị otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọdịnihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
@@ -1321,6 +1321,55 @@ const VideoSection = ({ t }) => {
   );
 };
 
+// On‑Demand Showcase Video (loads only after click)
+const OnDemandVideoSection = ({ language, url }) => {
+  const headings = {
+    en: 'More from Camp Calma',
+    de: 'Noch ein Einblick in Camp Calma',
+    pt: 'Mais de Camp Calma',
+    nl: 'Nog een blik op Camp Calma',
+    twi: 'Bio fi Camp Calma',
+    ig: 'Vidiyo ọzọ site na Camp Calma'
+  };
+  const title = headings[language] || 'More from Camp Calma';
+  const [show, setShow] = useState(false);
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800">{title}</h2>
+        </div>
+        <div className="relative w-full max-w-4xl mx-auto" style={{ paddingBottom: '56.25%', height: 0 }}>
+          {!show ? (
+            <button
+              type="button"
+              onClick={() => setShow(true)}
+              className="absolute top-0 left-0 w-full h-full bg-gray-900/70 hover:bg-gray-800/80 text-white flex items-center justify-center transition-colors"
+              aria-label="Play video"
+            >
+              <div className="text-center">
+                <div className="mx-auto mb-3 w-16 h-16 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center shadow-lg transition-colors">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <p className="text-sm text-gray-100">Click to load and play</p>
+              </div>
+            </button>
+          ) : (
+            <video
+              src={url}
+              className="absolute top-0 left-0 w-full h-full"
+              controls
+              autoPlay
+              playsInline
+              preload="none"
+            />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // NEW: Safe Harbor Initiative section (multilingual using existing language state)
 const SafeHarborSection = ({ t, language }) => {
   const langKey = ['en','pt','de','twi','ig','nl'].includes(language) ? language : 'en';
@@ -1440,7 +1489,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
@@ -1708,7 +1757,7 @@ const AboutBisafo = ({ t }) => (
         <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg mb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-              <div className="text-2xl">🚀</div>
+              <div className="text-2xl">����</div>
               <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_founders}</div>
             </div>
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
@@ -2563,7 +2612,7 @@ export default function App() {
 
   const handleDonation = (amount) => {
     console.log(`--- MOCK STRIPE PAYMENT ---`);
-    console.log(`Processing donation of €${amount}`);
+    console.log(`Processing donation of ��${amount}`);
     // Simulate API call to backend
     setTimeout(() => {
         const ticketId = `SANKOFA-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
@@ -2581,6 +2630,7 @@ export default function App() {
         <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
+        <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
         <AfroVillageProgress language={language} />
