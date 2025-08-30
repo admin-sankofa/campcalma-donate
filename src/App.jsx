@@ -974,7 +974,7 @@ const PartnersSection = ({ t, language }) => {
     },
     {
       name: 'Black Hills Events',
-      url: 'https://www.eventbrite.de/o/african-lisbon-tour-amp-black-hills-events-52446170193',
+      url: 'https://www.blackhillseventslx.com/events',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F390f7ed5d9fc423495e1ac9f8c8c6c56?format=webp&width=800',
       alt: 'Black Hills Events organizer logo'
     },
@@ -986,19 +986,19 @@ const PartnersSection = ({ t, language }) => {
     },
     {
       name: 'Nilua',
-      url: 'https://soundcloud.com/nilua',
+      url: 'https://www.instagram.com/niluamusic/',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F75acdbea0432443b9480a27a287ca35c?format=webp&width=800',
       alt: 'Nilua artist profile image placeholder'
     },
     {
       name: 'Oatsfield',
-      url: 'https://distrokid.com/hyperfollow/oatsfield/ugqozi',
+      url: 'https://open.spotify.com/artist/3qlEq77dXOPyIjBCBd289Z',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fd7c6f660724a4c9597fe4ed002d76674?format=webp&width=800',
       alt: 'Oatsfield release link logo'
     },
     {
       name: 'Jesse Jaxx',
-      url: 'https://linktr.ee/jessejaxen',
+      url: 'https://open.spotify.com/artist/62heZ2iBAWCnfSB356VHR0',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F96067d6067b740fc981bce2c08ac3142?format=webp&width=800',
       alt: 'Jesse Jaxx profile links'
     },
