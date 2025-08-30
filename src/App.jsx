@@ -418,7 +418,7 @@ const translations = {
     },
     press: {
       heading: 'In TV und Presse',
-      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch öffentliche Berichterstattung.',
+      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch ��ffentliche Berichterstattung.',
       video_cta: 'Auf YouTube ansehen',
       article_cta: 'Artikel lesen'
     },
@@ -444,7 +444,7 @@ const translations = {
       tier3: {
  price: '€30',
  tickets: '160 Lose',
- description: 'Bester Wert für die größte Wirkung.',
+ description: 'Bester Wert für die gr��ßte Wirkung.',
       },
  button: 'Spenden & Teilnehmen',
     },
@@ -730,7 +730,7 @@ const translations = {
     },
     hero: {
       support_fairs_heading: 'Soro mee ka anyi gara ngosi!',
-      support_fairs_text: 'Nye aka NGO Sankofa Living & Learning na oru anyi Camp Calma ka ha nwee ike ịga ngosi Reiselust, Fisch & Feines na Caravan Bremen. Onyinye gi na-akwụ ụgwọ ebe e ji guo, njem na ihe eji eme ka ndụ na-adigide pụta ìhè!',
+      support_fairs_text: 'Nye aka NGO Sankofa Living & Learning na oru anyi Camp Calma ka ha nwee ike ịga ngosi Reiselust, Fisch & Feines na Caravan Bremen. Onyinye gi na-akwụ ụgwọ ebe e ji guo, njem na ihe eji eme ka nd�� na-adigide pụta ìhè!',
       donate_button: 'Nyefe onyinye',
       every_donation_text: 'Onyinye ọ bụla na-eburu anyi nso ebumnuche anyi. Daalụ maka nkwado gị!',
       subheading: 'Soro nrọ kwadoo, nweta onyinye mara mma',
@@ -808,7 +808,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs��rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1073,6 +1073,7 @@ const Button = ({ children, variant = 'default', className = '', ...props }) => 
 
 const LanguageToggle = ({ language, setLanguage }) => {
   const orderedLanguages = ['en', 'pt', 'de', 'nl', 'twi', 'ig'];
+  const flags = { en: '🇬🇧', pt: '🇵🇹', de: '🇩🇪', nl: '🇳🇱', twi: '🇬🇭', ig: '🇳🇬' };
   const tooMany = orderedLanguages.length > 5;
   const [open, setOpen] = useState(false);
 
@@ -1090,7 +1091,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
             }`}
             onClick={() => setLanguage(langCode)}
           >
-            {langCode.toUpperCase()}
+            <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[langCode]}</span>{langCode.toUpperCase()}</span>
           </Button>
         ))}
       </div>
@@ -1107,7 +1108,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
         aria-expanded={open}
         aria-label="Select language"
       >
-        {language.toUpperCase()}
+        <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[language]}</span>{language.toUpperCase()}</span>
         <ChevronsUpDown className="ml-2 h-4 w-4" />
       </Button>
       {open && (
@@ -1128,7 +1129,7 @@ const LanguageToggle = ({ language, setLanguage }) => {
                     setOpen(false);
                   }}
                 >
-                  {langCode.toUpperCase()}
+                  <span className="inline-flex items-center gap-2"><span aria-hidden="true">{flags[langCode]}</span>{langCode.toUpperCase()}</span>
                 </button>
               </li>
             ))}
@@ -2486,12 +2487,12 @@ const AfroVillageProgress = ({ language }) => {
 const LanguageSelectModal = ({ isOpen, onSelect, onClose }) => {
   if (!isOpen) return null;
   const langs = [
-    { code: 'en', label: 'English' },
-    { code: 'de', label: 'Deutsch' },
-    { code: 'pt', label: 'Português' },
-    { code: 'nl', label: 'Nederlands' },
-    { code: 'twi', label: 'Twi (Akan)' },
-    { code: 'ig', label: 'Igbo' },
+    { code: 'en', label: 'English', flag: '🇬🇧' },
+    { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+    { code: 'pt', label: 'Português', flag: '🇵🇹' },
+    { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
+    { code: 'twi', label: 'Twi (Akan)', flag: '🇬🇭' },
+    { code: 'ig', label: 'Igbo', flag: '🇳🇬' },
   ];
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-[60] flex items-center justify-center p-4">
@@ -2508,7 +2509,7 @@ const LanguageSelectModal = ({ isOpen, onSelect, onClose }) => {
               onClick={() => onSelect(l.code)}
               className="px-4 py-3 border rounded-md text-sm font-semibold uppercase bg-gray-50 hover:bg-green-50 hover:border-green-500 text-gray-800 transition-colors"
             >
-              {l.label}
+              <span className="inline-flex items-center gap-2"><span aria-hidden="true">{l.flag}</span>{l.label}</span>
             </button>
           ))}
         </div>
