@@ -205,6 +205,7 @@ const translations = {
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” comes from the Twi language of Ghana and describes “the seekers, learners, and questioners.” At Camp Calma, the Bisafo Circle is the Founders Club — a network of pioneers who explore, discover, and learn together. The Bisafo Spirit is curiosity, shared learning, and adventure — the beating heart of Camp Calma.",
       exclusivity: "The first 500 members form the exclusive Bisafo Circle and will always keep their special founder advantages as long as they remain active. Later, the community will grow to 5,000 Gold Members, while the Bisafo Circle retains unique founder status.",
+      pricing: "Founders’ offer: The first 500 members pay only €99/year (≈ €8.25/month) instead of the regular €199/year for Gold Members (≈ €16.58/month).",
       sustainability: "These first 500 members — shown in the dashboard — are the group whose monthly contributions secure the NGO’s sustainability and unlock monthly raffles.",
       benefits_title: "Member Benefits",
       benefits: [
@@ -372,6 +373,7 @@ const translations = {
       feature_monthly_raffles: "Sorteios Mensais",
       background: "“Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
       exclusivity: "Os primeiros 500 membros formam o exclusivo Círculo Bisafo e manterão para sempre as vantagens especiais de fundadores enquanto permanecerem ativos. Mais tarde, a comunidade crescerá para 5.000 Membros Gold, enquanto o Círculo Bisafo mantém o estatuto único de fundador.",
+      pricing: "Oferta de fundadores: Os primeiros 500 membros pagam apenas €99/ano (≈ €8,25/mês), em vez dos €199/ano dos Membros Gold (≈ €16,58/mês).",
       sustainability: "Estes primeiros 500 membros — mostrados no painel — são o grupo cujas contribuições mensais asseguram a sustentabilidade da ONG e desbloqueiam sorteios mensais.",
       benefits_title: "Benefícios para Membros",
       benefits: [
@@ -379,7 +381,7 @@ const translations = {
         "🎁 Acesso a prémios exclusivos e grandes prémios (ex.: terreno, autocaravanas) após atingir marcos.",
         "📚 Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
         "🗳️ Co-determinação em workshops, eventos e projetos comunitários.",
-        "🎥 Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
+        "��� Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
         "📝 Reconhecimento do nome no site/redes/vídeo como apoiadores fundadores."
       ],
       info_box: "O Círculo Bisafo (500 Membros) forma o Clube de Fundadores. Mais tarde, a comunidade expandir‑se‑á para 5.000 Membros Gold — mas o Círculo Bisafo manterá sempre os seus privilégios únicos de fundador.",
@@ -539,6 +541,7 @@ const translations = {
       feature_monthly_raffles: "Monatliche Verlosungen",
       background: "Der Bisafo Circle ist die neue, exklusive Community und der Founders Club von Camp Calma. Der Name „Bisafo“ stammt aus der Twi‑Sprache Ghanas und bedeutet „die Fragenden, Suchenden oder Lernenden“. Der Kreis versteht sich als Netzwerk für Menschen, die gemeinsam neue Wege gehen, entdecken, erleben und voneinander lernen möchten — inspiriert vom ghanaischen Bisafo‑Spirit.",
       exclusivity: "Die ersten 500 Mitglieder bilden den exklusiven Bisafo‑Kreis (Founders Club) und behalten dauerhaft besondere Gründer‑Vorteile, solange sie aktiv bleiben. Später wächst die Community auf 5.000 Gold‑Mitglieder; der Bisafo‑Kreis behält seinen einzigartigen Gründer‑Status.",
+      pricing: "Gründerangebot: Die ersten 500 Mitglieder zahlen nur 99 €/Jahr (≈ 8,25 €/Monat) statt regulär 199 €/Jahr für Gold‑Mitglieder (≈ 16,58 €/Monat).",
       sustainability: "Diese ersten 500 Mitglieder — im Dashboard sichtbar — sind die Gruppe, deren monatliche Beiträge die Nachhaltigkeit der NGO sichern und monatliche Verlosungen ermöglichen.",
       benefits_title: "Mitgliedsvorteile",
       benefits: [
@@ -705,7 +708,8 @@ const translations = {
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
       background: "“Bisafo” firi Twi kasa mu na ɛkyerɛ “ɛhwehwɛfo, asuafo ne wɔn a wɔbisabisa”. Wɔ Camp Calma mu, Bisafo Circle yɛ Founders Club — nnuanom a wɔhyia na wɔhwehwɛ, hu ade na wɔsua bom. Bisafo Sunsum ne anibuei, asuae fa, ne akwantu — Camp Calma akoma b��.",
-      exclusivity: "Membifo 500 a edi kan na wɔb��yɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so yɛ nnipa a wɔyɛ adwuma mu.",
+      exclusivity: "Membifo 500 a edi kan na wɔb��yɛ Bisafo Circle soronko no, na wɔbɛkora wɔn titiriw so wɔ bere nyinaa sɛdeɛ wɔn da so yɛ adwumayɛfo. Akyiri yi, kurom no bɛkɔ so akɔ 5,000 Gold Membifo; nanso Bisafo Circle bɛkɔ so anya adwumayɛfo animuonyam no daa, sɛ wɔda so y�� nnipa a wɔyɛ adwuma mu.",
+      pricing: "Ɔfã ma adwumayɛfo: Membifo 500 a edi kan tua €99 afe biara (≈ €8.25 bosome biara), na ɛnyɛ €199 afe biara ma Gold Membifo (≈ €16.58 bosome biara).",
       sustainability: "Membifo 500 a ɛda dashboard no so yi ne kuw no a wɔn bosome‑bosome mmoa na ɛma NGO no tena pintinn na ɛma bosome biara bɔɔl yɛ yiye.",
       benefits_title: "Mfaso a Membifo nya",
       benefits: [
@@ -873,7 +877,8 @@ const translations = {
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
       background: '“Bisafo” sitere na asụsụ Twi nke Ghana ma pụtara “ndị na-achọ, ndị na-amụta, na ndị na-ajụ ajụjụ.” Na Camp Calma, Otu Bisafo bụ Otu Ndị guzobere — netwọkụ nke ndị pionia na-enyocha, na-achọpụta na na-amụta ọnụ. Mmụọ Bisafo bụ ọchịchọ ịmata ihe, mmụta ọnụ na njem — obi na‑agba nke Camp Calma.',
       exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka nọ n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
-      sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
+      pricing: 'Ọnụahịa ndị guzobere: Ndị otu 500 mbụ na‑akwụ naanị €99/afọ (≈ €8.25/ọnwa) kama €199/afọ maka ndị otu Gold (≈ €16.58/ọnwa).',
+      sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — b�� ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
       benefits_title: 'Uru ndị otu',
       benefits: [
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
@@ -1027,6 +1032,7 @@ const nlTranslations = {
     feature_monthly_raffles: 'Maandelijkse verlotingen',
     background: '“Bisafo” komt uit het Twi van Ghana en betekent “de zoekenden, lerenden en vragers”. Bij Camp Calma is de Bisafo‑kring de Founders Club — een netwerk van pioniers die samen ontdekken en leren. De Bisafo‑geest is nieuwsgierigheid, samen leren en avontuur — het kloppende hart van Camp Calma.',
     exclusivity: 'De eerste 500 leden vormen de exclusieve Bisafo‑kring en behouden hun bijzondere founders‑voordelen zolang ze actief blijven. Later groeit de community naar 5.000 Gold‑leden, terwijl de Bisafo‑kring de unieke founder‑status behoudt.',
+    pricing: 'Founders‑aanbod: De eerste 500 leden betalen slechts €99/jaar (≈ €8,25/maand) i.p.v. de reguliere €199/jaar voor Gold‑leden (≈ €16,58/maand).',
     sustainability: 'Deze eerste 500 leden — zichtbaar op het dashboard — vormen de groep waarvan de maandelijkse bijdragen de duurzaamheid van de NGO waarborgen en maandelijkse verlotingen mogelijk maken.',
     benefits_title: 'Ledenvoordelen',
     benefits: [
@@ -1435,7 +1441,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Otu Bisafo na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
         'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
         'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
-        'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+        'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ���dịgide ogologo oge.'
       ],
       rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jikọta ha nke ọma.'
     }
@@ -1717,6 +1723,7 @@ const AboutBisafo = ({ t }) => (
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4">{t.bisafo_about.background}</p>
           <p className="text-gray-700 mb-4">{t.bisafo_about.exclusivity}</p>
+          {t.bisafo_about.pricing && <p className="text-gray-700 mb-4">{t.bisafo_about.pricing}</p>}
           <p className="text-gray-700 mb-6">{t.bisafo_about.sustainability}</p>
 
           <div className="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-6">
@@ -2263,7 +2270,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
         'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura �� um lugar de cuidado mútuo.',
-        'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
+        'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanh��.'
       ]
     },
     de: {
@@ -2286,7 +2293,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show‑Home)', icon: '🏠' },
         { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
         { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
-        { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
+        { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏���' },
         { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
         { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
