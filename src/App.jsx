@@ -597,7 +597,7 @@ const translations = {
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
- p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua adeɛ. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
+ p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua ade��. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
     },
     donate: {
@@ -756,7 +756,7 @@ const translations = {
     },
     african_campers: {
       heading: '���gbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
-      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na ndụ na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
+      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
@@ -767,7 +767,7 @@ const translations = {
     description: {
       heading: 'Banyere Camp Calma',
       p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
-      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị—ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
+      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị���ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -883,7 +883,7 @@ const translations = {
       exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka n��� n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
       pricing: 'Ọnụahịa ndị guzobere: Ndị otu 500 mbụ na‑akwụ naanị €99/afọ (≈ €8.25/ọnwa) kama €199/afọ maka ndị otu Gold (≈ €16.58/ọnwa).',
       sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
-      community_app_and_properties: 'Site na ndị otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọdịnihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
+      community_app_and_properties: 'Site na ndị otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọd��nihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
       benefits_title: 'Uru ndị otu',
       benefits: [
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
@@ -1286,15 +1286,15 @@ const ProjectDescription = ({ t }) => (
         {/* Photo Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
           <div className="text-center">
-            <img src={community01} alt="Placeholder 1" className="w-full h-48 object-cover rounded-md" />
-            <p className="text-sm text-gray-600 mt-2 text-center">Hosts and Volunteers</p>
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff108f22a273944c0aec6b86e77a39a1e?format=webp&width=800" alt="Placeholder 1" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">Daniel and Family with Kids</p>
           </div>
           <div className="text-center">
             <img src={communitykitchen01} alt="Placeholder 2" className="w-full h-48 object-cover rounded-md" />
             <p className="text-sm text-gray-600 mt-2 text-center">Building our community kitchen</p>
           </div>
           <div className="text-center">
-            <img src={communitykitchen02} alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F750c421417534bc1acf8f61a8fa1d968?format=webp&width=800" alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
             <p className="text-sm text-gray-600 mt-2 text-center">Off-Grid Shower and Toilet</p>
           </div>
         </div>
@@ -2322,7 +2322,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
         { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
         { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
-        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
+        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁���' },
         { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
