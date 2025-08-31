@@ -184,8 +184,8 @@ const translations = {
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
     },
     bisafo: {
-      heading: "Become Part of the Bisafo Circle 🚀",
-      subheading: "Monthly support · Direct access · Prize chances from 450 members",
+      heading: "Bisafo Club – Your exclusive membership",
+      subheading: "Join the 500 Bisafo Founders · Monthly support · Direct access · Raffles from 450 members",
       current_members: "Current Members",
       capacity: "Limited Spots",
       sustainability_label: "Sustainability Goal",
@@ -199,11 +199,13 @@ const translations = {
       status_sustainability: "Sustainability Achieved 💚",
       status_exclusive: "Exclusive Access & Event Notifications ✨",
       status_raffles: "Monthly Giveaways Unlocked 🎁",
-      benefits_heading: "Exclusive Benefits for Bisafo Members",
-      benefit_1: "✅ Exclusive access to Daniel",
-      benefit_2: "📩 First notification for events",
-      benefit_3: "🎥 Exclusive content & community updates",
-      benefit_4: "🎁 Prize chances from 450+ members",
+      benefits_heading: "Your Benefits as a Bisafo Member",
+      benefit_1: "✅ 50% off Camp Calma stays (Founder), 30% for Gold",
+      benefit_2: "🏡 First choice for land & mobile‑home projects (e.g., Afro Village)",
+      benefit_3: "🎁 Monthly raffles from 450 members",
+      benefit_4: "🎥 Exclusive content, community updates & live events",
+      benefit_5: "📝 Name recognition as founding supporter",
+      benefit_6: "🔗 Personal referral code for friends",
       cta_button: "Become Member Now"
     },
     bisafo_about: {
@@ -213,23 +215,49 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” comes from the Twi language of Ghana and describes “the seekers, learners, and questioners.” At Camp Calma, the Bisafo Circle is the Founders Club — a network of pioneers who explore, discover, and learn together. The Bisafo Spirit is curiosity, shared learning, and adventure — the beating heart of Camp Calma.",
-      exclusivity: "The first 500 members form the exclusive Bisafo Circle and will always keep their special founder advantages as long as they remain active. Later, the community will grow to 5,000 Gold Members, while the Bisafo Circle retains unique founder status.",
-      pricing: "Founders’ offer: The first 500 members pay only €99/year (≈ €8.25/month) instead of the regular €199/year for Gold Members (≈ €16.58/month).",
-      sustainability: "These first 500 members — shown in the dashboard — are the group whose monthly contributions secure the NGO’s sustainability and unlock monthly raffles.",
-      community_app_and_properties: "With 5,000 members, we empower each other through the Sankofa Community App, and the NGO can give away one sustainable off‑grid property each month — now in Portugal; in the future you can choose between Portugal or Ghana.",
+      background: "“Bisafo” in Twi (Ghana) refers to the seekers, learners, and questioners. At Camp Calma, the Bisafo Circle is our Founders Club — a network of pioneers exploring and learning together.",
+      exclusivity: "The first 500 members form the Bisafo Circle (Founders). Founder status remains while you are active; if you leave, your spot opens for someone new. After that, the community grows to 5,000 Gold Members.",
+      pricing: "Founder: €99/year with invite code (instead of €132). Gold: €199/year with invite code (instead of €265). 20% referral commission applies.",
+      sustainability: "These first 500 secure the NGO’s sustainability and unlock monthly raffles from 450 members.",
+      community_app_and_properties: "With 5,000 members we empower each other through the Sankofa Community App. The NGO can give away one sustainable off‑grid property monthly — now in Portugal; later also Ghana.",
       benefits_title: "Member Benefits",
       benefits: [
-        "🌱 50% discount on Camp Calma stays (Bisafo Circle), 30% for Gold Members.",
-        "🎁 Access to exclusive prize pools and grand prizes (e.g., land, campervans) once milestones are reached.",
-        "📚 Access to digital resources (Permaculture Guide, recipes, yoga, learning materials).",
-        "🗳️ Co-determination in workshops, events, and community projects.",
-        "🎥 Exclusive live/stream events, community calls, retreat previews.",
-        "📝 Name recognition on website/social/video as founding supporters."
+        "🌱 50% off Camp Calma stays (Founder), 30% for Gold Members",
+        "🏡 First choice for land & mobile‑home projects (e.g., Afro Village)",
+        "🎁 Exclusive raffles (monthly from 450 members)",
+        "📚 Digital resources (permaculture, recipes, yoga, learning materials)",
+        "🗳️ Co‑determination in workshops, events & projects",
+        "🎥 Exclusive live/stream events & retreat previews",
+        "📝 Name recognition as founding supporters"
       ],
-      info_box: "The Bisafo Circle (500 Members) forms the Founders Club. Later, the community will expand to 5,000 Gold Members — but the Bisafo Circle will always keep its unique founder privileges.",
-      narrative_title: "Project “Safe Harbor” & Autarky",
-      narrative: "This is more than a lottery. Your contribution is a catalyst for personal and communal resilience — an investment in building a Safe Harbor: a place of learning, community, and practical self‑sufficiency. Together, Camp Calma and Sankofa aim to inspire a movement of lived self‑sufficiency and resilience."
+      info_box: "The Bisafo Circle (500 Founders) forms the Founders Club. Later the community expands to 5,000 Gold Members — the Bisafo Circle keeps its unique founder privileges.",
+      founder_title: "Founder Membership (limited to 500)",
+      founder_list: [
+        "Regular price: €132/year",
+        "With invite code: €99/year",
+        "20% commission (€19.80) to the referrer — €79.20 remains with the NGO",
+        "Founder status lasts only while you are a member",
+        "If you leave, your spot becomes available to a new person"
+      ],
+      gold_title: "Gold Membership (members 501–5,000)",
+      gold_list: [
+        "Regular price: €265/year",
+        "With invite code: €199/year",
+        "20% commission (€39.80) to the referrer — €159.20 remains with the NGO",
+        "For all new members after the 500 Founders"
+      ],
+      referral_title: "Your personal referral code",
+      referral_text: "Each member receives a personal referral code after joining. We trust personal recommendations over anonymous ads. The commission is appreciation — it strengthens you and the community.",
+      future_title: "Future: Normal memberships (unlimited, after 5,000)",
+      future_list: [
+        "Price: €132/year (≈ like Bisafo)",
+        "Benefits: 10% off Camp Calma stays; participation in general votes",
+        "Not included: no access to exclusive livestreams & founders events; no premium raffles; no property project privileges; fewer voting rights",
+        "Only 500 founder spots; if someone leaves, the spot becomes free (waitlist)",
+        "This keeps the Bisafo Circle permanently at 500"
+      ],
+      narrative_title: "Our shared spirit",
+      narrative: "The Bisafo Club is more than a membership. It shows that as African diaspora we are strong together when we support each other: we build sustainable projects independent of grants, and rely on mutual strength, knowledge and community. Every contribution, recommendation and membership strengthens not only the NGO, but also unity, pride and independence."
     }
   },
   pt: {
@@ -358,8 +386,8 @@ const translations = {
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
     },
     bisafo: {
-      heading: "Torna-te Parte dos 500 Membros Bisafo 🚀",
-      subheading: "Apoio mensal · Acesso direto · Chances de prémio a partir dos 450 membros",
+      heading: "Bisafo Club – A tua adesão exclusiva",
+      subheading: "Junta‑te aos 500 Bisafo Founders · Apoio mensal · Acesso direto · Sorteios a partir de 450 membros",
       current_members: "Membros Atuais",
       capacity: "Lugares Limitados",
       sustainability_label: "Meta de Sustentabilidade",
@@ -367,18 +395,20 @@ const translations = {
       capacity_label: "Capacidade Atingida",
       milestone_0_299: "💙 Até 299: Fase de Construção",
       milestone_300_349: "💚 300–349: Sustentabilidade Alcançada",
-      milestone_350_449: "💛 350–449: Acesso Exclusivo e Notificações de Eventos",
-      milestone_450_500: "💜 450+: Sorteios Mensais (ex. MacBook)",
-      status_building: "Fase de Construção: Desenvolvimento da ONG ��",
+      milestone_350_449: "💛 350–449: Acesso Exclusivo e notificações",
+      milestone_450_500: "💜 450+: Sorteios mensais (ex.: MacBook)",
+      status_building: "Fase de Construção: Desenvolvimento da ONG 💙",
       status_sustainability: "Sustentabilidade Alcançada 💚",
-      status_exclusive: "Acesso Exclusivo e Notificações de Eventos ✨",
-      status_raffles: "Sorteios Mensais Desbloqueados 🎁",
-      benefits_heading: "Benefícios Exclusivos para Membros Bisafo",
-      benefit_1: "✅ Acesso exclusivo ao Daniel",
-      benefit_2: "📩 Primeira notificação para eventos",
-      benefit_3: "🎥 Conteúdo exclusivo e atualizações da comunidade",
-      benefit_4: "🎁 Chances de prémio a partir dos 450+ membros",
-      cta_button: "Tornar-me Membro Agora"
+      status_exclusive: "Acesso Exclusivo e notificações ✨",
+      status_raffles: "Sorteios mensais desbloqueados 🎁",
+      benefits_heading: "Vantagens como membro Bisafo",
+      benefit_1: "✅ 50% de desconto no Camp Calma (Founder), 30% para Gold",
+      benefit_2: "🏡 Primeira escolha em projetos de terreno & mobile‑home (ex.: Afro Village)",
+      benefit_3: "🎁 Sorteios mensais a partir de 450 membros",
+      benefit_4: "🎥 Conteúdo exclusivo, atualizações & eventos ao vivo",
+      benefit_5: "📝 Menção nominal como apoiador fundador",
+      benefit_6: "🔗 Código pessoal de recomendação para amigos",
+      cta_button: "Tornar‑me Membro"
     },
     bisafo_about: {
       heading: "Sobre o Círculo Bisafo",
@@ -387,23 +417,49 @@ const translations = {
       feature_safe_harbor: "Porto Seguro",
       feature_shared_learning: "Aprendizagem Partilhada",
       feature_monthly_raffles: "Sorteios Mensais",
-      background: "“Bisafo” vem da língua Twi do Gana e significa “os que procuram, aprendem e questionam”. No Camp Calma, o Círculo Bisafo é o Clube de Fundadores — uma rede de pioneiros que exploram, descobrem e aprendem juntos. O Espírito Bisafo é curiosidade, aprendizagem partilhada e aventura — o coração pulsante do Camp Calma.",
-      exclusivity: "Os primeiros 500 membros formam o exclusivo Círculo Bisafo e manterão para sempre as vantagens especiais de fundadores enquanto permanecerem ativos. Mais tarde, a comunidade crescerá para 5.000 Membros Gold, enquanto o Círculo Bisafo mantém o estatuto único de fundador.",
-      pricing: "Oferta de fundadores: Os primeiros 500 membros pagam apenas €99/ano (≈ €8,25/mês), em vez dos €199/ano dos Membros Gold (≈ €16,58/mês).",
-      sustainability: "Estes primeiros 500 membros — mostrados no painel — são o grupo cujas contribuições mensais asseguram a sustentabilidade da ONG e desbloqueiam sorteios mensais.",
-      community_app_and_properties: "Com 5.000 membros, capacitamo‑nos mutuamente através da App Comunitária Sankofa, e a ONG pode sortear todos os meses uma propriedade sustentável off‑grid — agora em Portugal; no futuro poderás escolher entre Portugal ou Gana.",
+      background: "“Bisafo” no Twi (Gana) significa os que procuram, aprendem e questionam. No Camp Calma, o Círculo Bisafo é o nosso Founders Club — uma rede de pioneiros que exploram e aprendem juntos.",
+      exclusivity: "Os primeiros 500 formam o Círculo Bisafo (Founders). O estatuto de Founder mantém‑se enquanto fores membro; se saíres, o teu lugar fica livre. Depois, a comunidade cresce para 5.000 Membros Gold.",
+      pricing: "Founder: €99/ano com convite (em vez de €132). Gold: €199/ano com convite (em vez de €265). Comissão de 20% para o referenciador.",
+      sustainability: "Estes 500 garantem a sustentabilidade da ONG e desbloqueiam sorteios mensais a partir de 450 membros.",
+      community_app_and_properties: "Com 5.000 membros, fortalecemo‑nos via a App Comunitária Sankofa. A ONG pode sortear mensalmente uma propriedade off‑grid sustentável — agora em Portugal; no futuro também no Gana.",
       benefits_title: "Benefícios para Membros",
       benefits: [
-        "🌱 50% de desconto em estadias no Camp Calma (Círculo Bisafo), 30% para Membros Gold.",
-        "🎁 Acesso a prémios exclusivos e grandes prémios (ex.: terreno, autocaravanas) após atingir marcos.",
-        "📚 Acesso a recursos digitais (Guia de Permacultura, receitas, yoga, materiais de aprendizagem).",
-        "🗳️ Co-determinação em workshops, eventos e projetos comunitários.",
-        "🎥 Eventos exclusivos ao vivo/stream, chamadas da comunidade, prévias de retiros.",
-        "📝 Reconhecimento do nome no site/redes/vídeo como apoiadores fundadores."
+        "🌱 50% de desconto no Camp Calma (Founder), 30% para Gold",
+        "🏡 Primeira escolha em projetos de terreno & mobile‑home (ex.: Afro Village)",
+        "🎁 Sorteios exclusivos (mensalmente a partir de 450 membros)",
+        "📚 Recursos digitais (permacultura, receitas, yoga, materiais de aprendizagem)",
+        "🗳️ Cocriação em workshops, eventos & projetos",
+        "🎥 Eventos exclusivos em direto/stream & prévias de retiros",
+        "📝 Menção nominal como apoiador fundador"
       ],
-      info_box: "O Círculo Bisafo (500 Membros) forma o Clube de Fundadores. Mais tarde, a comunidade expandir‑se‑á para 5.000 Membros Gold — mas o Círculo Bisafo manterá sempre os seus privilégios únicos de fundador.",
-      narrative_title: "Projeto “Porto Seguro” & Autossuficiência",
-      narrative: "Isto é mais do que uma lotaria. A sua contribuição é um catalisador de resiliência pessoal e comunitária — um investimento na construção de um Porto Seguro: um lugar de aprendizagem, comunidade e autossuficiência prática. Juntos, o Camp Calma e a Sankofa inspiram um movimento de autossuficiência e resiliência vividas."
+      info_box: "O Círculo Bisafo (500 Founders) forma o Founders Club. Depois, a comunidade expande‑se para 5.000 Membros Gold — o Círculo mantém privilégios únicos de fundador.",
+      founder_title: "Adesão Founder (limitada a 500)",
+      founder_list: [
+        "Preço normal: €132/ano",
+        "Com código de convite: €99/ano",
+        "20% de comissão (€19,80) para o referenciador — €79,20 ficam na ONG",
+        "Estatuto de Founder enquanto fores membro",
+        "Ao sair, o lugar fica livre para outra pessoa"
+      ],
+      gold_title: "Adesão Gold (membros 501–5.000)",
+      gold_list: [
+        "Preço normal: €265/ano",
+        "Com código de convite: €199/ano",
+        "20% de comissão (€39,80) para o referenciador — €159,20 ficam na ONG",
+        "Para novos membros após os 500 Founders"
+      ],
+      referral_title: "O teu código de recomendação",
+      referral_text: "Cada membro recebe um código pessoal após aderir. Preferimos recomendações pessoais a anúncios anónimos. A comissão é um gesto de reconhecimento — fortalece‑te a ti e à comunidade.",
+      future_title: "Futuro: Adesões normais (ilimitadas, após 5.000)",
+      future_list: [
+        "Preço: €132/ano (≈ como Bisafo)",
+        "Vantagens: 10% de desconto no Camp Calma; participação em votações gerais",
+        "Excluído: sem streams/eventos exclusivos; sem sorteios premium; sem prioridade em projetos de terreno; menos poder de decisão",
+        "Apenas 500 lugares Founder; listas de espera quando alguém sair",
+        "Assim o Círculo Bisafo mantém‑se permanente nos 500"
+      ],
+      narrative_title: "O nosso espírito comum",
+      narrative: "O Bisafo Club é mais do que uma adesão. Mostra que, como diáspora africana, somos fortes juntos quando nos apoiamos: construímos projetos sustentáveis independentes de subsídios e confiamos na força, conhecimento e comunidade. Cada contribuição, recomendação e adesão fortalece a ONG — e também a união, orgulho e independência."
     }
   },
   de: {
@@ -532,26 +588,28 @@ const translations = {
  message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
     },
     bisafo: {
-      heading: "Werde Teil der 500 Bisafo Members 🚀",
-      subheading: "Monatliche Unterstützung · Direkter Zugang · Gewinnchancen ab 450 Mitgliedern",
+      heading: "Bisafo Club – Deine exklusive Mitgliedschaft",
+      subheading: "Werde Teil der 500 Bisafo Founders · Monatliche Unterstützung · Direkter Zugang · Gewinnchancen ab 450 Mitgliedern",
       current_members: "Aktuelle Mitglieder",
       capacity: "Limitierte Plätze",
       sustainability_label: "Nachhaltigkeitsziel",
       raffle_label: "Gewinnspiel",
       capacity_label: "Kapazität erreicht",
       milestone_0_299: "💙 Bis 299: Aufbauphase",
-      milestone_300_349: "�� 300–349: Nachhaltigkeit erreicht",
-      milestone_350_449: "💛 350–449: Exklusiver Zugang & Event-Benachrichtigungen",
-      milestone_450_500: "💜 450+: Gewinnspiele jeden Monat (z.B. MacBook)",
-      status_building: "Startphase: Aufbau der NGO ����",
+      milestone_300_349: "💚 300–349: Nachhaltigkeit erreicht",
+      milestone_350_449: "💛 350–449: Exklusiver Zugang & Event‑Benachrichtigungen",
+      milestone_450_500: "💜 450+: Monatliche Gewinnspiele (z. B. MacBook)",
+      status_building: "Startphase: Aufbau der NGO 💙",
       status_sustainability: "Nachhaltigkeit erreicht 💚",
-      status_exclusive: "Exklusiver Zugang & Event-Benachrichtigungen ✨",
+      status_exclusive: "Exklusiver Zugang & Event‑Benachrichtigungen ✨",
       status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
-      benefits_heading: "Exklusive Vorteile für Bisafo Members",
-      benefit_1: "✅ Exklusiver Zugang zu Daniel",
-      benefit_2: "📩 Erste Benachrichtigung bei Events",
-      benefit_3: "🎥 Exklusiver Content & Community-Updates",
-      benefit_4: "🎁 Gewinnchancen ab 450+ Mitgliedern",
+      benefits_heading: "Deine Vorteile als Bisafo‑Mitglied",
+      benefit_1: "✅ 50 % Rabatt auf Camp‑Calma‑Aufenthalte (Founder), 30 % für Gold",
+      benefit_2: "🏡 Erste Wahl bei Grundstücks‑ & Mobilheim‑Projekten (z. B. Afro Village)",
+      benefit_3: "🎁 Monatliche Gewinnspiele ab 450 Mitgliedern",
+      benefit_4: "🎥 Exklusiver Content, Community‑Updates & Live‑Events",
+      benefit_5: "📝 Namentliche Nennung als Gründungsunterstützer",
+      benefit_6: "🔗 Individueller Werbecode für Freunde",
       cta_button: "Jetzt Mitglied werden"
     },
     bisafo_about: {
@@ -561,23 +619,49 @@ const translations = {
       feature_safe_harbor: "Sicherer Hafen",
       feature_shared_learning: "Gemeinsames Lernen",
       feature_monthly_raffles: "Monatliche Verlosungen",
-      background: "Der Bisafo Circle ist die neue, exklusive Community und der Founders Club von Camp Calma. Der Name „Bisafo“ stammt aus der Twi‑Sprache Ghanas und bedeutet „die Fragenden, Suchenden oder Lernenden“. Der Kreis versteht sich als Netzwerk für Menschen, die gemeinsam neue Wege gehen, entdecken, erleben und voneinander lernen möchten — inspiriert vom ghanaischen Bisafo‑Spirit.",
-      exclusivity: "Die ersten 500 Mitglieder bilden den exklusiven Bisafo‑Kreis (Founders Club) und behalten dauerhaft besondere Gründer‑Vorteile, solange sie aktiv bleiben. Später wächst die Community auf 5.000 Gold‑Mitglieder; der Bisafo‑Kreis behält seinen einzigartigen Gründer‑Status.",
-      pricing: "Gründerangebot: Die ersten 500 Mitglieder zahlen nur 99 €/Jahr (≈ 8,25 €/Monat) statt regulär 199 €/Jahr für Gold‑Mitglieder (≈ 16,58 €/Monat).",
-      sustainability: "Diese ersten 500 Mitglieder — im Dashboard sichtbar — sind die Gruppe, deren monatliche Beiträge die Nachhaltigkeit der NGO sichern und monatliche Verlosungen ermöglichen.",
-      community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App, und die NGO kann jeden Monat eine nachhaltige Off‑Grid‑Immobilie verlosen — aktuell in Portugal; künftig wählbar zwischen Portugal oder Ghana.",
+      background: "„Bisafo“ stammt aus dem Twi (Ghana) und beschreibt die Suchenden, Lernenden und Fragenden. Im Camp Calma steht der Bisafo‑Kreis für unseren Founders Club — ein Netzwerk von Pionier:innen, die gemeinsam erkunden, entdecken und wachsen.",
+      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder‑Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
+      pricing: "Founder: 99 €/Jahr mit Einladungscode (statt 132 €). Gold: 199 €/Jahr mit Einladungscode (statt 265 €). 20 % Provision gehen jeweils an den Werber.",
+      sustainability: "Diese ersten 500 sichern die Nachhaltigkeit der NGO und schalten ab 450 Mitgliedern monatliche Gewinnspiele frei.",
+      community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App. Die NGO kann monatlich eine nachhaltige Off‑Grid‑Immobilie verlosen — jetzt in Portugal, künftig auch Ghana.",
       benefits_title: "Mitgliedsvorteile",
       benefits: [
-        "🌱 50% Rabatt auf Camp‑Calma‑Aufenthalte (Bisafo‑Kreis), 30% für Gold‑Mitglieder.",
-        "🎁 Zugang zu exklusiven Preispools und Hauptpreisen (z. B. Land, Campervans), sobald Meilensteine erreicht sind.",
-        "📚 Zugang zu digitalen Ressourcen (Permakultur‑Guide, Rezepte, Yoga, Lernmaterialien).",
-        "🗳️ Mitbestimmung bei Workshops, Events und Community‑Projekten.",
-        "🎥 Exklusive Live/Stream‑Events, Community‑Calls, Retreat‑Previews.",
-        "📝 Namensnennung auf Website/Social/Video als Gründungsunterstützer."
+        "🌱 50% Rabatt auf Camp‑Calma‑Aufenthalte (Founder), 30% für Gold‑Mitglieder",
+        "🏡 Erste Wahl bei Grundstücks‑ & Mobilheim‑Projekten (z. B. Afro Village)",
+        "🎁 Exklusive Gewinnspiele (monatlich ab 450 Mitgliedern)",
+        "📚 Digitale Ressourcen (Permakultur, Rezepte, Yoga, Lernmaterialien)",
+        "🗳️ Mitbestimmung bei Workshops, Events & Projekten",
+        "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
+        "📝 Namentliche Nennung als Gründungsunterstützer"
       ],
-      info_box: "Der Bisafo‑Kreis (500 Mitglieder) bildet den Founders Club. Später wächst die Community auf 5.000 Gold‑Mitglieder — doch der Bisafo‑Kreis behält dauerhaft seine einzigartigen Gründer‑Privilegien.",
-      narrative_title: "Projekt „Sicherer Hafen“ & Autarkie 2025",
-      narrative: "Mehr als eine Lotterie: Dein Beitrag beschleunigt persönliche und gemeinschaftliche Resilienz — eine Investition in den Aufbau eines Sicheren Hafens: ein Ort des Lernens, der Gemeinschaft und praktischer Autarkie. Camp Calma und die Sankofa‑NGO wirken als Facilitatoren dieser Bewegung und stoßen eine Kultur gelebter Selbstversorgung an; mit Starthilfe‑Chancen auf reale Werte (z. B. Grundstück, Campervan), die den Aufbau zusätzlich beschleunigen."
+      info_box: "Der Bisafo‑Kreis (500 Founder) bildet den Founders Club. Danach wächst die Community auf 5.000 Gold‑Mitglieder — der Bisafo‑Kreis behält seine besonderen Gründer‑Privilegien.",
+      founder_title: "Founder‑Mitgliedschaft (limitiert auf 500)",
+      founder_list: [
+        "Normalpreis: 132 € pro Jahr",
+        "Mit Einladungscode: 99 € pro Jahr",
+        "20 % Provision (19,80 €) gehen an den Werber — bei der NGO verbleiben 79,20 €",
+        "Founder‑Status bleibt nur solange du Mitglied bist",
+        "Bei Austritt wird dein Platz für eine neue Person frei"
+      ],
+      gold_title: "Gold‑Mitgliedschaft (Mitglied 501–5.000)",
+      gold_list: [
+        "Normalpreis: 265 € pro Jahr",
+        "Mit Einladungscode: 199 € pro Jahr",
+        "20 % Provision (39,80 €) gehen an den Werber — bei der NGO verbleiben 159,20 €",
+        "Für alle neuen Mitglieder nach den 500 Founders"
+      ],
+      referral_title: "Dein individueller Werbecode",
+      referral_text: "Jedes Mitglied erhält nach dem Beitritt einen persönlichen Werbecode. Wir setzen bewusst auf persönliche Empfehlungen statt anonymer Werbung. Die Provision ist Wertschätzung: Sie stärkt dich — und die Community.",
+      future_title: "Zukunft: Normale Mitgliedschaften (unbegrenzt, nach 5.000)",
+      future_list: [
+        "Preis: 132 € pro Jahr (≈ wie Bisafo)",
+        "Vorteile: 10 % Rabatt auf Camp‑Calma‑Aufenthalte; Teilnahme an allgemeinen Abstimmungen",
+        "Nicht enthalten: Kein Zugang zu exklusiven Livestreams & Founders‑Events; keine Teilnahme an Premium‑Gewinnspielen; keine Vorrechte bei Grundstücksprojekten; weniger Mitbestimmung",
+        "Nur 500 Founder‑Plätze; bei Austritt wird der Platz frei (Warteliste)",
+        "So bleibt der Bisafo‑Kreis dauerhaft bei 500"
+      ],
+      narrative_title: "Unser gemeinsamer Spirit",
+      narrative: "Der Bisafo Club ist mehr als eine Mitgliedschaft. Er zeigt, dass wir als afrikanische Diaspora gemeinsam stark sind, wenn wir uns gegenseitig unterstützen: wir bauen nachhaltige Projekte unabhängig von Fördergeldern, vertrauen auf gegenseitige Stärke, Wissen und Gemeinschaft. Jeder Beitrag, jede Empfehlung, jede Mitgliedschaft stärkt nicht nur die NGO, sondern auch Zusammenhalt, Stolz und Unabhängigkeit."
     }
   },
   twi: {
@@ -1041,8 +1125,8 @@ const nlTranslations = {
     message: 'Je donatie is succesvol verwerkt. Je lotnummers zijn naar je e‑mail verzonden. Succes!'
   },
   bisafo: {
-    heading: 'Word deel van de 500 Bisafo‑leden 🚀',
-    subheading: 'Maandelijkse steun · Directe toegang · Winkansen vanaf 450 leden',
+    heading: 'Bisafo Club – Jouw exclusieve lidmaatschap',
+    subheading: 'Word deel van de 500 Bisafo‑Founders · Maandelijkse steun · Directe toegang · Verlotingen vanaf 450 leden',
     current_members: 'Huidige leden',
     capacity: 'Beperkte plaatsen',
     sustainability_label: 'Duurzaamheidsdoel',
@@ -1056,11 +1140,13 @@ const nlTranslations = {
     status_sustainability: 'Duurzaamheid behaald 💚',
     status_exclusive: 'Exclusieve toegang & event‑meldingen ✨',
     status_raffles: 'Maandelijkse verlotingen ontgrendeld 🎁',
-    benefits_heading: 'Exclusieve voordelen voor Bisafo‑leden',
-    benefit_1: '✅ Exclusieve toegang tot Daniel',
-    benefit_2: '📩 Als eerste bericht over events',
-    benefit_3: '🎥 Exclusieve content & community‑updates',
-    benefit_4: '🎁 Winkansen vanaf 450+ leden',
+    benefits_heading: 'Jouw voordelen als Bisafo‑lid',
+    benefit_1: '✅ 50% korting op Camp Calma (Founder), 30% voor Gold',
+    benefit_2: '🏡 Eerste keuze bij grond‑ & mobile‑home��projecten (bijv. Afro Village)',
+    benefit_3: '🎁 Maandelijkse verlotingen vanaf 450 leden',
+    benefit_4: '🎥 Exclusieve content, community‑updates & live‑events',
+    benefit_5: '📝 Naamsvermelding als founding supporter',
+    benefit_6: '🔗 Persoonlijke referralcode voor vrienden',
     cta_button: 'Word nu lid'
   },
   bisafo_about: {
@@ -1070,23 +1156,49 @@ const nlTranslations = {
     feature_safe_harbor: 'Veilige haven',
     feature_shared_learning: 'Samen leren',
     feature_monthly_raffles: 'Maandelijkse verlotingen',
-    background: '“Bisafo” komt uit het Twi van Ghana en betekent “de zoekenden, lerenden en vragers”. Bij Camp Calma is de Bisafo‑kring de Founders Club — een netwerk van pioniers die samen ontdekken en leren. De Bisafo‑geest is nieuwsgierigheid, samen leren en avontuur — het kloppende hart van Camp Calma.',
-    exclusivity: 'De eerste 500 leden vormen de exclusieve Bisafo‑kring en behouden hun bijzondere founders‑voordelen zolang ze actief blijven. Later groeit de community naar 5.000 Gold‑leden, terwijl de Bisafo‑kring de unieke founder‑status behoudt.',
-    pricing: 'Founders‑aanbod: De eerste 500 leden betalen slechts €99/jaar (≈ €8,25/maand) i.p.v. de reguliere €199/jaar voor Gold‑leden (≈ €16,58/maand).',
-    sustainability: 'Deze eerste 500 leden — zichtbaar op het dashboard — vormen de groep waarvan de maandelijkse bijdragen de duurzaamheid van de NGO waarborgen en maandelijkse verlotingen mogelijk maken.',
-    community_app_and_properties: 'Met 5.000 leden versterken we elkaar via de Sankofa Community‑app, en kan de NGO elke maand één duurzame off‑grid woning verloten — nu in Portugal; in de toekomst kun je kiezen tussen Portugal of Ghana.',
+    background: '“Bisafo” komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafo‑kring onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
+    exclusivity: 'De eerste 500 leden vormen de Bisafo‑kring (Founders). Founder‑status blijft zolang je lid bent; als je stopt, komt je plek vrij. Daarna groeit de community tot 5.000 Gold‑leden.',
+    pricing: 'Founder: €99/jaar met invitecode (i.p.v. €132). Gold: €199/jaar met invitecode (i.p.v. €265). 20% commissie voor de werver.',
+    sustainability: 'Deze 500 borgen de duurzaamheid van de NGO en ontgrendelen maandelijkse verlotingen vanaf 450 leden.',
+    community_app_and_properties: 'Met 5.000 leden versterken we elkaar via de Sankofa Community‑app. De NGO kan maandelijks één duurzame off‑grid woning verloten — nu in Portugal; later ook in Ghana.',
     benefits_title: 'Ledenvoordelen',
     benefits: [
-      '�� 50% korting op verblijven bij Camp Calma (Bisafo‑kring), 30% voor Gold‑leden.',
-      '🎁 Toegang tot exclusieve prijzengroepen en hoofdprijzen (bijv. grond, camper) zodra mijlpalen zijn bereikt.',
-      '📚 Toegang tot digitale resources (Permacultuurgids, recepten, yoga, leermateriaal).',
-      '🗳️ Medezeggenschap bij workshops, events en community‑projecten.',
-      '🎥 Exclusieve live/stream‑events, community‑calls, retreat‑previews.',
-      '📝 Naamsvermelding op website/social/video als founding supporters.'
+      '🌱 50% korting op Camp Calma (Founder), 30% voor Gold‑leden',
+      '🏡 Eerste keuze bij grond‑ & mobile‑home‑projecten (bijv. Afro Village)',
+      '🎁 Exclusieve verlotingen (maandelijks vanaf 450 leden)',
+      '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
+      '🗳️ Medezeggenschap bij workshops, events & projecten',
+      '🎥 Exclusieve live/stream‑events & retreat‑previews',
+      '📝 Naamsvermelding als founding supporters'
     ],
-    info_box: 'De Bisafo‑kring (500 leden) vormt de Founders Club. Later groeit de community naar 5.000 Gold‑leden — maar de Bisafo‑kring behoudt blijvend zijn unieke founder‑privileges.',
-    narrative_title: 'Project “Veilige Haven” & Autarkie',
-    narrative: 'Dit is meer dan een loterij. Jouw bijdrage is een aanjager van persoonlijke en gemeenschaps‑resilience — een investering in het bouwen van een Veilige Haven: een plek voor leren, community en praktische zelfredzaamheid.'
+    info_box: 'De Bisafo‑kring (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold‑leden — de Bisafo‑kring behoudt unieke founder‑privileges.',
+    founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
+    founder_list: [
+      'Normale prijs: €132/jaar',
+      'Met invitecode: €99/jaar',
+      '20% commissie (€19,80) naar de werver — €79,20 blijft bij de NGO',
+      'Founder‑status zolang je lid bent',
+      'Bij vertrek komt je plek vrij voor een nieuw lid'
+    ],
+    gold_title: 'Gold‑lidmaatschap (leden 501–5.000)',
+    gold_list: [
+      'Normale prijs: €265/jaar',
+      'Met invitecode: €199/jaar',
+      '20% commissie (€39,80) naar de werver — €159,20 blijft bij de NGO',
+      'Voor nieuwe leden na de 500 Founders'
+    ],
+    referral_title: 'Jouw persoonlijke referralcode',
+    referral_text: 'Elk lid ontvangt na aanmelding een persoonlijke referralcode. We vertrouwen op persoonlijke aanbevelingen i.p.v. anonieme advertenties. De commissie is waardering: het versterkt jou én de community.',
+    future_title: 'Toekomst: Normale lidmaatschappen (onbeperkt, na 5.000)',
+    future_list: [
+      'Prijs: €132/jaar (≈ zoals Bisafo)',
+      'Voordelen: 10% korting op Camp Calma; deelname aan algemene stemmingen',
+      'Niet inbegrepen: geen exclusieve livestreams & founders‑events; geen premium verlotingen; geen voorrechten bij grondprojecten; minder medezeggenschap',
+      'Slechts 500 founder‑plekken; bij vertrek komt er een plek vrij (wachtlijst)',
+      'Zo blijft de Bisafo‑kring permanent 500'
+    ],
+    narrative_title: 'Onze gedeelde spirit',
+    narrative: 'De Bisafo Club is meer dan een lidmaatschap. Het laat zien dat we als Afrikaanse diaspora samen sterk zijn wanneer we elkaar steunen: we bouwen duurzame projecten onafhankelijk van subsidies en vertrouwen op wederzijdse kracht, kennis en community. Elke bijdrage, aanbeveling en lidmaatschap versterkt de NGO — én verbondenheid, trots en onafhankelijkheid.'
   }
 };
 translations.nl = nlTranslations;
@@ -1818,7 +1930,7 @@ const AboutBisafo = ({ t }) => (
         <div className="relative rounded-2xl bg-gradient-to-br from-green-100 via-white to-purple-100 p-6 shadow-lg mb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-              <div className="text-2xl">����</div>
+              <div className="text-2xl">💎</div>
               <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_founders}</div>
             </div>
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
