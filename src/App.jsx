@@ -36,6 +36,9 @@ const translations = {
       p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
       photo1_caption: 'Daniel with Nilua and a Dutch family with kids from the African Diaspora',
       photo3_caption: 'Daniel and Nilua’s son making a bonfire',
+      photo4_caption: 'Daniel when he settled at the property 2022',
+      photo5_caption: 'Camp Calma in 2022',
+      photo6_caption: '2022 - First temporary construction and our new water borehole',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -96,6 +99,9 @@ const translations = {
       p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
       photo1_caption: 'Daniel with Nilua and a Dutch family with kids from the African Diaspora',
       photo3_caption: 'Daniel and Nilua’s son making a bonfire',
+      photo4_caption: 'Daniel when he settled at the property 2022',
+      photo5_caption: 'Camp Calma in 2022',
+      photo6_caption: '2022 - First temporary construction and our new water borehole',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -267,6 +273,9 @@ const translations = {
       p2: 'A sua contribuição financia diretamente a construção de infraestruturas essenciais, programas educacionais e recursos sustentáveis. Ao participar no nosso sorteio, não está apenas a ter a oportunidade de ganhar prémios incríveis—está a ajudar a construir as bases para um futuro melhor.',
       photo1_caption: 'Daniel com a Nilua e uma família holandesa com crianças da Diáspora Africana',
       photo3_caption: 'Daniel e o filho da Nilua a fazer uma fogueira',
+      photo4_caption: 'Daniel quando se instalou na propriedade em 2022',
+      photo5_caption: 'Camp Calma em 2022',
+      photo6_caption: '2022 - Primeira construção temporária e o nosso novo furo de água',
     },
     donate: {
       heading: 'Escolha o Seu Nível de Apoio',
@@ -438,6 +447,9 @@ const translations = {
  p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen — du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
       photo1_caption: 'Daniel mit Nilua und einer niederländischen Familie mit Kindern aus der afrikanischen Diaspora',
       photo3_caption: 'Daniel und Niluas Sohn machen ein Lagerfeuer',
+      photo4_caption: 'Daniel, als er sich 2022 auf dem Grundstück niederließ',
+      photo5_caption: 'Camp Calma im Jahr 2022',
+      photo6_caption: '2022 – Erste provisorische Bauarbeiten und unsere neue Wasserbohrung',
     },
     donate: {
  heading: 'Wähle dein Unterstützungslevel',
@@ -609,6 +621,9 @@ const translations = {
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
       photo1_caption: 'Daniel ne Nilua ne Dutch abusua bi a wɔn mma fi Africa Diaspora mu',
       photo3_caption: 'Daniel ne Nilua babarima rekyekyere ogya kɛseɛ',
+      photo4_caption: 'Daniel bere a ɔtenaa asase no so – 2022',
+      photo5_caption: 'Camp Calma wɔ 2022',
+      photo6_caption: '2022 – Adwuma a edi kan a yɛyɛe na yɛn nsuo bɔregua foforo',
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
@@ -779,7 +794,10 @@ const translations = {
       p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
       p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị���ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽',
       photo1_caption: 'Daniel na Nilua na ezinụlọ Dutch nwere ụmụaka sitere na African Diaspora',
-      photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede'
+      photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede',
+      photo4_caption: 'Daniel mgbe o guzobere n’ala ahụ na 2022',
+      photo5_caption: 'Camp Calma na 2022',
+      photo6_caption: '2022 - Owuwu oge mbụ na oghere mmiri ọhụụ anyị'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -895,7 +913,7 @@ const translations = {
       exclusivity: 'Ndị otu 500 mbụ na-eme Otu Bisafo pụrụ iche ma ga-edobe uru ha dịka nd��� guzobere ruo mgbe ha ka n��� n’ọrụ. Mgbe e mesịrị, obodo ga-eto ruo ndị otu 5,000 Gold, ebe Otu Bisafo na-edobe ọnọdụ pụrụ iche nke ndị guzobere.',
       pricing: 'Ọnụahịa ndị guzobere: Ndị otu 500 mbụ na‑akwụ naanị €99/afọ (≈ €8.25/ọnwa) kama €199/afọ maka ndị otu Gold (≈ €16.58/ọnwa).',
       sustainability: 'Ndị otu 500 mbụ — gosiri na dashboard — bụ ndị na-enye onyinye kwa ọnwa nke na‑echekwa ịdịgide NGO ma mepee mgbasa kwa ọnwa.',
-      community_app_and_properties: 'Site na ndị otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọd��nihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
+      community_app_and_properties: 'Site na nd�� otu 5,000, anyị na‑ebuli ibe anyị site na ngwa Sankofa Community, ma NGO nwere ike inye kwa ọnwa otu ihe onwunwe off‑grid na‑adigide — ugbu a na Portugal; n’ọd��nihu ị nwere ike họr��� Portugal ma ọ bụ Ghana.',
       benefits_title: 'Uru ndị otu',
       benefits: [
         '🌱 Nchekwa 50% na ibi na Camp Calma (Otu Bisafo), 30% maka Ndị otu Gold.',
@@ -953,7 +971,10 @@ const nlTranslations = {
     p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off‑grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
     p2: 'Jouw bijdrage financiert direct de bouw van essentiële infrastructuur, onderwijsprogramma\'s en duurzame middelen. Door deel te nemen aan onze verloting krijg je niet alleen kans op geweldige prijzen — je helpt ook mee aan een fundament voor een betere toekomst. 🙏🏽',
     photo1_caption: 'Daniel met Nilua en een Nederlandse familie met kinderen uit de Afrikaanse diaspora',
-    photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur'
+    photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur',
+    photo4_caption: 'Daniel toen hij zich vestigde op het terrein in 2022',
+    photo5_caption: 'Camp Calma in 2022',
+    photo6_caption: '2022 – Eerste tijdelijke opbouw en onze nieuwe waterput'
   },
   donate: {
     heading: 'Kies je steunniveau',
@@ -1056,7 +1077,7 @@ const nlTranslations = {
     community_app_and_properties: 'Met 5.000 leden versterken we elkaar via de Sankofa Community‑app, en kan de NGO elke maand één duurzame off‑grid woning verloten — nu in Portugal; in de toekomst kun je kiezen tussen Portugal of Ghana.',
     benefits_title: 'Ledenvoordelen',
     benefits: [
-      '🌱 50% korting op verblijven bij Camp Calma (Bisafo‑kring), 30% voor Gold‑leden.',
+      '�� 50% korting op verblijven bij Camp Calma (Bisafo‑kring), 30% voor Gold‑leden.',
       '🎁 Toegang tot exclusieve prijzengroepen en hoofdprijzen (bijv. grond, camper) zodra mijlpalen zijn bereikt.',
       '📚 Toegang tot digitale resources (Permacultuurgids, recepten, yoga, leermateriaal).',
       '🗳️ Medezeggenschap bij workshops, events en community‑projecten.',
@@ -1310,6 +1331,18 @@ const ProjectDescription = ({ t }) => (
           <div className="text-center">
             <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F750c421417534bc1acf8f61a8fa1d968?format=webp&width=800" alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
             <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo3_caption}</p>
+          </div>
+          <div className="text-center">
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fd6d3816fb1b9429e911f10f32f78b8ac?format=webp&width=800" alt="Daniel when he settled at the property 2022" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo4_caption}</p>
+          </div>
+          <div className="text-center">
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fffc4b4a821744a70b5eaa2fb751b68fb?format=webp&width=800" alt="Camp Calma in 2022" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo5_caption}</p>
+          </div>
+          <div className="text-center">
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F099b266b2b9c4c85ae3633506d61b167?format=webp&width=800" alt="2022 - First temporary construction and our new water borehole" className="w-full h-48 object-cover rounded-md" />
+            <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo6_caption}</p>
           </div>
         </div>
       </div>
