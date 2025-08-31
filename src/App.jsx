@@ -91,7 +91,10 @@ const translations = {
       heading: 'Featured in TV and Press',
       subheading: 'Years of hands‑on campervan conversions — building trust through public coverage.',
       video_cta: 'Watch on YouTube',
-      article_cta: 'Read the article'
+      article_cta: 'Read the article',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Open OUTO Programme',
+      social_impact_cta: 'Open Social Impact page'
     },
     description: {
       heading: 'About Camp Calma',
@@ -293,7 +296,10 @@ const translations = {
       heading: 'Na televisão e na imprensa',
       subheading: 'Anos de conversões práticas de autocaravanas — confiança através da visibilidade pública.',
       video_cta: 'Ver no YouTube',
-      article_cta: 'Ler o artigo'
+      article_cta: 'Ler o artigo',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Abrir programa OUTO',
+      social_impact_cta: 'Abrir página da Social Impact'
     },
     description: {
       heading: 'Sobre o Camp Calma',
@@ -450,7 +456,7 @@ const translations = {
       ],
       referral_title: "O teu código de recomendação",
       referral_text: "Cada membro recebe um código pessoal após aderir. Preferimos recomendações pessoais a anúncios anónimos. A comissão é um gesto de reconhecimento — fortalece‑te a ti e à comunidade.",
-      future_title: "Futuro: Adesões normais (ilimitadas, após 5.000)",
+      future_title: "Futuro: Ades��es normais (ilimitadas, após 5.000)",
       future_list: [
         "Preço: €132/ano (≈ como Bisafo)",
         "Vantagens: 10% de desconto no Camp Calma; participação em votações gerais",
@@ -493,9 +499,12 @@ const translations = {
     },
     press: {
       heading: 'In TV und Presse',
-      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch ��ffentliche Berichterstattung.',
+      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch öffentliche Berichterstattung.',
       video_cta: 'Auf YouTube ansehen',
-      article_cta: 'Artikel lesen'
+      article_cta: 'Artikel lesen',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'OUTO‑Programm öffnen',
+      social_impact_cta: 'Social‑Impact‑Seite öffnen'
     },
     description: {
  heading: 'Über Camp Calma',
@@ -620,7 +629,7 @@ const translations = {
       feature_shared_learning: "Gemeinsames Lernen",
       feature_monthly_raffles: "Monatliche Verlosungen",
       background: "„Bisafo“ stammt aus dem Twi (Ghana) und beschreibt die Suchenden, Lernenden und Fragenden. Im Camp Calma steht der Bisafo‑Kreis für unseren Founders Club — ein Netzwerk von Pionier:innen, die gemeinsam erkunden, entdecken und wachsen.",
-      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder‑Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
+      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder���Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
       pricing: "Founder: 99 €/Jahr mit Einladungscode (statt 132 €). Gold: 199 €/Jahr mit Einladungscode (statt 265 €). 20 % Provision gehen jeweils an den Werber.",
       sustainability: "Diese ersten 500 sichern die Nachhaltigkeit der NGO und schalten ab 450 Mitgliedern monatliche Gewinnspiele frei.",
       community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App. Die NGO kann monatlich eine nachhaltige Off‑Grid‑Immobilie verlosen — jetzt in Portugal, künftig auch Ghana.",
@@ -697,7 +706,10 @@ const translations = {
       heading: 'TV ne nsɛmmɔne mu aka yɛn ho',
       subheading: 'Mfeɛ ahe na yɛreyɛ campervan‑nsakrae wɔ adwumayɛ mu — eyi ma ɔdɔ ne gyidie.',
       video_cta: 'Hwɛ wɔ YouTube so',
-      article_cta: 'Kenkan asɛmmisa no'
+      article_cta: 'Kenkan asɛmmisa no',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Bue OUTO Programme',
+      social_impact_cta: 'Bue Social Impact kratafa'
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
@@ -768,7 +780,7 @@ const translations = {
  title: 'Ɔkwan Foforɔ A Wob��fa So Akɔ Mu (Kɔ Mu Kwa)',
  button_text: 'Klik ha fa kɔ ne Form no so kɔ mu kwa',
  modal_heading: 'K�� Mu Kwa Form (AMOE)',
- modal_subheading: 'Yɛsrɛ wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
+ modal_subheading: 'Yɛsr�� wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
  name: 'Din Nyinaa',
  email: 'Email Adrɛs',
  address: 'Post Adrɛs Nyinaa',
@@ -899,7 +911,10 @@ const translations = {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
       subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
-      article_cta: 'Gụọ akụkọ ahụ'
+      article_cta: 'Gụọ akụkọ ahụ',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Mepee mmemme OUTO',
+      social_impact_cta: 'Mepee peeji Social Impact'
     },
     description: {
       heading: 'Banyere Camp Calma',
@@ -960,7 +975,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1023,8 +1038,8 @@ const translations = {
       feature_safe_harbor: 'Safe Harbor',
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
-      background: '“Bisafo” na Twi pụtara ndị na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Otu Bisafo bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
-      exclusivity: 'Ndị 500 mbụ bụ Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
+      background: '“Bisafo” na Twi pụtara nd�� na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Otu Bisafo bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
+      exclusivity: 'Ndị 500 mbụ b��� Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
       pricing: 'Founder: €99/afọ na koodu nkwado (kama €132). Gold: €199/afọ na koodu nkwado (kama €265). 20% ụgwọ ntụnye na‑aga na onye kpọrọ gị.',
       sustainability: 'Ndị mbụ 500 na‑ekwe ka NGO dịgide ma mepee mgbasa kwa ọnwa site na 450 ndị otu.',
       community_app_and_properties: 'Site na 5,000 ndị otu, anyị na‑akwado ibe anyị site na ngwa Sankofa Community; NGO nwere ike inye otu ihe onwunwe off‑grid kwa ọnwa — ugbu a na Portugal; n’ọdịnihu Ghana.',
@@ -1104,7 +1119,10 @@ const nlTranslations = {
     heading: 'Op tv en in de pers',
     subheading: 'Jaren aan praktijkervaring met camperombouw — vertrouwen door zichtbaarheid in de media.',
     video_cta: 'Bekijk op YouTube',
-    article_cta: 'Lees het artikel'
+    article_cta: 'Lees het artikel',
+    changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+    outo_cta: 'OUTO‑programma openen',
+    social_impact_cta: 'Social Impact‑pagina openen'
   },
   description: {
     heading: 'Over Camp Calma',
@@ -1221,7 +1239,7 @@ const nlTranslations = {
     benefits: [
       '🌱 50% korting op Camp Calma (Founder), 30% voor Gold‑leden',
       '🏡 Eerste keuze bij grond‑ & mobile‑home‑projecten (bijv. Afro Village)',
-      '🎁 Exclusieve verlotingen (maandelijks vanaf 450 leden)',
+      '��� Exclusieve verlotingen (maandelijks vanaf 450 leden)',
       '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
       '🗳️ Medezeggenschap bij workshops, events & projecten',
       '🎥 Exclusieve live/stream‑events & retreat‑previews',
@@ -1692,7 +1710,7 @@ const SafeHarborSection = ({ t, language }) => {
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
         'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b�� mu.',
-        'Sika & Apɔw: Akoma 2025 de akɛse‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+        'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
@@ -1707,7 +1725,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
-      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
+      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
@@ -2408,6 +2426,10 @@ const PressCoverageSection = ({ t }) => {
   const YT_ID = 'Ee0JOPpsFPo';
   const YT_EMBED = `https://www.youtube.com/embed/${YT_ID}?rel=0`;
   const ARTICLE_URL = 'https://www.noz.de/deutschland-welt/neo/artikel/vanlife-germany-5-wichtige-tipps-fuer-deinen-bulli-ausbau-vanlife-20026901';
+  const OUTO_URL = 'https://openinguptheoutdoors.com/programme';
+  const SOCIAL_IMPACT_URL = 'https://socialimpact.eu/social-entrepreneurship/challenge2023/challenge2023-teams-1/camp-calma';
+  const OUTO_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fcb93318e2c1343ceaecdb47d44e425b3?format=webp&width=800';
+  const SOCIAL_IMPACT_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff4ef0052f711462987d3b08da03beefa?format=webp&width=800';
   const images = [
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F4ae6db7547024865bd58ebb08934d2aa?format=webp&width=800',
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5e8f82f4bff4546a1373a5943dbeae5?format=webp&width=800',
@@ -2445,6 +2467,21 @@ const PressCoverageSection = ({ t }) => {
             <a href={ARTICLE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-green-600 hover:text-green-700 font-medium">
               {t.press?.article_cta || 'Read the article'} <ArrowRight className="ml-2 h-4 w-4" />
             </a>
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <a href={OUTO_URL} target="_blank" rel="noopener noreferrer" className="group block">
+                <div className="relative w-full pt-[100%]">
+                  <img src={OUTO_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="absolute inset-0 w-full h-full object-contain rounded-lg shadow" />
+                </div>
+                <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.outo_cta}</span>
+              </a>
+              <a href={SOCIAL_IMPACT_URL} target="_blank" rel="noopener noreferrer" className="group block">
+                <div className="relative w-full pt-[100%]">
+                  <img src={SOCIAL_IMPACT_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="absolute inset-0 w-full h-full object-contain rounded-lg shadow" />
+                </div>
+                <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.social_impact_cta}</span>
+              </a>
+            </div>
+            <p className="mt-2 text-sm text-gray-600">{t.press?.changemakers_label}</p>
           </div>
         </div>
       </div>
@@ -2540,7 +2577,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
       ],
       story: [
-        'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self‑sufficiency can be lived in practice.',
+        'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self��sufficiency can be lived in practice.',
         'Community is the heart: we create spaces that foster encounters, music and culture — a place where people are there for each other.',
         'Learning sets you free: workshops, digital education and doing together build skills that carry — today and tomorrow.'
       ]
@@ -2666,7 +2703,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
-        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+        'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
     },
     ig: {
