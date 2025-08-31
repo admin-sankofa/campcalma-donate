@@ -34,6 +34,8 @@ const translations = {
       heading: 'About Camp Calma',
  p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
       p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
+      photo1_caption: 'Daniel with Nilua and a Dutch family with kids from the African Diaspora',
+      photo3_caption: 'Daniel and Nilua’s son making a bonfire',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -92,6 +94,8 @@ const translations = {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
       p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
+      photo1_caption: 'Daniel with Nilua and a Dutch family with kids from the African Diaspora',
+      photo3_caption: 'Daniel and Nilua’s son making a bonfire',
     },
     donate: {
       heading: 'Choose Your Support Level',
@@ -261,6 +265,8 @@ const translations = {
       heading: 'Sobre o Camp Calma',
       p1: 'O Camp Calma é um projeto da Sankofa Living & Learning, uma ONG dedicada à criação de espaços de vida e aprendizagem regenerativos. Localizado no coração de Portugal, o Camp Calma pretende ser uma quinta educacional autossuficiente e um santuário para a comunidade, a natureza e o crescimento pessoal.',
       p2: 'A sua contribuição financia diretamente a construção de infraestruturas essenciais, programas educacionais e recursos sustentáveis. Ao participar no nosso sorteio, não está apenas a ter a oportunidade de ganhar prémios incríveis—está a ajudar a construir as bases para um futuro melhor.',
+      photo1_caption: 'Daniel com a Nilua e uma família holandesa com crianças da Diáspora Africana',
+      photo3_caption: 'Daniel e o filho da Nilua a fazer uma fogueira',
     },
     donate: {
       heading: 'Escolha o Seu Nível de Apoio',
@@ -430,6 +436,8 @@ const translations = {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
  p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen — du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
+      photo1_caption: 'Daniel mit Nilua und einer niederländischen Familie mit Kindern aus der afrikanischen Diaspora',
+      photo3_caption: 'Daniel und Niluas Sohn machen ein Lagerfeuer',
     },
     donate: {
  heading: 'Wähle dein Unterstützungslevel',
@@ -599,6 +607,8 @@ const translations = {
  heading: 'Ɛfa Camp Calma Ho',
  p1: 'Camp Calma yɛ Sankofa Living & Learning, NGO bi a ɛboa ma nnipa nya baabi a wɔbɛtena ne wɔn ho bɛsua ade��. Ɛwɔ Portugal mfimfini, Camp Calma botaeɛ ne sɛ ɛbɛyɛ sukuu fie a ɛnfa anyinam ahoɔden ho, na ɛbɛyɛ baabi a amanfoɔ, abɔdeɛ, ne obiara nneɛma bɛyɛ yie.',
  p2: 'Wo mmɔhoɔ no kɔ tẽẽ boa ma wɔsi nneɛma a ɛho hia, nwomasua nhyehyɛeɛ, ne nneɛma a ɛbɛboa ma yɛatra hɔ kyɛ. Wobɛka bɔɔl no ho a, ɛnyɛ akwanya kɛkɛ na wobɛnya sɛ wobɛfa nneɛma pa���wobɛboa ma wɔnsi fapem ma daakye pa. 🙏🏽',
+      photo1_caption: 'Daniel ne Nilua ne Dutch abusua bi a wɔn mma fi Africa Diaspora mu',
+      photo3_caption: 'Daniel ne Nilua babarima rekyekyere ogya kɛseɛ',
     },
     donate: {
  heading: 'Yi Wo Boa No Mu',
@@ -767,7 +777,9 @@ const translations = {
     description: {
       heading: 'Banyere Camp Calma',
       p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
-      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị���ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽'
+      p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị���ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽',
+      photo1_caption: 'Daniel na Nilua na ezinụlọ Dutch nwere ụmụaka sitere na African Diaspora',
+      photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -816,7 +828,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs��rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -939,7 +951,9 @@ const nlTranslations = {
   description: {
     heading: 'Over Camp Calma',
     p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off‑grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
-    p2: 'Jouw bijdrage financiert direct de bouw van essentiële infrastructuur, onderwijsprogramma\'s en duurzame middelen. Door deel te nemen aan onze verloting krijg je niet alleen kans op geweldige prijzen — je helpt ook mee aan een fundament voor een betere toekomst. 🙏🏽'
+    p2: 'Jouw bijdrage financiert direct de bouw van essentiële infrastructuur, onderwijsprogramma\'s en duurzame middelen. Door deel te nemen aan onze verloting krijg je niet alleen kans op geweldige prijzen — je helpt ook mee aan een fundament voor een betere toekomst. 🙏🏽',
+    photo1_caption: 'Daniel met Nilua en een Nederlandse familie met kinderen uit de Afrikaanse diaspora',
+    photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur'
   },
   donate: {
     heading: 'Kies je steunniveau',
@@ -1287,7 +1301,7 @@ const ProjectDescription = ({ t }) => (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
           <div className="text-center">
             <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff108f22a273944c0aec6b86e77a39a1e?format=webp&width=800" alt="Placeholder 1" className="w-full h-48 object-cover rounded-md" />
-            <p className="text-sm text-gray-600 mt-2 text-center">Daniel and Family with Kids</p>
+            <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo1_caption}</p>
           </div>
           <div className="text-center">
             <img src={communitykitchen01} alt="Placeholder 2" className="w-full h-48 object-cover rounded-md" />
@@ -1295,7 +1309,7 @@ const ProjectDescription = ({ t }) => (
           </div>
           <div className="text-center">
             <img src="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F750c421417534bc1acf8f61a8fa1d968?format=webp&width=800" alt="Placeholder 3" className="w-full h-48 object-cover rounded-md" />
-            <p className="text-sm text-gray-600 mt-2 text-center">Off-Grid Shower and Toilet</p>
+            <p className="text-sm text-gray-600 mt-2 text-center">{t.description.photo3_caption}</p>
           </div>
         </div>
       </div>
