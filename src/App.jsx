@@ -1776,6 +1776,16 @@ const MilestoneTracker2 = ({ t }) => {
               <div className="flex items-start gap-2">
                 <span>{t.bisafo.benefit_4}</span>
               </div>
+              {t.bisafo.benefit_5 && (
+                <div className="flex items-start gap-2">
+                  <span>{t.bisafo.benefit_5}</span>
+                </div>
+              )}
+              {t.bisafo.benefit_6 && (
+                <div className="flex items-start gap-2">
+                  <span>{t.bisafo.benefit_6}</span>
+                </div>
+              )}
             </div>
           </div>
 
@@ -1849,6 +1859,53 @@ const AboutBisafo = ({ t }) => (
               ))}
             </ul>
           </div>
+
+          {t.bisafo_about.founder_title && (
+            <div className="bg-white border rounded-lg p-6 shadow-sm mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.bisafo_about.founder_title}</h3>
+              {t.bisafo_about.founder_list && (
+                <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                  {t.bisafo_about.founder_list.map((li, i) => (<li key={i}>{li}</li>))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {t.bisafo_about.gold_title && (
+            <div className="bg-white border rounded-lg p-6 shadow-sm mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.bisafo_about.gold_title}</h3>
+              {t.bisafo_about.gold_list && (
+                <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                  {t.bisafo_about.gold_list.map((li, i) => (<li key={i}>{li}</li>))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {t.bisafo_about.referral_title && (
+            <div className="bg-white border rounded-lg p-6 shadow-sm mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.bisafo_about.referral_title}</h3>
+              {t.bisafo_about.referral_text && <p className="text-gray-700">{t.bisafo_about.referral_text}</p>}
+            </div>
+          )}
+
+          {t.bisafo_about.future_title && (
+            <div className="bg-white border rounded-lg p-6 shadow-sm mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.bisafo_about.future_title}</h3>
+              {t.bisafo_about.future_list && (
+                <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                  {t.bisafo_about.future_list.map((li, i) => (<li key={i}>{li}</li>))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {t.bisafo_about.narrative_title && (
+            <div className="bg-white border rounded-lg p-6 shadow-sm mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.bisafo_about.narrative_title}</h3>
+              {t.bisafo_about.narrative && <p className="text-gray-700">{t.bisafo_about.narrative}</p>}
+            </div>
+          )}
 
           <div className="text-center mt-6">
             <a
