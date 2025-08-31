@@ -91,7 +91,10 @@ const translations = {
       heading: 'Featured in TV and Press',
       subheading: 'Years of hands‑on campervan conversions — building trust through public coverage.',
       video_cta: 'Watch on YouTube',
-      article_cta: 'Read the article'
+      article_cta: 'Read the article',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Open OUTO Programme',
+      social_impact_cta: 'Open Social Impact page'
     },
     description: {
       heading: 'About Camp Calma',
@@ -293,7 +296,10 @@ const translations = {
       heading: 'Na televisão e na imprensa',
       subheading: 'Anos de conversões práticas de autocaravanas — confiança através da visibilidade pública.',
       video_cta: 'Ver no YouTube',
-      article_cta: 'Ler o artigo'
+      article_cta: 'Ler o artigo',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Abrir programa OUTO',
+      social_impact_cta: 'Abrir página da Social Impact'
     },
     description: {
       heading: 'Sobre o Camp Calma',
@@ -493,9 +499,12 @@ const translations = {
     },
     press: {
       heading: 'In TV und Presse',
-      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch ��ffentliche Berichterstattung.',
+      subheading: 'Jahre echter Campervan‑Umbauten — Vertrauen durch öffentliche Berichterstattung.',
       video_cta: 'Auf YouTube ansehen',
-      article_cta: 'Artikel lesen'
+      article_cta: 'Artikel lesen',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'OUTO‑Programm öffnen',
+      social_impact_cta: 'Social‑Impact‑Seite öffnen'
     },
     description: {
  heading: 'Über Camp Calma',
@@ -697,7 +706,10 @@ const translations = {
       heading: 'TV ne nsɛmmɔne mu aka yɛn ho',
       subheading: 'Mfeɛ ahe na yɛreyɛ campervan‑nsakrae wɔ adwumayɛ mu — eyi ma ɔdɔ ne gyidie.',
       video_cta: 'Hwɛ wɔ YouTube so',
-      article_cta: 'Kenkan asɛmmisa no'
+      article_cta: 'Kenkan asɛmmisa no',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Bue OUTO Programme',
+      social_impact_cta: 'Bue Social Impact kratafa'
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
@@ -899,7 +911,10 @@ const translations = {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
       subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
-      article_cta: 'Gụọ akụkọ ahụ'
+      article_cta: 'Gụọ akụkọ ahụ',
+      changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+      outo_cta: 'Mepee mmemme OUTO',
+      social_impact_cta: 'Mepee peeji Social Impact'
     },
     description: {
       heading: 'Banyere Camp Calma',
@@ -1023,8 +1038,8 @@ const translations = {
       feature_safe_harbor: 'Safe Harbor',
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
-      background: '“Bisafo” na Twi pụtara ndị na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Otu Bisafo bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
-      exclusivity: 'Ndị 500 mbụ bụ Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
+      background: '“Bisafo” na Twi pụtara nd�� na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Otu Bisafo bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
+      exclusivity: 'Ndị 500 mbụ b��� Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
       pricing: 'Founder: €99/afọ na koodu nkwado (kama €132). Gold: €199/afọ na koodu nkwado (kama €265). 20% ụgwọ ntụnye na‑aga na onye kpọrọ gị.',
       sustainability: 'Ndị mbụ 500 na‑ekwe ka NGO dịgide ma mepee mgbasa kwa ọnwa site na 450 ndị otu.',
       community_app_and_properties: 'Site na 5,000 ndị otu, anyị na‑akwado ibe anyị site na ngwa Sankofa Community; NGO nwere ike inye otu ihe onwunwe off‑grid kwa ọnwa — ugbu a na Portugal; n’ọdịnihu Ghana.',
@@ -1104,7 +1119,10 @@ const nlTranslations = {
     heading: 'Op tv en in de pers',
     subheading: 'Jaren aan praktijkervaring met camperombouw — vertrouwen door zichtbaarheid in de media.',
     video_cta: 'Bekijk op YouTube',
-    article_cta: 'Lees het artikel'
+    article_cta: 'Lees het artikel',
+    changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+    outo_cta: 'OUTO‑programma openen',
+    social_impact_cta: 'Social Impact‑pagina openen'
   },
   description: {
     heading: 'Over Camp Calma',
@@ -1221,7 +1239,7 @@ const nlTranslations = {
     benefits: [
       '🌱 50% korting op Camp Calma (Founder), 30% voor Gold‑leden',
       '🏡 Eerste keuze bij grond‑ & mobile‑home‑projecten (bijv. Afro Village)',
-      '🎁 Exclusieve verlotingen (maandelijks vanaf 450 leden)',
+      '��� Exclusieve verlotingen (maandelijks vanaf 450 leden)',
       '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
       '🗳️ Medezeggenschap bij workshops, events & projecten',
       '🎥 Exclusieve live/stream‑events & retreat‑previews',
@@ -2408,6 +2426,9 @@ const PressCoverageSection = ({ t }) => {
   const YT_ID = 'Ee0JOPpsFPo';
   const YT_EMBED = `https://www.youtube.com/embed/${YT_ID}?rel=0`;
   const ARTICLE_URL = 'https://www.noz.de/deutschland-welt/neo/artikel/vanlife-germany-5-wichtige-tipps-fuer-deinen-bulli-ausbau-vanlife-20026901';
+  const OUTO_URL = 'https://openinguptheoutdoors.com/programme';
+  const SOCIAL_IMPACT_URL = 'https://socialimpact.eu/social-entrepreneurship/challenge2023/challenge2023-teams-1/camp-calma';
+  const CHANGEMAKERS_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb81455452cab4c9d8d628086a847cb5b?format=webp&width=800';
   const images = [
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F4ae6db7547024865bd58ebb08934d2aa?format=webp&width=800',
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5e8f82f4bff4546a1373a5943dbeae5?format=webp&width=800',
@@ -2445,6 +2466,17 @@ const PressCoverageSection = ({ t }) => {
             <a href={ARTICLE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-green-600 hover:text-green-700 font-medium">
               {t.press?.article_cta || 'Read the article'} <ArrowRight className="ml-2 h-4 w-4" />
             </a>
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <a href={OUTO_URL} target="_blank" rel="noopener noreferrer" className="group block">
+                <img src={CHANGEMAKERS_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.outo_cta}</span>
+              </a>
+              <a href={SOCIAL_IMPACT_URL} target="_blank" rel="noopener noreferrer" className="group block">
+                <img src={CHANGEMAKERS_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.social_impact_cta}</span>
+              </a>
+            </div>
+            <p className="mt-2 text-sm text-gray-600">{t.press?.changemakers_label}</p>
           </div>
         </div>
       </div>
@@ -2666,7 +2698,7 @@ const AfroVillageProgress = ({ language }) => {
       story: [
         'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
-        'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+        'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
     },
     ig: {
