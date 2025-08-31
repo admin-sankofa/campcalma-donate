@@ -456,7 +456,7 @@ const translations = {
       ],
       referral_title: "O teu código de recomendação",
       referral_text: "Cada membro recebe um código pessoal após aderir. Preferimos recomendações pessoais a anúncios anónimos. A comissão é um gesto de reconhecimento — fortalece‑te a ti e à comunidade.",
-      future_title: "Futuro: Adesões normais (ilimitadas, após 5.000)",
+      future_title: "Futuro: Ades��es normais (ilimitadas, após 5.000)",
       future_list: [
         "Preço: €132/ano (≈ como Bisafo)",
         "Vantagens: 10% de desconto no Camp Calma; participação em votações gerais",
@@ -616,7 +616,7 @@ const translations = {
       benefit_1: "✅ 50 % Rabatt auf Camp‑Calma‑Aufenthalte (Founder), 30 % für Gold",
       benefit_2: "🏡 Erste Wahl bei Grundstücks‑ & Mobilheim‑Projekten (z. B. Afro Village)",
       benefit_3: "🎁 Monatliche Gewinnspiele ab 450 Mitgliedern",
-      benefit_4: "�� Exklusiver Content, Community‑Updates & Live‑Events",
+      benefit_4: "🎥 Exklusiver Content, Community‑Updates & Live‑Events",
       benefit_5: "📝 Namentliche Nennung als Gründungsunterstützer",
       benefit_6: "🔗 Individueller Werbecode für Freunde",
       cta_button: "Jetzt Mitglied werden"
@@ -629,7 +629,7 @@ const translations = {
       feature_shared_learning: "Gemeinsames Lernen",
       feature_monthly_raffles: "Monatliche Verlosungen",
       background: "„Bisafo“ stammt aus dem Twi (Ghana) und beschreibt die Suchenden, Lernenden und Fragenden. Im Camp Calma steht der Bisafo‑Kreis für unseren Founders Club — ein Netzwerk von Pionier:innen, die gemeinsam erkunden, entdecken und wachsen.",
-      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder‑Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
+      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder���Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
       pricing: "Founder: 99 €/Jahr mit Einladungscode (statt 132 €). Gold: 199 €/Jahr mit Einladungscode (statt 265 €). 20 % Provision gehen jeweils an den Werber.",
       sustainability: "Diese ersten 500 sichern die Nachhaltigkeit der NGO und schalten ab 450 Mitgliedern monatliche Gewinnspiele frei.",
       community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App. Die NGO kann monatlich eine nachhaltige Off‑Grid‑Immobilie verlosen — jetzt in Portugal, künftig auch Ghana.",
@@ -780,7 +780,7 @@ const translations = {
  title: 'Ɔkwan Foforɔ A Wob��fa So Akɔ Mu (Kɔ Mu Kwa)',
  button_text: 'Klik ha fa kɔ ne Form no so kɔ mu kwa',
  modal_heading: 'K�� Mu Kwa Form (AMOE)',
- modal_subheading: 'Yɛsrɛ wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
+ modal_subheading: 'Yɛsr�� wo, hyɛ form no nyinaa ma na woanya bɔɔl (1).',
  name: 'Din Nyinaa',
  email: 'Email Adrɛs',
  address: 'Post Adrɛs Nyinaa',
@@ -908,7 +908,7 @@ const translations = {
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
-      heading: 'Na telivishọn na akwụkw��� akụkọ',
+      heading: 'Na telivishọn na akwụkwọ akụkọ',
       subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ',
@@ -975,7 +975,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1025,7 +1025,7 @@ const translations = {
       benefits_heading: 'Uru gị dịka onye Bisafo',
       benefit_1: '✅ 50% na ibi na Camp Calma (Founder), 30% maka Gold',
       benefit_2: '🏡 Nhọrọ mbụ n’ọrụ ala & mobile‑home (dịka Afro Village)',
-      benefit_3: '🎁 Mgbasa kwa ���nwa site na 450 ndị otu',
+      benefit_3: '🎁 Mgbasa kwa ọnwa site na 450 ndị otu',
       benefit_4: '🎥 Ihe pụrụ iche, mmelite obodo & live‑events',
       benefit_5: '📝 Aha e depụtara dịka onye kwadoro guzobere',
       benefit_6: '🔗 Koodu ntụnye onwe gị maka ndị enyi',
@@ -1060,7 +1060,7 @@ const translations = {
         'Na koodu nkwado: €99/afọ',
         '20% (€19.80) na‑aga n’aka onye kpọrọ — €79.20 na‑anọ na NGO',
         'Status Founder dị naanị mgbe ị nọ n’ọgbakọ',
-        'Ọ bụr�� na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ'
+        'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ'
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
@@ -1249,7 +1249,7 @@ const nlTranslations = {
     founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
     founder_list: [
       'Normale prijs: €132/jaar',
-      'Met invitecode: ���99/jaar',
+      'Met invitecode: €99/jaar',
       '20% commissie (€19,80) naar de werver — €79,20 blijft bij de NGO',
       'Founder‑status zolang je lid bent',
       'Bij vertrek komt je plek vrij voor een nieuw lid'
@@ -1659,7 +1659,7 @@ const SafeHarborSection = ({ t, language }) => {
       features: [
         { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
         { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
-        { icon: '����', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
+        { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
         { icon: '����', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
       ],
       p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
@@ -1710,7 +1710,7 @@ const SafeHarborSection = ({ t, language }) => {
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
         'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b�� mu.',
-        'Sika & Apɔw: Akoma 2025 de akɛse‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+        'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
@@ -1725,7 +1725,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
-      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
+      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
@@ -2469,11 +2469,15 @@ const PressCoverageSection = ({ t }) => {
             </a>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <a href={OUTO_URL} target="_blank" rel="noopener noreferrer" className="group block">
-                <img src={OUTO_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <div className="relative w-full pt-[100%]">
+                  <img src={OUTO_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="absolute inset-0 w-full h-full object-contain rounded-lg shadow" />
+                </div>
                 <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.outo_cta}</span>
               </a>
               <a href={SOCIAL_IMPACT_URL} target="_blank" rel="noopener noreferrer" className="group block">
-                <img src={SOCIAL_IMPACT_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <div className="relative w-full pt-[100%]">
+                  <img src={SOCIAL_IMPACT_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="absolute inset-0 w-full h-full object-contain rounded-lg shadow" />
+                </div>
                 <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.social_impact_cta}</span>
               </a>
             </div>
@@ -2573,7 +2577,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
       ],
       story: [
-        'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self‑sufficiency can be lived in practice.',
+        'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self��sufficiency can be lived in practice.',
         'Community is the heart: we create spaces that foster encounters, music and culture — a place where people are there for each other.',
         'Learning sets you free: workshops, digital education and doing together build skills that carry — today and tomorrow.'
       ]
