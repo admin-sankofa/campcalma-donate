@@ -1235,7 +1235,7 @@ const PartnersSection = ({ t, language }) => {
     de: 'Partner & Kooperationen',
     nl: 'Partners & Samenwerkingen',
     twi: 'Adwumayɛ Mmoafoɔ & Nkitahodie',
-    ig: 'Ndị mmekọ & Mmekọrịta',
+    ig: 'Ndị mmekọ & Mmekọr��ta',
   };
   const heading = (t.partners && t.partners.heading) || headingByLang[language] || 'Partners & Cooperations';
 
@@ -1369,7 +1369,7 @@ const VideoSection = ({ t }) => {
 };
 
 // On‑Demand Showcase Video (loads only after click)
-const OnDemandVideoSection = ({ language, url }) => {
+const OnDemandVideoSection = ({ language, url, thumbnail }) => {
   const headings = {
     en: 'More from Camp Calma',
     de: 'Noch ein Einblick in Camp Calma',
@@ -1391,10 +1391,14 @@ const OnDemandVideoSection = ({ language, url }) => {
             <button
               type="button"
               onClick={() => setShow(true)}
-              className="absolute top-0 left-0 w-full h-full bg-gray-900/70 hover:bg-gray-800/80 text-white flex items-center justify-center transition-colors"
+              className="absolute top-0 left-0 w-full h-full text-white flex items-center justify-center"
               aria-label="Play video"
             >
-              <div className="text-center">
+              {thumbnail && (
+                <img src={thumbnail} alt="Video thumbnail" className="absolute inset-0 w-full h-full object-cover" />
+              )}
+              <span className="absolute inset-0 bg-gray-900/50"></span>
+              <div className="relative text-center z-10">
                 <div className="mx-auto mb-3 w-16 h-16 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center shadow-lg transition-colors">
                   <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                 </div>
@@ -1537,7 +1541,7 @@ const SafeHarborSection = ({ t, language }) => {
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
-      p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
+      p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
         'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Otu Bisafo na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
@@ -2677,7 +2681,7 @@ export default function App() {
         <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
  <VideoSection t={t} />
-        <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" />
+        <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" thumbnail="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F0c65165a10034e3f8647bdccd6bf47ce?format=webp&width=800" />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
         <AfroVillageProgress language={language} />
