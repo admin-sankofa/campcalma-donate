@@ -616,7 +616,7 @@ const translations = {
       benefit_1: "✅ 50 % Rabatt auf Camp‑Calma‑Aufenthalte (Founder), 30 % für Gold",
       benefit_2: "🏡 Erste Wahl bei Grundstücks‑ & Mobilheim‑Projekten (z. B. Afro Village)",
       benefit_3: "🎁 Monatliche Gewinnspiele ab 450 Mitgliedern",
-      benefit_4: "🎥 Exklusiver Content, Community‑Updates & Live‑Events",
+      benefit_4: "�� Exklusiver Content, Community‑Updates & Live‑Events",
       benefit_5: "📝 Namentliche Nennung als Gründungsunterstützer",
       benefit_6: "🔗 Individueller Werbecode für Freunde",
       cta_button: "Jetzt Mitglied werden"
@@ -908,7 +908,7 @@ const translations = {
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
-      heading: 'Na telivishọn na akwụkwọ akụkọ',
+      heading: 'Na telivishọn na akwụkw��� akụkọ',
       subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ',
@@ -1025,7 +1025,7 @@ const translations = {
       benefits_heading: 'Uru gị dịka onye Bisafo',
       benefit_1: '✅ 50% na ibi na Camp Calma (Founder), 30% maka Gold',
       benefit_2: '🏡 Nhọrọ mbụ n’ọrụ ala & mobile‑home (dịka Afro Village)',
-      benefit_3: '🎁 Mgbasa kwa ọnwa site na 450 ndị otu',
+      benefit_3: '🎁 Mgbasa kwa ���nwa site na 450 ndị otu',
       benefit_4: '🎥 Ihe pụrụ iche, mmelite obodo & live‑events',
       benefit_5: '📝 Aha e depụtara dịka onye kwadoro guzobere',
       benefit_6: '🔗 Koodu ntụnye onwe gị maka ndị enyi',
@@ -1060,7 +1060,7 @@ const translations = {
         'Na koodu nkwado: €99/afọ',
         '20% (€19.80) na‑aga n’aka onye kpọrọ — €79.20 na‑anọ na NGO',
         'Status Founder dị naanị mgbe ị nọ n’ọgbakọ',
-        'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ'
+        'Ọ bụr�� na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ'
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
@@ -1249,7 +1249,7 @@ const nlTranslations = {
     founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
     founder_list: [
       'Normale prijs: €132/jaar',
-      'Met invitecode: €99/jaar',
+      'Met invitecode: ���99/jaar',
       '20% commissie (€19,80) naar de werver — €79,20 blijft bij de NGO',
       'Founder‑status zolang je lid bent',
       'Bij vertrek komt je plek vrij voor een nieuw lid'
@@ -1659,7 +1659,7 @@ const SafeHarborSection = ({ t, language }) => {
       features: [
         { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
         { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
-        { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
+        { icon: '����', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
         { icon: '����', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
       ],
       p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
@@ -2428,7 +2428,8 @@ const PressCoverageSection = ({ t }) => {
   const ARTICLE_URL = 'https://www.noz.de/deutschland-welt/neo/artikel/vanlife-germany-5-wichtige-tipps-fuer-deinen-bulli-ausbau-vanlife-20026901';
   const OUTO_URL = 'https://openinguptheoutdoors.com/programme';
   const SOCIAL_IMPACT_URL = 'https://socialimpact.eu/social-entrepreneurship/challenge2023/challenge2023-teams-1/camp-calma';
-  const CHANGEMAKERS_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb81455452cab4c9d8d628086a847cb5b?format=webp&width=800';
+  const OUTO_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fcb93318e2c1343ceaecdb47d44e425b3?format=webp&width=800';
+  const SOCIAL_IMPACT_IMG = 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff4ef0052f711462987d3b08da03beefa?format=webp&width=800';
   const images = [
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F4ae6db7547024865bd58ebb08934d2aa?format=webp&width=800',
     'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5e8f82f4bff4546a1373a5943dbeae5?format=webp&width=800',
@@ -2468,11 +2469,11 @@ const PressCoverageSection = ({ t }) => {
             </a>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <a href={OUTO_URL} target="_blank" rel="noopener noreferrer" className="group block">
-                <img src={CHANGEMAKERS_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <img src={OUTO_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
                 <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.outo_cta}</span>
               </a>
               <a href={SOCIAL_IMPACT_URL} target="_blank" rel="noopener noreferrer" className="group block">
-                <img src={CHANGEMAKERS_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
+                <img src={SOCIAL_IMPACT_IMG} alt="Changemakers 2024 – Social Impact & OUTO" className="w-full h-40 sm:h-48 lg:h-56 object-cover rounded-lg shadow" />
                 <span className="mt-2 block text-green-600 group-hover:text-green-700 font-medium">{t.press?.social_impact_cta}</span>
               </a>
             </div>
