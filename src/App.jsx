@@ -727,7 +727,7 @@ const translations = {
       tier1: {
  price: '€10',
  tickets: '20 Bɔɔl',
- description: 'Ɔkwan pa a wobɛfa so akyerɛ sɛ wob�� yɛn ho mmɔden.',
+ description: 'Ɔkwan pa a wobɛfa so akyer�� sɛ wob�� yɛn ho mmɔden.',
       },
       tier2: {
  price: '€20',
@@ -816,7 +816,7 @@ const translations = {
       status_building: "Mfitiaseɛ: NGO rekɔ anim 💙",
       status_sustainability: "Botaeɛ atena hɔ 💚",
       status_exclusive: "Soronko kwan & dwumadi ho amaneɛ ✨",
-      status_raffles: "Bɔɔl a ɛkɔ so bosome biara abue 🎁",
+      status_raffles: "B��ɔl a ɛkɔ so bosome biara abue 🎁",
       benefits_heading: "Mfasoɔ a Bisafo membifo nya",
       benefit_1: "✅ 50% so wɔ Camp Calma (Founder), 30% ma Gold",
       benefit_2: "🏡 Ɛkan so kwan wɔ asase & mobile‑home nnwuma (te sɛ Afro Village)",
@@ -852,7 +852,7 @@ const translations = {
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
       founder_list: [
         "N’ahoɔden: €132/afe",
-        "Wɔ invite code: €99/afe",
+        "W�� invite code: €99/afe",
         "20% (≈ €19.80) kɔ ma nea ɔde obi baa mu — €79.20 si NGO no mu",
         "Founder‑status wɔ bere a wowɔ mu pɛ",
         "Sɛ wugyae a, w’akɔnni bɛda hɔ ma obi foforo"
@@ -932,7 +932,7 @@ const translations = {
       tier1: {
         price: '€10',
         tickets: 'Tiketi 20',
-        description: 'Ụzọ dị mma isi gosi nkwado gị.'
+        description: 'Ụzọ dị mma isi gosi nkwado g��.'
       },
       tier2: {
         price: '€20',
@@ -1277,6 +1277,175 @@ const nlTranslations = {
 };
 translations.nl = nlTranslations;
 
+const frTranslations = {
+  nav: {
+    description: 'Le Projet',
+    donate: 'Donner & Gagner',
+    prizes: 'Prix',
+    faq: 'FAQ',
+  },
+  hero: {
+    support_fairs_heading: 'Soutenez notre participation aux salons !',
+    support_fairs_text: 'Aidez l’ONG Sankofa Living & Learning et notre projet Camp Calma à être présents aux salons Reiselust, Fisch & Feines et Caravan Bremen. Avec votre don, nous finançons la location du stand, les déplacements et les matériels pour rendre la vie durable visible !',
+    donate_button: 'Faire un don',
+    every_donation_text: 'Chaque don nous rapproche de notre objectif. Merci pour votre soutien !',
+    subheading: 'Soutenez un rêve, gagnez des prix incroyables',
+    heading: 'Aidez à construire Camp Calma au Portugal',
+    cta: 'Faites un don maintenant et recevez des billets de tombola',
+  },
+  video: {
+    heading: 'Voir Camp Calma en action',
+    youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0',
+  },
+  victron: {
+    heading: 'Tableau de bord Victron Energy',
+    subheading: 'Aperçu en temps réel de notre énergie solaire.',
+    open_fullscreen: 'Ouvrir en plein écran pour un tableau de bord avancé',
+  },
+  african_campers: {
+    heading: 'Camping-cars inspirés de l’Afrique – Notre vision',
+    text: 'À Camp Calma et chez Sankofa Living & Learning, de nombreuses idées et projets créatifs relient savoir, culture et vie durable. Daniel apporte son expérience du monde du caravaning, de la vie hors réseau et de son ancien travail comme responsable qualité dans l’automobile. De là est née la vision de développer des caravanes inspirées de l’Afrique — construites au Ghana, exportées dans le monde entier et donnant envie de voyager au Ghana. Cet objectif est réaliste, mais possible seulement ensemble : nous avons besoin de personnes prêtes à s’engager — ou de dons afin que Sankofa Living & Learning puisse concrétiser ces initiatives pionnières.'
+  },
+  press: {
+    heading: 'À la télévision et dans la presse',
+    subheading: 'Des années de réalisations concrètes — une confiance bâtie sur la visibilité publique.',
+    video_cta: 'Voir sur YouTube',
+    article_cta: 'Lire l’article',
+    changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
+    outo_cta: 'Ouvrir le programme OUTO',
+    social_impact_cta: 'Ouvrir la page Social Impact'
+  },
+  description: {
+    heading: 'À propos de Camp Calma',
+    p1: 'Camp Calma est un projet de Sankofa Living & Learning, une ONG dédiée à la création d’espaces de vie et d’apprentissage régénératifs. Situé au cœur du Portugal, Camp Calma vise à devenir une ferme‑école hors réseau et un sanctuaire pour la communauté, la nature et l’épanouissement personnel.',
+    p2: 'Votre contribution finance directement la construction d’infrastructures essentielles, des programmes éducatifs et des ressources durables. En participant à notre tombola, vous ne gagnez pas seulement une chance de remporter d’incroyables prix — vous contribuez à bâtir un meilleur avenir. 🙏🏽',
+    photo1_caption: 'Daniel avec Nilua et une famille néerlandaise avec des enfants de la diaspora africaine',
+    photo3_caption: 'Daniel et le fils de Nilua faisant un feu de camp',
+    photo4_caption: 'Daniel lorsqu’il s’est installé sur le terrain en 2022',
+    photo5_caption: 'Camp Calma en 2022',
+    photo6_caption: '2022 — Première construction temporaire et notre nouveau forage d’eau',
+  },
+  donate: {
+    heading: 'Choisissez votre niveau de soutien',
+    subheading: 'Chaque contribution compte. Plus de soutien = plus de chances de gagner !',
+    tier1: {
+      price: '€10',
+      tickets: '20 Billets',
+      description: 'Une excellente façon de montrer votre soutien.',
+    },
+    tier2: {
+      price: '€20',
+      tickets: '80 Billets',
+      description: 'Notre choix le plus populaire ! 4× plus de billets.',
+      popular: 'POPULAIRE',
+    },
+    tier3: {
+      price: '€30',
+      tickets: '160 Billets',
+      description: 'Meilleur rapport impact/prix.',
+    },
+    button: 'Donner & Participer',
+  },
+  milestones: {
+    heading: 'Paliers de financement & Prix',
+    subheading: 'À mesure que nous atteignons nos objectifs, nous débloquons d’autres prix pour la tombola !',
+    current_funding: 'Financement actuel',
+    goal: 'Objectif',
+    prize1: 'DJI Mini 3 Pro Fly More Combo',
+    prize2: 'DJI Mini 4 Pro',
+    prize3: 'MacBook Air M2',
+    prize4: 'MacBook Air M3 (Grand prix)',
+    unlocked: 'DÉBLOQUÉ !',
+  },
+  countdown: {
+    heading: 'La tombola se termine dans',
+    days: 'Jours',
+    hours: 'Heures',
+    minutes: 'Minutes',
+    seconds: 'Secondes',
+  },
+  prizes: {
+    heading: 'Zoom sur les prix',
+    subheading: 'Des appareils high‑tech peuvent être à vous.',
+    grand_prize: 'Grand prix',
+  },
+  faq: {
+    heading: 'Foire aux questions',
+    q1: 'Comment fonctionne la tombola ?',
+    a1: 'Pour chaque don, vous recevez un nombre de billets en fonction du niveau choisi. À la fin de la campagne, un gagnant est tiré au sort parmi tous les billets émis. Les prix sont débloqués selon le total collecté.',
+    q2: 'Mon don est‑il sécurisé ?',
+    a2: 'Oui, tous les paiements sont traités de manière sécurisée via Stripe. Nous ne stockons aucune information de paiement sur nos serveurs.',
+    q3: 'Quand le gagnant sera‑t‑il annoncé ?',
+    a3: 'Le gagnant sera tiré et annoncé le 31 août 2025, peu après la fin du compte à rebours. Le gagnant sera contacté par e‑mail.',
+    q4: 'Puis‑je participer gratuitement ?',
+    a4: 'Oui, il existe une Méthode Alternative de Participation (AMOE). Voir la section « Participation gratuite » ci‑dessous pour y participer sans don.',
+  },
+  amoe: {
+    title: 'Méthode Alternative de Participation (Gratuit)',
+    button_text: 'Cliquez ici pour le formulaire de participation gratuite',
+    modal_heading: 'Formulaire de participation gratuite (AMOE)',
+    modal_subheading: 'Veuillez remplir entièrement le formulaire pour recevoir un (1) billet de tombola.',
+    name: 'Nom complet',
+    email: 'Adresse e‑mail',
+    address: 'Adresse postale complète',
+    statement: 'Motivation',
+    statement_placeholder: 'Veuillez écrire une courte motivation expliquant votre intérêt pour la tombola Camp Calma.',
+    submit: 'Envoyer la participation gratuite',
+    success: 'Merci ! Votre participation gratuite a été envoyée. Vous recevrez un e‑mail de confirmation sous peu.',
+    close: 'Fermer',
+    consent_html: 'J’accepte les <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Conditions</a> et j’ai pris connaissance de la <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Politique de confidentialité</a>, y compris le consentement à être contacté par e‑mail et WhatsApp au sujet de cette tombola.',
+    whatsapp: 'Numéro WhatsApp',
+  },
+  footer: {
+    contact: 'Contact',
+    follow_us: 'Suivez‑nous',
+    youtube_channel: 'Cha��ne YouTube',
+  },
+  payment_success: {
+    heading: 'Merci pour votre soutien !',
+    message: 'Votre don a été traité avec succès. Vos numéros de billets ont été envoyés à votre e‑mail. Bonne chance !',
+  },
+  bisafo: {
+    heading: 'Bisafo Club – Votre adhésion exclusive',
+    subheading: 'Rejoignez les 500 Bisafo Founders · Soutien mensuel · Accès direct · Tombolas à partir de 450 membres',
+    current_members: 'Membres actuels',
+    capacity: 'Places limitées',
+    sustainability_label: 'Objectif de durabilité',
+    raffle_label: 'Tombola',
+    capacity_label: 'Capacité atteinte',
+    milestone_0_299: '💙 Jusqu’à 299 : Phase de construction',
+    milestone_300_349: '💚 300–349 : Durabilité atteinte',
+    milestone_350_449: '💛 350–449 : Accès exclusif & notifications',
+    milestone_450_500: '💜 450+ : Tombolas mensuelles (ex. MacBook)',
+    status_building: 'Phase de construction : Développement de l’ONG 💙',
+    status_sustainability: 'Durabilité atteinte 💚',
+    status_exclusive: 'Accès exclusif & notifications ✨',
+    status_raffles: 'Tombolas mensuelles débloquées 🎁',
+    benefits_heading: 'Vos avantages en tant que membre Bisafo',
+    benefit_1: '✅ 50% de réduction sur les séjours Camp Calma (Founder), 30% pour Gold',
+    benefit_2: '🏡 Priorité pour les projets de terrain & mobile‑home (ex. Afro Village)',
+    benefit_3: '🎁 Tombolas mensuelles à partir de 450 membres',
+    benefit_4: '🎥 Contenu exclusif, actualités & événements en direct',
+    benefit_5: '📝 Mention de votre nom comme soutien fondateur',
+    benefit_6: '🔗 Code de parrainage personnel pour vos amis',
+    cta_button: 'Devenir membre maintenant',
+  },
+};
+translations.fr = frTranslations;
+
+// Utility: deep merge fallback to English
+const deepMerge = (base, override) => {
+  if (Array.isArray(base) || Array.isArray(override)) return override ?? base;
+  if (base && typeof base === 'object' && override && typeof override === 'object') {
+    const result = {};
+    for (const key of new Set([...Object.keys(base), ...Object.keys(override)])) {
+      result[key] = deepMerge(base[key], override[key]);
+    }
+    return result;
+  }
+  return override !== undefined ? override : base;
+};
+
 // --- HELPER COMPONENTS ---
 
 // ShadCN-style Button Component
@@ -1305,8 +1474,8 @@ const Button = ({ children, variant = 'default', className = '', ...props }) => 
 // --- UI COMPONENTS ---
 
 const LanguageToggle = ({ language, setLanguage }) => {
-  const orderedLanguages = ['en', 'pt', 'de', 'nl', 'twi', 'ig'];
-  const flags = { en: '🇬🇧', pt: '🇵🇹', de: '🇩🇪', nl: '🇳🇱', twi: '🇬🇭', ig: '🇳🇬' };
+  const orderedLanguages = ['en', 'fr', 'de', 'pt', 'nl', 'twi', 'ig'];
+  const flags = { en: '🇬🇧', fr: '🇫🇷', de: '🇩🇪', pt: '🇵🇹', nl: '🇳🇱', twi: '🇬🇭', ig: '🇳🇬' };
   const tooMany = orderedLanguages.length > 5;
   const [open, setOpen] = useState(false);
 
@@ -1417,6 +1586,7 @@ const HeroSection = ({ t }) => (
 const PartnersSection = ({ t, language }) => {
   const headingByLang = {
     en: 'Partners & Cooperations',
+    fr: 'Partenaires & Coopérations',
     pt: 'Parceiros & Colaborações',
     de: 'Partner & Kooperationen',
     nl: 'Partners & Samenwerkingen',
@@ -1562,7 +1732,8 @@ const OnDemandVideoSection = ({ language, url, thumbnail }) => {
     pt: 'Mais de Camp Calma',
     nl: 'Nog een blik op Camp Calma',
     twi: 'Bio fi Camp Calma',
-    ig: 'Vidiyo ọzọ site na Camp Calma'
+    ig: 'Vidiyo ọzọ site na Camp Calma',
+    fr: 'Plus de Camp Calma'
   };
   const title = headings[language] || 'More from Camp Calma';
   const [show, setShow] = useState(false);
@@ -1709,7 +1880,7 @@ const SafeHarborSection = ({ t, language }) => {
       p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
-        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b�� mu.',
+        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b���� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
@@ -1735,7 +1906,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
         'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
       ],
-      rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jikọta ha nke ọma.'
+      rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jik��ta ha nke ọma.'
     }
   }[langKey];
 
@@ -2604,7 +2775,7 @@ const AfroVillageProgress = ({ language }) => {
         { amount: 100000, name: 'Educatie & ontmoetingen', outcome: 'Learning Dome (workshops, muziek, digitaal leren)', icon: '🎓🎶' },
         { amount: 250000, name: 'Het hart', outcome: '3 mobiele woningen voltooid; eerste verblijven mogelijk', icon: '🧡🛏️' },
         { amount: 500000, name: 'De helft van het dorp', outcome: '5 mobiele woningen, energie-/watercentrum, PV + opslag', icon: '⚡💧' },
-        { amount: 750000, name: 'Cultuur & uitbreiding', outcome: 'AfroBeats‑podium, creative hub, retreat‑ruimte', icon: '🥁🎭' },
+        { amount: 750000, name: 'Cultuur & uitbreiding', outcome: 'AfroBeats���podium, creative hub, retreat‑ruimte', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village voltooid', outcome: '10 autonome mobiele woningen in Sankofa/Camp‑Calma‑design', icon: '🏡✨' },
       ],
       story: [
@@ -2739,7 +2910,7 @@ const AfroVillageProgress = ({ language }) => {
     }
   }[langKey];
 
-  const localeMap = { en: 'en-US', pt: 'pt-PT', de: 'de-DE', nl: 'nl-NL', twi: 'en-GB', ig: 'ig-NG' };
+  const localeMap = { en: 'en-US', fr: 'fr-FR', pt: 'pt-PT', de: 'de-DE', nl: 'nl-NL', twi: 'en-GB', ig: 'ig-NG' };
 
   useEffect(() => {
     const url = import.meta.env.VITE_AFRO_VILLAGE_TOTAL_URL;
@@ -2866,6 +3037,7 @@ const LanguageSelectModal = ({ isOpen, onSelect, onClose }) => {
   if (!isOpen) return null;
   const langs = [
     { code: 'en', label: 'English', flag: '🇬🇧' },
+    { code: 'fr', label: 'Français', flag: '🇫🇷' },
     { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
     { code: 'pt', label: 'Português', flag: '🇵🇹' },
     { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
@@ -2921,7 +3093,7 @@ export default function App() {
     } catch (_e) {}
   }, [language]);
 
-  const t = useMemo(() => translations[language], [language]);
+  const t = useMemo(() => deepMerge(translations.en, translations[language] || translations.en), [language]);
 
   const handleDonation = (amount) => {
     console.log(`--- MOCK STRIPE PAYMENT ---`);
