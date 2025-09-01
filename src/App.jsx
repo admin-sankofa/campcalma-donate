@@ -101,7 +101,7 @@ const translations = {
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
       p2: 'Your contribution directly funds the construction of essential infrastructure, educational programs, and sustainable resources. By participating in our raffle, you\'re not just getting a chance to win incredible prizes—you\'re helping build a foundation for a better future. 🙏🏽',
       photo1_caption: 'Daniel with Nilua and a Dutch family with kids from the African Diaspora',
-      photo3_caption: 'Daniel and Nilua’s son making a bonfire',
+      photo3_caption: 'Daniel and Nilua���s son making a bonfire',
       photo4_caption: 'Daniel when he settled at the property 2022',
       photo5_caption: 'Camp Calma in 2022',
       photo6_caption: '2022 - First temporary construction and our new water borehole',
@@ -187,7 +187,7 @@ const translations = {
         message: "Your donation has been processed successfully. Your raffle ticket numbers have been sent to your email. Good luck!",
     },
     bisafo: {
-      heading: "Bisafo Club – Your exclusive membership",
+      heading: "Bisafoɔ Circle – Your exclusive membership",
       subheading: "Join the 500 Bisafo Founders · Monthly support · Direct access · Raffles from 450 members",
       current_members: "Current Members",
       capacity: "Limited Spots",
@@ -212,14 +212,14 @@ const translations = {
       cta_button: "Become Member Now"
     },
     bisafo_about: {
-      heading: "About the Bisafo Circle",
+      heading: "About the Bisafoɔ Circle",
       subheading: "The exclusive community of Sankofa Living & Learning",
       feature_founders: "Founders Club",
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” in Twi (Ghana) refers to the seekers, learners, and questioners. At Camp Calma, the Bisafo Circle is our Founders Club — a network of pioneers exploring and learning together.",
-      exclusivity: "The first 500 members form the Bisafo Circle (Founders). Founder status remains while you are active; if you leave, your spot opens for someone new. After that, the community grows to 5,000 Gold Members.",
+      background: "“Bisafo” in Twi (Ghana) refers to the seekers, learners, and questioners. At Camp Calma, the Bisafoɔ Circle is our Founders Club — a network of pioneers exploring and learning together.",
+      exclusivity: "The first 500 members form the Bisafoɔ Circle (Founders). Founder status remains while you are active; if you leave, your spot opens for someone new. After that, the community grows to 5,000 Gold Members.",
       pricing: "Founder: €99/year with invite code (instead of €132). Gold: €199/year with invite code (instead of €265). 20% referral commission applies.",
       sustainability: "These first 500 secure the NGO’s sustainability and unlock monthly raffles from 450 members.",
       community_app_and_properties: "With 5,000 members we empower each other through the Sankofa Community App. The NGO can give away one sustainable off‑grid property monthly — now in Portugal; later also Ghana.",
@@ -233,7 +233,7 @@ const translations = {
         "🎥 Exclusive live/stream events & retreat previews",
         "📝 Name recognition as founding supporters"
       ],
-      info_box: "The Bisafo Circle (500 Founders) forms the Founders Club. Later the community expands to 5,000 Gold Members — the Bisafo Circle keeps its unique founder privileges.",
+      info_box: "The Bisafoɔ Circle (500 Founders) forms the Founders Club. Later the community expands to 5,000 Gold Members — the Bisafoɔ Circle keeps its unique founder privileges.",
       founder_title: "Founder Membership (limited to 500)",
       founder_list: [
         "Regular price: €132/year",
@@ -257,10 +257,10 @@ const translations = {
         "Benefits: 10% off Camp Calma stays; participation in general votes",
         "Not included: no access to exclusive livestreams & founders events; no premium raffles; no property project privileges; fewer voting rights",
         "Only 500 founder spots; if someone leaves, the spot becomes free (waitlist)",
-        "This keeps the Bisafo Circle permanently at 500"
+        "This keeps the Bisafoɔ Circle permanently at 500"
       ],
       narrative_title: "Our shared spirit",
-      narrative: "The Bisafo Club is more than a membership. It shows that as African diaspora we are strong together when we support each other: we build sustainable projects independent of grants, and rely on mutual strength, knowledge and community. Every contribution, recommendation and membership strengthens not only the NGO, but also unity, pride and independence."
+      narrative: "The Bisafoɔ Circle is more than a membership. It shows that as African diaspora we are strong together when we support each other: we build sustainable projects independent of grants, and rely on mutual strength, knowledge and community. Every contribution, recommendation and membership strengthens not only the NGO, but also unity, pride and independence."
     }
   },
   pt: {
@@ -392,7 +392,7 @@ const translations = {
         message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
     },
     bisafo: {
-      heading: "Bisafo Club – A tua adesão exclusiva",
+      heading: "Bisafoɔ Circle – A tua adesão exclusiva",
       subheading: "Junta‑te aos 500 Bisafo Founders · Apoio mensal · Acesso direto · Sorteios a partir de 450 membros",
       current_members: "Membros Atuais",
       capacity: "Lugares Limitados",
@@ -417,14 +417,14 @@ const translations = {
       cta_button: "Tornar‑me Membro"
     },
     bisafo_about: {
-      heading: "Sobre o Círculo Bisafo",
+      heading: "Sobre o Bisafoɔ Circle",
       subheading: "A comunidade exclusiva da Sankofa Living & Learning",
       feature_founders: "Clube de Fundadores",
       feature_safe_harbor: "Porto Seguro",
       feature_shared_learning: "Aprendizagem Partilhada",
       feature_monthly_raffles: "Sorteios Mensais",
-      background: "“Bisafo” no Twi (Gana) significa os que procuram, aprendem e questionam. No Camp Calma, o Círculo Bisafo é o nosso Founders Club — uma rede de pioneiros que exploram e aprendem juntos.",
-      exclusivity: "Os primeiros 500 formam o Círculo Bisafo (Founders). O estatuto de Founder mantém‑se enquanto fores membro; se saíres, o teu lugar fica livre. Depois, a comunidade cresce para 5.000 Membros Gold.",
+      background: "“Bisafo” no Twi (Gana) significa os que procuram, aprendem e questionam. No Camp Calma, o Bisafoɔ Circle é o nosso Founders Club — uma rede de pioneiros que exploram e aprendem juntos.",
+      exclusivity: "Os primeiros 500 formam o Bisafoɔ Circle (Founders). O estatuto de Founder mantém‑se enquanto fores membro; se saíres, o teu lugar fica livre. Depois, a comunidade cresce para 5.000 Membros Gold.",
       pricing: "Founder: €99/ano com convite (em vez de €132). Gold: €199/ano com convite (em vez de €265). Comissão de 20% para o referenciador.",
       sustainability: "Estes 500 garantem a sustentabilidade da ONG e desbloqueiam sorteios mensais a partir de 450 membros.",
       community_app_and_properties: "Com 5.000 membros, fortalecemo‑nos via a App Comunitária Sankofa. A ONG pode sortear mensalmente uma propriedade off‑grid sustentável — agora em Portugal; no futuro também no Gana.",
@@ -438,7 +438,7 @@ const translations = {
         "🎥 Eventos exclusivos em direto/stream & prévias de retiros",
         "📝 Menção nominal como apoiador fundador"
       ],
-      info_box: "O Círculo Bisafo (500 Founders) forma o Founders Club. Depois, a comunidade expande‑se para 5.000 Membros Gold — o Círculo mantém privilégios únicos de fundador.",
+      info_box: "O Bisafoɔ Circle (500 Founders) forma o Founders Club. Depois, a comunidade expande‑se para 5.000 Membros Gold — o Círculo mantém privilégios únicos de fundador.",
       founder_title: "Adesão Founder (limitada a 500)",
       founder_list: [
         "Preço normal: €132/ano",
@@ -462,10 +462,10 @@ const translations = {
         "Vantagens: 10% de desconto no Camp Calma; participação em votações gerais",
         "Excluído: sem streams/eventos exclusivos; sem sorteios premium; sem prioridade em projetos de terreno; menos poder de decisão",
         "Apenas 500 lugares Founder; listas de espera quando alguém sair",
-        "Assim o Círculo Bisafo mantém‑se permanente nos 500"
+        "Assim o Bisafoɔ Circle mantém‑se permanente nos 500"
       ],
       narrative_title: "O nosso espírito comum",
-      narrative: "O Bisafo Club é mais do que uma adesão. Mostra que, como diáspora africana, somos fortes juntos quando nos apoiamos: construímos projetos sustentáveis independentes de subsídios e confiamos na força, conhecimento e comunidade. Cada contribuição, recomendação e adesão fortalece a ONG — e também a união, orgulho e independência."
+      narrative: "O Bisafoɔ Circle é mais do que uma adesão. Mostra que, como diáspora africana, somos fortes juntos quando nos apoiamos: construímos projetos sustentáveis independentes de subsídios e confiamos na força, conhecimento e comunidade. Cada contribuição, recomendação e adesão fortalece a ONG — e também a união, orgulho e independência."
     }
   },
   de: {
@@ -597,7 +597,7 @@ const translations = {
  message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
     },
     bisafo: {
-      heading: "Bisafo Club – Deine exklusive Mitgliedschaft",
+      heading: "Bisafoɔ Circle – Deine exklusive Mitgliedschaft",
       subheading: "Werde Teil der 500 Bisafo Founders · Monatliche Unterstützung · Direkter Zugang · Gewinnchancen ab 450 Mitgliedern",
       current_members: "Aktuelle Mitglieder",
       capacity: "Limitierte Plätze",
@@ -622,14 +622,14 @@ const translations = {
       cta_button: "Jetzt Mitglied werden"
     },
     bisafo_about: {
-      heading: "Über den Bisafo‑Kreis",
+      heading: "Über den Bisafoɔ Circle",
       subheading: "Die exklusive Community von Sankofa Living & Learning",
       feature_founders: "Founders Club",
       feature_safe_harbor: "Sicherer Hafen",
       feature_shared_learning: "Gemeinsames Lernen",
       feature_monthly_raffles: "Monatliche Verlosungen",
-      background: "„Bisafo“ stammt aus dem Twi (Ghana) und beschreibt die Suchenden, Lernenden und Fragenden. Im Camp Calma steht der Bisafo‑Kreis für unseren Founders Club — ein Netzwerk von Pionier:innen, die gemeinsam erkunden, entdecken und wachsen.",
-      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafo‑Kreis (Founders). Der Founder���Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
+      background: "„Bisafo“ stammt aus dem Twi (Ghana) und beschreibt die Suchenden, Lernenden und Fragenden. Im Camp Calma steht der Bisafoɔ Circle für unseren Founders Club — ein Netzwerk von Pionier:innen, die gemeinsam erkunden, entdecken und wachsen.",
+      exclusivity: "Die ersten 500 Mitglieder bilden den Bisafoɔ Circle (Founders). Der Founder���Status bleibt, solange du Mitglied bist; trittst du aus, wird dein Platz für eine neue Person frei. Danach wächst die Community bis 5.000 Gold‑Mitglieder.",
       pricing: "Founder: 99 €/Jahr mit Einladungscode (statt 132 €). Gold: 199 €/Jahr mit Einladungscode (statt 265 €). 20 % Provision gehen jeweils an den Werber.",
       sustainability: "Diese ersten 500 sichern die Nachhaltigkeit der NGO und schalten ab 450 Mitgliedern monatliche Gewinnspiele frei.",
       community_app_and_properties: "Mit 5.000 Mitgliedern stärken wir uns gegenseitig über die Sankofa Community‑App. Die NGO kann monatlich eine nachhaltige Off‑Grid‑Immobilie verlosen — jetzt in Portugal, künftig auch Ghana.",
@@ -643,7 +643,7 @@ const translations = {
         "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
         "📝 Namentliche Nennung als Gründungsunterstützer"
       ],
-      info_box: "Der Bisafo‑Kreis (500 Founder) bildet den Founders Club. Danach wächst die Community auf 5.000 Gold‑Mitglieder — der Bisafo‑Kreis behält seine besonderen Gründer‑Privilegien.",
+      info_box: "Der Bisafoɔ Circle (500 Founder) bildet den Founders Club. Danach wächst die Community auf 5.000 Gold‑Mitglieder — der Bisafoɔ Circle behält seine besonderen Gründer‑Privilegien.",
       founder_title: "Founder‑Mitgliedschaft (limitiert auf 500)",
       founder_list: [
         "Normalpreis: 132 € pro Jahr",
@@ -667,10 +667,10 @@ const translations = {
         "Vorteile: 10 % Rabatt auf Camp‑Calma‑Aufenthalte; Teilnahme an allgemeinen Abstimmungen",
         "Nicht enthalten: Kein Zugang zu exklusiven Livestreams & Founders‑Events; keine Teilnahme an Premium‑Gewinnspielen; keine Vorrechte bei Grundstücksprojekten; weniger Mitbestimmung",
         "Nur 500 Founder‑Plätze; bei Austritt wird der Platz frei (Warteliste)",
-        "So bleibt der Bisafo‑Kreis dauerhaft bei 500"
+        "So bleibt der Bisafoɔ Circle dauerhaft bei 500"
       ],
       narrative_title: "Unser gemeinsamer Spirit",
-      narrative: "Der Bisafo Club ist mehr als eine Mitgliedschaft. Er zeigt, dass wir als afrikanische Diaspora gemeinsam stark sind, wenn wir uns gegenseitig unterstützen: wir bauen nachhaltige Projekte unabhängig von Fördergeldern, vertrauen auf gegenseitige Stärke, Wissen und Gemeinschaft. Jeder Beitrag, jede Empfehlung, jede Mitgliedschaft stärkt nicht nur die NGO, sondern auch Zusammenhalt, Stolz und Unabhängigkeit."
+      narrative: "Der Bisafoɔ Circle ist mehr als eine Mitgliedschaft. Er zeigt, dass wir als afrikanische Diaspora gemeinsam stark sind, wenn wir uns gegenseitig unterstützen: wir bauen nachhaltige Projekte unabhängig von Fördergeldern, vertrauen auf gegenseitige Stärke, Wissen und Gemeinschaft. Jeder Beitrag, jede Empfehlung, jede Mitgliedschaft stärkt nicht nur die NGO, sondern auch Zusammenhalt, Stolz und Unabhängigkeit."
     }
   },
   twi: {
@@ -802,7 +802,7 @@ const translations = {
  message: "Wo mmɔhoɔ no ayɛ yie. Wo bɔɔl nɔmba no akɔ wo email mu. Wɔbɛn yɛn!",
     },
     bisafo: {
-      heading: "Bisafo Club – Wo adwumaden soronko",
+      heading: "Bisafoɔ Circle – Wo adwumaden soronko",
       subheading: "Ka ho bɔ 500 Bisafo Founders · Bosome‑bosome mmoa · Soronko kwan · Bɔɔl firi nnipa 450",
       current_members: "Nnipa a wɔwɔ hɔ seesei",
       capacity: "Baabi a wɔahyɛ",
@@ -827,14 +827,14 @@ const translations = {
       cta_button: "Bɛyɛ Membifo Seesei"
     },
     bisafo_about: {
-      heading: "Ɛfa Bisafo Circle Ho",
+      heading: "Ɛfa Bisafoɔ Circle Ho",
       subheading: "Sankofa Living & Learning kuromfɔw a ɛyɛ soronko",
       feature_founders: "Founders Club",
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafo‑Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
-      exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafo‑Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
+      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
+      exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafoɔ Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
       pricing: "Founder: €99/afe kɔ wɔ invite code (ɛsɛ €132). Gold: €199/afe kɔ wɔ invite code (ɛsɛ €265). 20% kɔ ma nea ɔde wo baa mu.",
       sustainability: "Membifo 500 no na wɔma NGO no tena pintinn na bɔɔl a ɛkɔ so fi nnipa 450 reba abue.",
       community_app_and_properties: "Sɛ yɛkɔ 5,000 membifo a, yɛbɔ yɛn ho ban wɔ Sankofa Community App so; NGO no betumi ama ofi off‑grid baako bosome biara — seesei Portugal, akyiri no Ghana nso.",
@@ -848,7 +848,7 @@ const translations = {
         "🎥 Live/stream anɔpa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan"
       ],
-      info_box: "Bisafo‑Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
+      info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
       founder_list: [
         "N’ahoɔden: €132/afe",
@@ -870,12 +870,12 @@ const translations = {
       future_list: [
         "Bo: €132/afe (te sɛ Bisafo)",
         "Mfaso: 10% so wɔ Camp Calma; wopɛ a wobɛto aba kɛse mu",
-        "��nkɔ mu: streams a ɛyɛ soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
+        "Ɛnkɔ mu: streams a ɛyɛ soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
         "Founder akɔnnidie yɛ 500 pɛ; sɛ obi fi mu a, wɔde ma obi foforo (waitlist)",
-        "Ɔkwan yi na ɛma Bisafo‑Circle da hɔ daa 500"
+        "Ɔkwan yi na ɛma Bisafoɔ Circle da hɔ daa 500"
       ],
       narrative_title: "Ɔsunsum a yɛkyerɛ mu",
-      narrative: "Bisafo Club yɛ dodo sen membifo kɛkɛ. Ɛkyerɛ sɛ, sɛ yɛyɛ diaspora a, yɛtumi yɛ den bom: yɛsi nnwuma a ɛtena hɔ, yɛde nimdeɛ ne kurom‑ahoɔden bɔ yɛn ho ban. Mo bɔ biara, mo adanse biara ne mo membifo yɛ kɛse ma NGO no — na ɛma ahotosoɔ, ahurumayɛ ne anɔpa so gyinabere."
+      narrative: "Bisafoɔ Circle yɛ dodo sen membifo kɛkɛ. Ɛkyerɛ sɛ, sɛ yɛyɛ diaspora a, yɛtumi yɛ den bom: yɛsi nnwuma a ɛtena hɔ, yɛde nimdeɛ ne kurom‑ahoɔden bɔ yɛn ho ban. Mo bɔ biara, mo adanse biara ne mo membifo yɛ kɛse ma NGO no — na ɛma ahotosoɔ, ahurumayɛ ne anɔpa so gyinabere."
     }
   },
   ig: {
@@ -924,7 +924,7 @@ const translations = {
       photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede',
       photo4_caption: 'Daniel mgbe o guzobere n’ala ahụ na 2022',
       photo5_caption: 'Camp Calma na 2022',
-      photo6_caption: '2022 - Owuwu oge mbụ na oghere mmiri ọh���ụ anyị'
+      photo6_caption: '2022 - Owuwu oge mbụ na oghere mmiri ọhụụ anyị'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -973,7 +973,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ��� bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1007,7 +1007,7 @@ const translations = {
       message: 'A rụchaaala ịkwụ ụgwọ gị nke ọma. A zigara nọmba tiketi gị na email gị. Ka chi nyere gị!'
     },
     bisafo: {
-      heading: 'Bisafo Club – Nkwenye pụrụ iche gị',
+      heading: 'Bisafoɔ Circle – Nkwenye pụrụ iche gị',
       subheading: 'Jikọọ 500 Bisafo Founders · Nkwado ọnwa · Ntinye ozugbo · Mgbasa site na 450 ndị otu',
       current_members: 'Ndị otu ugbu a',
       capacity: 'Ọnụ ọgụgụ kacha',
@@ -1032,13 +1032,13 @@ const translations = {
       cta_button: 'Banye ugbu a'
     },
     bisafo_about: {
-      heading: 'Banyere Otu Bisafo',
+      heading: 'Banyere Bisafoɔ Circle',
       subheading: 'Obodo pụrụ iche nke Sankofa Living & Learning',
       feature_founders: 'Otu ndị guzobere',
       feature_safe_harbor: 'Safe Harbor',
       feature_shared_learning: 'Mmụta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
-      background: '“Bisafo” na Twi pụtara nd�� na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Otu Bisafo bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
+      background: '“Bisafo” na Twi pụtara nd�� na‑achọ, ndị na‑amụta na ndị na‑ajụ ajụjụ. Na Camp Calma, Bisafoɔ Circle bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
       exclusivity: 'Ndị 500 mbụ b��� Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
       pricing: 'Founder: €99/afọ na koodu nkwado (kama €132). Gold: €199/afọ na koodu nkwado (kama €265). 20% ụgwọ ntụnye na‑aga na onye kpọrọ gị.',
       sustainability: 'Ndị mbụ 500 na‑ekwe ka NGO dịgide ma mepee mgbasa kwa ọnwa site na 450 ndị otu.',
@@ -1053,7 +1053,7 @@ const translations = {
         '🎥 Live/stream events & retreat previews',
         '📝 Aha depụtara dịka ndị kwadoro guzobere'
       ],
-      info_box: 'Otu Bisafo (500 Founders) bụ Founders Club. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 Gold — Otu Bisafo na‑edobe ikike pụrụ iche.',
+      info_box: 'Bisafoɔ Circle (500 Founders) bụ Founders Club. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 Gold — Bisafoɔ Circle na‑edobe ikike pụrụ iche.',
       founder_title: 'Mmembe Founder (oke na 500)',
       founder_list: [
         'Ọnụahịa nkịtị: €132/afọ',
@@ -1077,10 +1077,10 @@ const translations = {
         'Uru: 10% na Camp Calma; ntinye n’ìmeme ntuli aka n’ozuzu',
         'Ewezuga: enweghị livestreams & founders‑events pụrụ iche; enweghị mgbasa premium; enweghị ikike pụrụ iche n’ọrụ ala; obere ikike ntuli aka',
         'Ebe Founder bụ 500 naanị; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
-        'Nke a na‑eme ka Otu Bisafo nọgide na 500 mgbe niile'
+        'Nke a na‑eme ka Bisafoɔ Circle nọgide na 500 mgbe niile'
       ],
       narrative_title: 'Mmụọ anyị jikọrọ ọnụ',
-      narrative: 'Bisafo Club karịrị “mgbasa.” Ọ na‑egosi na dịka diaspora Afrịka, anyị na‑esi ike ọnụ mgbe anyị na‑akwado ibe anyị: anyị na‑ewu ọrụ dịgide na-enweghị enyemaka gọọmenti; anyị na‑edobe ike, ọmụma na obodo. Onyinye ọ bụla, ntụnye ọ bụla na memba ọ bụla na‑eme ka NGO sie ike — na mmụọ nke ịdị n’otu, ntụkwasị obi na nnwere onwe.'
+      narrative: 'Bisafoɔ Circle karịrị “mgbasa.” Ọ na‑egosi na dịka diaspora Afrịka, anyị na‑esi ike ọnụ mgbe anyị na‑akwado ibe anyị: anyị na‑ewu ọrụ dịgide na-enweghị enyemaka gọọmenti; anyị na‑edobe ike, ọmụma na obodo. Onyinye ọ bụla, ntụnye ọ bụla na memba ọ bụla na‑eme ka NGO sie ike — na mmụọ nke ịdị n’otu, ntụkwasị obi na nnwere onwe.'
     }
   },
 };
@@ -1199,7 +1199,7 @@ const nlTranslations = {
     message: 'Je donatie is succesvol verwerkt. Je lotnummers zijn naar je e‑mail verzonden. Succes!'
   },
   bisafo: {
-    heading: 'Bisafo Club – Jouw exclusieve lidmaatschap',
+    heading: 'Bisafoɔ Circle – Jouw exclusieve lidmaatschap',
     subheading: 'Word deel van de 500 Bisafo‑Founders · Maandelijkse steun · Directe toegang · Verlotingen vanaf 450 leden',
     current_members: 'Huidige leden',
     capacity: 'Beperkte plaatsen',
@@ -1224,14 +1224,14 @@ const nlTranslations = {
     cta_button: 'Word nu lid'
   },
   bisafo_about: {
-    heading: 'Over de Bisafo‑kring',
+    heading: 'Over de Bisafoɔ Circle',
     subheading: 'De exclusieve community van Sankofa Living & Learning',
     feature_founders: 'Founders Club',
     feature_safe_harbor: 'Veilige haven',
     feature_shared_learning: 'Samen leren',
     feature_monthly_raffles: 'Maandelijkse verlotingen',
-    background: '“Bisafo” komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafo‑kring onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
-    exclusivity: 'De eerste 500 leden vormen de Bisafo‑kring (Founders). Founder‑status blijft zolang je lid bent; als je stopt, komt je plek vrij. Daarna groeit de community tot 5.000 Gold‑leden.',
+    background: '“Bisafo” komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafoɔ Circle onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
+    exclusivity: 'De eerste 500 leden vormen de Bisafoɔ Circle (Founders). Founder‑status blijft zolang je lid bent; als je stopt, komt je plek vrij. Daarna groeit de community tot 5.000 Gold‑leden.',
     pricing: 'Founder: €99/jaar met invitecode (i.p.v. €132). Gold: €199/jaar met invitecode (i.p.v. €265). 20% commissie voor de werver.',
     sustainability: 'Deze 500 borgen de duurzaamheid van de NGO en ontgrendelen maandelijkse verlotingen vanaf 450 leden.',
     community_app_and_properties: 'Met 5.000 leden versterken we elkaar via de Sankofa Community‑app. De NGO kan maandelijks één duurzame off‑grid woning verloten — nu in Portugal; later ook in Ghana.',
@@ -1245,7 +1245,7 @@ const nlTranslations = {
       '🎥 Exclusieve live/stream‑events & retreat‑previews',
       '📝 Naamsvermelding als founding supporters'
     ],
-    info_box: 'De Bisafo‑kring (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold‑leden — de Bisafo‑kring behoudt unieke founder‑privileges.',
+    info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold‑leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
     founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
     founder_list: [
       'Normale prijs: €132/jaar',
@@ -1269,10 +1269,10 @@ const nlTranslations = {
       'Voordelen: 10% korting op Camp Calma; deelname aan algemene stemmingen',
       'Niet inbegrepen: geen exclusieve livestreams & founders‑events; geen premium verlotingen; geen voorrechten bij grondprojecten; minder medezeggenschap',
       'Slechts 500 founder‑plekken; bij vertrek komt er een plek vrij (wachtlijst)',
-      'Zo blijft de Bisafo‑kring permanent 500'
+      'Zo blijft de Bisafoɔ Circle permanent 500'
     ],
     narrative_title: 'Onze gedeelde spirit',
-    narrative: 'De Bisafo Club is meer dan een lidmaatschap. Het laat zien dat we als Afrikaanse diaspora samen sterk zijn wanneer we elkaar steunen: we bouwen duurzame projecten onafhankelijk van subsidies en vertrouwen op wederzijdse kracht, kennis en community. Elke bijdrage, aanbeveling en lidmaatschap versterkt de NGO — én verbondenheid, trots en onafhankelijkheid.'
+    narrative: 'De Bisafoɔ Circle is meer dan een lidmaatschap. Het laat zien dat we als Afrikaanse diaspora samen sterk zijn wanneer we elkaar steunen: we bouwen duurzame projecten onafhankelijk van subsidies en vertrouwen op wederzijdse kracht, kennis en community. Elke bijdrage, aanbeveling en lidmaatschap versterkt de NGO — én verbondenheid, trots en onafhankelijkheid.'
   }
 };
 translations.nl = nlTranslations;
@@ -1406,7 +1406,7 @@ const frTranslations = {
     message: 'Votre don a été traité avec succès. Vos numéros de billets ont été envoyés à votre e‑mail. Bonne chance !',
   },
   bisafo: {
-    heading: 'Bisafo Club – Votre adhésion exclusive',
+    heading: 'Bisafoɔ Circle – Votre adhésion exclusive',
     subheading: 'Rejoignez les 500 Bisafo Founders · Soutien mensuel · Accès direct · Tombolas à partir de 450 membres',
     current_members: 'Membres actuels',
     capacity: 'Places limitées',
@@ -1431,14 +1431,14 @@ const frTranslations = {
     cta_button: 'Devenir membre maintenant',
   },
   bisafo_about: {
-    heading: 'À propos du cercle Bisafo',
+    heading: 'À propos du Bisafoɔ Circle',
     subheading: 'La communauté exclusive de Sankofa Living & Learning',
     feature_founders: 'Club des fondateurs',
     feature_safe_harbor: 'Port sûr',
     feature_shared_learning: 'Apprentissage partagé',
     feature_monthly_raffles: 'Tirages mensuels',
-    background: '« Bisafo » en twi (Ghana) désigne les chercheurs, apprenants et questionneurs. Au Camp Calma, le cercle Bisafo est notre Founders Club — un réseau de pionniers qui explorent et apprennent ensemble.',
-    exclusivity: 'Les 500 premiers membres forment le cercle Bisafo (Founders). Le statut de Founder reste tant que vous êtes membre ; si vous partez, votre place s’ouvre à une nouvelle personne. Ensuite, la communauté s’agrandit jusqu’à 5 000 membres Gold.',
+    background: '« Bisafo » en twi (Ghana) désigne les chercheurs, apprenants et questionneurs. Au Camp Calma, le Bisafoɔ Circle est notre Founders Club — un réseau de pionniers qui explorent et apprennent ensemble.',
+    exclusivity: 'Les 500 premiers membres forment le Bisafoɔ Circle (Founders). Le statut de Founder reste tant que vous êtes membre ; si vous partez, votre place s’ouvre à une nouvelle personne. Ensuite, la communauté s’agrandit jusqu’à 5 000 membres Gold.',
     pricing: 'Founder : 99 €/an avec code d’invitation (au lieu de 132 €). Gold : 199 €/an avec code d’invitation (au lieu de 265 €). Commission de parrainage de 20 %.',
     sustainability: 'Ces 500 premiers assurent la durabilité de l’ONG et débloquent des tirages mensuels à partir de 450 membres.',
     community_app_and_properties: 'Avec 5 000 membres, nous nous renforçons via l’app communautaire Sankofa. L’ONG peut offrir chaque mois un bien immobilier off‑grid durable — aujourd’hui au Portugal ; demain aussi au Ghana.',
@@ -1452,7 +1452,7 @@ const frTranslations = {
       '🎥 Événements exclusifs en direct/stream & aperçus de retraites',
       '📝 Mention de votre nom comme soutien fondateur'
     ],
-    info_box: 'Le cercle Bisafo (500 Founders) constitue le Founders Club. Plus tard, la communauté s’étend à 5 000 membres Gold — le cercle conserve ses privilèges uniques de fondateur.',
+    info_box: 'Le Bisafoɔ Circle (500 Founders) constitue le Founders Club. Plus tard, la communauté s’étend à 5 000 membres Gold — le cercle conserve ses privilèges uniques de fondateur.',
     founder_title: 'Adhésion Founder (limitée à 500)',
     founder_list: [
       'Prix normal : 132 €/an',
@@ -1476,10 +1476,10 @@ const frTranslations = {
       'Avantages : 10 % sur les séjours Camp Calma ; participation aux votes généraux',
       'Non inclus : pas d’accès aux livestreams & événements fondateurs exclusifs ; pas de tirages premium ; pas de privilèges sur les projets fonciers ; moins de droits de vote',
       'Seulement 500 places Founder ; si quelqu’un part, la place se libère (liste d’attente)',
-      'Ainsi le cercle Bisafo reste durablement à 500'
+      'Ainsi le Bisafoɔ Circle reste durablement à 500'
     ],
     narrative_title: 'Notre esprit commun',
-    narrative: 'Le Bisafo Club est plus qu’une adhésion. Il montre que, en tant que diaspora africaine, nous sommes forts ensemble quand nous nous soutenons : nous construisons des projets durables indépendants des subventions et nous comptons sur la force, le savoir et la communauté. Chaque contribution, recommandation et adhésion renforce l’ONG — ainsi que l’unité, la fierté et l’autonomie.'
+    narrative: 'Le Bisafoɔ Circle est plus qu’une adhésion. Il montre que, en tant que diaspora africaine, nous sommes forts ensemble quand nous nous soutenons : nous construisons des projets durables indépendants des subventions et nous comptons sur la force, le savoir et la communauté. Chaque contribution, recommandation et adhésion renforce l’ONG — ainsi que l’unité, la fierté et l’autonomie.'
   },
 };
 translations.fr = frTranslations;
@@ -1506,17 +1506,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
       { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
       { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
-      { icon: '🤝', title: 'Lived Through the Bisafo Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
+      { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
     ],
     p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
     p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
     p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
     listTitle: 'Interconnections and Interfaces',
     bullets: [
-      'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
+      'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafoɔ Circle makes it tangible — members actively co‑create the harbor.',
       'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
       'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
-      'Sankofa NGO’s Role: Co‑determination within the Bisafo Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
+      'Sankofa NGO’s Role: Co‑determination within the Bisafoɔ Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
     ],
     rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
   },
@@ -1527,17 +1527,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
       { icon: '⚡', title: 'Akoma 2025: Der Beschleuniger', text: 'Finanzierung, die Wirkung beschleunigt – keine Lotterie.' },
       { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
-      { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
+      { icon: '🤝', title: 'Gelebt im Bisafoɔ Circle', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
     ],
     p1: 'In einer Zeit zunehmender Unsicherheit wächst das Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung. Der „Sichere Hafen“ ist unser Leuchtturm: ein physischer und digitaler Ort des Lernens, der Gemeinschaft und gelebter Autarkie – eine Brücke zu einem bewussteren, freien Leben.',
     p2: 'Der Motor dahinter ist „Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe‑Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
     p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen �� mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
     listTitle: 'Zusammenhänge und Schnittstellen',
     bullets: [
-      'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafo‑Kreis macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
+      'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafoɔ Circle macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
       'Finanzierung & Beteiligung: Akoma 2025 verzahnt Unterstützer‑Level (z. B. Gold) mit der Bisafo‑Mitgliedschaft und bietet exklusive Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut mit.',
       'Gelebte Werte: Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und Begegnungen in Portugal – die praktische Ebene des Hafens.',
-      'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafo‑Kreis und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
+      'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafoɔ Circle und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
     ],
     rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
   },
@@ -1548,17 +1548,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
       { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
       { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
-      { icon: '🤝', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community��events in Portugal.' }
+      { icon: '🤝', title: 'Geleefd via de Bisafoɔ Circle', text: 'Workshops, retreats, cursussen en community��events in Portugal.' }
     ],
     p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
     p2: 'Akoma 2025 verandert fondsenwerving in momentum: samen versnellen we impact, versterken we handelen en openen we startkansen die de uitbouw voeden.',
     p3: 'Steuners krijgen een concrete startoptie — kansen op tastbare activa (bijv. grond of een camper) die de uitbouw vooruit helpen.',
     listTitle: 'Samenhang en raakvlakken',
     bullets: [
-      'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafo‑kring maakt het tastbaar — leden co‑creëren de haven actief.',
+      'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafoɔ Circle maakt het tastbaar — leden co‑creëren de haven actief.',
       'Financiering & participatie: Akoma 2025 verbindt steunniveaus (bijv. Gold) met Bisafo‑lidmaatschap en biedt exclusieve startkansen (grond, campervan). Elke bijdrage bouwt mee.',
       'Geleefde waarden: Toegang tot workshops, retreats, digitale cursussen, community‑evenementen en ontmoetingen in Portugal — de haven in de praktijk.',
-      'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafo‑kring en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
+      'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafoɔ Circle en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
     ],
     rec: 'Website‑advies: Toon beide concepten samen in één samenhangende sectie en verweef ze waar passend.'
   },
@@ -1569,17 +1569,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Porquê & Visão', text: 'Um porto real e digital para aprendizagem, comunidade e autossuficiência.' },
       { icon: '⚡', title: 'Akoma 2025: O Acelerador', text: 'Financiamento que acelera impacto — não é lotaria.' },
       { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
-      { icon: '🤝', title: 'Vive‑se no Círculo Bisafo', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
+      { icon: '🤝', title: 'Vive‑se no Bisafoɔ Circle', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
     ],
     p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
     p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
     p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
     listTitle: 'Ligações e Interfaces',
     bullets: [
-      'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável — membros co‑criam ativamente o porto.',
+      'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável — membros co‑criam ativamente o porto.',
       'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
       'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
-      'Papel da ONG Sankofa: Codeterminação no Círculo Bisafo e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
+      'Papel da ONG Sankofa: Codeterminação no Bisafoɔ Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
     ],
     rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
   },
@@ -1590,14 +1590,14 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Adɛn & Adwene', text: 'Kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.' },
       { icon: '⚡', title: 'Akoma 2025: Ntemkɔ', text: 'Sika a ɛma adwuma tu ntɛm — ɛnyɛ bɔɔl.' },
       { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
-      { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ w�� Portugal.' }
+      { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
     ],
     p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
     p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
     p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
     listTitle: 'Nkitahodie ne Nhyɛe',
     bullets: [
-      'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
+      'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
       'Sika & Apɔw: Akoma 2025 de akɛseɛ‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
       'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
       'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
@@ -1611,17 +1611,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
       { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
       { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
-      { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
+      { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
     ],
     p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwasị obi.',
     p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
     p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
     listTitle: 'Njikọ na njikọ ọrụ',
     bullets: [
-      'Echiche & Omume: “Safe Harbor” na‑enye okpokoro na ihe kpatara; Otu Bisafo na‑eme ka ọ bụrụ ihe a na‑ahụ anya — ndị otu na���kọọ ọrụ ọnụ.',
+      'Echiche & Omume: “Safe Harbor” na‑enye okpokoro na ihe kpatara; Bisafoɔ Circle na‑eme ka ọ bụrụ ihe a na‑ahụ anya — ndị otu na���kọọ ọrụ ọnụ.',
       'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
       'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
-      'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+      'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
     ],
     rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jikọta ha nke ọma.'
   },
@@ -1632,17 +1632,17 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Pourquoi & Vision', text: 'Un port réel et numérique d’apprentissage, de communauté et d’autonomie.' },
       { icon: '⚡', title: 'Akoma 2025 : l’accélérateur', text: 'Un financement qui accélère l’impact — ce n’est pas une loterie.' },
       { icon: '🎁', title: 'Coup de pouce', text: 'Des chances de gagner des actifs concrets comme un terrain ou un camper‑van.' },
-      { icon: '🤝', title: 'Vécu via le cercle Bisafo', text: 'Ateliers, retraites, cours et événements communautaires au Portugal.' }
+      { icon: '🤝', title: 'Vécu via le Bisafoɔ Circle', text: 'Ateliers, retraites, cours et événements communautaires au Portugal.' }
     ],
     p1: 'Une promesse partagée : un port réel et numérique où nous apprenons, bâtissons la communauté et pratiquons l’autonomie — surtout en période d’incertitude.',
     p2: 'Akoma 2025 transforme la collecte de fonds en élan : ensemble nous accélérons l’impact, renforçons l’action et ouvrons des coups de pouce qui nourrissent la construction.',
     p3: 'Les soutiens ont accès à une option concrète de coup de pouce — chances de gagner des actifs tangibles (p. ex. terrain, camper‑van) pour accélérer le projet.',
     listTitle: 'Interconnexions et interfaces',
     bullets: [
-      'Vision & Pratique : “Safe Harbor” donne le cadre et le pourquoi ; le cercle Bisafo le rend tangible — les membres co‑créent activement le port.',
+      'Vision & Pratique : “Safe Harbor” donne le cadre et le pourquoi ; le Bisafoɔ Circle le rend tangible — les membres co‑créent activement le port.',
       'Financement & Participation : Akoma 2025 relie les niveaux de soutien (ex. Gold) à l’adhésion Bisafo et propose des chances exclusives de coup de pouce (terrain, camper‑van). Chaque contribution construit le port.',
       'Valeurs vécues : Accès aux ateliers, retraites, cours numériques, événements communautaires et rencontres au Portugal — le port en pratique.',
-      'Rôle de l’ONG Sankofa : Codécision au sein du cercle Bisafo et “stewardship” du récit ; l’objectif de 500 membres garantit la durabilité à long terme.'
+      'Rôle de l’ONG Sankofa : Codécision au sein du Bisafoɔ Circle et “stewardship” du récit ; l’objectif de 500 membres garantit la durabilité à long terme.'
     ],
     rec: 'Recommandation : présenter les deux concepts ensemble dans une section cohérente et les relier où c’est pertinent.'
   }
@@ -1768,7 +1768,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Abue',
     lockedLabel: 'Esi so',
     milestones: [
-      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ��ho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
       { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
       { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
@@ -2186,17 +2186,17 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
         { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
         { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
-        { icon: '🤝', title: 'Lived Through the Bisafo Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
+        { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
       ],
       p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
       p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
       p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
       listTitle: 'Interconnections and Interfaces',
       bullets: [
-        'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
+        'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafoɔ Circle makes it tangible — members actively co‑create the harbor.',
         'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
         'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
-        'Sankofa NGO’s Role: Co‑determination within the Bisafo Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
+        'Sankofa NGO’s Role: Co‑determination within the Bisafoɔ Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
       ],
       rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
     },
@@ -2207,17 +2207,17 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
         { icon: '⚡', title: 'Akoma 2025: Der Beschleuniger', text: 'Finanzierung, die Wirkung beschleunigt – keine Lotterie.' },
         { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
-        { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
+        { icon: '🤝', title: 'Gelebt im Bisafoɔ Circle', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
       ],
       p1: 'In einer Zeit zunehmender Unsicherheit wächst das Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung. Der „Sichere Hafen“ ist unser Leuchtturm: ein physischer und digitaler Ort des Lernens, der Gemeinschaft und gelebter Autarkie – eine Brücke zu einem bewussteren, freien Leben.',
       p2: 'Der Motor dahinter ist „Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe��Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
       p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
       listTitle: 'Zusammenhänge und Schnittstellen',
       bullets: [
-        'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafo‑Kreis macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
+        'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafoɔ Circle macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
         'Finanzierung & Beteiligung: Akoma 2025 verzahnt Unterstützer‑Level (z. B. Gold) mit der Bisafo‑Mitgliedschaft und bietet exklusive Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut mit.',
         'Gelebte Werte: Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und Begegnungen in Portugal – die praktische Ebene des Hafens.',
-        'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafo‑Kreis und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
+        'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafoɔ Circle und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
       ],
       rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
     },
@@ -2228,17 +2228,17 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
         { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
         { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
-        { icon: '����', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
+        { icon: '����', title: 'Geleefd via de Bisafoɔ Circle', text: 'Workshops, retreats, cursussen en community‑events in Portugal.' }
       ],
       p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
       p2: 'Akoma 2025 verandert fondsenwerving in momentum: samen versnellen we impact, versterken we handelen en openen we startkansen die de uitbouw voeden.',
       p3: 'Steuners krijgen een concrete startoptie — kansen op tastbare activa (bijv. grond of een camper) die de uitbouw vooruit helpen.',
       listTitle: 'Samenhang en raakvlakken',
       bullets: [
-        'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafo‑kring maakt het tastbaar — leden co‑creëren de haven actief.',
+        'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafoɔ Circle maakt het tastbaar — leden co‑creëren de haven actief.',
         'Financiering & participatie: Akoma 2025 verbindt steunniveaus (bijv. Gold) met Bisafo‑lidmaatschap en biedt exclusieve startkansen (grond, campervan). Elke bijdrage bouwt mee.',
         'Geleefde waarden: Toegang tot workshops, retreats, digitale cursussen, community‑evenementen en ontmoetingen in Portugal — de haven in de praktijk.',
-        'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafo‑kring en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
+        'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafoɔ Circle en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
       ],
       rec: 'Website‑advies: Toon beide concepten samen in één samenhangende sectie en verweef ze waar passend.'
     },
@@ -2249,17 +2249,17 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Porquê & Visão', text: 'Um porto real e digital para aprendizagem, comunidade e autossuficiência.' },
         { icon: '⚡', title: 'Akoma 2025: O Acelerador', text: 'Financiamento que acelera impacto — não é lotaria.' },
         { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
-        { icon: '🤝', title: 'Vive‑se no Círculo Bisafo', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
+        { icon: '🤝', title: 'Vive‑se no Bisafoɔ Circle', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
       ],
       p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
-      p2: 'Akoma 2025 transforma a angariaç��o em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
+      p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
-        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável �� membros co‑criam ativamente o porto.',
+        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável �� membros co‑criam ativamente o porto.',
         'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
         'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
-        'Papel da ONG Sankofa: Codeterminação no Círculo Bisafo e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
+        'Papel da ONG Sankofa: Codeterminação no Bisafoɔ Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
       ],
       rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
     },
@@ -2277,7 +2277,7 @@ const SafeHarborSection = ({ t, language }) => {
       p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
       bullets: [
-        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b���� mu.',
+        'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b���� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
@@ -2291,17 +2291,17 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
         { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na-eme ka mmetụta na-aga ngwa — ọ bụghị lotiri.' },
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
-        { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
+        { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na�����agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
-        'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Otu Bisafo na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
+        'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Bisafoɔ Circle na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
         'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
         'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
-        'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+        'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
       ],
       rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jik��ta ha nke ọma.'
     }
@@ -3139,7 +3139,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 25000, name: 'The First Home', outcome: 'First autonomous mobile home (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Community Kitchen', outcome: 'Shared kitchen + solar cooking; food‑forest start', icon: '🍲☀️' },
         { amount: 100000, name: 'Education & Encounters', outcome: 'Learning Dome (workshops, music, digital learning)', icon: '🎓🎶' },
-        { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '��🛏️' },
+        { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
         { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
         { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
@@ -3198,7 +3198,7 @@ const AfroVillageProgress = ({ language, t }) => {
       lockedLabel: 'Bloqueado',
       milestones: [
         { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
-        { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
+        { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show���home)', icon: '🏠' },
         { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
         { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
@@ -3269,7 +3269,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ s�� yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
