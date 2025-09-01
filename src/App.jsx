@@ -96,6 +96,11 @@ const translations = {
       outo_cta: 'Open OUTO Programme',
       social_impact_cta: 'Open Social Impact page'
     },
+    founder: {
+      heading: 'Founder — Daniel Lateef Duroshola',
+      subheading: 'Glimpses of everyday life at Camp Calma — trust and authenticity.',
+      instagram_cta: 'Open Instagram'
+    },
     description: {
       heading: 'About Camp Calma',
       p1: 'Camp Calma is a project by Sankofa Living & Learning, an NGO dedicated to creating regenerative living and learning spaces. Located in the heart of Portugal, Camp Calma aims to be an off-grid educational homestead and a sanctuary for community, nature, and personal growth.',
@@ -300,6 +305,11 @@ const translations = {
       changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
       outo_cta: 'Abrir programa OUTO',
       social_impact_cta: 'Abrir página da Social Impact'
+    },
+    founder: {
+      heading: 'Fundador — Daniel Lateef Duroshola',
+      subheading: 'Olhares do dia a dia no Camp Calma — confiança e autenticidade.',
+      instagram_cta: 'Abrir Instagram'
     },
     description: {
       heading: 'Sobre o Camp Calma',
@@ -506,6 +516,11 @@ const translations = {
       outo_cta: 'OUTO‑Programm öffnen',
       social_impact_cta: 'Social‑Impact‑Seite öffnen'
     },
+    founder: {
+      heading: 'Gründer — Daniel Lateef Duroshola',
+      subheading: 'Einblicke in den Alltag bei Camp Calma — Vertrauen und Authentizität.',
+      instagram_cta: 'Instagram öffnen'
+    },
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
@@ -533,7 +548,7 @@ const translations = {
       tier3: {
  price: '€30',
  tickets: '160 Lose',
- description: 'Bester Wert für die gr��ßte Wirkung.',
+ description: 'Bester Wert für die gr����te Wirkung.',
       },
  button: 'Spenden & Teilnehmen',
     },
@@ -710,6 +725,11 @@ const translations = {
       changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
       outo_cta: 'Bue OUTO Programme',
       social_impact_cta: 'Bue Social Impact kratafa'
+    },
+    founder: {
+      heading: 'Titiriwfo — Daniel Lateef Duroshola',
+      subheading: 'Nsɛnhunu fifiw da biara wɔ Camp Calma — gyidie ne nokwaredi.',
+      instagram_cta: 'Bue Instagram'
     },
     description: {
  heading: 'Ɛfa Camp Calma Ho',
@@ -916,6 +936,11 @@ const translations = {
       outo_cta: 'Mepee mmemme OUTO',
       social_impact_cta: 'Mepee peeji Social Impact'
     },
+    founder: {
+      heading: 'Onye guzobere — Daniel Lateef Duroshola',
+      subheading: 'Nkeji mkpirikpi n’ụbọchị kwa ụbọchị na Camp Calma — ntụkwasị obi na eziokwu.',
+      instagram_cta: 'Mepee Instagram'
+    },
     description: {
       heading: 'Banyere Camp Calma',
       p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
@@ -975,7 +1000,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkw�� ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1123,6 +1148,11 @@ const nlTranslations = {
     changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
     outo_cta: 'OUTO‑programma openen',
     social_impact_cta: 'Social Impact‑pagina openen'
+  },
+  founder: {
+    heading: 'Oprichter — Daniel Lateef Duroshola',
+    subheading: 'Kleine inkijkjes in het dagelijks leven bij Camp Calma — vertrouwen en authenticiteit.',
+    instagram_cta: 'Instagram openen'
   },
   description: {
     heading: 'Over Camp Calma',
@@ -1315,6 +1345,11 @@ const frTranslations = {
     outo_cta: 'Ouvrir le programme OUTO',
     social_impact_cta: 'Ouvrir la page Social Impact'
   },
+  founder: {
+    heading: 'Fondateur — Daniel Lateef Duroshola',
+    subheading: 'Éclats du quotidien à Camp Calma — confiance et authenticité.',
+    instagram_cta: 'Ouvrir Instagram'
+  },
   description: {
     heading: 'À propos de Camp Calma',
     p1: 'Camp Calma est un projet de Sankofa Living & Learning, une ONG dédiée à la création d’espaces de vie et d’apprentissage régénératifs. Situé au cœur du Portugal, Camp Calma vise à devenir une ferme‑école hors réseau et un sanctuaire pour la communauté, la nature et l’épanouissement personnel.',
@@ -1447,7 +1482,7 @@ const frTranslations = {
       '🌱 -50 % sur les séjours à Camp Calma (Founder), 30 % pour Gold',
       '🏡 Priorité pour les projets de terrain & mobile‑home (p. ex. Afro Village)',
       '🎁 Tirages exclusifs (mensuels à partir de 450 membres)',
-      '📚 Ressources numériques (permaculture, recettes, yoga, supports d’apprentissage)',
+      '📚 Ressources numériques (permaculture, recettes, yoga, supports d���apprentissage)',
       '🗳️ Codécision dans les ateliers, événements & projets',
       '🎥 Événements exclusifs en direct/stream & aperçus de retraites',
       '📝 Mention de votre nom comme soutien fondateur'
@@ -1636,7 +1671,7 @@ const safeHarborTranslations = {
     ],
     p1: 'Une promesse partagée : un port réel et numérique où nous apprenons, bâtissons la communauté et pratiquons l’autonomie — surtout en période d’incertitude.',
     p2: 'Akoma 2025 transforme la collecte de fonds en élan : ensemble nous accélérons l’impact, renforçons l’action et ouvrons des coups de pouce qui nourrissent la construction.',
-    p3: 'Les soutiens ont accès à une option concrète de coup de pouce — chances de gagner des actifs tangibles (p. ex. terrain, camper‑van) pour accélérer le projet.',
+    p3: 'Les soutiens ont accès �� une option concrète de coup de pouce — chances de gagner des actifs tangibles (p. ex. terrain, camper‑van) pour accélérer le projet.',
     listTitle: 'Interconnexions et interfaces',
     bullets: [
       'Vision & Pratique : “Safe Harbor” donne le cadre et le pourquoi ; le Bisafoɔ Circle le rend tangible — les membres co‑créent activement le port.',
@@ -3063,6 +3098,38 @@ const PressCoverageSection = ({ t }) => {
   );
 };
 
+const FounderSection = ({ t }) => {
+  const images = [
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F92daa522eddf45bea2f5707e30f71189?format=webp&width=800',
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F5c8d70fc13034935b06d79915d0df6dc?format=webp&width=800',
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F090a5736559a4ed3adfce3c587757509?format=webp&width=800',
+    'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ffe61e1cb1d8f4f2f9350dcf81e6a2614?format=webp&width=800',
+  ];
+  const instaUrl = 'https://www.instagram.com/daniel_lateef_duroshola/';
+  return (
+    <section id="founder" className="py-20 bg-stone-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8">
+          <h2 className="text-4xl font-bold text-gray-800">{t.founder?.heading || 'Founder — Daniel Lateef Duroshola'}</h2>
+          <p className="text-lg text-gray-600 mt-2">{t.founder?.subheading}</p>
+        </div>
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {images.map((src, i) => (
+            <div key={i} className="rounded-xl overflow-hidden shadow">
+              <img src={src} alt="Scenes of daily life at Camp Calma" className="w-full h-72 object-cover" />
+            </div>
+          ))}
+        </div>
+        <div className="text-center mt-6">
+          <a href={instaUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-full shadow">
+            {t.founder?.instagram_cta || 'Open Instagram'}
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const Footer = ({ t }) => (
   <footer className="bg-gray-800 text-white">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -3532,6 +3599,7 @@ export default function App() {
         <VictronDashboardSection t={t} />
         <AfricanInspiredCampersSection t={t} />
         <PressCoverageSection t={t} />
+        <FounderSection t={t} />
       </main>
       <Footer t={t} />
 
