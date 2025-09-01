@@ -870,7 +870,7 @@ const translations = {
       future_list: [
         "Bo: €132/afe (te sɛ Bisafo)",
         "Mfaso: 10% so wɔ Camp Calma; wopɛ a wobɛto aba kɛse mu",
-        "Ɛnkɔ mu: streams a ɛyɛ soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
+        "��nkɔ mu: streams a ɛyɛ soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
         "Founder akɔnnidie yɛ 500 pɛ; sɛ obi fi mu a, wɔde ma obi foforo (waitlist)",
         "Ɔkwan yi na ɛma Bisafo‑Circle da hɔ daa 500"
       ],
@@ -924,7 +924,7 @@ const translations = {
       photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede',
       photo4_caption: 'Daniel mgbe o guzobere n’ala ahụ na 2022',
       photo5_caption: 'Camp Calma na 2022',
-      photo6_caption: '2022 - Owuwu oge mbụ na oghere mmiri ọhụụ anyị'
+      photo6_caption: '2022 - Owuwu oge mbụ na oghere mmiri ọh���ụ anyị'
     },
     donate: {
       heading: 'Họrọ ogo nkwado gị',
@@ -973,7 +973,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ��� bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1590,7 +1590,7 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Adɛn & Adwene', text: 'Kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.' },
       { icon: '⚡', title: 'Akoma 2025: Ntemkɔ', text: 'Sika a ɛma adwuma tu ntɛm — ɛnyɛ bɔɔl.' },
       { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
-      { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
+      { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ w�� Portugal.' }
     ],
     p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
     p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
@@ -1768,7 +1768,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Abue',
     lockedLabel: 'Esi so',
     milestones: [
-      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ��ho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
       { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
       { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
@@ -2100,8 +2100,11 @@ const ProjectDescription = ({ t }) => (
   </section> // Added closing div tag here
 );
 
-const VideoSection = ({ t }) => {
- const videoId = t.video.youtube_link.split('/').pop().split('?')[0]; // Extract video ID
+const VideoSection = ({ t, language }) => {
+  const preferred = translations?.[language]?.video?.youtube_link || '';
+  const isPlaceholder = /VIDEO_ID_/i.test(preferred);
+  const url = !preferred || isPlaceholder ? translations.en.video.youtube_link : preferred;
+  const videoId = url.split('/').pop().split('?')[0];
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -2249,7 +2252,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Vive‑se no Círculo Bisafo', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
       ],
       p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
-      p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
+      p2: 'Akoma 2025 transforma a angariaç��o em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
@@ -2291,7 +2294,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na�����agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
@@ -3136,7 +3139,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 25000, name: 'The First Home', outcome: 'First autonomous mobile home (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Community Kitchen', outcome: 'Shared kitchen + solar cooking; food‑forest start', icon: '🍲☀️' },
         { amount: 100000, name: 'Education & Encounters', outcome: 'Learning Dome (workshops, music, digital learning)', icon: '🎓🎶' },
-        { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
+        { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '��🛏️' },
         { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
         { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '🏡✨' },
@@ -3266,7 +3269,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ s�� yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
@@ -3508,7 +3511,7 @@ export default function App() {
         <HeroSection t={t} />
         <PartnersSection t={t} language={language} />
         <ProjectDescription t={t} />
- <VideoSection t={t} />
+ <VideoSection t={t} language={language} />
         <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" thumbnail="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F0c65165a10034e3f8647bdccd6bf47ce?format=webp&width=800" />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
