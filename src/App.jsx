@@ -578,7 +578,7 @@ const translations = {
  modal_subheading: 'Bitte fülle das Formular vollständig aus, um ein (1) Los zu erhalten.',
  name: 'Vollständiger Name',
  email: 'E-Mail Adresse',
- address: 'Vollständige Postanschrift',
+ address: 'Vollst��ndige Postanschrift',
  statement: 'Teilnahmeerklärung',
  statement_placeholder: 'Bitte schreibe eine kurze Erklärung, die dein echtes Interesse an der Teilnahme an der Camp Calma Verlosung ausdrückt.',
  submit: 'Kostenlose Teilnahme absenden',
@@ -1446,6 +1446,349 @@ const deepMerge = (base, override) => {
   return override !== undefined ? override : base;
 };
 
+// Inject Safe Harbor translations into main translations map
+const safeHarborTranslations = {
+  en: {
+    heading: 'The Safe Harbor Initiative and Project Akoma 2025',
+    sub: 'A movement for resilience and autonomy',
+    features: [
+      { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
+      { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
+      { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
+      { icon: '🤝', title: 'Lived Through the Bisafo Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
+    ],
+    p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
+    p2: 'Akoma 2025 turns fundraising into momentum: together we accelerate impact, empower action and unlock head‑start chances that fuel the build‑out.',
+    p3: 'Supporters can access a concrete head‑start option — chances to win tangible assets (e.g., land or a campervan) that help propel the build‑out.',
+    listTitle: 'Interconnections and Interfaces',
+    bullets: [
+      'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafo Circle makes it tangible — members actively co‑create the harbor.',
+      'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
+      'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
+      'Sankofa NGO’s Role: Co‑determination within the Bisafo Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
+    ],
+    rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
+  },
+  de: {
+    heading: 'Die Safe‑Harbor‑Initiative & Projekt Akoma 2025',
+    sub: 'Eine Bewegung für Resilienz und Autarkie',
+    features: [
+      { icon: '🌊', title: 'Warum & Vision', text: 'Ein realer und digitaler Hafen für Lernen, Gemeinschaft und Selbstversorgung.' },
+      { icon: '⚡', title: 'Akoma 2025: Der Beschleuniger', text: 'Finanzierung, die Wirkung beschleunigt – keine Lotterie.' },
+      { icon: '🎁', title: 'Starthilfe‑Chance', text: 'Chancen auf greifbare Werte wie Grundstück oder Campervan.' },
+      { icon: '🤝', title: 'Gelebt im Bisafo‑Kreis', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
+    ],
+    p1: 'In einer Zeit zunehmender Unsicherheit wächst das Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung. Der „Sichere Hafen“ ist unser Leuchtturm: ein physischer und digitaler Ort des Lernens, der Gemeinschaft und gelebter Autarkie – eine Brücke zu einem bewussteren, freien Leben.',
+    p2: 'Der Motor dahinter ist „Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe‑Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
+    p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen – mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
+    listTitle: 'Zusammenhänge und Schnittstellen',
+    bullets: [
+      'Vision & Praxis: „Sicherer Hafen“ gibt Rahmen und Warum; der Bisafo‑Kreis macht ihn erfahrbar – Mitglieder gestalten den Hafen aktiv mit.',
+      'Finanzierung & Beteiligung: Akoma 2025 verzahnt Unterstützer‑Level (z. B. Gold) mit der Bisafo‑Mitgliedschaft und bietet exklusive Starthilfe‑Chancen (Grundstück, Campervan). Jeder Beitrag baut mit.',
+      'Gelebte Werte: Zugang zu Workshops, Retreats, digitalen Kursen, Community‑Events und Begegnungen in Portugal – die praktische Ebene des Hafens.',
+      'Rolle der Sankofa‑NGO: Mitbestimmung im Bisafo‑Kreis und Begleitung der Bewegung im Narrativ; das Ziel von bis zu 500 Mitgliedern stärkt die langfristige Tragfähigkeit.'
+    ],
+    rec: 'Empfehlung für die Webseite: Die beiden Konzepte nicht strikt trennen, sondern sinnvoll verweben bzw. gemeinsam darstellen.'
+  },
+  nl: {
+    heading: 'Het Safe Harbor‑initiatief en Project Akoma 2025',
+    sub: 'Een beweging voor veerkracht en autonomie',
+    features: [
+      { icon: '🌊', title: 'Waarom & Visie', text: 'Een fysieke en digitale haven voor leren, gemeenschap en zelfredzaamheid.' },
+      { icon: '⚡', title: 'Akoma 2025: De versneller', text: 'Financiering die impact versnelt — geen loterij.' },
+      { icon: '🎁', title: 'Startkans', text: 'Kansen op tastbare waarde zoals grond of een camper.' },
+      { icon: '🤝', title: 'Geleefd via de Bisafo‑kring', text: 'Workshops, retreats, cursussen en community��events in Portugal.' }
+    ],
+    p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
+    p2: 'Akoma 2025 verandert fondsenwerving in momentum: samen versnellen we impact, versterken we handelen en openen we startkansen die de uitbouw voeden.',
+    p3: 'Steuners krijgen een concrete startoptie — kansen op tastbare activa (bijv. grond of een camper) die de uitbouw vooruit helpen.',
+    listTitle: 'Samenhang en raakvlakken',
+    bullets: [
+      'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafo‑kring maakt het tastbaar — leden co‑creëren de haven actief.',
+      'Financiering & participatie: Akoma 2025 verbindt steunniveaus (bijv. Gold) met Bisafo‑lidmaatschap en biedt exclusieve startkansen (grond, campervan). Elke bijdrage bouwt mee.',
+      'Geleefde waarden: Toegang tot workshops, retreats, digitale cursussen, community‑evenementen en ontmoetingen in Portugal — de haven in de praktijk.',
+      'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafo‑kring en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
+    ],
+    rec: 'Website‑advies: Toon beide concepten samen in één samenhangende sectie en verweef ze waar passend.'
+  },
+  pt: {
+    heading: 'A Iniciativa Porto Seguro e Projeto Akoma 2025',
+    sub: 'Um movimento por resiliência e autonomia',
+    features: [
+      { icon: '🌊', title: 'Porquê & Visão', text: 'Um porto real e digital para aprendizagem, comunidade e autossuficiência.' },
+      { icon: '⚡', title: 'Akoma 2025: O Acelerador', text: 'Financiamento que acelera impacto — não é lotaria.' },
+      { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
+      { icon: '🤝', title: 'Vive‑se no Círculo Bisafo', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
+    ],
+    p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
+    p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
+    p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
+    listTitle: 'Ligações e Interfaces',
+    bullets: [
+      'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Círculo Bisafo torna‑o palpável — membros co‑criam ativamente o porto.',
+      'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
+      'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
+      'Papel da ONG Sankofa: Codeterminação no Círculo Bisafo e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
+    ],
+    rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
+  },
+  twi: {
+    heading: 'Safe Harbor Initiative ne Project Akoma 2025',
+    sub: 'Nhyiam a ɛma gyinabere ne wo‑ara‑wo‑ho adwuma so',
+    features: [
+      { icon: '🌊', title: 'Adɛn & Adwene', text: 'Kuro a ɛwɔ asase so ne online ma sukuu, kurom ne w’ankasa wo ho adwuma.' },
+      { icon: '⚡', title: 'Akoma 2025: Ntemkɔ', text: 'Sika a ɛma adwuma tu ntɛm — ɛnyɛ bɔɔl.' },
+      { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
+      { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
+    ],
+    p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
+    p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
+    p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
+    listTitle: 'Nkitahodie ne Nhyɛe',
+    bullets: [
+      'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafo Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
+      'Sika & Apɔw: Akoma 2025 de akɛseɛ‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+      'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
+      'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
+    ],
+    rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
+  },
+  ig: {
+    heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
+    sub: 'Mgbatị maka ịdịte aka na onwe‑onwe',
+    features: [
+      { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+      { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
+      { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
+      { icon: '🤝', title: 'Na‑ebi site n’Otu Bisafo', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
+    ],
+    p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwasị obi.',
+    p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+    p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
+    listTitle: 'Njikọ na njikọ ọrụ',
+    bullets: [
+      'Echiche & Omume: “Safe Harbor” na‑enye okpokoro na ihe kpatara; Otu Bisafo na‑eme ka ọ bụrụ ihe a na‑ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
+      'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
+      'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
+      'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Otu Bisafo na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+    ],
+    rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jikọta ha nke ọma.'
+  },
+  fr: {
+    heading: 'L’initiative Safe Harbor et le projet Akoma 2025',
+    sub: 'Un mouvement pour la résilience et l’autonomie',
+    features: [
+      { icon: '🌊', title: 'Pourquoi & Vision', text: 'Un port réel et numérique d’apprentissage, de communauté et d’autonomie.' },
+      { icon: '⚡', title: 'Akoma 2025 : l’accélérateur', text: 'Un financement qui accélère l’impact — ce n’est pas une loterie.' },
+      { icon: '🎁', title: 'Coup de pouce', text: 'Des chances de gagner des actifs concrets comme un terrain ou un camper‑van.' },
+      { icon: '🤝', title: 'Vécu via le cercle Bisafo', text: 'Ateliers, retraites, cours et événements communautaires au Portugal.' }
+    ],
+    p1: 'Une promesse partagée : un port réel et numérique où nous apprenons, bâtissons la communauté et pratiquons l’autonomie — surtout en période d’incertitude.',
+    p2: 'Akoma 2025 transforme la collecte de fonds en élan : ensemble nous accélérons l’impact, renforçons l’action et ouvrons des coups de pouce qui nourrissent la construction.',
+    p3: 'Les soutiens ont accès à une option concrète de coup de pouce — chances de gagner des actifs tangibles (p. ex. terrain, camper‑van) pour accélérer le projet.',
+    listTitle: 'Interconnexions et interfaces',
+    bullets: [
+      'Vision & Pratique : “Safe Harbor” donne le cadre et le pourquoi ; le cercle Bisafo le rend tangible — les membres co‑créent activement le port.',
+      'Financement & Participation : Akoma 2025 relie les niveaux de soutien (ex. Gold) à l’adhésion Bisafo et propose des chances exclusives de coup de pouce (terrain, camper‑van). Chaque contribution construit le port.',
+      'Valeurs vécues : Accès aux ateliers, retraites, cours numériques, événements communautaires et rencontres au Portugal — le port en pratique.',
+      'Rôle de l’ONG Sankofa : Codécision au sein du cercle Bisafo et “stewardship” du récit ; l’objectif de 500 membres garantit la durabilité à long terme.'
+    ],
+    rec: 'Recommandation : présenter les deux concepts ensemble dans une section cohérente et les relier où c’est pertinent.'
+  }
+};
+for (const [lang, data] of Object.entries(safeHarborTranslations)) {
+  translations[lang] = deepMerge(translations[lang] || {}, { safe_harbor: data });
+}
+
+// Inject Afro Village translations into main translations map
+const afroVillageTranslations = {
+  en: {
+    title: 'Sankofa Village – A Village of Self‑Sufficiency',
+    subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
+    storyTitle: 'Why Sankofa Village (Sankofa)',
+    currentLabel: 'Current Funding',
+    goalLabel: 'Goal',
+    legend: ['🔵 Planning & Start','🟢 Build‑up & first homes','🟡 Infrastructure & Culture','🟣 Sankofa Village Completed'],
+    cta: 'Support now',
+    unlockedLabel: 'Unlocked',
+    lockedLabel: 'Locked',
+    milestones: [
+      { amount: 10000, name: 'The Foundation', outcome: 'Planning, basic infrastructure (water/energy), start permaculture design', icon: '🧱📐' },
+      { amount: 25000, name: 'The First Home', outcome: 'First autonomous mobile home (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Community Kitchen', outcome: 'Shared kitchen + solar cooking; food‑forest start', icon: '🍲☀️' },
+      { amount: 100000, name: 'Education & Encounters', outcome: 'Learning Dome (workshops, music, digital learning)', icon: '🎓🎶' },
+      { amount: 250000, name: 'The Heart', outcome: '3 mobile homes completed; first stays possible', icon: '🧡🛏️' },
+      { amount: 500000, name: 'Half the Village', outcome: '5 mobile homes, energy/water center, PV + storage', icon: '⚡💧' },
+      { amount: 750000, name: 'Culture & Expansion', outcome: 'AfroBeats stage, creative hub, retreat space', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village Completed', outcome: '10 autonomous mobile homes in Sankofa/Camp‑Calma design', icon: '���✨' }
+    ],
+    story: [
+      'Autarky means real resilience: water, energy and food on site. Sankofa Village shows how self‑sufficiency can be lived in practice.',
+      'Community is the heart: we create spaces that foster encounters, music and culture — a place where people are there for each other.',
+      'Learning sets you free: workshops, digital education and doing together build skills that carry — today and tomorrow.'
+    ]
+  },
+  nl: {
+    title: 'Sankofa Village – Een dorp van zelfredzaamheid',
+    subtitle: 'Stap voor stap bouwen we een dorp dat leren, gemeenschap en zelfredzaamheid leeft. Elke bijdrage bouwt mee.',
+    storyTitle: 'Waarom Sankofa Village (Sankofa)',
+    currentLabel: 'Huidige financiering',
+    goalLabel: 'Doel',
+    legend: ['🔵 Planning & start','🟢 Opbouw & eerste woningen','🟡 Infrastructuur & cultuur','🟣 Sankofa Village voltooid'],
+    cta: 'Steun nu',
+    unlockedLabel: 'Vrijgespeeld',
+    lockedLabel: 'Vergrendeld',
+    milestones: [
+      { amount: 10000, name: 'Het fundament', outcome: 'Planning, basisinfrastructuur (water/energie), start permacultuurontwerp', icon: '🧱📐' },
+      { amount: 25000, name: 'Het eerste thuis', outcome: 'Eerste autonome mobiele woning (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Gemeenschapskeuken', outcome: 'Gedeelde keuken + zonne‑koken; start voedselbos', icon: '🍲☀️' },
+      { amount: 100000, name: 'Educatie & ontmoetingen', outcome: 'Learning Dome (workshops, muziek, digitaal leren)', icon: '🎓🎶' },
+      { amount: 250000, name: 'Het hart', outcome: '3 mobiele woningen voltooid; eerste verblijven mogelijk', icon: '🧡🛏️' },
+      { amount: 500000, name: 'De helft van het dorp', outcome: '5 mobiele woningen, energie-/watercentrum, PV + opslag', icon: '⚡💧' },
+      { amount: 750000, name: 'Cultuur & uitbreiding', outcome: 'AfroBeats‑podium, creative hub, retreat‑ruimte', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village voltooid', outcome: '10 autonome mobiele woningen in Sankofa/Camp‑Calma‑design', icon: '🏡✨' }
+    ],
+    story: [
+      'Zelfredzaamheid betekent echte veerkracht: water, energie en voedsel ter plaatse. Sankofa Village laat zien hoe zelfvoorziening in de praktijk geleefd kan worden.',
+      'Gemeenschap is het hart: we creëren ruimtes die ontmoeting, muziek en cultuur stimuleren — een plek waar mensen er voor elkaar zijn.',
+      'Leren maakt vrij: workshops, digitaal onderwijs en samen doen bouwen vaardigheden op die dragen — vandaag en morgen.'
+    ]
+  },
+  pt: {
+    title: 'Sankofa Village – Uma Aldeia de Autossuficiência',
+    subtitle: 'Passo a passo construímos uma aldeia que vive aprendizagem, comunidade e autonomia. Cada contribuição constrói connosco.',
+    storyTitle: 'Porquê o Sankofa Village (Sankofa)',
+    currentLabel: 'Financiamento Atual',
+    goalLabel: 'Meta',
+    legend: ['🔵 Planeamento & Arranque','🟢 Construção & primeiras casas','🟡 Infraestrutura & Cultura','🟣 Sankofa Village Concluída'],
+    cta: 'Apoiar agora',
+    unlockedLabel: 'Desbloqueado',
+    lockedLabel: 'Bloqueado',
+    milestones: [
+      { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
+      { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
+      { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
+      { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
+      { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
+      { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' }
+    ],
+    story: [
+      'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
+      'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
+      'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
+    ]
+  },
+  de: {
+    title: 'Sankofa Village – Ein Dorf der Autarkie',
+    subtitle: '„Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.“',
+    storyTitle: 'Warum Sankofa Village (Sankofa)',
+    currentLabel: 'Aktueller Stand',
+    goalLabel: 'Ziel',
+    legend: ['🔵 Planung & Start','🟢 Aufbau & erste Häuser','🟡 Infrastruktur & Kultur','🟣 Sankofa Village vollendet'],
+    cta: 'Jetzt unterstützen',
+    unlockedLabel: 'Freigeschaltet',
+    lockedLabel: 'Gesperrt',
+    milestones: [
+      { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis‑Infra (Wasser/Energie), Start Permakultur‑Design', icon: '🧱📐' },
+      { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show‑Home)', icon: '🏠' },
+      { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
+      { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
+      { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
+      { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
+      { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' }
+    ],
+    story: [
+      'Autarkie heißt echte Resilienz: Wasser, Energie und Nahrung vor Ort. Sankofa Village zeigt, wie Selbstversorgung praktisch gelebt werden kann.',
+      'Gemeinschaft ist das Herz: Wir bauen Räume, die Begegnung, Musik und Kultur fördern — ein Ort, an dem Menschen füreinander da sind.',
+      'Lernen macht frei: Workshops, digitale Bildung und gemeinsames Tun vermitteln Fähigkeiten, die tragen — heute und morgen.'
+    ]
+  },
+  twi: {
+    title: 'Sankofa Village – Kuro a ɛma wo‑ara‑wo‑ho adwuma',
+    subtitle: 'Akokyem akokyem na yɛrebɔ kuro a ɛma sukuu, kurom ne wo‑ara‑wo‑ho adwuma te ase. Mo boa biara ka adwuma no ho.',
+    storyTitle: 'Adɛn Sankofa Village (Sankofa)',
+    currentLabel: 'Sika a ɛkɔ so seisei',
+    goalLabel: 'Botaeɛ',
+    legend: ['🔵 Nhyehyɛe & Mfitiaseɛ','🟢 Siesie & Ofie a edi kan','🟡 Ahyehyɛdeɛ & Amammerɛ','🟣 Sankofa Village Ewiee'],
+    cta: 'Boa seisei',
+    unlockedLabel: 'Abue',
+    lockedLabel: 'Esi so',
+    milestones: [
+      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+      { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
+      { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
+      { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
+      { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
+      { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' }
+    ],
+    story: [
+      'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+      'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
+      'Sɛ yɛsua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
+    ]
+  },
+  ig: {
+    title: 'Sankofa Village – Obodo nke onwe‑onwe',
+    subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+    storyTitle: 'Gịnị mere Sankofa Village',
+    currentLabel: 'Ego a chịkọtara',
+    goalLabel: 'Ebumnuche',
+    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
+    cta: 'Kwado ugbu a',
+    unlockedLabel: 'Emeghe',
+    lockedLabel: 'Emechiri',
+    milestones: [
+      { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa bụ isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
+      { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
+      { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
+      { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
+      { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
+      { amount: 750000, name: 'Omenala & Mbelata', outcome: 'AfroBeats ogbo, creative hub, ebe retreat', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' }
+    ],
+    story: [
+      'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na‑egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
+      'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
+      'Mmụta na‑ewepụ ngwàgide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
+    ]
+  },
+  fr: {
+    title: 'Sankofa Village – Un village d’autonomie',
+    subtitle: 'Pas à pas, nous construisons un village qui vit l’apprentissage, la communauté et l’autonomie. Chaque contribution y participe.',
+    storyTitle: 'Pourquoi Sankofa Village',
+    currentLabel: 'Financement actuel',
+    goalLabel: 'Objectif',
+    legend: ['🔵 Planification & démarrage','🟢 Construction & premières maisons','🟡 Infrastructures & culture','🟣 Sankofa Village achevé'],
+    cta: 'Soutenir maintenant',
+    unlockedLabel: 'Débloqué',
+    lockedLabel: 'Verrouillé',
+    milestones: [
+      { amount: 10000, name: 'Les fondations', outcome: 'Planification, infrastructures de base (eau/énergie), début du design en permaculture', icon: '🧱📐' },
+      { amount: 25000, name: 'La première maison', outcome: 'Première maison mobile autonome (show‑home)', icon: '🏠' },
+      { amount: 50000, name: 'Cuisine communautaire', outcome: 'Cuisine partagée + cuisson solaire ; démarrage de la forêt nourrici��re', icon: '🍲☀️' },
+      { amount: 100000, name: 'Éducation & rencontres', outcome: 'Learning Dome (ateliers, musique, apprentissage numérique)', icon: '🎓🎶' },
+      { amount: 250000, name: 'Le cœur', outcome: '3 maisons mobiles terminées ; premiers séjours possibles', icon: '🧡🛏️' },
+      { amount: 500000, name: 'La moitié du village', outcome: '5 maisons mobiles, centre énergie/eau, PV + stockage', icon: '⚡💧' },
+      { amount: 750000, name: 'Culture & expansion', outcome: 'Scène AfroBeats, pôle créatif, espace de retraite', icon: '🥁🎭' },
+      { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '🏡✨' }
+    ],
+    story: [
+      'L’autonomie, c’est la vraie résilience : eau, énergie et nourriture sur place. Sankofa Village montre comment la vivre au quotidien.',
+      'La communauté est le cœur : nous créons des espaces qui favorisent les rencontres, la musique et la culture — un lieu de soin mutuel.',
+      'Apprendre libère : ateliers, éducation numérique et faire ensemble développent des compétences durables — aujourd’hui et demain.'
+    ]
+  }
+};
+for (const [lang, data] of Object.entries(afroVillageTranslations)) {
+  translations[lang] = deepMerge(translations[lang] || {}, { afro_village: data });
+}
+
 // --- HELPER COMPONENTS ---
 
 // ShadCN-style Button Component
@@ -1780,8 +2123,8 @@ const OnDemandVideoSection = ({ language, url, thumbnail }) => {
 
 // NEW: Safe Harbor Initiative section (multilingual using existing language state)
 const SafeHarborSection = ({ t, language }) => {
-  const langKey = ['en','pt','de','twi','ig','nl'].includes(language) ? language : 'en';
-  const content = {
+  const langKey = ['en','pt','de','twi','ig','nl','fr'].includes(language) ? language : 'en';
+  const content = t.safe_harbor || {
     en: {
       heading: 'The Safe Harbor Initiative and Project Akoma 2025',
       sub: 'A movement for resilience and autonomy',
@@ -2716,12 +3059,12 @@ const PaymentSuccessModal = ({ t, isOpen, onClose }) => {
 
 
 // --- Afro Village Progress Section ---
-const AfroVillageProgress = ({ language }) => {
+const AfroVillageProgress = ({ language, t }) => {
   const [totalRaised, setTotalRaised] = useState(325000);
   const goal = 1000000;
 
-  const langKey = ['en','pt','de','twi','ig','nl'].includes(language) ? language : 'en';
-  const content = {
+  const langKey = ['en','pt','de','twi','ig','nl','fr'].includes(language) ? language : 'en';
+  const content = t.afro_village || {
     en: {
       title: 'Sankofa Village – A Village of Self‑Sufficiency',
       subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
@@ -3118,7 +3461,7 @@ export default function App() {
         <OnDemandVideoSection language={language} url="https://cdn.builder.io/o/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Fb5fa094d37a74d928d398e62c7aae45e?alt=media&token=daff83b7-7a28-4580-a04b-bf47c6a12560&apiKey=d794b8d1c6ba43d5a31925e0c97ccc17" thumbnail="https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F0c65165a10034e3f8647bdccd6bf47ce?format=webp&width=800" />
         <DonationTiers t={t} onDonate={handleDonation} />
         <MilestoneTracker t={t} />
-        <AfroVillageProgress language={language} />
+        <AfroVillageProgress language={language} t={t} />
         <PrizeShowcase t={t} />
         <CountdownTimer t={t} />
         <MilestoneTracker2 t={t} />
