@@ -788,7 +788,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ aky��deɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -868,7 +868,7 @@ const translations = {
         "🎥 Live/stream an��pa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan"
       ],
-      info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold ��� na Bisafo no benya ne hokwan soronko daa.",
+      info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
       founder_list: [
         "N’ahoɔden: €132/afe",
@@ -919,7 +919,7 @@ const translations = {
       youtube_link: 'https://www.youtube.com/embed/sG3dgRxuIHc?rel=0'
     },
     victron: {
-      heading: 'Pụọrụ Victron Energy',
+      heading: 'Pụọr�� Victron Energy',
       subheading: 'Hụ ike anyanwụ anyị n\'oge dị adị.',
       open_fullscreen: 'Mepee ihuenyo dum maka dashboard zuru ezu'
     },
@@ -929,7 +929,7 @@ const translations = {
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
-      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwas�� obi site n’ọha.',
+      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ',
       changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
@@ -1012,7 +1012,7 @@ const translations = {
       modal_heading: 'Fọm nbanye n’efu (AMOE)',
       modal_subheading: 'Biko juo fọm a nke ọma ka i nwetaghachi otu (1) tiketi mgbasa.',
       name: 'Aha zuru ezu',
-      email: 'Adreesị email',
+      email: 'Adrees��� email',
       address: 'Adreesị ozi‑ozi zuru ezu',
       statement: 'Okwu nbanye',
       statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
@@ -1101,7 +1101,7 @@ const translations = {
         'Ọnụahịa: €132/afọ (≈ dịka Bisafo)',
         'Uru: 10% na Camp Calma; ntinye n’ìmeme ntuli aka n’ozuzu',
         'Ewezuga: enweghị livestreams & founders‑events pụrụ iche; enweghị mgbasa premium; enweghị ikike pụrụ iche n’ọrụ ala; obere ikike ntuli aka',
-        'Ebe Founder bụ 500 naan���; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
+        'Ebe Founder bụ 500 naanị; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
         'Nke a na‑eme ka Bisafoɔ Circle nọgide na 500 mgbe niile'
       ],
       narrative_title: 'Mmụọ anyị jikọrọ ọnụ',
@@ -1754,7 +1754,7 @@ const afroVillageTranslations = {
       { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
       { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
-      { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
+      { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓���' },
       { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
       { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
       { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
@@ -1820,7 +1820,7 @@ const afroVillageTranslations = {
   },
   ig: {
     title: 'Sankofa Village – Obodo nke onwe‑onwe',
-    subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+    subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe��onwe. Onyinye ọ bụla na‑ewu ya.',
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
@@ -3661,6 +3661,7 @@ export default function App() {
     } catch (_e) {}
   }, [language]);
 
+  useEffect(() => { try { document.documentElement.setAttribute('lang', language); window.__siteLang = language; } catch (_e) {} }, [language]);
   const t = useMemo(() => deepMerge(translations.en, translations[language] || translations.en), [language]);
 
   const handleDonation = (amount) => {
