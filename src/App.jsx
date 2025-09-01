@@ -399,7 +399,7 @@ const translations = {
     },
     payment_success: {
         heading: "Obrigado pelo seu Apoio!",
-        message: "A sua doação foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
+        message: "A sua doa��ão foi processada com sucesso. Os números dos seus bilhetes de sorteio foram enviados para o seu email. Boa sorte!",
     },
     bisafo: {
       heading: "Bisafoɔ Circle – A tua adesão exclusiva",
@@ -865,7 +865,7 @@ const translations = {
         "🎁 Bɔɔl a ɛyɛ soronko (bosome biara firi nnipa 450)",
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
-        "🎥 Live/stream anɔpa & retreat previews",
+        "🎥 Live/stream an��pa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan"
       ],
       info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
@@ -1275,7 +1275,7 @@ const nlTranslations = {
       '🎥 Exclusieve live/stream‑events & retreat‑previews',
       '📝 Naamsvermelding als founding supporters'
     ],
-    info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold‑leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
+    info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold���leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
     founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
     founder_list: [
       'Normale prijs: €132/jaar',
@@ -1614,7 +1614,7 @@ const safeHarborTranslations = {
       'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável — membros co‑criam ativamente o porto.',
       'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
       'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
-      'Papel da ONG Sankofa: Codeterminação no Bisafoɔ Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
+      'Papel da ONG Sankofa: Codeterminação no Bisafo�� Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
     ],
     rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
   },
@@ -1839,7 +1839,7 @@ const afroVillageTranslations = {
       { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
     story: [
-      'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na‑egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
+      'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ah���. Sankofa Village na‑egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
       'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
       'Mmụta na‑ewepụ ngwàgide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
     ]
@@ -3115,8 +3115,8 @@ const FounderSection = ({ t }) => {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
           {images.map((src, i) => (
-            <div key={i} className="rounded-xl overflow-hidden shadow">
-              <img src={src} alt="Scenes of daily life at Camp Calma" className="w-full h-72 object-cover" />
+            <div key={i} className="rounded-xl overflow-hidden shadow relative w-full pt-[75%]">
+              <img src={src} alt="Scenes of daily life at Camp Calma" className="absolute inset-0 w-full h-full object-cover" />
             </div>
           ))}
         </div>
