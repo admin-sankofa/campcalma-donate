@@ -788,7 +788,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ aky��deɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -868,7 +868,7 @@ const translations = {
         "🎥 Live/stream an��pa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan"
       ],
-      info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
+      info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold ��� na Bisafo no benya ne hokwan soronko daa.",
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
       founder_list: [
         "N’ahoɔden: €132/afe",
@@ -929,7 +929,7 @@ const translations = {
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
-      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
+      subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwas�� obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ',
       changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
@@ -1101,7 +1101,7 @@ const translations = {
         'Ọnụahịa: €132/afọ (≈ dịka Bisafo)',
         'Uru: 10% na Camp Calma; ntinye n’ìmeme ntuli aka n’ozuzu',
         'Ewezuga: enweghị livestreams & founders‑events pụrụ iche; enweghị mgbasa premium; enweghị ikike pụrụ iche n’ọrụ ala; obere ikike ntuli aka',
-        'Ebe Founder bụ 500 naanị; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
+        'Ebe Founder bụ 500 naan���; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
         'Nke a na‑eme ka Bisafoɔ Circle nọgide na 500 mgbe niile'
       ],
       narrative_title: 'Mmụọ anyị jikọrọ ọnụ',
@@ -2598,6 +2598,104 @@ const MilestoneTracker2 = ({ t }) => {
         </div>
       </div>
     </section>
+  );
+};
+
+const BisafoMembershipCTA = ({ aff }) => {
+  const id = useMemo(() => `bisafoc-cta-${Math.random().toString(36).slice(2)}-${Date.now()}` , []);
+  useEffect(() => {
+    const root = document.getElementById(id);
+    if (!root) return;
+    const input = root.querySelector('input');
+    const button = root.querySelector('button');
+    const BASE = 'https://donate.sankofa-ngo.org/b/aFabJ2gCH5aQ9eq7Flgfu0a';
+    const mapLocale = (lang) => {
+      const m = { en: 'en', de: 'de', fr: 'fr', nl: 'nl', pt: 'pt', twi: 'en', ig: 'en' };
+      const key = (lang || '').toString().toLowerCase().split(/[-_]/)[0];
+      return m[key] || 'en';
+    };
+    const detectLang = () => {
+      try {
+        const attr = (document.documentElement.getAttribute('lang') || '').trim();
+        if (attr) return mapLocale(attr);
+      } catch (_e) {}
+      try {
+        if (window.__siteLang) return mapLocale(window.__siteLang);
+      } catch (_e) {}
+      return 'en';
+    };
+    const getAffiliate = () => {
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get('ref');
+      if (ref) return `aff_${ref}`;
+      const handle = root.getAttribute('data-aff') || (aff ? String(aff) : '');
+      if (handle) return `aff_${handle}`;
+      return '';
+    };
+    const sanitizePromo = (val) => (val || '').toString().toUpperCase().replace(/[^A-Z0-9_-]/g, '');
+    const buildUrl = () => {
+      const url = new URL(BASE);
+      url.searchParams.set('locale', detectLang());
+      const promo = sanitizePromo(input?.value || '');
+      if (promo) url.searchParams.set('promotion_code', promo);
+      const affiliate = getAffiliate();
+      if (affiliate) url.searchParams.set('client_reference_id', affiliate);
+      return url.toString();
+    };
+    const onClick = () => {
+      const href = buildUrl();
+      try {
+        window.dispatchEvent(new CustomEvent('bisafoc:cta-click', {
+          detail: {
+            locale: detectLang(),
+            promo: sanitizePromo(input?.value || ''),
+            affiliate: getAffiliate(),
+            href,
+          },
+        }));
+      } catch (_e) {}
+      window.location.href = href;
+    };
+    const onKey = (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        onClick();
+      }
+    };
+    button?.addEventListener('click', onClick);
+    input?.addEventListener('keydown', onKey);
+    return () => {
+      button?.removeEventListener('click', onClick);
+      input?.removeEventListener('keydown', onKey);
+    };
+  }, [id, aff]);
+
+  const css = `
+#${id} .cta-input { width:100%; padding:12px 14px; border:1px solid #d1d5db; border-radius:8px; font-size:16px; box-sizing:border-box; }
+#${id} .cta-input:focus { outline:2px solid #16A34A; outline-offset:2px; }
+#${id} .cta-button { width:100%; margin-top:12px; padding:14px 20px; border:none; border-radius:9999px; background:#16A34A; color:#fff; font-weight:700; font-size:18px; cursor:pointer; transition:background-color .2s ease-in-out; }
+#${id} .cta-button:hover { background:#15803D; }
+#${id} .cta-button:focus { outline:3px solid rgba(22,163,74,0.4); outline-offset:2px; }
+#${id} .cta-label { display:block; margin-bottom:8px; font-weight:600; color:#374151; font-size:14px; }
+#${id} .cta-help { font-size:13px; color:#6b7280; margin-top:10px; }
+#${id} .cta-container { max-width:640px; margin:0 auto; padding:12px; box-sizing:border-box; }
+  `;
+
+  return (
+    <div id={id} className="bisafoc-cta" data-bisafoc-cta={aff ? true : undefined} data-aff={aff || undefined}>
+      <style>{css}</style>
+      <div className="cta-container">
+        <label htmlFor={`${id}-input`} className="cta-label">Promo / Referral code (optional)</label>
+        <input id={`${id}-input`} className="cta-input" type="text" inputMode="text" autoComplete="off" placeholder="e.g. OHEMAA20" aria-label="Promo or referral code" />
+        <button type="button" className="cta-button" aria-label="Join Bisafoɔ Circle">
+          Join Bisafoɔ Circle
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: 8, verticalAlign: 'middle' }}>
+            <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <p className="cta-help">Checkout opens in your language. Codes are applied automatically.</p>
+      </div>
+    </div>
   );
 };
 
