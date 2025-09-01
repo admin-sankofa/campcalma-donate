@@ -518,7 +518,7 @@ const translations = {
     },
     founder: {
       heading: 'Gründer — Daniel Lateef Duroshola',
-      subheading: 'Einblicke in den Alltag bei Camp Calma �� Vertrauen und Authentizität.',
+      subheading: 'Einblicke in den Alltag bei Camp Calma — Vertrauen und Authentizität.',
       instagram_cta: 'Instagram öffnen'
     },
     description: {
@@ -747,7 +747,7 @@ const translations = {
       tier1: {
  price: '€10',
  tickets: '20 Bɔɔl',
- description: 'Ɔkwan pa a wobɛfa so akyer���� sɛ wob�� yɛn ho mmɔden.',
+ description: 'Ɔkwan pa a wobɛfa so akyer�� sɛ wob�� yɛn ho mmɔden.',
       },
       tier2: {
  price: '€20',
@@ -853,7 +853,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle y�� Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
+      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
       exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafoɔ Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
       pricing: "Founder: €99/afe kɔ wɔ invite code (ɛsɛ €132). Gold: €199/afe kɔ wɔ invite code (ɛsɛ €265). 20% kɔ ma nea ɔde wo baa mu.",
       sustainability: "Membifo 500 no na wɔma NGO no tena pintinn na bɔɔl a ɛkɔ so fi nnipa 450 reba abue.",
@@ -890,7 +890,7 @@ const translations = {
       future_list: [
         "Bo: €132/afe (te sɛ Bisafo)",
         "Mfaso: 10% so wɔ Camp Calma; wopɛ a wobɛto aba kɛse mu",
-        "Ɛnkɔ mu: streams a ɛy�� soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
+        "Ɛnkɔ mu: streams a ɛyɛ soronko & founders‑events; premium bɔɔl; asase nnwuma mu kwan‑ahoro; tumi kakra wɔ aba mu",
         "Founder akɔnnidie yɛ 500 pɛ; sɛ obi fi mu a, wɔde ma obi foforo (waitlist)",
         "Ɔkwan yi na ɛma Bisafoɔ Circle da hɔ daa 500"
       ],
@@ -928,7 +928,7 @@ const translations = {
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
-      heading: 'Na telivishọn na akwụkwọ ak��kọ',
+      heading: 'Na telivishọn na akwụkwọ akụkọ',
       subheading: 'Afọ nke ọrụ aka n’ịgbanwe campervan — iwulite ntụkwasị obi site n’ọha.',
       video_cta: 'Lelee na YouTube',
       article_cta: 'Gụọ akụkọ ahụ',
@@ -1272,7 +1272,7 @@ const nlTranslations = {
       '��� Exclusieve verlotingen (maandelijks vanaf 450 leden)',
       '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
       '🗳️ Medezeggenschap bij workshops, events & projecten',
-      '🎥 Exclusieve live/stream‑events & retreat‑previews',
+      '��� Exclusieve live/stream‑events & retreat‑previews',
       '📝 Naamsvermelding als founding supporters'
     ],
     info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold���leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
@@ -1643,7 +1643,7 @@ const safeHarborTranslations = {
     heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
     sub: 'Mgbatị maka ịdịte aka na onwe‑onwe',
     features: [
-      { icon: '🌊', title: 'Gịnị & ��hụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+      { icon: '🌊', title: 'Gịnị & ��hụh���', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
       { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
       { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
       { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
@@ -1752,7 +1752,7 @@ const afroVillageTranslations = {
     lockedLabel: 'Bloqueado',
     milestones: [
       { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
-      { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '���' },
+      { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
       { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
       { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
@@ -1834,7 +1834,7 @@ const afroVillageTranslations = {
       { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
       { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
       { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
-      { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
+      { amount: 500000, name: 'Obodo Ọkara', outcome: '��lọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
       { amount: 750000, name: 'Omenala & Mbelata', outcome: 'AfroBeats ogbo, creative hub, ebe retreat', icon: '🥁🎭' },
       { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
@@ -1865,7 +1865,7 @@ const afroVillageTranslations = {
       { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
     story: [
-      'L’autonomie, c���est la vraie résilience : eau, énergie et nourriture sur place. Sankofa Village montre comment la vivre au quotidien.',
+      'L’autonomie, c’est la vraie résilience : eau, énergie et nourriture sur place. Sankofa Village montre comment la vivre au quotidien.',
       'La communauté est le cœur : nous créons des espaces qui favorisent les rencontres, la musique et la culture — un lieu de soin mutuel.',
       'Apprendre libère : ateliers, éducation numérique et faire ensemble développent des compétences durables — aujourd’hui et demain.'
     ]
@@ -2794,14 +2794,7 @@ const AboutBisafo = ({ t }) => (
           )}
 
           <div className="text-center mt-6">
-            <a
-              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
-            >
-              {t.bisafo.cta_button}
-            </a>
+            <BisafoMembershipCTA />
           </div>
 
         </div>
@@ -3424,7 +3417,7 @@ const AfroVillageProgress = ({ language, t }) => {
       lockedLabel: 'Esi so',
       milestones: [
         { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
-        { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo��ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
+        { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
         { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
         { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓��' },
         { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
