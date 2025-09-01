@@ -751,7 +751,7 @@ const translations = {
       },
       tier2: {
  price: '€20',
- tickets: '80 B��ɔl',
+ tickets: '80 B���ɔl',
  description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
@@ -1272,7 +1272,7 @@ const nlTranslations = {
       '��� Exclusieve verlotingen (maandelijks vanaf 450 leden)',
       '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
       '🗳️ Medezeggenschap bij workshops, events & projecten',
-      '🎥 Exclusieve live/stream‑events & retreat‑previews',
+      '��� Exclusieve live/stream‑events & retreat‑previews',
       '📝 Naamsvermelding als founding supporters'
     ],
     info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold���leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
@@ -1411,7 +1411,7 @@ const frTranslations = {
     q2: 'Mon don est‑il sécurisé ?',
     a2: 'Oui, tous les paiements sont traités de manière sécurisée via Stripe. Nous ne stockons aucune information de paiement sur nos serveurs.',
     q3: 'Quand le gagnant sera‑t‑il annoncé ?',
-    a3: 'Le gagnant sera tiré et annoncé le 31 août 2025, peu après la fin du compte à rebours. Le gagnant sera contacté par e‑mail.',
+    a3: 'Le gagnant sera tiré et annoncé le 31 août 2025, peu après la fin du compte à rebours. Le gagnant sera contacté par e��mail.',
     q4: 'Puis‑je participer gratuitement ?',
     a4: 'Oui, il existe une Méthode Alternative de Participation (AMOE). Voir la section « Participation gratuite » ci‑dessous pour y participer sans don.',
   },
@@ -1627,7 +1627,7 @@ const safeHarborTranslations = {
       { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
       { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
     ],
-    p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
+    p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a y��sua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
     p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
     p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
     listTitle: 'Nkitahodie ne Nhyɛe',
@@ -1643,7 +1643,7 @@ const safeHarborTranslations = {
     heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
     sub: 'Mgbatị maka ịdịte aka na onwe‑onwe',
     features: [
-      { icon: '🌊', title: 'Gịnị & ��hụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+      { icon: '🌊', title: 'Gịnị & ��hụh���', text: 'Ụzọ ezi na dijital�� maka mmụta, obodo na onwe‑onwe.' },
       { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
       { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
       { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
@@ -1834,7 +1834,7 @@ const afroVillageTranslations = {
       { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
       { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
       { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
-      { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
+      { amount: 500000, name: 'Obodo Ọkara', outcome: '��lọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
       { amount: 750000, name: 'Omenala & Mbelata', outcome: 'AfroBeats ogbo, creative hub, ebe retreat', icon: '🥁🎭' },
       { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
@@ -2334,7 +2334,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
-      p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
+      p1: 'Nkwek��rịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
@@ -2344,7 +2344,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
         'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
       ],
-      rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jik��ta ha nke ọma.'
+      rec: 'Ndụmọd��� websaịtị: Gosipụta echiche abụọ ahụ ọnụ ma jik��ta ha nke ọma.'
     }
   }[langKey];
 
@@ -2586,18 +2586,163 @@ const MilestoneTracker2 = ({ t }) => {
 
           {/* Call-to-Action */}
           <div className="text-center">
-            <a
-              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
-            >
-              {t.bisafo.cta_button}
-            </a>
+            <BisafoMembershipCTA t={t} />
           </div>
         </div>
       </div>
     </section>
+  );
+};
+
+const BisafoMembershipCTA = ({ aff, t }) => {
+  const id = useMemo(() => `bisafoc-cta-${Math.random().toString(36).slice(2)}-${Date.now()}` , []);
+  useEffect(() => {
+    const root = document.getElementById(id);
+    if (!root) return;
+    const input = root.querySelector('input');
+    const button = root.querySelector('button');
+    const BASE = 'https://donate.sankofa-ngo.org/b/aFabJ2gCH5aQ9eq7Flgfu0a';
+    const mapLocale = (lang) => {
+      const m = { en: 'en', de: 'de', fr: 'fr', nl: 'nl', pt: 'pt', twi: 'en', ig: 'en' };
+      const key = (lang || '').toString().toLowerCase().split(/[-_]/)[0];
+      return m[key] || 'en';
+    };
+    const detectLang = () => {
+      try {
+        const attr = (document.documentElement.getAttribute('lang') || '').trim();
+        if (attr) return mapLocale(attr);
+      } catch (_e) {}
+      try {
+        if (window.__siteLang) return mapLocale(window.__siteLang);
+      } catch (_e) {}
+      return 'en';
+    };
+    const getAffiliate = () => {
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get('ref');
+      if (ref) return `aff_${ref}`;
+      const handle = root.getAttribute('data-aff') || (aff ? String(aff) : '');
+      if (handle) return `aff_${handle}`;
+      return '';
+    };
+    const sanitizePromo = (val) => (val || '').toString().toUpperCase().replace(/[^A-Z0-9_-]/g, '');
+    const buildUrl = () => {
+      const url = new URL(BASE);
+      url.searchParams.set('locale', detectLang());
+      const promo = sanitizePromo(input?.value || '');
+      if (promo) url.searchParams.set('prefilled_promo_code', promo);
+      const affiliate = getAffiliate();
+      if (affiliate) url.searchParams.set('client_reference_id', affiliate);
+      return url.toString();
+    };
+    const onClick = (e) => {
+      try { e?.preventDefault?.(); } catch (_e) {}
+      const href = buildUrl();
+      try {
+        window.dispatchEvent(new CustomEvent('bisafoc:cta-click', {
+          detail: {
+            locale: detectLang(),
+            promo: sanitizePromo(input?.value || ''),
+            affiliate: getAffiliate(),
+            href,
+          },
+        }));
+      } catch (_e) {}
+      window.open(href, '_blank', 'noopener,noreferrer');
+    };
+    const onKey = (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        onClick();
+      }
+    };
+    button?.addEventListener('click', onClick);
+    input?.addEventListener('keydown', onKey);
+    return () => {
+      button?.removeEventListener('click', onClick);
+      input?.removeEventListener('keydown', onKey);
+    };
+  }, [id, aff]);
+
+  // Determine language for texts
+  const mapLocale = (lang) => {
+    const m = { en: 'en', de: 'de', fr: 'fr', nl: 'nl', pt: 'pt', twi: 'twi', ig: 'ig' };
+    const key = (lang || '').toString().toLowerCase().split(/[-_]/)[0];
+    return m[key] || 'en';
+  };
+  const langKey = (() => {
+    try {
+      const attr = (document.documentElement.getAttribute('lang') || '').trim();
+      if (attr) return mapLocale(attr);
+    } catch (_e) {}
+    try {
+      if (window.__siteLang) return mapLocale(window.__siteLang);
+    } catch (_e) {}
+    return 'en';
+  })();
+  const labelByLang = {
+    en: 'Promo / Referral code (optional)',
+    de: 'Gutschein‑/Empfehlungscode (optional)',
+    fr: 'Code promo / parrainage (optionnel)',
+    nl: 'Promotie‑/Referentiecode (optioneel)',
+    pt: 'Código promocional / referência (opcional)',
+    twi: 'Promo / Referral code (optional)',
+    ig: 'Promo / Referral code (optional)'
+  };
+  const placeholderByLang = {
+    en: 'e.g. OHEMAA20',
+    de: 'z. B. OHEMAA20',
+    fr: 'ex. OHEMAA20',
+    nl: 'bijv. OHEMAA20',
+    pt: 'ex.: OHEMAA20',
+    twi: 'e.g. OHEMAA20',
+    ig: 'e.g. OHEMAA20'
+  };
+  const helpByLang = {
+    en: 'Checkout opens in your language. Codes are applied automatically.',
+    de: 'Kasse öffnet in deiner Sprache. Codes werden automatisch angewendet.',
+    fr: 'Le paiement s’ouvre dans votre langue. Les codes sont appliqués automatiquement.',
+    nl: 'Afrekenen opent in jouw taal. Codes worden automatisch toegepast.',
+    pt: 'O checkout abre no teu idioma. Os códigos são aplicados automaticamente.',
+    twi: 'Checkout bɛbue wo kasa mu. Codes no betimimu otomatik.',
+    ig: 'Checkout mepee na asụsụ gị. A na‑etinye koodu akpaghị aka.'
+  };
+  const buttonText = (t?.bisafo?.cta_button) || ({
+    en: 'Join Bisafoɔ Circle',
+    de: 'Jetzt Mitglied werden',
+    fr: 'Devenir membre maintenant',
+    nl: 'Word nu lid',
+    pt: 'Tornar‑me Membro',
+    twi: 'Bɛyɛ Membifo Seesei',
+    ig: 'Banye ugbu a'
+  }[langKey] || 'Join Bisafoɔ Circle');
+
+  const css = `
+#${id} .cta-input { width:100%; padding:12px 14px; border:1px solid #d1d5db; border-radius:8px; font-size:16px; box-sizing:border-box; }
+#${id} .cta-input:focus { outline:2px solid #16A34A; outline-offset:2px; }
+#${id} .cta-button { width:100%; margin-top:12px; padding:14px 20px; border:none; border-radius:9999px; background:#16A34A; color:#fff; font-weight:700; font-size:18px; cursor:pointer; transition:background-color .2s ease-in-out; }
+#${id} .cta-button:hover { background:#15803D; }
+#${id} .cta-button:focus { outline:3px solid rgba(22,163,74,0.4); outline-offset:2px; }
+#${id} .cta-label { display:block; margin-bottom:8px; font-weight:600; color:#374151; font-size:14px; }
+#${id} .cta-help { font-size:13px; color:#6b7280; margin-top:10px; }
+#${id} .cta-container { max-width:640px; margin:0 auto; padding:12px; box-sizing:border-box; }
+  `;
+
+  return (
+    <div id={id} className="bisafoc-cta" data-bisafoc-cta={aff ? true : undefined} data-aff={aff || undefined}>
+      <style>{css}</style>
+      <div className="cta-container">
+        <label htmlFor={`${id}-input`} className="cta-label">{labelByLang[langKey] || labelByLang.en}</label>
+        <input id={`${id}-input`} className="cta-input" type="text" inputMode="text" autoComplete="off" placeholder={placeholderByLang[langKey] || placeholderByLang.en} aria-label={labelByLang[langKey] || labelByLang.en} />
+        <button type="button" className="cta-button" aria-label={buttonText}>
+          {buttonText}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: 8, verticalAlign: 'middle' }}>
+            <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <p className="cta-help">{helpByLang[langKey] || helpByLang.en}</p>
+      </div>
+    </div>
   );
 };
 
@@ -2703,14 +2848,7 @@ const AboutBisafo = ({ t }) => (
           )}
 
           <div className="text-center mt-6">
-            <a
-              href="https://donate.stripe.com/14A5kFebJ3n317J9soe3e02"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg transform hover:scale-105 transition-transform font-medium"
-            >
-              {t.bisafo.cta_button}
-            </a>
+            <BisafoMembershipCTA t={t} />
           </div>
 
         </div>
@@ -3365,7 +3503,7 @@ const AfroVillageProgress = ({ language, t }) => {
       milestones: [
         { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa b��� isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
         { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe���onwe mbụ (show‑home)', icon: '🏠' },
-        { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
+        { amount: 50000, name: 'Kịrịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀���' },
         { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
         { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
         { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
@@ -3563,6 +3701,7 @@ export default function App() {
     } catch (_e) {}
   }, [language]);
 
+  useEffect(() => { try { document.documentElement.setAttribute('lang', language); window.__siteLang = language; } catch (_e) {} }, [language]);
   const t = useMemo(() => deepMerge(translations.en, translations[language] || translations.en), [language]);
 
   const handleDonation = (amount) => {
