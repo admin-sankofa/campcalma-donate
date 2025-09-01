@@ -609,7 +609,7 @@ const translations = {
     },
     payment_success: {
  heading: "Vielen Dank für deine Unterstützung!",
- message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Glück!",
+ message: "Deine Spende wurde erfolgreich verarbeitet. Deine Losnummern wurden an deine E-Mail-Adresse gesendet. Viel Gl��ck!",
     },
     bisafo: {
       heading: "Bisafoɔ Circle – Deine exklusive Mitgliedschaft",
@@ -715,7 +715,7 @@ const translations = {
     },
     african_campers: {
       heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
-      text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw s�� quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ���nam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛy�� adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛde��, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
+      text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw s�� quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ��nam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛy�� adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛde��, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
     },
     press: {
       heading: 'TV ne nsɛmmɔne mu aka yɛn ho',
@@ -862,7 +862,7 @@ const translations = {
       benefits: [
         "🌱 50% so wɔ Camp Calma (Founder), 30% ma Gold",
         "🏡 Ɛkan so kwan wɔ asase & mobile‑home nnwuma (te sɛ Afro Village)",
-        "🎁 Bɔɔl a ɛyɛ soronko (bosome biara firi nnipa 450)",
+        "🎁 Bɔɔl a ɛy�� soronko (bosome biara firi nnipa 450)",
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
         "🎥 Live/stream an��pa & retreat previews",
@@ -974,7 +974,7 @@ const translations = {
     },
     milestones: {
       heading: 'Ebumnuche ego na onyinye',
-      subheading: 'Ka anyị na-eru ebumnuche, anyi na-emeghe onyinye ọzọ!',
+      subheading: 'Ka any�� na-eru ebumnuche, anyi na-emeghe onyinye ọzọ!',
       current_funding: 'Ego a chịkọtara',
       goal: 'Ebumnuche',
       prize1: 'DJI Mini 3 Pro Fly More Combo',
@@ -1017,7 +1017,7 @@ const translations = {
       statement: 'Okwu nbanye',
       statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
       submit: 'Zipu nbanye n��efu',
-      success: 'Daalụ! Nbanye gị n’efu eziputela. Ị ga-enweta email nkwenye n’oge na-adịghị anya.',
+      success: 'Daalụ! Nbanye gị n’efu eziputela. Ị ga-enweta email nkwenye n’oge na-ad��ghị anya.',
       close: 'Mechie',
       consent_html: 'Anabata m <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Usoro</a> ma na-aghọta <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Nzere nzuzo</a>, tinyekwara ikike ịkpọtụrụ m site na email na WhatsApp gbasara mgbasa a.',
       whatsapp: 'Nọmba WhatsApp'
@@ -1096,7 +1096,7 @@ const translations = {
       ],
       referral_title: 'Koodu ntụnye onwe gị',
       referral_text: 'Onye otu ọ bụla na‑enweta koodu ntụnye mgbe ọ bịara n’ụlọ. Anyị na‑akwado nkwado mmadụ‑na‑mmadụ karịa mgbasa ozi na‑enweghị aha. Ụgwọ ntụnye bụ ekele — ọ na‑akwalite gị na obodo.',
-      future_title: 'Ọdịnihu: Mmembe nkịtị (na‑enweghị oke, mgbe 5,000 gasịrị)',
+      future_title: 'Ọd��nihu: Mmembe nkịtị (na‑enweghị oke, mgbe 5,000 gasịrị)',
       future_list: [
         'Ọnụahịa: €132/afọ (≈ dịka Bisafo)',
         'Uru: 10% na Camp Calma; ntinye n’ìmeme ntuli aka n’ozuzu',
@@ -1169,7 +1169,7 @@ const nlTranslations = {
     subheading: 'Elke bijdrage telt. Meer steun betekent meer winkansen!',
     tier1: { price: '€10', tickets: '20 Loten', description: 'Een mooie manier om je steun te tonen.' },
     tier2: { price: '€20', tickets: '80 Loten', description: 'Onze populairste keuze! 4x zoveel loten.', popular: 'POPULAIR' },
-    tier3: { price: '��30', tickets: '160 Loten', description: 'Beste waarde voor de grootste impact.' },
+    tier3: { price: '€30', tickets: '160 Loten', description: 'Beste waarde voor de grootste impact.' },
     button: 'Doneer & Doe mee',
   },
   milestones: {
@@ -1648,7 +1648,7 @@ const safeHarborTranslations = {
       { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
       { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
     ],
-    p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwas�� obi.',
+    p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwasị obi.',
     p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
     p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu bụrụ ngwa ngwa.',
     listTitle: 'Njikọ na njikọ ọrụ',
@@ -1677,7 +1677,7 @@ const safeHarborTranslations = {
       'Vision & Pratique : “Safe Harbor” donne le cadre et le pourquoi ; le Bisafoɔ Circle le rend tangible — les membres co‑créent activement le port.',
       'Financement & Participation : Akoma 2025 relie les niveaux de soutien (ex. Gold) à l’adhésion Bisafo et propose des chances exclusives de coup de pouce (terrain, camper‑van). Chaque contribution construit le port.',
       'Valeurs vécues : Accès aux ateliers, retraites, cours numériques, événements communautaires et rencontres au Portugal — le port en pratique.',
-      'Rôle de l’ONG Sankofa : Codécision au sein du Bisafoɔ Circle et “stewardship” du récit ; l’objectif de 500 membres garantit la durabilité à long terme.'
+      'Rôle de l’ONG Sankofa : Cod��cision au sein du Bisafoɔ Circle et “stewardship” du récit ; l’objectif de 500 membres garantit la durabilité à long terme.'
     ],
     rec: 'Recommandation : présenter les deux concepts ensemble dans une section cohérente et les relier où c’est pertinent.'
   }
@@ -2297,7 +2297,7 @@ const SafeHarborSection = ({ t, language }) => {
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
       bullets: [
-        'Visão & Prática: ���Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável �� membros co‑criam ativamente o porto.',
+        'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável �� membros co‑criam ativamente o porto.',
         'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
         'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
         'Papel da ONG Sankofa: Codeterminação no Bisafoɔ Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
@@ -2630,12 +2630,13 @@ const BisafoMembershipCTA = ({ aff }) => {
       const url = new URL(BASE);
       url.searchParams.set('locale', detectLang());
       const promo = sanitizePromo(input?.value || '');
-      if (promo) url.searchParams.set('promotion_code', promo);
+      if (promo) url.searchParams.set('prefilled_promo_code', promo);
       const affiliate = getAffiliate();
       if (affiliate) url.searchParams.set('client_reference_id', affiliate);
       return url.toString();
     };
-    const onClick = () => {
+    const onClick = (e) => {
+      try { e?.preventDefault?.(); } catch (_e) {}
       const href = buildUrl();
       try {
         window.dispatchEvent(new CustomEvent('bisafoc:cta-click', {
@@ -2647,10 +2648,7 @@ const BisafoMembershipCTA = ({ aff }) => {
           },
         }));
       } catch (_e) {}
-      const newWin = window.open(href, '_blank', 'noopener,noreferrer');
-      if (!newWin || newWin.closed) {
-        window.location.href = href;
-      }
+      window.open(href, '_blank', 'noopener,noreferrer');
     };
     const onKey = (e) => {
       if (e.key === 'Enter') {
@@ -3436,7 +3434,7 @@ const AfroVillageProgress = ({ language, t }) => {
     },
     ig: {
       title: 'Sankofa Village – Obodo nke onwe‑onwe',
-      subtitle: 'Nz�� nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+      subtitle: 'Nz�� nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe��onwe. Onyinye ọ bụla na‑ewu ya.',
       storyTitle: 'Gịnị mere Sankofa Village',
       currentLabel: 'Ego a chịkọtara',
       goalLabel: 'Ebumnuche',
