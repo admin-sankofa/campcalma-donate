@@ -499,7 +499,7 @@ const translations = {
  support_fairs_heading: 'Unterstütze unsere Messeteilnahmen!',
  support_fairs_text: 'Hilf der NGO Sankofa Living & Learning und unserem Projekt Camp Calma, bei den Messen Reiselust, Fisch & Feines und Caravan Bremen dabei zu sein. Mit deiner Spende finanzieren wir Standmiete, Reise und Materialien, um nachhaltiges Leben sichtbar zu machen.',
       donate_button: 'Jetzt Spenden',
- every_donation_text: 'Jede Spende bringt uns unserem Ziel einen Schritt n��her. Vielen Dank für deine Unterstützung!',      
+ every_donation_text: 'Jede Spende bringt uns unserem Ziel einen Schritt näher. Vielen Dank für deine Unterstützung!',      
  subheading: 'Unterstütze einen Traum, Gewinne tolle Preise',
  heading: 'Hilf mit beim Aufbau von Camp Calma in Portugal',
  cta: 'Jetzt Spenden & Lose erhalten',
@@ -534,7 +534,7 @@ const translations = {
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
- p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen ��� du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
+ p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen — du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
       photo1_caption: 'Daniel mit Nilua und einer niederländischen Familie mit Kindern aus der afrikanischen Diaspora',
       photo3_caption: 'Daniel und Niluas Sohn machen ein Lagerfeuer',
       photo4_caption: 'Daniel, als er sich 2022 auf dem Grundstück niederließ',
@@ -881,7 +881,7 @@ const translations = {
         "🎁 Bɔɔl a ɛyɛ soronko (bosome biara firi nnipa 450)",
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
-        "🎥 Live/stream an����pa & retreat previews",
+        "🎥 Live/stream anɔpa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
         "🗣️ Founder mfasoɔ: nsɛnkanee nkutoo 10‑min kɔ Daniel ho; link bɛba wuguu mu akyi; slots 3 da biara; first come first served"
       ],
@@ -1242,7 +1242,7 @@ const nlTranslations = {
     success: 'Bedankt! Je gratis deelname is verzonden. Je ontvangt zo spoedig mogelijk een bevestiging per e‑mail.',
     close: 'Sluiten',
     consent_html: 'Ik accepteer de <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Voorwaarden</a> en heb kennisgenomen van de <a href="https://www.sankofa-ngo.org/giveaway" target="_blank" class="underline">Privacyverklaring</a>, inclusief toestemming om per e‑mail en WhatsApp over deze verloting benaderd te worden.',
-    whatsapp: 'WhatsApp��nummer'
+    whatsapp: 'WhatsApp‑nummer'
   },
   footer: {
     contact: 'Neem contact op',
@@ -1327,7 +1327,7 @@ const nlTranslations = {
     future_list: [
       'Prijs: €132/jaar (≈ zoals Bisafo)',
       'Voordelen: 10% korting op Camp Calma; deelname aan algemene stemmingen',
-      'Niet inbegrepen: geen exclusieve livestreams & founders��events; geen premium verlotingen; geen voorrechten bij grondprojecten; minder medezeggenschap',
+      'Niet inbegrepen: geen exclusieve livestreams & founders‑events; geen premium verlotingen; geen voorrechten bij grondprojecten; minder medezeggenschap',
       'Slechts 500 founder‑plekken; bij vertrek komt er een plek vrij (wachtlijst)',
       'Zo blijft de Bisafoɔ Circle permanent 500'
     ],
@@ -1519,7 +1519,7 @@ const frTranslations = {
       '📝 Mention de votre nom comme soutien fondateur',
     '🗣️ Avantage Founder : appel privé de 10 minutes avec Daniel ; lien de réservation après adhésion ; 3 créneaux/jour ; premier arrivé, premier servi'
     ],
-    info_box: 'Le Bisafoɔ Circle (500 Founders) constitue le Founders Club. Plus tard, la communauté s’étend à 5���000 membres Gold ��� le cercle conserve ses privilèges uniques de fondateur.',
+    info_box: 'Le Bisafoɔ Circle (500 Founders) constitue le Founders Club. Plus tard, la communauté s’étend à 5 000 membres Gold ��� le cercle conserve ses privilèges uniques de fondateur.',
     founder_title: 'Adhésion Founder (limitée à 500)',
     founder_list: [
       'Prix normal : 132 €/an',
@@ -1734,7 +1734,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Unlocked',
     lockedLabel: 'Locked',
     milestones: [
-      { amount: 10000, name: 'The Foundation', outcome: 'Planning, basic infrastructure (water/energy), start permaculture design', icon: '🧱��' },
+      { amount: 10000, name: 'The Foundation', outcome: 'Planning, basic infrastructure (water/energy), start permaculture design', icon: '🧱📐' },
       { amount: 25000, name: 'The First Home', outcome: 'First autonomous mobile home (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Community Kitchen', outcome: 'Shared kitchen + solar cooking; food‑forest start', icon: '🍲☀️' },
       { amount: 100000, name: 'Education & Encounters', outcome: 'Learning Dome (workshops, music, digital learning)', icon: '🎓🎶' },
@@ -1796,7 +1796,7 @@ const afroVillageTranslations = {
       { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
     story: [
-      'Autossuficiência é resiliência real: ��gua, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
+      'Autossuficiência é resiliência real: água, energia e alimento no local. O Sankofa Village mostra como viver isso na prática.',
       'Comunidade é o coração: criamos espaços que promovem encontros, música e cultura — um lugar de cuidado mútuo.',
       'Aprender liberta: workshops, educação digital e fazer em conjunto desenvolvem competências para hoje e amanhã.'
     ]
@@ -1865,7 +1865,7 @@ const afroVillageTranslations = {
     lockedLabel: 'Emechiri',
     milestones: [
       { amount: 10000, name: 'Ntọala', outcome: 'Nhazi, akụrụngwa bụ isi (mmiri/ike), mbido permaculture', icon: '🧱📐' },
-      { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '����' },
+      { amount: 25000, name: 'Ụlọ Mbụ', outcome: 'Ụlọ njem onwe‑onwe mbụ (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'K���rịchn Obodo', outcome: 'Kichin kesaa + esi anyanwụ; mmalite food‑forest', icon: '🍲☀️' },
       { amount: 100000, name: 'Mmụta & Nzute', outcome: 'Learning Dome (ogbako, egwu, mmụta dijitalụ)', icon: '🎓🎶' },
       { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
@@ -2348,7 +2348,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Mfitiaseɛ Kwan', text: 'Akwanya kɔ ade titiriw te sɛ asase anaa campervan.' },
         { icon: '🤝', title: 'Wɔte mu wɔ Bisafo', text: 'Workshops, retreats, nwomasua ne kurom‑afahyɛ wɔ Portugal.' }
       ],
-      p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na y��dwuma yɛ ade — bere a nneɛma hintaw no koraa.',
+      p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a yɛsua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
       p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
       p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
       listTitle: 'Nkitahodie ne Nhyɛe',
@@ -2364,7 +2364,7 @@ const SafeHarborSection = ({ t, language }) => {
       heading: 'Mmegharị Safe Harbor na Project Akoma 2025',
       sub: 'Mgbatị maka ���dịte aka na onwe‑onwe',
       features: [
-        { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: '���zọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
+        { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
         { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na-eme ka mmetụta na-aga ngwa — ọ bụghị lotiri.' },
         { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
@@ -2375,7 +2375,7 @@ const SafeHarborSection = ({ t, language }) => {
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
         'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Bisafoɔ Circle na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
-        'Ego & Nsonye: Akoma 2025 jik��tara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
+        'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
         'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
         'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
       ],
@@ -3454,7 +3454,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
         { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
         { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
-        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '�������' },
+        { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁���' },
         { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
@@ -3548,7 +3548,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 250000, name: 'Obi', outcome: 'Ụlọ njem 3 zuru ezu; obibia mbu kwe omume', icon: '🧡🛏️' },
         { amount: 500000, name: 'Obodo Ọkara', outcome: 'Ụlọ njem 5, etiti ike/mmiri, PV + nchekwa', icon: '⚡💧' },
         { amount: 750000, name: 'Omenala & Mbelata', outcome: 'AfroBeats ogbo, creative hub, ebe retreat', icon: '🥁🎭' },
-        { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp��Calma', icon: '🏡✨' },
+        { amount: 1000000, name: 'Sankofa Village zuru oke', outcome: 'Ụlọ njem 10 onwe‑onwe n\'ime imewe Sankofa/Camp‑Calma', icon: '🏡✨' },
       ],
       story: [
         'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe���onwe n\'omume.',
