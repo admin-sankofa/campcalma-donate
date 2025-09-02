@@ -666,7 +666,7 @@ const translations = {
         "🎁 Exklusive Gewinnspiele (monatlich ab 450 Mitgliedern)",
         "📚 Digitale Ressourcen (Permakultur, Rezepte, Yoga, Lernmaterialien)",
         "🗳️ Mitbestimmung bei Workshops, Events & Projekten",
-        "🎥 Exklusive Live/Stream‑Events & Retreat��Previews",
+        "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
         "📝 Namentliche Nennung als Gründungsunterstützer",
         "🗣️ Founder‑Vorteil: 10‑min privates Kennenlern‑Gespräch mit Daniel; Buchungslink nach Beitritt; 3 Slots/Tag; first come, first served"
       ],
@@ -766,7 +766,7 @@ const translations = {
       },
       tier2: {
  price: '€20',
- tickets: '80 Bɔɔl',
+ tickets: '80 B��ɔl',
  description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
@@ -1018,7 +1018,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọrụ?',
-      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họr��. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1109,7 +1109,7 @@ const translations = {
         'Status Founder d�� naanị mgbe ị nọ n’ọgbakọ',
         'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ',
         'Uru Founder: oku nzuzo nkeji 10 na Daniel maka mmalite na izute onwe.',
-        'Ndokwa oge: slots atọ nke nkeji 10 kwa ���bọchị; enyere dika onye rutere mbụ.',
+        'Ndokwa oge: slots atọ nke nkeji 10 kwa ụbọchị; enyere dịka onye rutere mbụ.',
         'Mgbe ị sonyere, ị ga‑enweta njikọ iji debe oge maka oku mmalite gị.'
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
@@ -1533,7 +1533,7 @@ const frTranslations = {
     ],
     gold_title: 'Adhésion Gold (membres 501–5 000)',
     gold_list: [
-      'Prix normal : 265 ��/an',
+      'Prix normal : 265 €/an',
       'Avec code d’invitation : 199 €/an',
       'Commission de 20 % (39,80 €) pour le parrain — 159,20 € restent à l’ONG',
       'Pour tous les nouveaux membres après les 500 Founders'
@@ -1790,7 +1790,7 @@ const afroVillageTranslations = {
       { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
       { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
-      { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
+      { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '����🛏️' },
       { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
       { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
       { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' }
@@ -1859,7 +1859,7 @@ const afroVillageTranslations = {
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
-    legend: ['🔵 Nhazi & Mmalite','��� Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
+    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
     cta: 'Kwado ugbu a',
     unlockedLabel: 'Emeghe',
     lockedLabel: 'Emechiri',
@@ -2370,7 +2370,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwek��rịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar���chaa n’oge enweghị nt��kwasị obi.',
-      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
+      p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụ��� ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
       p3: 'Ndị na‑akwado nwere ike nweta nh��rọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
