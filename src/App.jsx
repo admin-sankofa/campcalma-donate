@@ -534,7 +534,7 @@ const translations = {
     description: {
  heading: 'Über Camp Calma',
  p1: 'Camp Calma ist ein Projekt von Sankofa Living & Learning, einer NGO, die sich der Schaffung regenerativer Lebens- und Lernräume verschrieben hat. Im Herzen Portugals gelegen, soll Camp Calma ein autarkes Bildungshof und ein Zufluchtsort für Gemeinschaft, Natur und persönliches Wachstum sein.',
- p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen — du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏🏽',
+ p2: 'Deine Spende finanziert direkt den Bau wesentlicher Infrastruktur, Bildungsprogramme und nachhaltiger Ressourcen. Durch die Teilnahme an unserer Verlosung hast du nicht nur die Chance, unglaubliche Preise zu gewinnen — du hilfst beim Aufbau einer Grundlage für eine bessere Zukunft. 🙏���',
       photo1_caption: 'Daniel mit Nilua und einer niederländischen Familie mit Kindern aus der afrikanischen Diaspora',
       photo3_caption: 'Daniel und Niluas Sohn machen ein Lagerfeuer',
       photo4_caption: 'Daniel, als er sich 2022 auf dem Grundstück niederließ',
@@ -729,7 +729,7 @@ const translations = {
       open_fullscreen: 'Bue wɔ kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
     },
     african_campers: {
-      heading: 'Afrika‑nsusuwii Camper ��� Yɛn Adwene',
+      heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
       text: 'Wɔ Camp Calma ne Sankofa Living & Learning mu na nsusuwii ne nnwuma foforɔ bebree reba a ɛde nimdeɛ, amammerɛ ne asetena mu dɔnhwerehwɛ hyia. Daniel de ne nimdeɛ firi caravan wiase, off‑grid abrabɔ ne ne adwuma dedaw s�� quality manager wɔ akwadwumayɛ mu hyɛ mu. Eyi mu na adwene no fi sɛ yɛbɛyɛ caravan a ɛtɔ Afrika amammerɛ so — wobeyɛ wɔ Ghana, na wɔde akotuu wiase nyinaa, na ��nam so nso bɔ nnipa kɔkɔ sɛ wɔnkɔtɔ Ghana akɔtwa kwan ne atudɔ. Botae yi yɛ ampa, nanso ɛy�� adwuma a ɛsɛ sɛ yɛyɛ bom: yehia nnipa a wobɛhyɛ saa nnwuma yi mu den — anaa akatua/ayɛde��, na Sankofa Living & Learning atumi de saa ɔkwan‑tuntum adwumayɛ yi ayɛ adwuma.'
     },
     press: {
@@ -767,7 +767,7 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 B���ɔl',
- description: 'Yɛn de�� nnipa pii pɛ! Bɔɔl mpɛn 4.',
+ description: 'Yɛn deɛ nnipa pii p��! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
@@ -869,7 +869,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle y�� Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
+      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
       exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafoɔ Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
       pricing: "Founder: €99/afe kɔ wɔ invite code (ɛsɛ €132). Gold: €199/afe kɔ wɔ invite code (ɛsɛ €265). 20% kɔ ma nea ɔde wo baa mu.",
       sustainability: "Membifo 500 no na wɔma NGO no tena pintinn na bɔɔl a ɛkɔ so fi nnipa 450 reba abue.",
@@ -1129,7 +1129,7 @@ const translations = {
         'Ebe Founder bụ 500 naanị; mgbe mmadụ pụọ, a na‑ewepụta ebe maka onye ọzọ (waitlist)',
         'Nke a na‑eme ka Bisafoɔ Circle nọgide na 500 mgbe niile'
       ],
-      narrative_title: 'Mmụọ anyị jikọrọ ọnụ',
+      narrative_title: 'Mmụọ anyị jikọrọ ��nụ',
       narrative: 'Bisafoɔ Circle karịrị “mgbasa.” Ọ na‑egosi na dịka diaspora Afrịka, anyị na‑esi ike ọnụ mgbe anyị na‑akwado ibe anyị: anyị na‑ewu ọrụ dịgide na-enweghị enyemaka gọọmenti; anyị na‑edobe ike, ọmụma na obodo. Onyinye ọ bụla, ntụnye ọ bụla na memba ọ bụla na‑eme ka NGO sie ike — na mmụọ nke ịdị n’otu, ntụkwasị obi na nnwere onwe.'
     }
   },
@@ -1181,7 +1181,7 @@ const nlTranslations = {
   },
   description: {
     heading: 'Over Camp Calma',
-    p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off��grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
+    p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off‑grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
     p2: 'Jouw bijdrage financiert direct de bouw van essentiële infrastructuur, onderwijsprogramma\'s en duurzame middelen. Door deel te nemen aan onze verloting krijg je niet alleen kans op geweldige prijzen — je helpt ook mee aan een fundament voor een betere toekomst. 🙏🏽',
     photo1_caption: 'Daniel met Nilua en een Nederlandse familie met kinderen uit de Afrikaanse diaspora',
     photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur',
@@ -1622,7 +1622,7 @@ const safeHarborTranslations = {
     ],
     p1: 'Een gedeelde belofte: een fysieke en digitale haven waar we leren, gemeenschap bouwen en zelfredzaamheid beoefenen — juist in onzekere tijden.',
     p2: 'Akoma 2025 verandert fondsenwerving in momentum: samen versnellen we impact, versterken we handelen en openen we startkansen die de uitbouw voeden.',
-    p3: 'Steuners krijgen een concrete startoptie — kansen op tastbare activa (bijv. grond of een camper) die de uitbouw vooruit helpen.',
+    p3: 'Steuners krijgen een concrete startoptie �� kansen op tastbare activa (bijv. grond of een camper) die de uitbouw vooruit helpen.',
     listTitle: 'Samenhang en raakvlakken',
     bullets: [
       'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafoɔ Circle maakt het tastbaar — leden co‑creëren de haven actief.',
@@ -1664,7 +1664,7 @@ const safeHarborTranslations = {
     ],
     p1: 'Bɔhyɛ koro: kuro a ɛwɔ asase so ne online a y��sua, yɛ kurom na yɛdwuma yɛ ade — bere a nneɛma hintaw no koraa.',
     p2: 'Akoma 2025 yɛ ahoɔden ma akwankyerɛ: yɛma adwuma tu ntɛm, yɛma nnipa yɛ adwuma na yɛbue mfitiaseɛ akwanya a ɛma si‑so no tu.',
-    p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ɛma adwuma no tu ntɛm.',
+    p3: 'Aboaboafo nya mfitiaseɛ akwanya ankasa — akwanya nkɔ ade titiriw te sɛ asase anaa campervan a ��ma adwuma no tu ntɛm.',
     listTitle: 'Nkitahodie ne Nhyɛe',
     bullets: [
       'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
@@ -1691,7 +1691,7 @@ const safeHarborTranslations = {
       'Echiche & Omume: “Safe Harbor” na‑enye okpokoro na ihe kpatara; Bisafoɔ Circle na‑eme ka ọ bụrụ ihe a na‑ahụ anya — ndị otu na���kọọ ọrụ ọnụ.',
       'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
       'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
-      'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
+      'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlek��ta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
     ],
     rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ��nụ ma jikọta ha nke ọma.'
   },
@@ -1857,7 +1857,7 @@ const afroVillageTranslations = {
     title: 'Sankofa Village – Obodo nke onwe‑onwe',
     subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na��ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
     storyTitle: 'Gịnị mere Sankofa Village',
-    currentLabel: 'Ego a chịkọtara',
+    currentLabel: 'Ego a ch��kọtara',
     goalLabel: 'Ebumnuche',
     legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
     cta: 'Kwado ugbu a',
@@ -1897,7 +1897,7 @@ const afroVillageTranslations = {
       { amount: 250000, name: 'Le cœur', outcome: '3 maisons mobiles terminées ; premiers séjours possibles', icon: '🧡🛏️' },
       { amount: 500000, name: 'La moitié du village', outcome: '5 maisons mobiles, centre énergie/eau, PV + stockage', icon: '⚡💧' },
       { amount: 750000, name: 'Culture & expansion', outcome: 'Scène AfroBeats, pôle créatif, espace de retraite', icon: '🥁🎭' },
-      { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '����✨' }
+      { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '🏡✨' }
     ],
     story: [
       'L’autonomie, c’est la vraie résilience : eau, énergie et nourriture sur place. Sankofa Village montre comment la vivre au quotidien.',
@@ -2259,7 +2259,7 @@ const SafeHarborSection = ({ t, language }) => {
       heading: 'The Safe Harbor Initiative and Project Akoma 2025',
       sub: 'A movement for resilience and autonomy',
       features: [
-        { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self��reliance.' },
+        { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
         { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
         { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
         { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
@@ -3371,7 +3371,7 @@ const AfroVillageProgress = ({ language, t }) => {
   const langKey = ['en','pt','de','twi','ig','nl','fr'].includes(language) ? language : 'en';
   const content = t.afro_village || {
     en: {
-      title: 'Sankofa Village – A Village of Self‑Sufficiency',
+      title: 'Sankofa Village ��� A Village of Self‑Sufficiency',
       subtitle: 'Step by step we build a village that lives learning, community and self‑reliance. Every contribution builds with us.',
       storyTitle: 'Why Sankofa Village (Sankofa)',
       currentLabel: 'Current Funding',
@@ -3428,7 +3428,7 @@ const AfroVillageProgress = ({ language, t }) => {
       ],
       story: [
         'Zelfredzaamheid betekent echte veerkracht: water, energie en voedsel ter plaatse. Sankofa Village laat zien hoe zelfvoorziening in de praktijk geleefd kan worden.',
-        'Gemeenschap is het hart: we creëren ruimtes die ontmoeting, muziek en cultuur stimuleren — een plek waar mensen er voor elkaar zijn.',
+        'Gemeenschap is het hart: we creëren ruimtes die ontmoeting, muziek en cultuur stimuleren �� een plek waar mensen er voor elkaar zijn.',
         'Leren maakt vrij: workshops, digitaal onderwijs en samen doen bouwen vaardigheden op die dragen — vandaag en morgen.'
       ]
     },
