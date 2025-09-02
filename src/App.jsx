@@ -429,7 +429,7 @@ const translations = {
       benefit_4: "🎥 Conteúdo exclusivo, atualizações & eventos ao vivo",
       benefit_5: "📝 Menção nominal como apoiador fundador",
       benefit_6: "🔗 Código pessoal de recomendação para amigos",
-      benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 hor��rios/dia; link de marcação após adesão; por ordem de chegada)",
+      benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 horários/dia; link de marcação após adesão; por ordem de chegada)",
       cta_button: "Tornar‑me Membro"
     },
     bisafo_about: {
@@ -807,7 +807,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔ��l no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Y��srɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -901,7 +901,7 @@ const translations = {
       gold_list: [
         "N’ahoɔden: €265/afe",
         "Wɔ invite code: €199/afe",
-        "20% (≈ €39.80) kɔ ma nea ɔde obi baa mu — €159.20 si NGO no mu",
+        "20% (≈ ��39.80) kɔ ma nea ɔde obi baa mu — €159.20 si NGO no mu",
         "Ma wɔn a wofra 500 Founders akyi"
       ],
       referral_title: "Wo ankasa referral code",
@@ -945,7 +945,7 @@ const translations = {
     },
     african_campers: {
       heading: '���gbọ njem mepụtara site n\'akp���kpọ Afrịka – Echiche anyị',
-      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ���rụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
+      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọm��ma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ���rụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
@@ -1020,7 +1020,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n���ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1033,7 +1033,7 @@ const translations = {
       modal_subheading: 'Biko juo fọm a nke ọma ka i nwetaghachi otu (1) tiketi mgbasa.',
       name: 'Aha zuru ezu',
       email: 'Adreesị email',
-      address: 'Adreesị ozi‑ozi zuru ezu',
+      address: 'Adrees�� ozi‑ozi zuru ezu',
       statement: 'Okwu nbanye',
       statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
       submit: 'Zipu nbanye n��efu',
@@ -1055,7 +1055,7 @@ const translations = {
       heading: 'Bisafoɔ Circle – Nkwenye pụrụ iche gị',
       subheading: 'Jikọọ 500 Bisafo Founders · Nkwado ọnwa · Ntinye ozugbo · Mgbasa site na 450 ndị otu',
       current_members: 'Ndị otu ugbu a',
-      capacity: 'Ọnụ ọgụgụ kacha',
+      capacity: 'Ọnụ ọgụg��� kacha',
       sustainability_label: 'Ebumnuche ịdịgide',
       raffle_label: 'Mgbasa',
       capacity_label: 'Ejuola',
@@ -1234,7 +1234,7 @@ const nlTranslations = {
     modal_heading: 'Gratis deelnameformulier (AMOE)',
     modal_subheading: 'Vul het formulier volledig in om één (1) lot te ontvangen.',
     name: 'Volledige naam',
-    email: 'E‑mailadres',
+    email: 'E���mailadres',
     address: 'Volledig postadres',
     statement: 'Motivatie',
     statement_placeholder: 'Schrijf kort waarom je graag wilt deelnemen aan de Camp Calma‑verloting.',
@@ -1505,7 +1505,7 @@ const frTranslations = {
     feature_monthly_raffles: 'Tirages mensuels',
     background: '« Bisafo » en twi (Ghana) désigne les chercheurs, apprenants et questionneurs. Au Camp Calma, le Bisafoɔ Circle est notre Founders Club — un réseau de pionniers qui explorent et apprennent ensemble.',
     exclusivity: 'Les 500 premiers membres forment le Bisafoɔ Circle (Founders). Le statut de Founder reste tant que vous êtes membre ; si vous partez, votre place s’ouvre à une nouvelle personne. Ensuite, la communauté s’agrandit jusqu’à 5 000 membres Gold.',
-    pricing: 'Founder : 99 €/an avec code d’invitation (au lieu de 132 €). Gold : 199 €/an avec code d’invitation (au lieu de 265 ��). Commission de parrainage de 20 %.',
+    pricing: 'Founder : 99 €/an avec code d’invitation (au lieu de 132 €). Gold : 199 €/an avec code d’invitation (au lieu de 265 €). Commission de parrainage de 20 %.',
     sustainability: 'Ces 500 premiers assurent la durabilité de l’ONG et débloquent des tirages mensuels à partir de 450 membres.',
     community_app_and_properties: 'Avec 5 000 membres, nous nous renforçons via l’app communautaire Sankofa. L’ONG peut offrir chaque mois un bien immobilier off‑grid durable — aujourd’hui au Portugal ; demain aussi au Ghana.',
     benefits_title: 'Avantages membres',
@@ -1668,7 +1668,7 @@ const safeHarborTranslations = {
     listTitle: 'Nkitahodie ne Nhyɛe',
     bullets: [
       'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
-      'Sika & Apɔw: Akoma 2025 de akɛseɛ‑ak��se (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+      'Sika & Apɔw: Akoma 2025 de akɛseɛ‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
       'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
       'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
     ],
@@ -1838,7 +1838,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Abue',
     lockedLabel: 'Esi so',
     milestones: [
-      { amount: 10000, name: 'Fapem', outcome: 'Nhyehy��e, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
       { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
       { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
@@ -2806,7 +2806,7 @@ const AboutBisafo = ({ t }) => (
               <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_safe_harbor}</div>
             </div>
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
-              <div className="text-2xl">📚</div>
+              <div className="text-2xl">��</div>
               <div className="mt-2 font-semibold text-gray-800">{t.bisafo_about.feature_shared_learning}</div>
             </div>
             <div className="bg-white/80 backdrop-blur rounded-xl p-4 border">
@@ -3583,7 +3583,7 @@ const AfroVillageProgress = ({ language, t }) => {
 
   const segments = [
     { start: 0, end: 100000, colorClass: 'brand-blue-bg', label: 'Planung & Start' },
-    { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste H��user' },
+    { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste Häuser' },
     { start: 250000, end: 500000, colorClass: 'brand-yellow-bg', label: 'Infrastruktur & Kultur' },
     { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Sankofa Village vollendet' },
   ];
