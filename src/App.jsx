@@ -200,7 +200,7 @@ const translations = {
       raffle_label: "Giveaway",
       capacity_label: "Capacity Reached",
       milestone_0_299: "💙 Up to 299: Building Phase",
-      milestone_300_349: "💚 300–349: Sustainability Achieved",
+      milestone_300_349: "��� 300–349: Sustainability Achieved",
       milestone_350_449: "💛 350–449: Exclusive Access & Event Notifications",
       milestone_450_500: "💜 450+: Monthly Giveaways (e.g. MacBook)",
       status_building: "Building Phase: NGO Development 💙",
@@ -889,7 +889,7 @@ const translations = {
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
       founder_list: [
         "N’ahoɔden: €132/afe",
-        "W�� invite code: €99/afe",
+        "Wɔ invite code: €99/afe",
         "20% (≈ €19.80) kɔ ma nea ɔde obi baa mu — €79.20 si NGO no mu",
         "Founder‑status wɔ bere a wowɔ mu pɛ",
         "Sɛ wugyae a, w’akɔnni bɛda hɔ ma obi foforo",
@@ -1061,7 +1061,7 @@ const translations = {
       capacity_label: 'Ejuola',
       milestone_0_299: '💙 Ruo 299: Oge owuwu',
       milestone_300_349: '💚 300–349: Idịgide ruru',
-      milestone_350_449: '💛 350–449: Ntinye pụrụ iche & ozi banyere mmemme',
+      milestone_350_449: '💛 350���449: Ntinye pụrụ iche & ozi banyere mmemme',
       milestone_450_500: '💜 450+: Mgbasa kwa ọnwa (dịka MacBook)',
       status_building: 'Oge mmalite: Ịzụlite NGO 💙',
       status_sustainability: 'Idịgide ruru 💚',
@@ -1082,7 +1082,7 @@ const translations = {
       subheading: 'Obodo pụrụ iche nke Sankofa Living & Learning',
       feature_founders: 'Otu ndị guzobere',
       feature_safe_harbor: 'Safe Harbor',
-      feature_shared_learning: 'Mmụta ọnụ',
+      feature_shared_learning: 'Mm���ta ọnụ',
       feature_monthly_raffles: 'Mgbasa kwa ọnwa',
       background: '“Bisafo” na Twi pụtara nd�� na‑achọ, ndị na‑amụta na ndị na‑ajụ aj���jụ. Na Camp Calma, Bisafoɔ Circle bụ Founders Club — netwọkụ nke ndị pionia na‑amụtakwa ọnụ.',
       exclusivity: 'Ndị 500 mbụ b��� Bisafo (Founders). Status Founder dịruo mgbe ị nọgidere bụrụ onye otu; mgbe ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 ndị otu Gold.',
@@ -1171,7 +1171,7 @@ const nlTranslations = {
     video_cta: 'Bekijk op YouTube',
     article_cta: 'Lees het artikel',
     changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
-    outo_cta: 'OUTO‑programma openen',
+    outo_cta: 'OUTO���programma openen',
     social_impact_cta: 'Social Impact‑pagina openen'
   },
   founder: {
@@ -1187,7 +1187,7 @@ const nlTranslations = {
     photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur',
     photo4_caption: 'Daniel toen hij zich vestigde op het terrein in 2022',
     photo5_caption: 'Camp Calma in 2022',
-    photo6_caption: '2022 �� Eerste tijdelijke opbouw en onze nieuwe waterput'
+    photo6_caption: '2022 – Eerste tijdelijke opbouw en onze nieuwe waterput'
   },
   donate: {
     heading: 'Kies je steunniveau',
@@ -1479,7 +1479,7 @@ const frTranslations = {
     raffle_label: 'Tombola',
     capacity_label: 'Capacité atteinte',
     milestone_0_299: '💙 Jusqu’à 299 : Phase de construction',
-    milestone_300_349: '💚 300���349 : Durabilité atteinte',
+    milestone_300_349: '💚 300–349 : Durabilité atteinte',
     milestone_350_449: '💛 350–449 : Accès exclusif & notifications',
     milestone_450_500: '💜 450+ : Tombolas mensuelles (ex. MacBook)',
     status_building: 'Phase de construction : Développement de l’ONG 💙',
@@ -1725,7 +1725,7 @@ for (const [lang, data] of Object.entries(safeHarborTranslations)) {
 const afroVillageTranslations = {
   en: {
     title: 'Sankofa Village – A Village of Self‑Sufficiency',
-    subtitle: 'Step by step we build a village that lives learning, community and self����reliance. Every contribution builds with us.',
+    subtitle: 'Step by step we build a village that lives learning, community and self���reliance. Every contribution builds with us.',
     storyTitle: 'Why Sankofa Village (Sankofa)',
     currentLabel: 'Current Funding',
     goalLabel: 'Goal',
@@ -2272,7 +2272,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Vision & Practice: “Safe Harbor” provides the frame and the why; the Bisafoɔ Circle makes it tangible — members actively co‑create the harbor.',
         'Financing & Participation: Akoma 2025 links supporter levels (e.g., Gold) with Bisafo membership and offers exclusive head‑start chances (land, campervan). Every contribution builds the harbor.',
         'Lived Values: Access to workshops, retreats, digital courses, community events, and in‑person gatherings in Portugal — the harbor in practice.',
-        'Sankofa NGO’s Role: Co‑determination within the Bisafoɔ Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
+        'Sankofa NGO’s Role: Co���determination within the Bisafoɔ Circle and stewardship in the overall narrative; the 500‑member goal secures long‑term sustainability.'
       ],
       rec: 'Website recommendation: Present both concepts together in one coherent section and weave them where appropriate, rather than separating them.'
     },
@@ -2355,7 +2355,7 @@ const SafeHarborSection = ({ t, language }) => {
       bullets: [
         'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b����� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
-        'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom���afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
+        'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
       rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
@@ -2366,7 +2366,7 @@ const SafeHarborSection = ({ t, language }) => {
       features: [
         { icon: '🌊', title: 'Gịnị & Ọhụhụ', text: 'Ụzọ ezi na dijitalụ maka mmụta, obodo na onwe‑onwe.' },
         { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na-eme ka mmetụta na-aga ngwa — ọ bụghị lotiri.' },
-        { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
+        { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’ak��kụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
         { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
       ],
       p1: 'Nkwek��rịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
@@ -2486,7 +2486,7 @@ const MilestoneTracker = ({ t }) => {
                 <div key={index} className={`p-4 rounded-lg transition-all duration-500 ${unlocked ? 'bg-green-100 shadow-md' : 'bg-gray-100'}`}>
                   <Award className={`mx-auto h-10 w-10 mb-2 ${unlocked ? 'text-green-500' : 'text-gray-400'}`} />
                   <p className="font-semibold text-gray-700">{milestone.prize}</p>
-                  <p className="text-sm text-gray-500">���{milestone.amount.toLocaleString()}</p>
+                  <p className="text-sm text-gray-500">€{milestone.amount.toLocaleString()}</p>
                   {unlocked && (
                     <p className="text-green-600 font-bold text-xs mt-2 animate-pulse">{t.milestones.unlocked}</p>
                   )}
@@ -3552,7 +3552,7 @@ const AfroVillageProgress = ({ language, t }) => {
       ],
       story: [
         'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe���onwe n\'omume.',
-        'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
+        'Obodo bụ obi: anyị na‑emep���ta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
         'Mmụta na‑ewepụ ngw���gide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
       ]
     }
