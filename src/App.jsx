@@ -944,7 +944,7 @@ const translations = {
       open_fullscreen: 'Mepee ihuenyo dum maka dashboard zuru ezu'
     },
     african_campers: {
-      heading: '���gbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
+      heading: '���gbọ njem mepụtara site n\'akp���kpọ Afrịka – Echiche anyị',
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
@@ -963,7 +963,7 @@ const translations = {
     },
     description: {
       heading: 'Banyere Camp Calma',
-      p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na-ewu ebe obibi na ebe mmụta na-emeghari. Nime Portugal, Camp Calma bu n’obi ka ọ b��rụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
+      p1: 'Camp Calma bụ oru Sankofa Living & Learning, NGO nke na‑ewu ebe obibi na ebe mmụta na‑emegharị. N’ime Portugal, Camp Calma bụ n’obi ka ọ bụrụ ebe obibi mmụta nke onwe na ebe mgbaghara maka obodo, okike na uto onwe onye.',
       p2: 'Onyinye gị na-akwado ozugbo iwulite ihe ndị bụ isi, mmemme mmụta na ak���rụngwa na-adigide. Site n’iso na mgbasa anyi, ị naghị enweta ohere nnwere onyinye naanị���ị na-enyekwa aka iwuli ntọala maka ọdịnihu ka mma. 🙏🏽',
       photo1_caption: 'Daniel na Nilua na ezinụlọ Dutch nwere ụmụaka sitere na African Diaspora',
       photo3_caption: 'Daniel na nwa Nilua na‑akpọ ọkụ mgbede',
@@ -1106,7 +1106,7 @@ const translations = {
         'Ọnụahịa nkịtị: €132/afọ',
         'Na koodu nkwado: €99/afọ',
         '20% (€19.80) na‑aga n’aka onye kpọrọ — €79.20 na‑anọ na NGO',
-        'Status Founder dị naanị mgbe ị nọ n’ọgbakọ',
+        'Status Founder d�� naanị mgbe ị nọ n’ọgbakọ',
         'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ',
         'Uru Founder: oku nzuzo nkeji 10 na Daniel maka mmalite na izute onwe.',
         'Ndokwa oge: slots atọ nke nkeji 10 kwa ụbọchị; enyere dika onye rutere mbụ.',
