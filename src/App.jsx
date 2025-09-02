@@ -214,6 +214,7 @@ const translations = {
       benefit_4: "🎥 Exclusive content, community updates & live events",
       benefit_5: "📝 Name recognition as founding supporter",
       benefit_6: "🔗 Personal referral code for friends",
+      benefit_7: "🗣️ Founder: 10‑minute private intro call with Daniel (3 daily slots; booking link after joining; first‑come, first‑served)",
       cta_button: "Become Member Now"
     },
     bisafo_about: {
@@ -236,7 +237,8 @@ const translations = {
         "📚 Digital resources (permaculture, recipes, yoga, learning materials)",
         "🗳️ Co‑determination in workshops, events & projects",
         "🎥 Exclusive live/stream events & retreat previews",
-        "📝 Name recognition as founding supporters"
+        "📝 Name recognition as founding supporters",
+        "🗣️ Founder perk: 10‑minute private introduction call with Daniel; booking link after registration; 3 daily slots; first‑come, first‑served"
       ],
       info_box: "The Bisafoɔ Circle (500 Founders) forms the Founders Club. Later the community expands to 5,000 Gold Members — the Bisafoɔ Circle keeps its unique founder privileges.",
       founder_title: "Founder Membership (limited to 500)",
@@ -245,7 +247,10 @@ const translations = {
         "With invite code: €99/year",
         "20% commission (€19.80) to the referrer — €79.20 remains with the NGO",
         "Founder status lasts only while you are a member",
-        "If you leave, your spot becomes available to a new person"
+        "If you leave, your spot becomes available to a new person",
+        "Founder perk: 10‑minute private call with Daniel to connect and explore mutual support.",
+        "Scheduling: three 10‑minute slots per day; first‑come, first‑served.",
+        "After joining, you receive the booking link to schedule your introduction call."
       ],
       gold_title: "Gold Membership (members 501–5,000)",
       gold_list: [
@@ -424,6 +429,7 @@ const translations = {
       benefit_4: "🎥 Conteúdo exclusivo, atualizações & eventos ao vivo",
       benefit_5: "📝 Menção nominal como apoiador fundador",
       benefit_6: "🔗 Código pessoal de recomendação para amigos",
+      benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 horários/dia; link de marcação após adesão; por ordem de chegada)",
       cta_button: "Tornar‑me Membro"
     },
     bisafo_about: {
@@ -446,7 +452,8 @@ const translations = {
         "📚 Recursos digitais (permacultura, receitas, yoga, materiais de aprendizagem)",
         "🗳️ Cocriação em workshops, eventos & projetos",
         "🎥 Eventos exclusivos em direto/stream & prévias de retiros",
-        "📝 Menção nominal como apoiador fundador"
+        "📝 Menção nominal como apoiador fundador",
+        "🗣️ Vantagem Founder: chamada privada de 10 minutos com Daniel; link de marcação após adesão; 3 horários/dia; por ordem de chegada"
       ],
       info_box: "O Bisafoɔ Circle (500 Founders) forma o Founders Club. Depois, a comunidade expande‑se para 5.000 Membros Gold — o Círculo mantém privilégios únicos de fundador.",
       founder_title: "Adesão Founder (limitada a 500)",
@@ -455,7 +462,10 @@ const translations = {
         "Com código de convite: €99/ano",
         "20% de comissão (€19,80) para o referenciador — €79,20 ficam na ONG",
         "Estatuto de Founder enquanto fores membro",
-        "Ao sair, o lugar fica livre para outra pessoa"
+        "Ao sair, o lugar fica livre para outra pessoa",
+        "Vantagem Founder: chamada privada de 10 minutos com o Daniel para nos conhecermos e ver como nos podemos apoiar.",
+        "Agenda: três horários de 10 minutos por dia; por ordem de chegada.",
+        "Após aderir, recebes o link para marcares a tua chamada de apresentação."
       ],
       gold_title: "Adesão Gold (membros 501–5.000)",
       gold_list: [
@@ -634,6 +644,7 @@ const translations = {
       benefit_4: "🎥 Exklusiver Content, Community‑Updates & Live‑Events",
       benefit_5: "📝 Namentliche Nennung als Gründungsunterstützer",
       benefit_6: "🔗 Individueller Werbecode für Freunde",
+      benefit_7: "🗣️ Founder: 10‑min privates Kennenlern‑Gespräch mit Daniel (3 Slots/Tag; Buchungslink nach Beitritt; first come, first served)",
       cta_button: "Jetzt Mitglied werden"
     },
     bisafo_about: {
@@ -656,7 +667,8 @@ const translations = {
         "📚 Digitale Ressourcen (Permakultur, Rezepte, Yoga, Lernmaterialien)",
         "🗳️ Mitbestimmung bei Workshops, Events & Projekten",
         "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
-        "📝 Namentliche Nennung als Gründungsunterstützer"
+        "📝 Namentliche Nennung als Gründungsunterstützer",
+        "🗣️ Founder‑Vorteil: 10‑min privates Kennenlern‑Gespräch mit Daniel; Buchungslink nach Beitritt; 3 Slots/Tag; first come, first served"
       ],
       info_box: "Der Bisafoɔ Circle (500 Founder) bildet den Founders Club. Danach wächst die Community auf 5.000 Gold‑Mitglieder — der Bisafoɔ Circle behält seine besonderen Gründer‑Privilegien.",
       founder_title: "Founder‑Mitgliedschaft (limitiert auf 500)",
@@ -665,7 +677,10 @@ const translations = {
         "Mit Einladungscode: 99 € pro Jahr",
         "20 % Provision (19,80 €) gehen an den Werber — bei der NGO verbleiben 79,20 €",
         "Founder‑Status bleibt nur solange du Mitglied bist",
-        "Bei Austritt wird dein Platz für eine neue Person frei"
+        "Bei Austritt wird dein Platz für eine neue Person frei",
+        "Founder‑Vorteil: 10‑min privates Kennenlern‑Gespräch mit Daniel.",
+        "Terminierung: Drei 10‑min Slots pro Tag; Vergabe nach Reihenfolge der Buchung (first come, first served).",
+        "Nach dem Beitritt erhältst du den Buchungslink für dein Kennenlern‑Gespräch."
       ],
       gold_title: "Gold‑Mitgliedschaft (Mitglied 501–5.000)",
       gold_list: [
@@ -844,6 +859,7 @@ const translations = {
       benefit_4: "🎥 Soronko nsɛm, kurom‑nsɛmmɔne & live‑events",
       benefit_5: "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
       benefit_6: "🔗 Wo ankasa referral code ma nnamfo",
+      benefit_7: "🗣️ Founder: nsɛnkanee nkutoo da 10‑min kɔ Daniel ho (slots 3 da biara; link bɛba wuguu mu akyi; first come first served)",
       cta_button: "Bɛyɛ Membifo Seesei"
     },
     bisafo_about: {
@@ -866,7 +882,8 @@ const translations = {
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
         "🎥 Live/stream an��pa & retreat previews",
-        "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan"
+        "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
+        "🗣️ Founder mfasoɔ: nsɛnkanee nkutoo 10‑min kɔ Daniel ho; link bɛba wuguu mu akyi; slots 3 da biara; first come first served"
       ],
       info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
       founder_title: "Founder‑Membifo (akonta 500 pɛ)",
@@ -875,7 +892,10 @@ const translations = {
         "W�� invite code: €99/afe",
         "20% (≈ €19.80) kɔ ma nea ɔde obi baa mu — €79.20 si NGO no mu",
         "Founder‑status wɔ bere a wowɔ mu pɛ",
-        "Sɛ wugyae a, w’akɔnni bɛda hɔ ma obi foforo"
+        "Sɛ wugyae a, w’akɔnni bɛda hɔ ma obi foforo",
+        "Founder mfasoɔ: nkɔmmɔ nkutoo 10‑min kɔ Daniel ho.",
+        "Nhyehyɛe: da biara slots 3 a ɛyɛ 10‑min; nea ɔto so kan na ɔnya (first come, first served).",
+        "Sɛ wuguu mu wie a, wobɛnya link a wobɛde bɔ wo nsɛnkanee bere."
       ],
       gold_title: "Gold‑Membifo (501–5,000)",
       gold_list: [
@@ -1054,6 +1074,7 @@ const translations = {
       benefit_4: '🎥 Ihe pụrụ iche, mmelite obodo & live‑events',
       benefit_5: '📝 Aha e depụtara dịka onye kwadoro guzobere',
       benefit_6: '🔗 Koodu ntụnye onwe gị maka ndị enyi',
+      benefit_7: '🗣️ Founder: oku nzuzo nkeji 10 na Daniel (slots 3 kwa ụbọchị; njikọ ịzụta oge na‑abịa mgbe isonyere; first‑come, first‑served)',
       cta_button: 'Banye ugbu a'
     },
     bisafo_about: {
@@ -1076,7 +1097,8 @@ const translations = {
         '📚 Akụrụngwa dijitalụ (permaculture, nri, yoga, ihe mmụta)',
         '🗳️ Nsonye n’ime mkpebi — workshops, events & projects',
         '🎥 Live/stream events & retreat previews',
-        '📝 Aha depụtara dịka ndị kwadoro guzobere'
+        '📝 Aha depụtara dịka ndị kwadoro guzobere',
+        '🗣️ Uru Founder: oku nzuzo nkeji 10 na Daniel; njikọ ịzụta oge mgbe isonyere; slots 3 kwa ụbọchị; first‑come, first‑served'
       ],
       info_box: 'Bisafoɔ Circle (500 Founders) bụ Founders Club. Mgbe e mesịrị, obodo ga‑eto ruo 5,000 Gold — Bisafoɔ Circle na‑edobe ikike pụrụ iche.',
       founder_title: 'Mmembe Founder (oke na 500)',
@@ -1085,7 +1107,10 @@ const translations = {
         'Na koodu nkwado: €99/afọ',
         '20% (€19.80) na‑aga n’aka onye kpọrọ — €79.20 na‑anọ na NGO',
         'Status Founder dị naanị mgbe ị nọ n’ọgbakọ',
-        'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ'
+        'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ',
+        'Uru Founder: oku nzuzo nkeji 10 na Daniel maka mmalite na izute onwe.',
+        'Ndokwa oge: slots atọ nke nkeji 10 kwa ụbọchị; enyere dika onye rutere mbụ.',
+        'Mgbe ị sonyere, ị ga‑enweta njikọ iji debe oge maka oku mmalite gị.'
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
@@ -1251,6 +1276,7 @@ const nlTranslations = {
     benefit_4: '🎥 Exclusieve content, community‑updates & live‑events',
     benefit_5: '📝 Naamsvermelding als founding supporter',
     benefit_6: '🔗 Persoonlijke referralcode voor vrienden',
+    benefit_7: '🗣️ Founder: 10‑minuut privé kennismakingscall met Daniel (3 slots/dag; boekingslink na aanmelding; first‑come, first‑served)',
     cta_button: 'Word nu lid'
   },
   bisafo_about: {
@@ -1273,7 +1299,8 @@ const nlTranslations = {
       '📚 Digitale resources (permacultuur, recepten, yoga, leermateriaal)',
       '🗳️ Medezeggenschap bij workshops, events & projecten',
       '��� Exclusieve live/stream‑events & retreat‑previews',
-      '📝 Naamsvermelding als founding supporters'
+      '📝 Naamsvermelding als founding supporters',
+    '🗣️ Founder‑voordeel: 10‑minuut privé kennismakingscall met Daniel; boekingslink na aanmelding; 3 slots/dag; first‑come, first‑served'
     ],
     info_box: 'De Bisafoɔ Circle (500 Founders) vormt de Founders Club. Daarna groeit de community naar 5.000 Gold���leden — de Bisafoɔ Circle behoudt unieke founder‑privileges.',
     founder_title: 'Founder‑lidmaatschap (beperkt tot 500)',
@@ -1282,7 +1309,10 @@ const nlTranslations = {
       'Met invitecode: €99/jaar',
       '20% commissie (€19,80) naar de werver — €79,20 blijft bij de NGO',
       'Founder‑status zolang je lid bent',
-      'Bij vertrek komt je plek vrij voor een nieuw lid'
+      'Bij vertrek komt je plek vrij voor een nieuw lid',
+    'Founder‑voordeel: 10‑minuut privécall met Daniel voor kennismaking en afstemming.',
+    'Planning: drie 10‑minuten‑slots per dag; op volgorde van boeking (first‑come, first‑served).',
+    'Na je aanmelding ontvang je de boekingslink om de kennismakingscall te plannen.'
     ],
     gold_title: 'Gold‑lidmaatschap (leden 501–5.000)',
     gold_list: [
@@ -1463,6 +1493,7 @@ const frTranslations = {
     benefit_4: '🎥 Contenu exclusif, actualités & événements en direct',
     benefit_5: '📝 Mention de votre nom comme soutien fondateur',
     benefit_6: '🔗 Code de parrainage personnel pour vos amis',
+    benefit_7: '🗣️ Founder : appel privé de 10 minutes avec Daniel (3 créneaux/jour ; lien de réservation après adhésion ; premier arrivé, premier servi)',
     cta_button: 'Devenir membre maintenant',
   },
   bisafo_about: {
@@ -1485,7 +1516,8 @@ const frTranslations = {
       '📚 Ressources numériques (permaculture, recettes, yoga, supports d���apprentissage)',
       '🗳️ Codécision dans les ateliers, événements & projets',
       '🎥 Événements exclusifs en direct/stream & aperçus de retraites',
-      '📝 Mention de votre nom comme soutien fondateur'
+      '📝 Mention de votre nom comme soutien fondateur',
+    '🗣️ Avantage Founder : appel privé de 10 minutes avec Daniel ; lien de réservation après adhésion ; 3 créneaux/jour ; premier arrivé, premier servi'
     ],
     info_box: 'Le Bisafoɔ Circle (500 Founders) constitue le Founders Club. Plus tard, la communauté s’étend à 5 000 membres Gold — le cercle conserve ses privilèges uniques de fondateur.',
     founder_title: 'Adhésion Founder (limitée à 500)',
@@ -1494,7 +1526,10 @@ const frTranslations = {
       'Avec code d’invitation : 99 €/an',
       'Commission de 20 % (19,80 €) pour le parrain — 79,20 € restent à l’ONG',
       'Le statut Founder demeure uniquement tant que vous êtes membre',
-      'En cas de départ, votre place se libère pour une nouvelle personne'
+      'En cas de départ, votre place se libère pour une nouvelle personne',
+    'Avantage Founder : appel privé de 10 minutes avec Daniel.',
+    'Planification : trois créneaux de 10 minutes par jour ; attribution par ordre d’arrivée (first‑come, first‑served).',
+    'Après adhésion, vous recevez le lien pour réserver votre appel de présentation.'
     ],
     gold_title: 'Adhésion Gold (membres 501–5 000)',
     gold_list: [
@@ -1754,7 +1789,7 @@ const afroVillageTranslations = {
       { amount: 10000, name: 'O Alicerce', outcome: 'Planeamento, infra‑básica (água/energia), início do design de permacultura', icon: '🧱📐' },
       { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
-      { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
+      { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educa��ão digital)', icon: '🎓🎶' },
       { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
       { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
       { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
@@ -1820,7 +1855,7 @@ const afroVillageTranslations = {
   },
   ig: {
     title: 'Sankofa Village – Obodo nke onwe‑onwe',
-    subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na‑ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
+    subtitle: 'Nzọ nke nzọ ka anyị na‑ewu obodo nke na��ebi mmụta, obodo na onwe‑onwe. Onyinye ọ bụla na‑ewu ya.',
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
@@ -2579,6 +2614,11 @@ const MilestoneTracker2 = ({ t }) => {
               {t.bisafo.benefit_6 && (
                 <div className="flex items-start gap-2">
                   <span>{t.bisafo.benefit_6}</span>
+                </div>
+              )}
+              {t.bisafo.benefit_7 && (
+                <div className="flex items-start gap-2">
+                  <span>{t.bisafo.benefit_7}</span>
                 </div>
               )}
             </div>
@@ -3464,7 +3504,7 @@ const AfroVillageProgress = ({ language, t }) => {
         '🔵 Nhyehyɛe & Mfitiaseɛ',
         '🟢 Siesie & Ofie a edi kan',
         '🟡 Ahyehyɛdeɛ & Amammerɛ',
-        '🟣 Sankofa Village Ewiee',
+        '�� Sankofa Village Ewiee',
       ],
       cta: 'Boa seisei',
       unlockedLabel: 'Abue',
@@ -3480,7 +3520,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, soɛ ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so�� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
