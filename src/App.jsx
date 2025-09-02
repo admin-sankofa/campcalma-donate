@@ -766,7 +766,7 @@ const translations = {
       },
       tier2: {
  price: '€20',
- tickets: '80 B���ɔl',
+ tickets: '80 Bɔɔl',
  description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
@@ -803,7 +803,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a w��anya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -882,7 +882,7 @@ const translations = {
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
         "🎥 Live/stream anɔpa & retreat previews",
-        "��� Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
+        "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
         "🗣️ Founder mfasoɔ: nsɛnkanee nkutoo 10‑min kɔ Daniel ho; link bɛba wuguu mu akyi; slots 3 da biara; first come first served"
       ],
       info_box: "Bisafoɔ Circle (membifo 500) na ɛyɛ Founders Club no. Akyiri no bɛyɛ 5,000 Gold — na Bisafo no benya ne hokwan soronko daa.",
@@ -1018,7 +1018,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọr���?',
-      a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a ch���kọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkw�� ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1114,7 +1114,7 @@ const translations = {
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
-        'Ọnụahịa nkịtị: €265/afọ',
+        'Ọn���ahịa nkịtị: €265/afọ',
         'Na koodu nkwado: €199/afọ',
         '20% (€39.80) na‑aga n’aka onye kpọr�� — €159.20 na‑anọ na NGO',
         'Maka ndị ọhụrụ mgbe 500 Founders juputara'
@@ -1264,7 +1264,7 @@ const nlTranslations = {
     milestone_0_299: '💙 Tot 299: Opbouwfase',
     milestone_300_349: '💚 300–349: Duurzaamheid behaald',
     milestone_350_449: '💛 350–449: Exclusieve toegang & event‑meldingen',
-    milestone_450_500: '💜 450+: Maandelijkse verlotingen (bijv. MacBook)',
+    milestone_450_500: '�� 450+: Maandelijkse verlotingen (bijv. MacBook)',
     status_building: 'Opstartfase: uitbouw van de NGO 💙',
     status_sustainability: 'Duurzaamheid behaald 💚',
     status_exclusive: 'Exclusieve toegang & event‑meldingen ✨',
@@ -1286,7 +1286,7 @@ const nlTranslations = {
     feature_safe_harbor: 'Veilige haven',
     feature_shared_learning: 'Samen leren',
     feature_monthly_raffles: 'Maandelijkse verlotingen',
-    background: '��Bisafo�� komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafoɔ Circle onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
+    background: '“Bisafo�� komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafoɔ Circle onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
     exclusivity: 'De eerste 500 leden vormen de Bisafoɔ Circle (Founders). Founder‑status blijft zolang je lid bent; als je stopt, komt je plek vrij. Daarna groeit de community tot 5.000 Gold‑leden.',
     pricing: 'Founder: €99/jaar met invitecode (i.p.v. €132). Gold: €199/jaar met invitecode (i.p.v. €265). 20% commissie voor de werver.',
     sustainability: 'Deze 500 borgen de duurzaamheid van de NGO en ontgrendelen maandelijkse verlotingen vanaf 450 leden.',
@@ -1437,7 +1437,7 @@ const frTranslations = {
   faq: {
     heading: 'Foire aux questions',
     q1: 'Comment fonctionne la tombola ?',
-    a1: 'Pour chaque don, vous recevez un nombre de billets en fonction du niveau choisi. À la fin de la campagne, un gagnant est tir�� au sort parmi tous les billets émis. Les prix sont débloqués selon le total collecté.',
+    a1: 'Pour chaque don, vous recevez un nombre de billets en fonction du niveau choisi. À la fin de la campagne, un gagnant est tiré au sort parmi tous les billets émis. Les prix sont débloqués selon le total collecté.',
     q2: 'Mon don est‑il sécurisé ?',
     a2: 'Oui, tous les paiements sont traités de manière sécurisée via Stripe. Nous ne stockons aucune information de paiement sur nos serveurs.',
     q3: 'Quand le gagnant sera‑t‑il annoncé ?',
@@ -1534,7 +1534,7 @@ const frTranslations = {
     gold_title: 'Adhésion Gold (membres 501–5 000)',
     gold_list: [
       'Prix normal : 265 €/an',
-      'Avec code d’invitation : 199 €/an',
+      'Avec code d���invitation : 199 €/an',
       'Commission de 20 % (39,80 €) pour le parrain — 159,20 € restent à l’ONG',
       'Pour tous les nouveaux membres après les 500 Founders'
     ],
@@ -1575,7 +1575,7 @@ const safeHarborTranslations = {
     features: [
       { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
       { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
-      { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
+      { icon: '🎁', title: 'Head��Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
       { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
     ],
     p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
@@ -1680,7 +1680,7 @@ const safeHarborTranslations = {
     features: [
       { icon: '🌊', title: 'Gịnị & ��hụh���', text: 'Ụzọ ezi na dijital�� maka mmụta, obodo na onwe‑onwe.' },
       { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
-      { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’ak���kụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
+      { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
       { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
     ],
     p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwasị obi.',
@@ -1690,7 +1690,7 @@ const safeHarborTranslations = {
     bullets: [
       'Echiche & Omume: “Safe Harbor” na‑enye okpokoro na ihe kpatara; Bisafoɔ Circle na‑eme ka ọ bụrụ ihe a na‑ahụ anya — ndị otu na���kọọ ọrụ ọnụ.',
       'Ego & Nsonye: Akoma 2025 jikọtara ogo nkwado (dịka Gold) na mmemme Bisafo ma nye ohere mbido pụrụ iche (ala, campervan). Onyinye ọ bụla na‑ewu ebe ọdụ a.',
-      'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’��rụ.',
+      'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
       'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
     ],
     rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ��nụ ma jikọta ha nke ọma.'
@@ -1859,7 +1859,7 @@ const afroVillageTranslations = {
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
-    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
+    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụr���ngwa & Omenala','🟣 Sankofa Village zuru oke'],
     cta: 'Kwado ugbu a',
     unlockedLabel: 'Emeghe',
     lockedLabel: 'Emechiri',
@@ -3484,7 +3484,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
         { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
         { amount: 250000, name: 'Das Herzstück', outcome: '3 Mobilheime fertig, erste Übernachtungen möglich', icon: '🧡🛏️' },
-        { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡��' },
+        { amount: 500000, name: 'Das halbe Dorf', outcome: '5 Mobilheime, Energie‑/Wasserzentrum, PV + Speicher', icon: '⚡💧' },
         { amount: 750000, name: 'Kultur & Expansion', outcome: 'AfroBeats Stage, Creative Hub, Retreat Space', icon: '🥁🎭' },
         { amount: 1000000, name: 'Sankofa Village vollendet', outcome: '10 autarke Mobilheime im Sankofa/Camp‑Calma‑Design', icon: '🏡✨' },
       ],
@@ -3520,7 +3520,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so�� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛs�� sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so�� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
