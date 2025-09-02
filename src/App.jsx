@@ -429,7 +429,7 @@ const translations = {
       benefit_4: "🎥 Conteúdo exclusivo, atualizações & eventos ao vivo",
       benefit_5: "📝 Menção nominal como apoiador fundador",
       benefit_6: "🔗 Código pessoal de recomendação para amigos",
-      benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 horários/dia; link de marcação após adesão; por ordem de chegada)",
+      benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 hor��rios/dia; link de marcação após adesão; por ordem de chegada)",
       cta_button: "Tornar‑me Membro"
     },
     bisafo_about: {
@@ -807,7 +807,7 @@ const translations = {
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
- a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔɔl no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
+ a3: 'Wɔbɛyi obi a wanya bɔɔl no na wɔaka ne din kyerɛ obiara wɔ Ɔsanaa 31, 2025, bere tiaa bi a wɔbɛgye bɔ��l no totoo no akyi. Wɔbɛde email abɔ ne amaneɛ.',
  q4: 'Metumi akɔ mu kwa anaa?',
  a4: 'Yoo, akwan foforɔ wɔ hɔ a wobɛfa so akɔ mu (AMOE). Y��srɛ wo hwɛ "Kɔ Mu Kwa" dwumadie a ɛwɔ aseɛ hɔ no mu na hwɛ kwan a wobɛfa so akɔ mu a wode sika mma biara.',
     },
@@ -1017,10 +1017,10 @@ const translations = {
     },
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
-      q1: 'Olee otú mgbasa si arụ ọr���?',
-      a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
+      q1: 'Olee otú mgbasa si arụ ọrụ?',
+      a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkw�� ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
+      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n���ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1668,7 +1668,7 @@ const safeHarborTranslations = {
     listTitle: 'Nkitahodie ne Nhyɛe',
     bullets: [
       'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan bɛka mu.',
-      'Sika & Apɔw: Akoma 2025 de akɛseɛ‑akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
+      'Sika & Apɔw: Akoma 2025 de akɛseɛ‑ak��se (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
       'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
       'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
     ],
@@ -1838,7 +1838,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Abue',
     lockedLabel: 'Esi so',
     milestones: [
-      { amount: 10000, name: 'Fapem', outcome: 'Nhyehyɛe, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
+      { amount: 10000, name: 'Fapem', outcome: 'Nhyehy��e, nneɛma a ɛho hia (nsuo/soɛ), fi‑asase permaculture design', icon: '🧱📐' },
       { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
       { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
@@ -3583,7 +3583,7 @@ const AfroVillageProgress = ({ language, t }) => {
 
   const segments = [
     { start: 0, end: 100000, colorClass: 'brand-blue-bg', label: 'Planung & Start' },
-    { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste Häuser' },
+    { start: 100000, end: 250000, colorClass: 'brand-green-bg', label: 'Aufbau & erste H��user' },
     { start: 250000, end: 500000, colorClass: 'brand-yellow-bg', label: 'Infrastruktur & Kultur' },
     { start: 500000, end: 1000000, colorClass: 'brand-purple-bg', label: 'Sankofa Village vollendet' },
   ];
