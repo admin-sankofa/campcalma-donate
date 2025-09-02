@@ -309,7 +309,7 @@ const translations = {
       article_cta: 'Ler o artigo',
       changemakers_label: 'Changemakers 2024 — Social Impact & OUTO',
       outo_cta: 'Abrir programa OUTO',
-      social_impact_cta: 'Abrir p��gina da Social Impact'
+      social_impact_cta: 'Abrir página da Social Impact'
     },
     founder: {
       heading: 'Fundador — Daniel Lateef Duroshola',
@@ -635,7 +635,7 @@ const translations = {
       milestone_450_500: "💜 450+: Monatliche Gewinnspiele (z. B. MacBook)",
       status_building: "Startphase: Aufbau der NGO 💙",
       status_sustainability: "Nachhaltigkeit erreicht 💚",
-      status_exclusive: "Exklusiver Zugang & Event‑Benachrichtigungen ��",
+      status_exclusive: "Exklusiver Zugang & Event‑Benachrichtigungen ✨",
       status_raffles: "Monatliche Gewinnspiele freigeschaltet 🎁",
       benefits_heading: "Deine Vorteile als Bisafo‑Mitglied",
       benefit_1: "✅ 50 % Rabatt auf Camp‑Calma‑Aufenthalte (Founder), 30 % für Gold",
@@ -869,7 +869,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi mu �� ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
+      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
       exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafoɔ Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
       pricing: "Founder: €99/afe kɔ wɔ invite code (ɛsɛ €132). Gold: €199/afe kɔ wɔ invite code (ɛsɛ €265). 20% kɔ ma nea ɔde wo baa mu.",
       sustainability: "Membifo 500 no na wɔma NGO no tena pintinn na bɔɔl a ɛkɔ so fi nnipa 450 reba abue.",
@@ -1094,7 +1094,7 @@ const translations = {
         '🌱 50% na ibi na Camp Calma (Founder), 30% maka Gold',
         '🏡 Nhọrọ mbụ n’ọrụ ala & mobile‑home (dịka Afro Village)',
         '🎁 Mgbasa pụrụ iche (kwa ọnwa site na 450 ndị otu)',
-        '📚 Akụrụngwa dijitalụ (permaculture, nri, yoga, ihe mmụta)',
+        '📚 Akụr��ngwa dijitalụ (permaculture, nri, yoga, ihe mmụta)',
         '🗳️ Nsonye n’ime mkpebi — workshops, events & projects',
         '🎥 Live/stream events & retreat previews',
         '📝 Aha depụtara dịka ndị kwadoro guzobere',
@@ -1481,7 +1481,7 @@ const frTranslations = {
     milestone_0_299: '💙 Jusqu’à 299 : Phase de construction',
     milestone_300_349: '💚 300–349 : Durabilité atteinte',
     milestone_350_449: '💛 350–449 : Accès exclusif & notifications',
-    milestone_450_500: '💜 450+ : Tombolas mensuelles (ex. MacBook)',
+    milestone_450_500: '�� 450+ : Tombolas mensuelles (ex. MacBook)',
     status_building: 'Phase de construction : Développement de l’ONG 💙',
     status_sustainability: 'Durabilité atteinte 💚',
     status_exclusive: 'Accès exclusif & notifications ✨',
@@ -1573,7 +1573,7 @@ const safeHarborTranslations = {
     heading: 'The Safe Harbor Initiative and Project Akoma 2025',
     sub: 'A movement for resilience and autonomy',
     features: [
-      { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self���reliance.' },
+      { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
       { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
       { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
       { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
@@ -1648,7 +1648,7 @@ const safeHarborTranslations = {
     bullets: [
       'Visão & Prática: “Porto Seguro” define o quadro e o porquê; o Bisafoɔ Circle torna‑o palpável — membros co‑criam ativamente o porto.',
       'Financiamento & Participação: Akoma 2025 liga níveis de apoio (ex.: Gold) à adesão Bisafo e oferece chances exclusivas de arrancada (terreno, autocaravana). Cada contribuição constrói o porto.',
-      'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunit��rios e encontros presenciais em Portugal — a prática do porto.',
+      'Valores Vividos: Acesso a workshops, retiros, cursos digitais, eventos comunitários e encontros presenciais em Portugal — a prática do porto.',
       'Papel da ONG Sankofa: Codeterminação no Bisafo�� Circle e orientação no narrativo global; a meta dos 500 membros assegura sustentabilidade a longo prazo.'
     ],
     rec: 'Recomendação: Apresentar os dois conceitos de forma conjunta e interligada no site.'
@@ -1693,7 +1693,7 @@ const safeHarborTranslations = {
       'Uche Ndụ: Ọnụ ụzọ na ogbako, retreats, kọọsị dijitalụ, ihe obodo na nzute ihu n’ihu na Portugal — ọdụ ahụ n’ọrụ.',
       'Ọrụ Sankofa NGO: Nsonye na mkpebi n’ime Bisafoɔ Circle na nlekọta n’akụkọ ukwu; ebumnuche ndị otu 500 na‑echekwa ịdịgide ogologo oge.'
     ],
-    rec: 'Ndụmọdụ websaịtị: Gosipụta echiche ab���ọ ahụ ��nụ ma jikọta ha nke ọma.'
+    rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ��nụ ma jikọta ha nke ọma.'
   },
   fr: {
     heading: 'L’initiative Safe Harbor et le projet Akoma 2025',
@@ -2314,7 +2314,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Visie & praktijk: “Safe Harbor” biedt het kader en het waarom; de Bisafoɔ Circle maakt het tastbaar — leden co‑creëren de haven actief.',
         'Financiering & participatie: Akoma 2025 verbindt steunniveaus (bijv. Gold) met Bisafo‑lidmaatschap en biedt exclusieve startkansen (grond, campervan). Elke bijdrage bouwt mee.',
         'Geleefde waarden: Toegang tot workshops, retreats, digitale cursussen, community‑evenementen en ontmoetingen in Portugal — de haven in de praktijk.',
-        'Rol van de Sankofa‑NGO: Medezeggenschap binnen de Bisafoɔ Circle en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
+        'Rol van de Sankofa���NGO: Medezeggenschap binnen de Bisafoɔ Circle en stewardship in het geheel; het doel van 500 leden borgt lange‑termijn duurzaamheid.'
       ],
       rec: 'Website‑advies: Toon beide concepten samen in één samenhangende sectie en verweef ze waar passend.'
     },
@@ -2356,7 +2356,7 @@ const SafeHarborSection = ({ t, language }) => {
         'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b����� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
         'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
-        'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
+        'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyer��kwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
       rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
     },
@@ -3473,7 +3473,7 @@ const AfroVillageProgress = ({ language, t }) => {
         '🔵 Planung & Start',
         '🟢 Aufbau & erste Häuser',
         '🟡 Infrastruktur & Kultur',
-        '�� Sankofa Village vollendet',
+        '🟣 Sankofa Village vollendet',
       ],
       cta: 'Jetzt unterstützen',
       unlockedLabel: 'Freigeschaltet',
