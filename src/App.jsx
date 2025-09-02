@@ -666,7 +666,7 @@ const translations = {
         "🎁 Exklusive Gewinnspiele (monatlich ab 450 Mitgliedern)",
         "📚 Digitale Ressourcen (Permakultur, Rezepte, Yoga, Lernmaterialien)",
         "🗳️ Mitbestimmung bei Workshops, Events & Projekten",
-        "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
+        "🎥 Exklusive Live/Stream‑Events & Retreat��Previews",
         "📝 Namentliche Nennung als Gründungsunterstützer",
         "🗣️ Founder‑Vorteil: 10‑min privates Kennenlern‑Gespräch mit Daniel; Buchungslink nach Beitritt; 3 Slots/Tag; first come, first served"
       ],
@@ -803,7 +803,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔb��yi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -1033,7 +1033,7 @@ const translations = {
       modal_subheading: 'Biko juo fọm a nke ọma ka i nwetaghachi otu (1) tiketi mgbasa.',
       name: 'Aha zuru ezu',
       email: 'Adreesị email',
-      address: 'Adreesị ozi��ozi zuru ezu',
+      address: 'Adreesị ozi‑ozi zuru ezu',
       statement: 'Okwu nbanye',
       statement_placeholder: 'Biko dee okwu mkpirikpi na-egosi mmasị eziokwu gị isonye na mgbasa Camp Calma.',
       submit: 'Zipu nbanye n��efu',
@@ -1528,12 +1528,12 @@ const frTranslations = {
       'Le statut Founder demeure uniquement tant que vous êtes membre',
       'En cas de départ, votre place se libère pour une nouvelle personne',
     'Avantage Founder : appel privé de 10 minutes avec Daniel.',
-    'Planification : trois créneaux de 10 minutes par jour ; attribution par ordre d’arrivée (first‑come, first��served).',
+    'Planification : trois créneaux de 10 minutes par jour ; attribution par ordre d’arrivée (first‑come, first‑served).',
     'Après adhésion, vous recevez le lien pour réserver votre appel de présentation.'
     ],
     gold_title: 'Adhésion Gold (membres 501–5 000)',
     gold_list: [
-      'Prix normal : 265 €/an',
+      'Prix normal : 265 ��/an',
       'Avec code d’invitation : 199 €/an',
       'Commission de 20 % (39,80 €) pour le parrain — 159,20 € restent à l’ONG',
       'Pour tous les nouveaux membres après les 500 Founders'
@@ -1859,7 +1859,7 @@ const afroVillageTranslations = {
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
-    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
+    legend: ['🔵 Nhazi & Mmalite','��� Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
     cta: 'Kwado ugbu a',
     unlockedLabel: 'Emeghe',
     lockedLabel: 'Emechiri',
@@ -1890,7 +1890,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Débloqué',
     lockedLabel: 'Verrouillé',
     milestones: [
-      { amount: 10000, name: 'Les fondations', outcome: 'Planification, infrastructures de base (eau/énergie), début du design en permaculture', icon: '🧱���' },
+      { amount: 10000, name: 'Les fondations', outcome: 'Planification, infrastructures de base (eau/énergie), début du design en permaculture', icon: '🧱📐' },
       { amount: 25000, name: 'La première maison', outcome: 'Première maison mobile autonome (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cuisine communautaire', outcome: 'Cuisine partagée + cuisson solaire ; démarrage de la forêt nourricière', icon: '🍲☀️' },
       { amount: 100000, name: 'Éducation & rencontres', outcome: 'Learning Dome (ateliers, musique, apprentissage numérique)', icon: '🎓🎶' },
@@ -2327,7 +2327,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
         { icon: '🤝', title: 'Vive‑se no Bisafoɔ Circle', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
       ],
-      p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência �� sobretudo em tempos incertos.',
+      p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
       p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
@@ -3520,7 +3520,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so��� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so�� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
