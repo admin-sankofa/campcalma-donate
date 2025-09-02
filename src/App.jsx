@@ -881,7 +881,7 @@ const translations = {
         "🎁 Bɔɔl a ɛyɛ soronko (bosome biara firi nnipa 450)",
         "📚 Dijital nsɛmma (permaculture, nnuan, yoga, adekyerɛ)",
         "🗳️ Dwumadi ho abakɔsɛm — workshops, events & projects",
-        "🎥 Live/stream an��pa & retreat previews",
+        "🎥 Live/stream an����pa & retreat previews",
         "📝 Wo din bɛda hɔ sɛ adwumayɛfo a moeɛdi kan",
         "🗣️ Founder mfasoɔ: nsɛnkanee nkutoo 10‑min kɔ Daniel ho; link bɛba wuguu mu akyi; slots 3 da biara; first come first served"
       ],
@@ -945,7 +945,7 @@ const translations = {
     },
     african_campers: {
       heading: '���gbọ njem mepụtara site n\'akp���kpọ Afrịka – Echiche anyị',
-      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ọrụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
+      text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ���rụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
       heading: 'Na telivishọn na akwụkwọ akụkọ',
@@ -958,7 +958,7 @@ const translations = {
     },
     founder: {
       heading: 'Onye guzobere — Daniel Lateef Duroshola',
-      subheading: 'Nkeji mkpirikpi n’��bọchị kwa ụbọchị na Camp Calma — ntụkwasị obi na eziokwu.',
+      subheading: 'Nkeji mkpirikpi n’ụbọchị kwa ụbọchị na Camp Calma — ntụkwasị obi na eziokwu.',
       instagram_cta: 'Mepee Instagram'
     },
     description: {
@@ -1017,7 +1017,7 @@ const translations = {
     },
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
-      q1: 'Olee otú mgbasa si arụ ọrụ?',
+      q1: 'Olee otú mgbasa si arụ ọr���?',
       a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkw�� ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
@@ -1109,7 +1109,7 @@ const translations = {
         'Status Founder d�� naanị mgbe ị nọ n’ọgbakọ',
         'Ọ bụrụ na ị pụọ, ebe ahụ ga‑emepe maka onye ọhụrụ',
         'Uru Founder: oku nzuzo nkeji 10 na Daniel maka mmalite na izute onwe.',
-        'Ndokwa oge: slots atọ nke nkeji 10 kwa ụbọchị; enyere dika onye rutere mbụ.',
+        'Ndokwa oge: slots atọ nke nkeji 10 kwa ���bọchị; enyere dika onye rutere mbụ.',
         'Mgbe ị sonyere, ị ga‑enweta njikọ iji debe oge maka oku mmalite gị.'
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
@@ -1286,7 +1286,7 @@ const nlTranslations = {
     feature_safe_harbor: 'Veilige haven',
     feature_shared_learning: 'Samen leren',
     feature_monthly_raffles: 'Maandelijkse verlotingen',
-    background: '“Bisafo” komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafoɔ Circle onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
+    background: '“Bisafo�� komt uit het Twi (Ghana) en betekent de zoekenden, lerenden en vragers. Bij Camp Calma is de Bisafoɔ Circle onze Founders Club — een netwerk van pioniers dat samen ontdekt en leert.',
     exclusivity: 'De eerste 500 leden vormen de Bisafoɔ Circle (Founders). Founder‑status blijft zolang je lid bent; als je stopt, komt je plek vrij. Daarna groeit de community tot 5.000 Gold‑leden.',
     pricing: 'Founder: €99/jaar met invitecode (i.p.v. €132). Gold: €199/jaar met invitecode (i.p.v. €265). 20% commissie voor de werver.',
     sustainability: 'Deze 500 borgen de duurzaamheid van de NGO en ontgrendelen maandelijkse verlotingen vanaf 450 leden.',
