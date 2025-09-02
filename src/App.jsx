@@ -726,7 +726,7 @@ const translations = {
     victron: {
       heading: 'Victron Energy Dashboard',
       subheading: 'Hunu yɛn sɔla tumi wɔ bere tenten mu seesei.',
-      open_fullscreen: 'Bue wɔ kɛse so na k�� dashboard kɛse a ɛma nsɛm bebree'
+      open_fullscreen: 'Bue wɔ kɛse so na kɔ dashboard kɛse a ɛma nsɛm bebree'
     },
     african_campers: {
       heading: 'Afrika‑nsusuwii Camper – Yɛn Adwene',
@@ -803,7 +803,7 @@ const translations = {
     faq: {
  heading: 'Nsɛm A Wobisa No Mpɛn Pii',
  q1: 'Bɔɔl no yɛ adwuma sɛn?',
- a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔbɛyi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
+ a1: 'Mmɔhoɔ biara a wobɛma no, wobɛnya bɔɔl akyɛdeɛ a ɛgyina sika dodoɔ a woayi no so. Sɛ adwuma no ba awiei a, wɔb��yi obiara a wanya bɔɔl no mu baako mpofirim. Wɔde sika a wɔanya nyinaa na ��kyerɛ akyɛdeɛ a wobɛnya.',
  q2: 'M’mmɔhoɔ no yɛ tẽẽ anaa?',
  a2: 'Yoo, wɔde Stripe na ɛyɛ sika ho nsɛm nyinaa yie. Yɛnnfa wo sika ho nsɛm nkora yɛn mfiri so.',
  q3: 'Da bɛn na wɔbɛka obi a wanya bɔɔl no din?',
@@ -944,7 +944,7 @@ const translations = {
       open_fullscreen: 'Mepee ihuenyo dum maka dashboard zuru ezu'
     },
     african_campers: {
-      heading: '���gbọ njem mepụtara site n\'akp���kpọ Afrịka – Echiche anyị',
+      heading: 'Ụgbọ njem mepụtara site n\'akpụkpọ Afrịka – Echiche anyị',
       text: 'Na Camp Calma na Sankofa Living & Learning, ọtụtụ echiche na oru jikọtara ọmụma, omenala na nd��� na-adigide. Daniel na-eweta ahụmịhe site n\'uwa caravan, ndụ n\'enweghị grid na ���rụ ya gara aga dịka onye njikwa ogo na ụlọ ọrụ ụgbọ ala. Site na nke a, e bidoro echiche ịmepụta caravans kpaliri Afrịka — a na-emepụta ya na Ghana, ebufere ụwa niile, ma kpalie ndị mmadụ ịga Ghana maka njem na njem nleta. Ebumnuche a kwe omume, mana ọ bụ naanị site n\'ịrụkọ ọrụ ọnụ: anyị chọrọ ndị na-etinye aka ma ọ bụ onyinye ka Sankofa Living & Learning nwee ike imezu ọrụ ndú a.'
     },
     press: {
@@ -1265,7 +1265,7 @@ const nlTranslations = {
     milestone_300_349: '💚 300–349: Duurzaamheid behaald',
     milestone_350_449: '💛 350–449: Exclusieve toegang & event‑meldingen',
     milestone_450_500: '💜 450+: Maandelijkse verlotingen (bijv. MacBook)',
-    status_building: 'Opstartfase: uitbouw van de NGO ��',
+    status_building: 'Opstartfase: uitbouw van de NGO 💙',
     status_sustainability: 'Duurzaamheid behaald 💚',
     status_exclusive: 'Exclusieve toegang & event‑meldingen ✨',
     status_raffles: 'Maandelijkse verlotingen ontgrendeld 🎁',
@@ -1528,7 +1528,7 @@ const frTranslations = {
       'Le statut Founder demeure uniquement tant que vous êtes membre',
       'En cas de départ, votre place se libère pour une nouvelle personne',
     'Avantage Founder : appel privé de 10 minutes avec Daniel.',
-    'Planification : trois créneaux de 10 minutes par jour ; attribution par ordre d’arrivée (first‑come, first‑served).',
+    'Planification : trois créneaux de 10 minutes par jour ; attribution par ordre d’arrivée (first‑come, first��served).',
     'Après adhésion, vous recevez le lien pour réserver votre appel de présentation.'
     ],
     gold_title: 'Adhésion Gold (membres 501–5 000)',
@@ -1681,7 +1681,7 @@ const safeHarborTranslations = {
       { icon: '🌊', title: 'Gịnị & ��hụh���', text: 'Ụzọ ezi na dijital�� maka mmụta, obodo na onwe‑onwe.' },
       { icon: '⚡', title: 'Akoma 2025: Ngwagharị', text: 'Ego na‑eme ka mmetụta na‑aga ngwa — ọ bụghị lotiri.' },
       { icon: '🎁', title: 'Oge mbido', text: 'Oge mmeri n’akụkụ ihe di n’aka dị ka ala ma ọ bụ campervan.' },
-      { icon: '🤝', title: 'Na‑ebi site n’Bisafo�� Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
+      { icon: '🤝', title: 'Na‑ebi site n’Bisafoɔ Circle', text: 'Ogbugba ọrụ, retreats, kọọsị na ihe obodo na Portugal.' }
     ],
     p1: 'Nkwekọrịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — karịchaa n’oge enwegh��� ntụkwasị obi.',
     p2: 'Akoma 2025 na‑agbanwe ịnakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na‑agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
@@ -1696,7 +1696,7 @@ const safeHarborTranslations = {
     rec: 'Ndụmọdụ websaịtị: Gosipụta echiche abụọ ahụ ��nụ ma jikọta ha nke ọma.'
   },
   fr: {
-    heading: 'L���initiative Safe Harbor et le projet Akoma 2025',
+    heading: 'L’initiative Safe Harbor et le projet Akoma 2025',
     sub: 'Un mouvement pour la résilience et l’autonomie',
     features: [
       { icon: '🌊', title: 'Pourquoi & Vision', text: 'Un port réel et numérique d’apprentissage, de communauté et d’autonomie.' },
@@ -1790,7 +1790,7 @@ const afroVillageTranslations = {
       { amount: 25000, name: 'A Primeira Casa', outcome: 'Primeira casa móvel autossuficiente (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cozinha Comunitária', outcome: 'Cozinha partilhada + cozinha solar; início da floresta alimentar', icon: '🍲☀️' },
       { amount: 100000, name: 'Educação & Encontros', outcome: 'Domo de Aprendizagem (workshops, música, educação digital)', icon: '🎓🎶' },
-      { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏���' },
+      { amount: 250000, name: 'O Coração', outcome: '3 casas móveis concluídas; primeiras estadias possíveis', icon: '🧡🛏️' },
       { amount: 500000, name: 'Meia Aldeia', outcome: '5 casas móveis, centro de energia/água, PV + armazenamento', icon: '⚡💧' },
       { amount: 750000, name: 'Cultura & Expansão', outcome: 'Palco AfroBeats, Creative Hub, espaço de retiro', icon: '🥁🎭' },
       { amount: 1000000, name: 'Sankofa Village Concluída', outcome: '10 casas móveis autônomas em design Sankofa/Camp‑Calma', icon: '🏡✨' }
@@ -1890,7 +1890,7 @@ const afroVillageTranslations = {
     unlockedLabel: 'Débloqué',
     lockedLabel: 'Verrouillé',
     milestones: [
-      { amount: 10000, name: 'Les fondations', outcome: 'Planification, infrastructures de base (eau/énergie), début du design en permaculture', icon: '🧱📐' },
+      { amount: 10000, name: 'Les fondations', outcome: 'Planification, infrastructures de base (eau/énergie), début du design en permaculture', icon: '🧱���' },
       { amount: 25000, name: 'La première maison', outcome: 'Première maison mobile autonome (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Cuisine communautaire', outcome: 'Cuisine partagée + cuisson solaire ; démarrage de la forêt nourricière', icon: '🍲☀️' },
       { amount: 100000, name: 'Éducation & rencontres', outcome: 'Learning Dome (ateliers, musique, apprentissage numérique)', icon: '🎓🎶' },
@@ -2327,7 +2327,7 @@ const SafeHarborSection = ({ t, language }) => {
         { icon: '🎁', title: 'Arrancada', text: 'Chances de ganhar ativos tangíveis como terreno ou autocaravana.' },
         { icon: '🤝', title: 'Vive‑se no Bisafoɔ Circle', text: 'Workshops, retiros, cursos e eventos comunitários em Portugal.' }
       ],
-      p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência — sobretudo em tempos incertos.',
+      p1: 'Uma promessa partilhada: um porto real e digital onde aprendemos, criamos comunidade e praticamos autossuficiência �� sobretudo em tempos incertos.',
       p2: 'Akoma 2025 transforma a angariação em impulso: aceleramos impacto, fortalecemos a ação e abrimos oportunidades de arrancada que sustentam a construção.',
       p3: 'Inclui ainda uma opção concreta de arrancada para apoiantes — chances de ganhar ativos tangíveis (ex.: terreno ou autocaravana) que aceleram a construção.',
       listTitle: 'Ligações e Interfaces',
@@ -3520,7 +3520,7 @@ const AfroVillageProgress = ({ language, t }) => {
         { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo‑ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' },
       ],
       story: [
-        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so�� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
+        'Wo‑ara‑wo‑ho adwuma kyerɛ gyinabere ampa: nsuo, so��� ne aduan wɔ baabi koro. Sankofa Village kyerɛ kwan a ɛsɛ sɛ yɛte mu daadaa.',
         'Kurom ne akoma: yɛsi beae a ɛma nhyiam, nnwom ne amammerɛ — baabi a nnipa hwɛ wɔn ho so.',
         'Sɛ y��sua a, yɛde ho: workshops, dijital sukuu ne adwuma‑bom ma akyɛde a ɛkyɛ — ɛnnɛ ne ɔkyena.'
       ]
