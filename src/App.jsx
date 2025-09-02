@@ -797,7 +797,7 @@ const translations = {
     },
     prizes: {
  heading: 'Nhwɛɛmu Pa Akyɛdeɛ No Ho',
- subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛde�� nyinaa yɛ foforɔ.',
+ subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛdeɛ nyinaa yɛ foforɔ.',
  grand_prize: 'Akyɛdeɛ Kɛseɛ',
     },
     faq: {
@@ -1018,7 +1018,7 @@ const translations = {
     faq: {
       heading: 'Ajụjụ a na-ajụkarị',
       q1: 'Olee otú mgbasa si arụ ọr���?',
-      a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a ch���kọtara.',
+      a1: 'Maka onyinye ọ bụla, �� na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụs���rị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
       a2: 'Ee, a na-achịkwa ịkw�� ��gwọ niile site na Stripe nke ọma. Anyi anaghị echekwa ozi ịkwụ ụgwọ g�� n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
@@ -1114,7 +1114,7 @@ const translations = {
       ],
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
-        'Ọn���ahịa nkịtị: €265/afọ',
+        'Ọnụahịa nkịtị: €265/afọ',
         'Na koodu nkwado: €199/afọ',
         '20% (€39.80) na‑aga n’aka onye kpọr�� — €159.20 na‑anọ na NGO',
         'Maka ndị ọhụrụ mgbe 500 Founders juputara'
@@ -1187,7 +1187,7 @@ const nlTranslations = {
     photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur',
     photo4_caption: 'Daniel toen hij zich vestigde op het terrein in 2022',
     photo5_caption: 'Camp Calma in 2022',
-    photo6_caption: '2022 – Eerste tijdelijke opbouw en onze nieuwe waterput'
+    photo6_caption: '2022 �� Eerste tijdelijke opbouw en onze nieuwe waterput'
   },
   donate: {
     heading: 'Kies je steunniveau',
@@ -1264,7 +1264,7 @@ const nlTranslations = {
     milestone_0_299: '💙 Tot 299: Opbouwfase',
     milestone_300_349: '💚 300–349: Duurzaamheid behaald',
     milestone_350_449: '💛 350–449: Exclusieve toegang & event‑meldingen',
-    milestone_450_500: '�� 450+: Maandelijkse verlotingen (bijv. MacBook)',
+    milestone_450_500: '💜 450+: Maandelijkse verlotingen (bijv. MacBook)',
     status_building: 'Opstartfase: uitbouw van de NGO 💙',
     status_sustainability: 'Duurzaamheid behaald 💚',
     status_exclusive: 'Exclusieve toegang & event‑meldingen ✨',
@@ -1479,7 +1479,7 @@ const frTranslations = {
     raffle_label: 'Tombola',
     capacity_label: 'Capacité atteinte',
     milestone_0_299: '💙 Jusqu’à 299 : Phase de construction',
-    milestone_300_349: '💚 300–349 : Durabilité atteinte',
+    milestone_300_349: '💚 300���349 : Durabilité atteinte',
     milestone_350_449: '💛 350–449 : Accès exclusif & notifications',
     milestone_450_500: '💜 450+ : Tombolas mensuelles (ex. MacBook)',
     status_building: 'Phase de construction : Développement de l’ONG 💙',
@@ -1534,7 +1534,7 @@ const frTranslations = {
     gold_title: 'Adhésion Gold (membres 501–5 000)',
     gold_list: [
       'Prix normal : 265 €/an',
-      'Avec code d���invitation : 199 €/an',
+      'Avec code d’invitation : 199 €/an',
       'Commission de 20 % (39,80 €) pour le parrain — 159,20 € restent à l’ONG',
       'Pour tous les nouveaux membres après les 500 Founders'
     ],
@@ -1575,7 +1575,7 @@ const safeHarborTranslations = {
     features: [
       { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
       { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
-      { icon: '🎁', title: 'Head��Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
+      { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
       { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
     ],
     p1: 'A shared promise: a real and digital harbor where we learn, build community and practice self‑reliance — especially when times are uncertain.',
@@ -1725,7 +1725,7 @@ for (const [lang, data] of Object.entries(safeHarborTranslations)) {
 const afroVillageTranslations = {
   en: {
     title: 'Sankofa Village – A Village of Self‑Sufficiency',
-    subtitle: 'Step by step we build a village that lives learning, community and self���reliance. Every contribution builds with us.',
+    subtitle: 'Step by step we build a village that lives learning, community and self����reliance. Every contribution builds with us.',
     storyTitle: 'Why Sankofa Village (Sankofa)',
     currentLabel: 'Current Funding',
     goalLabel: 'Goal',
@@ -1859,7 +1859,7 @@ const afroVillageTranslations = {
     storyTitle: 'Gịnị mere Sankofa Village',
     currentLabel: 'Ego a chịkọtara',
     goalLabel: 'Ebumnuche',
-    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụr���ngwa & Omenala','🟣 Sankofa Village zuru oke'],
+    legend: ['🔵 Nhazi & Mmalite','🟢 Owuwu & Ụlọ mbụ','🟡 Akụrụngwa & Omenala','🟣 Sankofa Village zuru oke'],
     cta: 'Kwado ugbu a',
     unlockedLabel: 'Emeghe',
     lockedLabel: 'Emechiri',
@@ -2355,7 +2355,7 @@ const SafeHarborSection = ({ t, language }) => {
       bullets: [
         'Adwene & Dwumadie: Safe Harbor ma yɛhu asɛm no ase; Bisafoɔ Circle ma ɛyɛ ade a wotumi hu — membifo na wodi kan b����� mu.',
         'Sika & Apɔw: Akoma 2025 de akɛse���akɛse (te sɛ Gold) hyɛ Bisafo mu na ɛma mfitiaseɛ akyɛde (asase, campervan). Mo bɔ biara boa kuro no si.',
-        'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom‑afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
+        'Nkwa a wɔte mu: Workshops, retreats, dijital nsɛmma, kurom���afahyɛ ne Portugal mu nhyiam — Safe Harbor no wɔ adwumayɛ mu.',
         'Sankofa dwuma: Ɔtumi ka ho asɛm wɔ Bisafo mu na ɔkyerɛkwɛ adwuma no mu; botae a ɛyɛ 500 membifo ma NGO no gyina pintinn daa.'
       ],
       rec: 'Kyerɛ nkrata a abien no bom wɔ beae koro so, na mma wɔmmu wɔn ntam kyɛnkyɛn.'
@@ -2486,7 +2486,7 @@ const MilestoneTracker = ({ t }) => {
                 <div key={index} className={`p-4 rounded-lg transition-all duration-500 ${unlocked ? 'bg-green-100 shadow-md' : 'bg-gray-100'}`}>
                   <Award className={`mx-auto h-10 w-10 mb-2 ${unlocked ? 'text-green-500' : 'text-gray-400'}`} />
                   <p className="font-semibold text-gray-700">{milestone.prize}</p>
-                  <p className="text-sm text-gray-500">€{milestone.amount.toLocaleString()}</p>
+                  <p className="text-sm text-gray-500">���{milestone.amount.toLocaleString()}</p>
                   {unlocked && (
                     <p className="text-green-600 font-bold text-xs mt-2 animate-pulse">{t.milestones.unlocked}</p>
                   )}
