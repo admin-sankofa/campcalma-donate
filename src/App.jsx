@@ -667,7 +667,7 @@ const translations = {
         "📚 Digitale Ressourcen (Permakultur, Rezepte, Yoga, Lernmaterialien)",
         "🗳️ Mitbestimmung bei Workshops, Events & Projekten",
         "🎥 Exklusive Live/Stream‑Events & Retreat‑Previews",
-        "📝 Namentliche Nennung als Gründungsunterstützer",
+        "�� Namentliche Nennung als Gründungsunterstützer",
         "🗣️ Founder‑Vorteil: 10‑min privates Kennenlern‑Gespräch mit Daniel; Buchungslink nach Beitritt; 3 Slots/Tag; first come, first served"
       ],
       info_box: "Der Bisafoɔ Circle (500 Founder) bildet den Founders Club. Danach wächst die Community auf 5.000 Gold‑Mitglieder — der Bisafoɔ Circle behält seine besonderen Gründer‑Privilegien.",
@@ -994,7 +994,7 @@ const translations = {
     },
     milestones: {
       heading: 'Ebumnuche ego na onyinye',
-      subheading: 'Ka anyị na-eru ebumnuche, anyi na-emeghe onyinye ọzọ!',
+      subheading: 'Ka any�� na-eru ebumnuche, anyi na-emeghe onyinye ọzọ!',
       current_funding: 'Ego a chịkọtara',
       goal: 'Ebumnuche',
       prize1: 'DJI Mini 3 Pro Fly More Combo',
@@ -1600,7 +1600,7 @@ const safeHarborTranslations = {
       { icon: '🤝', title: 'Gelebt im Bisafoɔ Circle', text: 'Workshops, Retreats, Kurse und Community‑Events in Portugal.' }
     ],
     p1: 'In einer Zeit zunehmender Unsicherheit wächst das Bedürfnis nach Kontrolle, Resilienz und Eigenverantwortung. Der „Sichere Hafen“ ist unser Leuchtturm: ein physischer und digitaler Ort des Lernens, der Gemeinschaft und gelebter Autarkie – eine Brücke zu einem bewussteren, freien Leben.',
-    p2: 'Der Motor dahinter ist „Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe‑Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
+    p2: 'Der Motor dahinter ist ��Projekt Akoma 2025: Deine Starthilfe“. Keine Lotterie, sondern ein Beschleuniger: Wir befähigen Menschen, Sicherheit und Lebensqualität aktiv zu gestalten. Jeder Beitrag investiert in reale Werte und den Aufbau – mit einmaliger Starthilfe‑Chance auf greifbare Vermögenswerte (z. B. Grundstück, Campervan). „Akoma“ – das Herz – steht für Ausdauer, Wohlwollen und den gemeinsamen Ruf zur Transformation.',
     p3: 'Dazu gehört eine konkrete Starthilfe‑Option für Unterstützer:innen �� mit Chancen auf reale Werte wie Grundstück oder Campervan, die den Aufbau zusätzlich vorantreiben.',
     listTitle: 'Zusammenhänge und Schnittstellen',
     bullets: [
@@ -2371,7 +2371,7 @@ const SafeHarborSection = ({ t, language }) => {
       ],
       p1: 'Nkwek��rịta anyị: ebe ezi na dijitalụ ebe anyị na‑amụta, na‑ewu obodo ma na‑eme onwe‑onwe — kar��chaa n’oge enweghị nt��kwasị obi.',
       p2: 'Akoma 2025 na‑agbanwe ���nakọta ego ka ọ bụrụ ịrị elu: ọnụ anyị na���agbagharị mmetụta, na‑enye mmụọ ọrụ ma na‑emepe ohere mbido nke na‑akwalite owuwu.',
-      p3: 'Ndị na‑akwado nwere ike nweta nhọrọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
+      p3: 'Ndị na‑akwado nwere ike nweta nh��rọ mbido doro anya — ohere mmeri maka ihe di n’aka (dịka ala, campervan) na‑eme ka owuwu b��rụ ngwa ngwa.',
       listTitle: 'Njikọ na njikọ ọrụ',
       bullets: [
         'Echiche & Omume: “Safe Harbor” na-enye okpokoro na ihe kpatara; Bisafoɔ Circle na-eme ka ọ bụrụ ihe a na-ahụ anya — ndị otu na‑kọọ ọrụ ọnụ.',
@@ -3473,13 +3473,13 @@ const AfroVillageProgress = ({ language, t }) => {
         '🔵 Planung & Start',
         '🟢 Aufbau & erste Häuser',
         '🟡 Infrastruktur & Kultur',
-        '🟣 Sankofa Village vollendet',
+        '�� Sankofa Village vollendet',
       ],
       cta: 'Jetzt unterstützen',
       unlockedLabel: 'Freigeschaltet',
       lockedLabel: 'Gesperrt',
       milestones: [
-        { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis‑Infra (Wasser/Energie), Start Permakultur‑Design', icon: '��📐' },
+        { amount: 10000, name: 'Der Grundstein', outcome: 'Planung, Basis‑Infra (Wasser/Energie), Start Permakultur‑Design', icon: '🧱📐' },
         { amount: 25000, name: 'Das erste Heim', outcome: 'Erstes autarkes Mobilheim (Show‑Home)', icon: '🏠' },
         { amount: 50000, name: 'Community Kitchen', outcome: 'Gemeinschaftsküche + solar Kochen; Food‑Forest Start', icon: '🍲☀️' },
         { amount: 100000, name: 'Bildung & Begegnung', outcome: 'Learning Dome (Workshops, Musik, digitale Bildung)', icon: '🎓🎶' },
