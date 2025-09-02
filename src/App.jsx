@@ -428,7 +428,7 @@ const translations = {
       benefit_3: "🎁 Sorteios mensais a partir de 450 membros",
       benefit_4: "🎥 Conteúdo exclusivo, atualizações & eventos ao vivo",
       benefit_5: "📝 Menção nominal como apoiador fundador",
-      benefit_6: "�� Código pessoal de recomendação para amigos",
+      benefit_6: "🔗 Código pessoal de recomendação para amigos",
       benefit_7: "🗣️ Founder: chamada privada de 10 minutos com Daniel (3 horários/dia; link de marcação após adesão; por ordem de chegada)",
       cta_button: "Tornar‑me Membro"
     },
@@ -767,7 +767,7 @@ const translations = {
       tier2: {
  price: '€20',
  tickets: '80 B���ɔl',
- description: 'Yɛn deɛ nnipa pii pɛ! Bɔɔl mpɛn 4.',
+ description: 'Yɛn de�� nnipa pii pɛ! Bɔɔl mpɛn 4.',
  popular: 'ƆDƆ FOO',
       },
       tier3: {
@@ -869,7 +869,7 @@ const translations = {
       feature_safe_harbor: "Safe Harbor",
       feature_shared_learning: "Shared Learning",
       feature_monthly_raffles: "Monthly Raffles",
-      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle yɛ Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
+      background: "“Bisafo” firi Twi mu — ɛkyerɛ ɔhwehwɛfo, ɔsuafo ne onibisa. Wɔ Camp Calma mu, Bisafoɔ Circle y�� Founders Club — kuw a ɛhwehwɛ na ɛsua bom.",
       exclusivity: "Membifo 500 a edi kan na wɔyɛ Bisafoɔ Circle. Founder‑status da hɔ kosi sɛ wobɛgyae — sɛ wugyae a, deɛ w’akɔ so bɛma obi foforo. Akyiri no, kurom no bɛkɔ 5,000 Gold membifo.",
       pricing: "Founder: €99/afe kɔ wɔ invite code (ɛsɛ €132). Gold: €199/afe kɔ wɔ invite code (ɛsɛ €265). 20% kɔ ma nea ɔde wo baa mu.",
       sustainability: "Membifo 500 no na wɔma NGO no tena pintinn na bɔɔl a ɛkɔ so fi nnipa 450 reba abue.",
@@ -1181,7 +1181,7 @@ const nlTranslations = {
   },
   description: {
     heading: 'Over Camp Calma',
-    p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off‑grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
+    p1: 'Camp Calma is een project van Sankofa Living & Learning, een NGO die zich inzet voor regeneratieve woon- en leeromgevingen. Gelegen in het hart van Portugal wil Camp Calma een off��grid educatieve woonplek zijn en een toevluchtsoord voor gemeenschap, natuur en persoonlijke groei.',
     p2: 'Jouw bijdrage financiert direct de bouw van essentiële infrastructuur, onderwijsprogramma\'s en duurzame middelen. Door deel te nemen aan onze verloting krijg je niet alleen kans op geweldige prijzen — je helpt ook mee aan een fundament voor een betere toekomst. 🙏🏽',
     photo1_caption: 'Daniel met Nilua en een Nederlandse familie met kinderen uit de Afrikaanse diaspora',
     photo3_caption: 'Daniel en Nilua’s zoon maken een kampvuur',
@@ -1897,7 +1897,7 @@ const afroVillageTranslations = {
       { amount: 250000, name: 'Le cœur', outcome: '3 maisons mobiles terminées ; premiers séjours possibles', icon: '🧡🛏️' },
       { amount: 500000, name: 'La moitié du village', outcome: '5 maisons mobiles, centre énergie/eau, PV + stockage', icon: '⚡💧' },
       { amount: 750000, name: 'Culture & expansion', outcome: 'Scène AfroBeats, pôle créatif, espace de retraite', icon: '🥁🎭' },
-      { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '🏡✨' }
+      { amount: 1000000, name: 'Sankofa Village achevé', outcome: '10 maisons mobiles autonomes au design Sankofa/Camp‑Calma', icon: '����✨' }
     ],
     story: [
       'L’autonomie, c’est la vraie résilience : eau, énergie et nourriture sur place. Sankofa Village montre comment la vivre au quotidien.',
@@ -2259,7 +2259,7 @@ const SafeHarborSection = ({ t, language }) => {
       heading: 'The Safe Harbor Initiative and Project Akoma 2025',
       sub: 'A movement for resilience and autonomy',
       features: [
-        { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self‑reliance.' },
+        { icon: '🌊', title: 'Why & Vision', text: 'A real and digital harbor for learning, community and self��reliance.' },
         { icon: '⚡', title: 'Akoma 2025: The Accelerator', text: 'Funding that speeds up impact — not a lottery.' },
         { icon: '🎁', title: 'Head‑Start Chance', text: 'Chances to win tangible assets like land or a campervan.' },
         { icon: '🤝', title: 'Lived Through the Bisafoɔ Circle', text: 'Workshops, retreats, courses and community events in Portugal.' }
