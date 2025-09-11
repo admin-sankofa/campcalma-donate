@@ -797,7 +797,7 @@ const translations = {
     },
     prizes: {
  heading: 'Nhwɛɛmu Pa Akyɛdeɛ No Ho',
- subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo deɛ. Akyɛdeɛ nyinaa yɛ foforɔ.',
+ subheading: 'Nneɛma a ɛyɛ foforɔ betumi ayɛ wo de��. Akyɛdeɛ nyinaa yɛ foforɔ.',
  grand_prize: 'Akyɛdeɛ Kɛseɛ',
     },
     faq: {
@@ -958,7 +958,7 @@ const translations = {
     },
     founder: {
       heading: 'Onye guzobere — Daniel Lateef Duroshola',
-      subheading: 'Nkeji mkpirikpi n’ụbọchị kwa ụbọchị na Camp Calma — ntụkwasị obi na eziokwu.',
+      subheading: 'Nkeji mkpirikpi n’��bọchị kwa ụbọchị na Camp Calma — ntụkwasị obi na eziokwu.',
       instagram_cta: 'Mepee Instagram'
     },
     description: {
@@ -1020,7 +1020,7 @@ const translations = {
       q1: 'Olee otú mgbasa si arụ ọrụ?',
       a1: 'Maka onyinye ọ bụla, ị na-enweta nọmba tiketi dabere na ogo i họrọ. Mgbe mkpọsa gwụsịrị, a ga-adọta mmeri site n’itughari n’ime tiketi niile. A na-emeghe onyinye dabere na ego a chịkọtara.',
       q2: 'Onyinye m dị nchebe?',
-      a2: 'Ee, a na-achịkwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
+      a2: 'Ee, a na-ach���kwa ịkwụ ụgwọ niile site na Stripe nke ọma. Anyị anaghị echekwa ozi ịkwụ ụgwọ gị n’ọrụ anyị.',
       q3: 'Gịnị bụ mgbe a ga-akọwa onye mmeri?',
       a3: 'A ga-adọta onye mmeri ma kọọ ọkwa na Ọgọst 31, 2025, oge na-erughị anya mgbe countdown gwụsịrị. A ga-eziga email kụziere onye mmeri.',
       q4: 'Enwere m ike banye n\'efu?',
@@ -1115,7 +1115,7 @@ const translations = {
       gold_title: 'Mmembe Gold (501–5,000)',
       gold_list: [
         'Ọnụahịa nkịtị: €265/afọ',
-        'Na koodu nkwado: €199/afọ',
+        'Na koodu nkwado: €199/af���',
         '20% (€39.80) na‑aga n’aka onye kpọr�� — €159.20 na‑anọ na NGO',
         'Maka ndị ọhụrụ mgbe 500 Founders juputara'
       ],
@@ -1842,7 +1842,7 @@ const afroVillageTranslations = {
       { amount: 25000, name: 'Ofie a edi kan', outcome: 'Ofie a ɛyɛ wo‑ara‑wo‑ho adwuma (show‑home)', icon: '🏠' },
       { amount: 50000, name: 'Kurom Fufuuwee', outcome: 'Kɔkɔɔ mu aduan + solar didie; food‑forest mfiase', icon: '🍲☀️' },
       { amount: 100000, name: 'Sukuuni & Nhyiamu', outcome: 'Learning Dome (workshops, agoro, dijital sukuu)', icon: '🎓🎶' },
-      { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '🧡🛏️' },
+      { amount: 250000, name: 'Akoma', outcome: 'Mobilhome mmiɛnsa ewiee; teteɛ no betumi asi', icon: '���🛏️' },
       { amount: 500000, name: 'Kuro Fã', outcome: 'Mobilhome enum, tumi‑/nsuo‑fi, PV + sie', icon: '⚡💧' },
       { amount: 750000, name: 'Amammerɛ & Ntosoɔ', outcome: 'AfroBeats dibea, Creative Hub, retreat beae', icon: '🥁🎭' },
       { amount: 1000000, name: 'Sankofa Village Ewiee', outcome: 'Mobilhome du a wɔyɛ wo���ara‑wo‑ho adwuma wɔ Sankofa/Camp‑Calma ho‑nhyehyɛe mu', icon: '🏡✨' }
@@ -1875,7 +1875,7 @@ const afroVillageTranslations = {
     ],
     story: [
       'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ah���. Sankofa Village na‑egosi ka esi ebi ndụ onwe‑onwe n\'omume.',
-      'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
+      'Obodo bụ obi: any��� na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
       'Mmụta na‑ewepụ ngwàgide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
     ]
   },
@@ -2079,12 +2079,6 @@ const PartnersSection = ({ t, language }) => {
       alt: 'Black Hills Events organizer logo'
     },
     {
-      name: 'Little Ashé',
-      url: 'https://littleashe.com/',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2Ff9987985104e4a45b8874887eb3b24c1?format=webp&width=800',
-      alt: 'Little Ashé logo'
-    },
-    {
       name: 'Nilua',
       url: 'https://www.instagram.com/niluamusic/',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F75acdbea0432443b9480a27a287ca35c?format=webp&width=800',
@@ -2101,12 +2095,6 @@ const PartnersSection = ({ t, language }) => {
       url: 'https://open.spotify.com/artist/62heZ2iBAWCnfSB356VHR0',
       image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F96067d6067b740fc981bce2c08ac3142?format=webp&width=800',
       alt: 'Jesse Jaxx profile links'
-    },
-    {
-      name: 'KCLAB',
-      url: 'https://www.instagram.com/kclab.media/?hl=en',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2Fd794b8d1c6ba43d5a31925e0c97ccc17%2F9044807b0e6e491380aeeca84fd45cfc?format=webp&width=800',
-      alt: 'KCLAB Colours Matter logo'
     },
     {
       name: 'the good ones',
@@ -3553,7 +3541,7 @@ const AfroVillageProgress = ({ language, t }) => {
       story: [
         'Onwe‑onwe pụtara ịdịte aka n\'ezoghị oke: mmiri, ike na nri n\'ebe ahụ. Sankofa Village na-egosi ka esi ebi ndụ onwe���onwe n\'omume.',
         'Obodo bụ obi: anyị na‑emepụta ebe na‑akwalite nzute, egwu na omenala — ebe ndị mmadụ na‑ele ibe ha anya.',
-        'Mmụta na‑ewepụ ngw���gide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
+        'Mm��ta na‑ewepụ ngw���gide: ogbako, mmụta dijitalụ na ime ọnụ na‑ewu nkà maka taa na echi.'
       ]
     }
   }[langKey];
