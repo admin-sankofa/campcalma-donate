@@ -31,6 +31,10 @@ video {
   pointer-events: auto;
 }
 
+/* Progress helpers */
+.progress-track { width: 100%; height: 10px; background-color: #D1D5DB; border-radius: 9999px; }
+.progress-fill { height: 10px; background-color: #22C55E; border-radius: 9999px; }
+
 /* Brand segment colors (match requested palette) */
 .brand-blue-bg { background-color: #3B82F6; }
 .brand-green-bg { background-color: #10B981; }
