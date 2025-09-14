@@ -235,11 +235,13 @@ export default function App() {
           </select>
         </div>
 
-        {/* Header */}
-        <header className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-green-700 leading-tight">{t.title}</h1>
-          <p className="mt-4 text-2xl font-light text-gray-600">{t.subtitle}</p>
-        </header>
+        {/* Hero with background image */}
+        <section className="hero-background rounded-3xl overflow-hidden mb-12">
+          <div className="hero-min-h bg-black/50 flex flex-col items-center justify-center text-center px-6 md:px-12 py-20 md:py-28 text-white">
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-md">{t.title}</h1>
+            <p className="mt-4 text-2xl font-light opacity-90">{t.subtitle}</p>
+          </div>
+        </section>
 
         {/* Tiles */}
         <section className="mb-16">
