@@ -49,6 +49,9 @@ const i18n = {
       'Minimalistisches, klares Design: Jeder sieht sofort, was erreicht wurde und was noch fehlt',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    popup_title: 'Willkommen! 👋',
+    popup_body: 'Diese Seite zeigt eine dynamische Übersicht über alle Projekte. Du kannst oben die Sprache wählen. Dieses Hinweis-Fenster erscheint nur beim ersten Besuch.',
+    popup_close: 'Verstanden',
   },
   en: {
     title: 'Sankofa Living & Learning Projects',
@@ -95,6 +98,9 @@ const i18n = {
       'Minimal, clear design: see progress at a glance',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    popup_title: 'Welcome! 👋',
+    popup_body: 'This page gives a dynamic overview of all projects. Use the language switcher at the top. This message appears only on your first visit.',
+    popup_close: 'Got it',
   },
   pt: {
     title: 'Sankofa Living & Learning Projects',
@@ -141,6 +147,149 @@ const i18n = {
       'Design minimalista e claro: progresso visível de imediato',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Todos os direitos reservados.',
+    popup_title: 'Bem-vindo! 👋',
+    popup_body: 'Esta página mostra uma visão dinâmica de todos os projetos. Use o seletor de idioma no topo. Esta mensagem aparece apenas na primeira visita.',
+    popup_close: 'Entendi',
+  },
+  twi: {
+    title: 'Sankofa Living & Learning Projects',
+    subtitle: 'Nkyerɛmu & Kɛse‑nsɛnhunu',
+    mission: 'Yɛn botaeɛ',
+    mission_text: 'Mmɔhoɔ biara kɔ mu pɛ, sɛ ɛyɛ kɛse anaa ɛyɛ adwumayɛ titiriw mu.',
+    restart: 'Fi‑fie mmoa',
+    restart_text: 'Mmoa ma membifo, nnwumafoɔ ne off‑grid pioniafoɔ a wɔrehyɛ ase anaa rehwehwɛ abrabɔ a ɛkɔ so tenten.',
+    safe_harbor: 'Baabi a ɛyɛ den',
+    safe_harbor_text: 'Baabi a ɛma gyidie, nkɔsoɔ ne daakye kɛse.',
+    transparency: 'Pupɔ & Ntɛmntɛm',
+    transparency_text: 'Kratafa yi yɛ crowdfunding kɔkɔbɔ a ɛyɛ fɛ na ɛyɛ ntɛmntɛm.',
+    general_donations: 'Sika mmoa kɛse',
+    donate_camp: '🌿 Mmoa ne Sika ma Camp Calma',
+    donate_sankofa: '🌍 Mmoa ne Sika ma Sankofa Living & Learning',
+    how_crowdfunding: 'Ɛkwan a crowdfunding yɛ so',
+    raffle_rule: 'Sika mmoa biara wɔ adwuma 2–6 mu de ma wo lotto‑bɔɔl ma saa adwuma no. Bɔɔl dodow gyina sika a wode to so.',
+    amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
+    yields: 'ma', tickets_20: 'Bɔɔl 20', tickets_80: 'Bɔɔl 80', tickets_160: 'Bɔɔl 160', one_time: 'Sika mmɔhoɔ pɛ',
+    law_text: 'Portugal mu raffle ne lotto yɛ mmara mu na ɛhiahia tumidi, tumi fi ',
+    ministry: 'Ministério da Administração Interna',
+    project_donations: 'Sika mmoa ma adwuma biara & crowdfunding',
+    ends_in: 'Esi mu:', donate_now: 'Tɔ mmɔhoɔ seisei', expired: 'Ewiei',
+    summary_title: 'Kratafa tiawa',
+    summary_items: [
+      'Sika mmoa kɛse anaa ma adwuma — nyinaa kɔ mu pɛ',
+      'Dwumadie kɔkɔbɔ a ɛda tebea no adi (Google Sheets)',
+      'Fi‑fie mmoa & Baabi a ɛyɛ den ma teteɛ',
+      'Giveaway & raffle ma kurom no mfasoɔ',
+      'Fɛfɛ, kɛse‑kɛse na ɛteɛteɛ: hwɛ nkɔsoɔ ntɛm',
+    ],
+    footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    popup_title: 'Akwaaba! 👋',
+    popup_body: 'Kratafa yi ma adwuma nyinaa ho nhwɛsoɔ. Fa kasa‑paakyɛ no wɔ soro. Saa asɛmpaka yi bɛda so pɛ na ɛbɛda wo anim bere a edi kan.',
+    popup_close: 'Ate ase',
+  },
+  ig: {
+    title: 'Sankofa Living & Learning Projects',
+    subtitle: 'Nchikota & Nkọwa',
+    mission: 'Ebumnuche anyi',
+    mission_text: 'Onyinye ọ bụla bara uru, ma ọ bụ nke izugbe ma ọ bụ nke oru.',
+    restart: 'Nkwado mbido',
+    restart_text: 'Nkwado maka ndị otu, ndị okike na ndị pionia off‑grid nwere echiche ọhụrụ.',
+    safe_harbor: 'Ụzọ nchekwa',
+    safe_harbor_text: 'Ebe nchekwa maka ịdịte aka, uto na echiche dị ogologo.',
+    transparency: 'Ịtọgharị anya & Mmegharị',
+    transparency_text: 'Ihe ngosi crowdfunding oge a na nke doro anya.',
+    general_donations: 'Nhọrọ onyinye izugbe',
+    donate_camp: '🌿 Onyinye na nkwado maka Camp Calma',
+    donate_sankofa: '🌍 Onyinye na nkwado maka Sankofa Living & Learning',
+    how_crowdfunding: 'Otu crowdfunding si arụ ọrụ',
+    raffle_rule: 'Onyinye ọ bụla n’oru 2–6 na-enye gị tiketi maka oru ahụ. Ọnụ ọgụgụ tiketi dabere na ego ị nyere.',
+    amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
+    yields: 'na-enye', tickets_20: 'Tiketi 20', tickets_80: 'Tiketi 80', tickets_160: 'Tiketi 160', one_time: 'Onyinye otu‑oge',
+    law_text: 'Mgbasa/raffle na Portugal dị n’okpuru iwu ma chọọ nkwenye site na ',
+    ministry: 'Ministério da Administração Interna',
+    project_donations: 'Onyinye dabere n’oru & crowdfunding',
+    ends_in: 'Na‑akwụsị n’ime:', donate_now: 'Nyere aka ugbu a', expired: 'Agwụla',
+    summary_title: 'Nchịkọta maka websaịtị',
+    summary_items: [
+      'Nyere aka n’ozuzu ma ọ bụ n’oru — niile bụ otu',
+      'Nlele dị ndụ nke ego (Google Sheets)',
+      'Nkwado mbido & Ụzọ nchekwa na-eweta ịdịte aka',
+      'Giveaways & raffles bara uru n’obodo',
+      'Imewe doro anya: hụ ihe e rụzuru ozugbo',
+    ],
+    footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    popup_title: 'Nnọọ! 👋',
+    popup_body: 'Peeji a na-egosi nlele oru niile. Họrọ asụsụ n’elu. Ozi a na-apụta naanị ugboro mbụ i bịara.',
+    popup_close: 'Eji m mara',
+  },
+  nl: {
+    title: 'Sankofa Living & Learning Projects',
+    subtitle: 'Overzicht & samenvatting',
+    mission: 'Onze missie',
+    mission_text: 'Elke donatie telt evenveel, algemeen of per project.',
+    restart: 'Nieuwe start‑steun',
+    restart_text: 'Steun voor leden, creators en off‑grid pioniers met nieuwe ideeën.',
+    safe_harbor: 'Veilige haven',
+    safe_harbor_text: 'Een plek voor stabiliteit, groei en een lange‑termijn perspectief.',
+    transparency: 'Transparantie & dynamiek',
+    transparency_text: 'Een moderne, dynamische crowdfunding‑overzichtspagina.',
+    general_donations: 'Algemene donatiemogelijkheden',
+    donate_camp: '🌿 Donatie en steun voor Camp Calma',
+    donate_sankofa: '🌍 Donatie en steun voor Sankofa Living & Learning',
+    how_crowdfunding: 'Zo werkt het crowdfunden',
+    raffle_rule: 'Elke donatie in projecten 2–6 levert loten op voor dat project. Het aantal loten hangt af van je donatiebedrag.',
+    amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
+    yields: 'geeft', tickets_20: '20 loten', tickets_80: '80 loten', tickets_160: '160 loten', one_time: 'Eenmalige donatie',
+    law_text: 'Verlotingen in Portugal zijn gereguleerd en vereisen toestemming, meestal door ',
+    ministry: 'Ministério da Administração Interna',
+    project_donations: 'Projectdonaties & crowdfunding',
+    ends_in: 'Eindigt over:', donate_now: 'Nu doneren', expired: 'Voorbij',
+    summary_title: 'Samenvatting voor de site',
+    summary_items: [
+      'Algemeen of per project doneren — alles telt',
+      'Dynamisch overzicht met live bedragen (Google Sheets)',
+      'Nieuwe start & Veilige haven zorgen voor stabiliteit',
+      'Giveaways & verlotingen voegen waarde toe',
+      'Minimalistisch en helder: voortgang in één oogopslag',
+    ],
+    footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    popup_title: 'Welkom! 👋',
+    popup_body: 'Deze pagina geeft een dynamisch overzicht van alle projecten. Bovenin kies je de taal. Dit bericht verschijnt alleen bij je eerste bezoek.',
+    popup_close: 'Begrepen',
+  },
+  fr: {
+    title: 'Sankofa Living & Learning Projects',
+    subtitle: 'Aperçu & résumé',
+    mission: 'Notre mission',
+    mission_text: 'Chaque don compte de la même manière, général ou par projet.',
+    restart: 'Aide au nouveau départ',
+    restart_text: 'Soutien aux membres, créateurs et pionniers off‑grid avec de nouvelles idées.',
+    safe_harbor: 'Port d’accueil',
+    safe_harbor_text: 'Un espace protégé pour la stabilité, la croissance et la perspective à long terme.',
+    transparency: 'Transparence & dynamique',
+    transparency_text: 'Une page moderne et dynamique de synthèse du financement participatif.',
+    general_donations: 'Dons généraux',
+    donate_camp: '🌿 Don et soutien pour Camp Calma',
+    donate_sankofa: '🌍 Don et soutien pour Sankofa Living & Learning',
+    how_crowdfunding: 'Comment fonctionne le crowdfunding',
+    raffle_rule: 'Chaque don dans les projets 2 à 6 vous donne des billets pour la tombola du projet. Leur nombre dépend du montant donné.',
+    amount_10: '10 €', amount_20: '20 €', amount_30: '30 €', amount_100: '100 €',
+    yields: 'donne', tickets_20: '20 billets', tickets_80: '80 billets', tickets_160: '160 billets', one_time: 'Don unique',
+    law_text: 'Les tombolas au Portugal sont réglementées et nécessitent une autorisation, généralement du ',
+    ministry: 'Ministério da Administração Interna',
+    project_donations: 'Dons par projet & financement participatif',
+    ends_in: 'Se termine dans :', donate_now: 'Donner maintenant', expired: 'Expiré',
+    summary_title: 'Résumé pour le site',
+    summary_items: [
+      'Dons généraux ou par projet — tout compte',
+      'Aperçu dynamique avec montants en direct (Google Sheets)',
+      'Nouveau départ & Port d’accueil pour la stabilité',
+      'Giveaways & tombolas apportent de la valeur',
+      'Design minimal et clair : progression visible d’un coup d’œil',
+    ],
+    footer: '© 2024 Sankofa Living & Learning Projects. Tous droits réservés.',
+    popup_title: 'Bienvenue ! 👋',
+    popup_body: 'Cette page présente une vue dynamique de tous les projets. Choisissez la langue en haut. Ce message n’apparaît qu’à la première visite.',
+    popup_close: 'Compris',
   },
 };
 
@@ -216,8 +365,21 @@ function Currency({ value }) {
 
 export default function App() {
   const [lang, setLang] = useState('de');
+  const [showPopup, setShowPopup] = useState(false);
   const t = i18n[lang];
   const countdownMap = useCountdownMap([1, 2, 3, 4, 5, 6]);
+
+  useEffect(() => {
+    const key = 'sllp_first_visit';
+    try {
+      if (!localStorage.getItem(key)) {
+        setShowPopup(true);
+        localStorage.setItem(key, '1');
+      }
+    } catch (e) {
+      setShowPopup(true);
+    }
+  }, []);
 
   return (
     <div className="bg-gray-100 text-gray-900 antialiased">
@@ -232,6 +394,10 @@ export default function App() {
             <option value="de">DE</option>
             <option value="en">EN</option>
             <option value="pt">PT</option>
+            <option value="twi">TWI</option>
+            <option value="ig">IG</option>
+            <option value="nl">NL</option>
+            <option value="fr">FR</option>
           </select>
         </div>
 
@@ -430,6 +596,21 @@ export default function App() {
 
         {/* Footer */}
         <footer className="mt-16 text-center text-gray-500 text-sm">{t.footer}</footer>
+
+        {showPopup && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center modal-bg">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 max-w-lg mx-4 shadow-2xl border border-gray-200">
+              <h3 className="text-2xl font-semibold text-green-700">{t.popup_title}</h3>
+              <p className="text-gray-700 mt-3">{t.popup_body}</p>
+              <button
+                onClick={() => setShowPopup(false)}
+                className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 px-4 rounded-full transition-all duration-300"
+              >
+                {t.popup_close}
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
